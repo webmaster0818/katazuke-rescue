@@ -38,7 +38,12 @@ export default function RootLayout({
     <html lang="ja" className={`${notoSansJP.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-[#F8FAFC] font-sans">
         <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">{children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"片付けレスキュー\",\"url\":\"https://katazuke-rescue-deploy.pages.dev/\",\"logo\":\"https://katazuke-rescue-deploy.pages.dev/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://katazuke-rescue-deploy.pages.dev/about/\"]}" }}
+        />
+        </main>
         <SiteFooter />
       </body>
     </html>
