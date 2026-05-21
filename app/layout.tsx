@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   },
   description: "片付け・不用品回収・ゴミ屋敷・遺品整理業者を徹底比較。費用相場・口コミ・おすすめランキングで信頼できる業者を見つけましょう。",
   metadataBase: new URL("https://katazuke-rescue.com"),
+  alternates: { canonical: "/" },
   openGraph: {
     siteName: "片付けレスキュー",
     locale: "ja_JP",
