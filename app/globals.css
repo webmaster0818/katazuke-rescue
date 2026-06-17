@@ -2,6 +2,14 @@
 
 @theme inline {
   --color-primary: #2563EB;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F4F7FE;
+  --color-border: #DCE5F2;
+  --color-text-primary: #0F1E33;
+  --color-text-secondary: #46566B;
+  --color-text-muted: #8593A6;
+  --color-warning: #F59E0B;
+  --font-mono: ui-monospace, Menlo, monospace;
   --color-secondary: #F97316;
   --color-accent: #10B981;
   --color-bg: #F8FAFC;
@@ -19,3 +27,6 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.label{font-family:var(--font-mono);font-size:.6875rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;}
+.mono{font-family:var(--font-mono);font-feature-settings:"tnum" 1;}
