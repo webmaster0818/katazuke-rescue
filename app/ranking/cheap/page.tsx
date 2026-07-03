@@ -6,6 +6,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "格安片付け業者ランキング｜費用を安く抑えるおすすめ業者比較",
   description: "料金の安い片付け・不用品回収業者のランキング。最安値水準の業者を厳選してご紹介。見積もり無料の業者も多数掲載。",
+  alternates: { canonical: "/ranking/cheap/" },
 };
 
 // Sort by price range (approximate - using companies with clear price info)

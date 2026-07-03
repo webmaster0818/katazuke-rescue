@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "コンテンツポリシー｜片付けレスキュー",
   description: "片付けレスキューのコンテンツポリシーです。",
+  alternates: { canonical: "/content-policy/" },
 };
 
 export default function ContentPolicyPage() {

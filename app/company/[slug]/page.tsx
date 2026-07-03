@@ -19,6 +19,7 @@ export async function generateMetadata({
   return {
     title: `${company.name}の口コミ・評判・料金｜片付けレスキュー`,
     description: `${company.name}の特徴・料金・口コミ・評判を詳しく解説。${company.tagline}`,
+    alternates: { canonical: `/company/${slug}/` },
   };
 }
 

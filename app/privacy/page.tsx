@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "プライバシーポリシー｜片付けレスキュー",
   description: "片付けレスキューのプライバシーポリシーです。",
+  alternates: { canonical: "/privacy/" },
 };
 
 export default function PrivacyPage() {

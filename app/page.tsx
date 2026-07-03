@@ -6,6 +6,7 @@ import servicesData from "@/data/services.json";
 export const metadata: Metadata = {
   title: "片付けレスキュー｜片付けの悩み、プロが即日解決",
   description: "ゴミ屋敷・遺品整理・不用品回収・引越し片付けなど、あらゆる片付けの悩みをプロが解決。信頼できる業者をランキング形式で比較できます。",
+  alternates: { canonical: "/" },
 };
 
 const topCompanies = companiesData.slice(0, 3);

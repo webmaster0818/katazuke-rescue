@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   },
   description: "片付け・不用品回収・ゴミ屋敷・遺品整理業者を徹底比較。費用相場・口コミ・おすすめランキングで信頼できる業者を見つけましょう。",
   metadataBase: new URL("https://katazuke-rescue.com"),
-  alternates: { canonical: "/" },
   twitter: {
     card: "summary_large_image",
   },
@@ -41,7 +40,7 @@ export default function RootLayout({
         <main className="flex-1">{children}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"片付けレスキュー\",\"url\":\"https://katazuke-rescue-deploy.pages.dev/\",\"logo\":\"https://katazuke-rescue-deploy.pages.dev/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://katazuke-rescue-deploy.pages.dev/about/\"]}" }}
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"片付けレスキュー\",\"url\":\"https://katazuke-rescue.com/\",\"logo\":\"https://katazuke-rescue.com/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://katazuke-rescue.com/about/\"]}" }}
         />
         </main>
         <SiteFooter />

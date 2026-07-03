@@ -5,6 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "片付け・不用品回収の費用相場2026年版｜サービス別料金比較",
   description: "ゴミ屋敷・遺品整理・不用品回収・引越し片付けなどの費用相場を徹底解説。部屋の広さ別・サービス別の料金目安をご確認ください。",
+  alternates: { canonical: "/cost/price/" },
 };
 
 const priceData = [

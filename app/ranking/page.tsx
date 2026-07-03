@@ -6,6 +6,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 export const metadata: Metadata = {
   title: "片付け業者おすすめランキング2026年版｜片付けレスキュー",
   description: "片付け・不用品回収・ゴミ屋敷業者のおすすめランキング。料金・対応エリア・口コミを比較して最適な業者を見つけましょう。",
+  alternates: { canonical: "/ranking/" },
 };
 
 const medalColors = [

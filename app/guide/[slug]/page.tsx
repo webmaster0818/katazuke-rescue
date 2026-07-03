@@ -19,6 +19,7 @@ export async function generateMetadata({
   return {
     title: `${guide.title}｜片付けレスキュー`,
     description: guide.description,
+    alternates: { canonical: `/guide/${slug}/` },
   };
 }
 
