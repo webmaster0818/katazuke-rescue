@@ -66,7 +66,7 @@ export default function SiteFooter() {
         </div>
 
         <p className="mt-4 text-xs text-slate-500 text-center">
-          当サイトはアフィリエイト広告を掲載しています。掲載業者から収益を得る場合がありますが、コンテンツの内容には影響しません。
+          本サイトはプロモーション(PR)を含みます。掲載業者から収益を得る場合がありますが、コンテンツの内容には影響しません。
         </p>
       </div>
     </footer>
