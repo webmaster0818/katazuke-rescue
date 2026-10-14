@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kitchen-konro-seisou/";
 const TITLE = "キッチン・コンロ周りの掃除方法｜油汚れを落とす手順と業者に頼む目安";
 const DESC =
-  "キッチン・コンロ周りの油汚れは「酸化して固まる前」に落とすのが基本です。軽い汚れは中性洗剤、固着した汚れはアルカリ性洗剤や重曹で対処する一般的な考え方、五徳・グリル・換気扇フィルター・壁面・シンクの部位別の掃除方法、自力で進める5ステップ、混ぜてはいけない洗剤などのNG行動、ハウスクリーニング業者に任せる判断基準までを解説します。";
+  "コンロ周りの油汚れは「酸化して固まる前」に落とすのが基本です。軽い汚れは中性洗剤、固着した汚れはアルカリ性洗剤や重曹で対処する考え方、五徳・グリル・換気扇フィルター・壁面・シンクの部位別の掃除方法、自力で進める5ステップ、混ぜてはいけない洗剤などのNG行動、業者に任せる判断基準を解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

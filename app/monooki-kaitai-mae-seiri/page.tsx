@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/monooki-kaitai-mae-seiri/";
 const TITLE = "物置・倉庫の解体前整理の進め方｜中身の片付けと処分の段取り";
 const DESC =
-  "庭の物置や倉庫を解体・撤去する前には、中身をすべて出して整理しておく必要があります。長年開けていない物置には、劣化した工具や園芸用品、スプレー缶・燃料・薬剤など扱いに注意が必要な物が眠っていることも少なくありません。この記事では、解体前に中身を整理する理由、安全に進める5ステップ、注意が必要な品物の考え方、業者に頼る判断基準までを解説します。";
+  "庭の物置や倉庫を解体・撤去する前には、中身をすべて出して整理しておく必要があります。長年開けていない物置には、劣化した工具や園芸用品、スプレー缶・燃料・薬剤など注意が必要な物が眠っていることも。解体前に整理する理由、安全に進める5ステップ、注意が必要な品物の考え方、業者に頼る判断基準を解説します。";
 const PUBLISHED = "2026-08-12";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

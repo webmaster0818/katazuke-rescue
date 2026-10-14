@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/nuigurumi-ningyou-shobun/", label: "ぬいぐるみ・人形の手放し方", desc: "気持ちが残る物の扱い" },
   { href: "/kusuri-keshouhin-shobun/", label: "薬や化粧品の処分", desc: "分別と相談先の確認" },
   { href: "/irui-takuhai-kaitori/", label: "衣類の宅配買取", desc: "布製品を手放す選択肢" },
+  { href: "/pet-yohin-seiri-shobun/", label: "ペット用品の整理と処分", desc: "使わなくなった用品の手放し方" },
 ];
 
 const faqLd = {

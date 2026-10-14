@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/genjou-kaifuku-katazuke-senbiki/";
 const TITLE = "賃貸の原状回復と片付けの線引き｜退去前に自分でやること・やらないこと";
 const DESC =
-  "賃貸の退去では「どこまで自分で片付け・掃除をすべきか」「原状回復として何を求められるのか」が分かりにくいものです。原状回復という考え方の一般的な枠組み、借主が必ずやるべき残置物ゼロと日常清掃、自己判断での修繕がすすめられない理由、契約書の確認ポイント、退去立ち会いまでの準備、納得できないときの相談先までを、法的な断定を避けた一般論として解説します。";
+  "賃貸の退去で「どこまで自分で片付け・掃除をすべきか」は分かりにくいものです。原状回復の一般的な枠組み、借主がやるべき残置物ゼロと日常清掃、自己判断での修繕がすすめられない理由、契約書の確認ポイント、退去立ち会いまでの準備、納得できないときの相談先を、法的な断定を避けた一般論として解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

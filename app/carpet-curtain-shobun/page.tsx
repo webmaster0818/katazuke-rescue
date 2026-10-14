@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/carpet-curtain-shobun/";
 const TITLE = "カーペット・カーテンの処分方法｜サイズ・素材別の手放し方と注意点";
 const DESC =
-  "カーペット・ラグ・カーテンは、サイズや素材、自治体のルールによって粗大ごみになるか普通ごみで出せるかが変わる分かりにくい品目です。自治体ルール確認の考え方、粗大ごみ・裁断して普通ごみ・売却/譲渡・買い替え時の引き取り・業者回収という5つの処分ルート、ホットカーペットを切ってはいけない理由、フック・金具の分別、搬出しやすくする丸め方までを解説します。";
+  "カーペット・ラグ・カーテンは、サイズや素材、自治体のルールで粗大ごみか普通ごみかが変わる品目です。自治体ルール確認の考え方、粗大ごみ・裁断して普通ごみ・売却/譲渡・買い替え時の引き取り・業者回収という5つの処分ルート、ホットカーペットを切ってはいけない理由、金具の分別、丸め方までを解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

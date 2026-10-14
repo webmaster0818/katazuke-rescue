@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -106,6 +106,7 @@ const related = [
   { href: "/gaichu-heya-seisou/", label: "害虫が発生した部屋の清掃手順", desc: "害虫被害がある部屋の対処" },
   { href: "/service/gomiyashiki/", label: "ゴミ屋敷片付け業者の選び方", desc: "重度の散らかりの片付け依頼" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "費用の考え方と見積もりのポイント" },
+  { href: "/kodokushi-heya-taiou/", label: "孤独死があった部屋の対応", desc: "発見後の手順と相談先の考え方" },
 ];
 
 const faqLd = {

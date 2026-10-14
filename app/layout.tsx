@@ -20,11 +20,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://katazuke-rescue.com"),
   twitter: {
     card: "summary_large_image",
+    images: ["/og-default.png?v=20261014"],
   },
   openGraph: {
     siteName: "片付けレスキュー",
     locale: "ja_JP",
     type: "website",
+    images: [{ url: "/og-default.png?v=20261014", width: 1200, height: 630, alt: "片付けレスキュー" }],
   },
 };
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/hikkoshi-mae-danshari/", label: "引っ越し前の断捨離", desc: "荷造りと処分の逆算スケジュール" },
   { href: "/katazuke-rebound-boushi/", label: "リバウンド防止", desc: "片付いた状態を保つ仕組み" },
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの手放し方", desc: "増やさずに片付ける考え方" },
+  { href: "/hikkoshi-go-nihodoki-katazuke/", label: "引っ越し後の荷解きが終わらないとき", desc: "積まれた段ボールを開ける順番" },
+  { href: "/yubinbutsu-chirashi-seiri/", label: "郵便物・チラシ・紙類の山の整理", desc: "未開封の郵便物を崩す手順" },
 ];
 
 const faqLd = {

@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/gakki-shobun-kaitori/";
 const TITLE = "楽器の処分と買取｜使わなくなった楽器を手放すルートの選び方";
 const DESC =
-  "押し入れに眠るギター、実家に残る管楽器、使わなくなった電子ピアノやアンプ——楽器は高価だった記憶と思い出が重なり、手放す判断が先送りになりがちです。手放すかどうかの目安、査定前に確認したい状態と付属品、買取・譲渡・処分それぞれのルートの違い、電子楽器を含む自治体区分の確認方法、保管を続ける場合の置き場所の考え方までを解説します。";
+  "押し入れに眠るギター、実家に残る管楽器、使わなくなった電子ピアノやアンプ。楽器は高価だった記憶と思い出が重なり、手放す判断が先送りになりがちです。手放すかの目安、査定前に確認したい状態と付属品、買取・譲渡・処分のルートの違い、電子楽器を含む自治体区分の確認方法、保管を続ける場合の置き場所までを解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

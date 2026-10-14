@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/ihin-katamiwake-susumekata/";
 const TITLE = "遺品整理と形見分けの進め方｜時期・順番・渡し方の考え方";
 const DESC =
-  "形見分けは、故人の愛用品を親族やゆかりのある人に分ける慣習ですが、時期ややり方に全国一律の決まりはなく、宗派・地域・家の考え方によって異なります。形見分けの一般的な位置づけ、法要後に行う家が多いといわれる時期の目安、相続に関わる貴重品と形見の区別、誰に何を渡すかの決め方、受け取る側への配慮、遺品整理全体の中での順番までを、当事者の気持ちを尊重する視点で解説します。";
+  "形見分けは故人の愛用品を親族やゆかりのある人に分ける慣習ですが、時期ややり方に全国一律の決まりはなく、宗派・地域・家により異なります。法要後に行う家が多いといわれる時期の目安、相続に関わる貴重品と形見の区別、誰に何を渡すかの決め方、受け取る側への配慮、遺品整理の中での順番を解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

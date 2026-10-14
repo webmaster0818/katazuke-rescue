@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/shuno-goods-tebanashi/";
 const TITLE = "収納グッズの買いすぎ問題｜収納を増やすほど片付かない理由と手放し方";
 const DESC =
-  "収納ケースやラックを買い足しているのに部屋が片付かない——それは収納グッズの買いすぎが原因かもしれません。収納が増えるほど物が増える構造、収納グッズを買うのは片付けの最後である理由、中身から減らして空いた収納ごと手放す手順、プラスチックケース・カラーボックス・スチールラックの素材別処分の考え方、買う前に自分に問いかけるルールまでを解説します。";
+  "収納ケースやラックを買い足しても部屋が片付かないのは、収納グッズの買いすぎが原因かもしれません。収納が増えるほど物が増える構造、収納グッズを買うのは最後である理由、中身から減らして空いた収納ごと手放す手順、プラスチックケース・カラーボックス・スチールラックの素材別処分、買う前のルールを解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

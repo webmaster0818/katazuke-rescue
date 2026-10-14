@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/koromogae-shunou-shikumika/";
 const TITLE = "衣替えの手間を減らす収納の仕組み化｜衣類を増やさない習慣づくり";
 const DESC =
-  "毎シーズンの衣替えが重労働になるのは、衣類の総量が多く、収納が「詰め込み型」になっているからです。衣替えそのものを減らすワンアクション収納、人別・季節別の定位置管理、ハンガー本数の上限設定という3つの仕組み、全出しから定位置化までの自力5ステップ、圧縮袋への詰め込み先送りなどのNG行動、量が多い場合の処分・買取の使い分けまでを解説します。";
+  "衣替えが重労働になるのは、衣類の総量が多く収納が「詰め込み型」だからです。ワンアクション収納、人別・季節別の定位置管理、ハンガー本数の上限設定という3つの仕組み、全出しから定位置化までの自力5ステップ、圧縮袋への詰め込み先送りなどのNG行動、量が多い場合の処分・買取の使い分けを解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/trunk-room-katsuyou/", label: "トランクルームの活用", desc: "オフシーズン品の預け先" },
   { href: "/review/kurashi-market/", label: "くらしのマーケットの評判", desc: "地域の業者を比較して選べるサービス" },
   { href: "/area/osaka/", label: "大阪の片付け業者比較", desc: "大阪から依頼できる業者の比較" },
+  { href: "/kisetsu-kaden-hokan-shobun/", label: "季節家電を保管するか手放すかの判断", desc: "しまう前の見直しと手放し方" },
+  { href: "/sentakumono-yama-katazuke/", label: "洗濯物・衣類の山の片付け", desc: "山ができる仕組みと崩す手順" },
 ];
 
 const faqLd = {

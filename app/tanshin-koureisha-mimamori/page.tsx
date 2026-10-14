@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/gomiyashiki-houchi-risk/", label: "放置によるリスク", desc: "火災・健康・住環境への影響" },
   { href: "/shisetsu-nyukyomae-kazai-seiri/", label: "施設入居前の家財整理", desc: "持ち込む物の選定と残す物の整理" },
   { href: "/muryou-kaishuu-chuui/", label: "無料回収の注意点", desc: "相談先と確認しておきたいこと" },
+  { href: "/nyuin-taiin-ie-seiri/", label: "入院前・退院前に家を整える", desc: "留守中と退院後に備えた片付け" },
 ];
 
 const faqLd = {

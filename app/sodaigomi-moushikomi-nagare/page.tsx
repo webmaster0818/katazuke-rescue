@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/sodaigomi-moushikomi-nagare/";
 const TITLE = "粗大ごみ収集の申し込みの流れ｜一般的な手順と出すときの注意点";
 const DESC =
-  "自治体の粗大ごみ収集は「対象品目の確認→申し込み→手数料の納付→指定日に排出」という流れが一般的です。この記事では、初めて粗大ごみを出す方向けに、申し込みの一般的な流れ、事前に確認しておくべきこと、やってはいけないNG行動、自治体収集が使いにくい場合の代替手段までを解説します。具体的なルールは自治体により異なるため、必ずお住まいの市区町村の公式案内をご確認ください。";
+  "粗大ごみ収集は「対象品目の確認→申し込み→手数料の納付→指定日に排出」という流れが一般的です。初めて出す方向けに、申し込みの流れ、事前に確認すべきこと、NG行動、自治体収集が使いにくい場合の代替手段を解説します。具体的なルールは自治体により異なるため、お住まいの市区町村の公式案内をご確認ください。";
 const PUBLISHED = "2026-08-12";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

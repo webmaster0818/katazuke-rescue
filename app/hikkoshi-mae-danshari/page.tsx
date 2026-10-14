@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const reasons = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法対象品の処分", desc: "冷蔵庫・洗濯機などの正しい処分ルート" },
   { href: "/irui-seiri/", label: "衣類の整理と手放し方", desc: "増えすぎた服を仕分ける基準" },
   { href: "/taikyo-katazuke/", label: "退去前の片付けの段取り", desc: "退去期限までに片付け切る方法" },
+  { href: "/dousei-kekkon-kazai-seiri/", label: "同棲・結婚で家財が重複したときの整理", desc: "重なった家具・家電の残し方" },
+  { href: "/hikkoshi-go-nihodoki-katazuke/", label: "引っ越し後の荷解きが終わらないとき", desc: "積まれた段ボールを開ける順番" },
 ];
 
 const faqLd = {

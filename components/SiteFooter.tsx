@@ -59,6 +59,7 @@ export default function SiteFooter() {
             &copy; {new Date().getFullYear()} 片付けレスキュー. All rights reserved.
           </p>
           <nav className="flex flex-wrap gap-4 text-sm">
+            <Link href="/about/" className="hover:text-white transition-colors">運営者情報</Link>
             <Link href="/terms/" className="hover:text-white transition-colors">利用規約</Link>
             <Link href="/privacy/" className="hover:text-white transition-colors">プライバシーポリシー</Link>
             <Link href="/content-policy/" className="hover:text-white transition-colors">コンテンツポリシー</Link>

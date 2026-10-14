@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/pet-yohin-seiri-shobun/";
 const TITLE = "ペット用品の整理と処分｜使わなくなったケージ・キャリー・フード・おもちゃを手放す基準と手順";
 const DESC =
-  "小さいころに使っていたケージやサークル、合わなくて残ったフード、遊ばなくなったおもちゃ、買い替えて余ったトイレやキャリー。ペットと暮らしていると、成長や好みの変化、買い替えのたびに使わなくなった用品が増え、部屋の一角や物置を占領します。ペット用品が増える理由、今の暮らしに必要な物の決め方、譲る・寄付する前に確認すること、フードや薬など消耗品の扱い、ケージや水槽など大きい用品の処分区分を確認する手順までを解説します。見送ったペットの用品の整理は別記事で扱います。";
+  "使わないケージ、合わなかったフード、遊ばなくなったおもちゃ、買い替えて余ったトイレやキャリー。ペット用品は成長や買い替えのたびに増えます。必要な物の決め方、譲る・寄付する前の確認、フードや薬など消耗品の扱い、ケージや水槽など大型用品の処分区分の確認手順を解説します。見送ったペットの用品は別記事で扱います。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

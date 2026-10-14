@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの買いすぎ問題", desc: "増やすほど片付かない理由" },
   { href: "/bousai-bichiku-katazuke/", label: "防災備蓄と片付けの両立", desc: "避難経路と置き場所のつくり方" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "散らからない状態を保つ仕組み" },
+  { href: "/bag-kaban-seiri-shobun/", label: "バッグ・かばんの整理と処分", desc: "残す基準と素材別の処分の考え方" },
+  { href: "/kutsu-collection-seiri/", label: "靴・スニーカーのコレクションの整理", desc: "箱のまま眠る靴の残し方と手放し方" },
 ];
 
 const faqLd = {

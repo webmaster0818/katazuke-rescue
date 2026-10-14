@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/hikkoshi-go-nihodoki-katazuke/";
 const TITLE = "引っ越し後の荷解きが終わらないときの片付け｜開かない段ボールを減らして新居を整える手順";
 const DESC =
-  "引っ越してから何週間も、何か月も、部屋の隅に段ボールが積まれたまま。開けようと思っても、どこに何を入れたか分からず、置き場所も決まらず、開けた箱の中身がそのまま床に広がる。荷解きが止まる構造、「開いていない箱は使っていない物の候補」という考え方、生活動線の箱から順に開ける決めごと、箱を4つに分けて期限を決める手順、段ボールの出し方を自治体や引っ越し事業者の案内で確認する考え方、収納を買い足す前に総量を減らす順番までを解説します。";
+  "引っ越して何か月も、部屋の隅に段ボールが積まれたまま。荷解きが止まる構造、「開いていない箱は使っていない物の候補」という考え方、生活動線の箱から開ける決めごと、箱を4つに分けて期限を決める手順、段ボールの出し方を自治体や引っ越し事業者の案内で確認する考え方、収納を買い足す前に総量を減らす順番を解説します。";
 const PUBLISHED = "2026-09-09";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

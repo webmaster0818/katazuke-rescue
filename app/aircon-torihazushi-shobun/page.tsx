@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/service/hikkoshi/", label: "引っ越し時の不用品処分", desc: "退去までに間に合わせる段取り" },
   { href: "/review/kurashi-market/", label: "くらしのマーケットの評判", desc: "エアコン取り外し工事の比較にも" },
   { href: "/area/nagoya/", label: "名古屋の片付け業者比較", desc: "名古屋から依頼できる業者の比較" },
+  { href: "/kisetsu-kaden-hokan-shobun/", label: "季節家電を保管するか手放すかの判断", desc: "しまう前の見直しと手放し方" },
 ];
 
 const faqLd = {

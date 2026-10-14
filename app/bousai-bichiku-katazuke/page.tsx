@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/bousai-bichiku-katazuke/";
 const TITLE = "防災備蓄と片付けの両立｜置き場所のつくり方と収納のコツ";
 const DESC =
-  "「防災備蓄を用意したいが置き場所がない」の答えは、片付けで空間を確保することです。散らかった家が災害時のリスクになる理由、分散備蓄・ローリングストックなど一般に推奨される備蓄の考え方、避難経路の確保から備蓄の定位置化までの自力5ステップ、廊下や玄関に物を置くなどのNG行動、物量が多く自力で進められない場合の業者活用までを解説します。";
+  "「防災備蓄を用意したいが置き場所がない」の答えは、片付けで空間を確保することです。散らかった家が災害時のリスクになる理由、分散備蓄・ローリングストックなど一般的な備蓄の考え方、避難経路の確保から備蓄の定位置化までの自力5ステップ、玄関に物を置くなどのNG行動、業者活用までを解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,9 @@ const related = [
   { href: "/katazuke-junban/", label: "片付けの順番", desc: "挫折しない片付けの進め方" },
   { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "不用品の積み放題プランがある業者" },
   { href: "/area/sendai/", label: "仙台の片付け業者比較", desc: "仙台から依頼できる業者の比較" },
+  { href: "/nichiyohin-stock-seiri/", label: "日用品ストックの整理", desc: "洗剤・紙製品の上限と置き場所の決め方" },
+  { href: "/saigai-go-katazuke/", label: "災害後の家の片付け", desc: "安全確認から家財の扱いまで" },
+  { href: "/shokuhin-stock-kigengire-seiri/", label: "食品ストック・期限切れ食品の整理", desc: "期限と状態で仕分ける手順" },
 ];
 
 const faqLd = {

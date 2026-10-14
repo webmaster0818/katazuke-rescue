@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/shingu-shobun/";
 const TITLE = "枕・毛布・シーツの処分方法｜布団以外の寝具を手放す手順";
 const DESC =
-  "枕、毛布、タオルケット、シーツや布団カバー、敷きパッド、電気毛布——布団本体やマットレス以外の寝具は「捨て時が分からない」まま押し入れにたまりがちです。この記事では寝具が増える理由と見直しの目安、枕の中材や毛布の素材による分別の考え方、電気毛布など電気製品扱いになる寝具の注意点、リユース・ウエス活用・粗大ごみの判断まで、布団以外の寝具を無理なく手放す手順を解説します。";
+  "枕、毛布、タオルケット、シーツ、敷きパッド、電気毛布——布団やマットレス以外の寝具は捨て時が分からず押し入れにたまりがちです。寝具が増える理由と見直しの目安、枕の中材や毛布の素材による分別、電気製品扱いになる寝具の注意点、リユース・ウエス活用・粗大ごみの判断まで、無理なく手放す手順を解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

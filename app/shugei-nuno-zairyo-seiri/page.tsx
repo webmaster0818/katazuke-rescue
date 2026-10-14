@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/shugei-nuno-zairyo-seiri/";
 const TITLE = "手芸・布・毛糸などの材料の整理｜「いつか作る」を見直して手放す基準と手順";
 const DESC =
-  "布のはぎれ、毛糸の残り、ビーズやボタン、作りかけの作品。手芸の材料は小さくてかさばらないように見えて、押し入れや引き出しをいつの間にか占領します。材料が増える理由、「いつか作る」を見直す基準、作りかけの物との向き合い方、布や糸の素材ごとの分別の考え方、譲る・寄付するという選択肢、実家や故人の手芸用品を整理する場合の進め方までを解説します。";
+  "布のはぎれ、毛糸の残り、ビーズやボタン、作りかけの作品。手芸の材料は小さく見えて押し入れや引き出しを占領します。材料が増える理由、「いつか作る」を見直す基準、作りかけの物との向き合い方、布や糸の素材ごとの分別の考え方、譲る・寄付する選択肢、実家や故人の手芸用品を整理する場合の進め方を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

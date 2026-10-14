@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/oosouji-gyousha-hani/";
 const TITLE = "大掃除を業者に頼む範囲の考え方｜自分でやる場所・任せる場所の分け方";
 const DESC =
-  "年末や引っ越し前の大掃除を全部自力でやるのは大変ですが、全部業者に任せると費用がかさみます。危険な場所・専門機材が必要な場所はプロ、日常の延長でできる場所は自分という振り分けの基準、家中の掃除場所のリスト化から予約・当日準備までの5ステップ、高所作業や洗剤の混用などのNG行動、依頼前に片付けを済ませるべき理由までを解説します。";
+  "大掃除を全部自力でやるのは大変ですが、全部業者に任せると費用がかさみます。危険な場所・専門機材が必要な場所はプロ、日常の延長でできる場所は自分という振り分けの基準、掃除場所のリスト化から予約・当日準備までの5ステップ、高所作業や洗剤の混用などのNG行動、依頼前に片付けを済ませる理由を解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/guide/self-cleanup/", label: "自力での片付け・清掃ガイド", desc: "自分でやる場合の基本手順" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "きれいな状態を維持する仕組み" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "処分方法の選び方を詳しく" },
+  { href: "/mado-amido-sash-seisou/", label: "窓・網戸・サッシの掃除手順", desc: "汚れの種類別の落とし方" },
 ];
 
 const faqLd = {

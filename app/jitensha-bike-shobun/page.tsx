@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/jitensha-bike-shobun/";
 const TITLE = "自転車・バイクの処分方法｜防犯登録・廃車手続きの一般論と手放すルート";
 const DESC =
-  "乗らなくなった自転車・バイクは、そのまま捨てられない事情のある品目です。自転車の防犯登録の抹消という手続きの一般的な考え方、バイクの廃車手続き（税・登録関係）の枠組み、自治体の粗大ごみ・売却/譲渡・販売店引き取り・二輪車リサイクルシステムといった手放すルートの使い分け、放置や無許可回収業者に渡すことのリスクまでを解説します。";
+  "乗らなくなった自転車・バイクは、そのまま捨てられない事情のある品目です。自転車の防犯登録の抹消の一般的な考え方、バイクの廃車手続き（税・登録関係）の枠組み、粗大ごみ・売却/譲渡・販売店引き取り・二輪車リサイクルシステムといったルートの使い分け、放置や無許可回収業者に渡すリスクを解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/muryou-kaishuu-chuui/", label: "無料回収の注意点", desc: "無許可回収の一般的なリスク" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "買取サービスの併用", desc: "売れる物は売って負担を減らす" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "処分方法の選び方を詳しく" },
+  { href: "/kuruma-shanai-seiri/", label: "車内・カー用品の整理と処分", desc: "トランクの荷物と使わないカー用品の手放し方" },
 ];
 
 const faqLd = {

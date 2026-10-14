@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/gyousha-kyoka-kakunin/";
 const TITLE = "片付け業者の許可・資格の確認方法｜何を見て、どこで確かめるか";
 const DESC =
-  "片付けや不用品回収を頼むとき、その事業者が必要な許可や届出を備えているかは、依頼する側にとって確認しておきたい点です。どのような枠組みの許可があるのか、公式サイト・見積書・契約書面のどこを見ればよいのか、自治体の公表情報でどう照らし合わせるのか、民間資格と公的な許可は何が違うのか、そして確認できないときにどう判断するかを整理します。";
+  "片付けや不用品回収を頼むとき、事業者が必要な許可や届出を備えているかは依頼する側として確認しておきたい点です。どんな枠組みの許可があるか、公式サイト・見積書・契約書面のどこを見るか、自治体の公表情報との照らし合わせ方、民間資格と公的な許可の違い、確認できないときの判断の仕方を整理します。";
 const PUBLISHED = "2026-08-24";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

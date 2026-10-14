@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/guide/self-cleanup/", label: "自力での片付け・清掃ガイド", desc: "自分で進めるための基本と道具" },
   { href: "/review/blue-clean/", label: "ブルークリーンの評判", desc: "消臭・除菌を強みとする清掃業者" },
   { href: "/cost/price/", label: "片付け・清掃の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/pet-yohin-seiri-shobun/", label: "ペット用品の整理と処分", desc: "使わなくなった用品の手放し方" },
 ];
 
 const faqLd = {

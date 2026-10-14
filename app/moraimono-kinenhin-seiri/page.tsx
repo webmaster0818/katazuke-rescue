@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/moraimono-kinenhin-seiri/";
 const TITLE = "もらい物・記念品の整理｜引き出物・贈答品・表彰の品を手放す基準と進め方";
 const DESC =
-  "結婚式の引き出物、お中元やお歳暮の詰め合わせ、旅行のお土産、表彰の盾やトロフィー、記念のタオルや食器。自分で選んでいないのに家に残り続ける「もらい物」は、捨てにくさが理由で収納の奥にたまります。もらい物が手放しにくい理由、贈った人と品物を切り離して考える方法、種類別の仕分けの基準、譲る・売る・寄付するときの順番、家族のもらい物を扱うときの注意点までを解説します。";
+  "結婚式の引き出物、お中元やお歳暮、旅行のお土産、表彰の盾、記念のタオルや食器。自分で選んでいない「もらい物」は、捨てにくさから収納の奥にたまります。手放しにくい理由、贈った人と品物を切り離して考える方法、種類別の仕分けの基準、譲る・売る・寄付する順番、家族のもらい物を扱うときの注意点を解説します。";
 const PUBLISHED = "2026-09-17";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

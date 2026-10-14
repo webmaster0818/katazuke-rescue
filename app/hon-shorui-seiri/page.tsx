@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート比較", desc: "売却・譲渡・回収業者の使い分け" },
   { href: "/guide/municipal-service/", label: "自治体サービス活用ガイド", desc: "資源回収・粗大ごみの使い方" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/yubinbutsu-chirashi-seiri/", label: "郵便物・チラシ・紙類の山の整理", desc: "未開封の郵便物を崩す手順" },
 ];
 
 const faqLd = {

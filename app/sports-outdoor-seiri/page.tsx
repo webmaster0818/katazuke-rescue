@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/sports-outdoor-seiri/";
 const TITLE = "スポーツ用品・アウトドア用品の整理｜かさばる道具の見直しと手放し方";
 const DESC =
-  "ゴルフバッグ、スキー・スノーボード、釣り具、トレーニング器具、テントや寝袋——スポーツ用品とアウトドア用品は大きくて数が多く、片付けが後回しになりがちです。使用シーズンでの見直し基準、劣化の見分け方、シーズンオフの収納の決め方、カセットガス缶やリチウムイオン電池など燃料・危険物の注意点、買取や粗大ごみを含む手放し方までを整理して解説します。";
+  "ゴルフバッグ、スキー・スノーボード、釣り具、トレーニング器具、テントや寝袋。スポーツ・アウトドア用品は大きく数が多く、片付けが後回しになりがちです。使用シーズンでの見直し基準、劣化の見分け方、オフシーズンの収納、カセットガス缶やリチウムイオン電池など危険物の注意点、買取や粗大ごみを含む手放し方を解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しいゴミ", desc: "判断に迷う品目の調べ方" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "リサイクルショップ・買取の併用", desc: "売れる物を活かす手放し方" },
   { href: "/jitensha-bike-shobun/", label: "自転車・バイクの処分", desc: "防犯登録と手続きの進め方" },
+  { href: "/kuruma-shanai-seiri/", label: "車内・カー用品の整理と処分", desc: "トランクの荷物と使わないカー用品の手放し方" },
 ];
 
 const faqLd = {

@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/hitori-de-dekinai-katazuke-tanomikata/";
 const TITLE = "一人では片付けられないときの頼み方｜家族・友人・行政・業者の使い分けと断られにくい伝え方";
 const DESC =
-  "片付けたい気持ちはあるのに、一人ではどうしても進まない。誰かに頼みたいけれど、部屋を見られるのが恥ずかしい、迷惑をかけたくない、何をどう頼めばいいか分からない。片付けを人に頼めない理由の構造、頼む中身を「作業」に分解する決めごと、家族・友人・行政の相談窓口・片付け業者それぞれに頼める範囲の違い、状況を書き出してから相手と作業を対応させる手順、断られにくく相手も動きやすい伝え方、当日の段取りと頼んだあとの関係の保ち方までを解説します。";
+  "片付けが一人では進まないのに、部屋を見られるのが恥ずかしく人に頼めない。頼めない理由の構造、頼む中身を「作業」に分解する決めごと、家族・友人・行政の相談窓口・片付け業者に頼める範囲の違い、状況を書き出して相手と作業を対応させる手順、相手が動きやすい伝え方、当日の段取りと頼んだあとの関係の保ち方を解説します。";
 const PUBLISHED = "2026-09-09";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

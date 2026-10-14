@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/trunk-room-katsuyou/", label: "トランクルームの活用", desc: "捨てられない物の一時保管" },
   { href: "/review/kurashi-market/", label: "くらしのマーケットの評判", desc: "地域の業者を比較して選べるサービス" },
   { href: "/area/yokohama/", label: "横浜の片付け業者比較", desc: "横浜から依頼できる業者の比較" },
+  { href: "/dokuritsu-go-kodomobeya/", label: "独立後の子ども部屋の整理", desc: "本人の荷物の扱いと部屋の使い道の決め方" },
+  { href: "/shugei-nuno-zairyo-seiri/", label: "手芸・布・毛糸などの材料の整理", desc: "「いつか作る」材料の見直し方" },
 ];
 
 const faqLd = {

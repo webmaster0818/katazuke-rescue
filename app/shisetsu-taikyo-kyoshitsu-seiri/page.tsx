@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/shisetsu-taikyo-kyoshitsu-seiri/";
 const TITLE = "施設の居室を引き払うときの整理｜持ち込んだ家財の仕分けと退去までの段取り";
 const DESC =
-  "高齢者施設や療養型の住まいから退去することになったとき、居室に持ち込んだ家具・衣類・日用品・思い出の品を、限られた日数で片付ける必要があります。退去が決まってからの確認事項、施設側の備品と持ち込んだ物の見分け方、レンタルしている福祉用具の返却、次の住まいに持っていく物の決め方、居室から運び出す段取り、家族で分担する進め方までを、退去日から逆算した順番で解説します。";
+  "高齢者施設や療養型の住まいからの退去では、居室の家具・衣類・日用品・思い出の品を限られた日数で片付ける必要があります。退去が決まってからの確認事項、施設の備品と持ち込んだ物の見分け方、レンタル福祉用具の返却、次の住まいに持っていく物の決め方、運び出す段取り、家族の分担を、退去日から逆算して解説します。";
 const PUBLISHED = "2026-09-17";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

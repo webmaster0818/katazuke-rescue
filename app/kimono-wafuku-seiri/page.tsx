@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kimono-wafuku-seiri/";
 const TITLE = "着物・和服の整理と処分｜箪笥に眠る着物を残す基準と譲る・売る・手放すルートの考え方";
 const DESC =
-  "自分の若い頃の着物、親や祖父母から受け継いだ着物、成人式や結婚式で一度だけ着た振袖や留袖、たとう紙に包まれたまま何十年も開けていない箪笥の引き出し。着物は、高価だったという記憶と、家族の思いがこもっているという事情から、洋服よりもはるかに手放しにくい品目です。着物がたまる構造、状態と着る予定で残す物を決める決めごと、全部出して状態を確かめ4つに分ける手順、譲る・売る・作り替える・寄付する・自治体の区分で出すというルートの考え方、残す着物の保管と桐箪笥の扱いまでを解説します。";
+  "受け継いだ着物、一度だけ着た振袖や留袖、何十年も開けていない箪笥の引き出し。着物は高価だった記憶と家族の思いから、洋服より手放しにくい品目です。着物がたまる構造、状態と着る予定で残す物を決める決めごと、全部出して4つに分ける手順、譲る・売る・作り替える・寄付する等のルート、保管と桐箪笥の扱いを解説します。";
 const PUBLISHED = "2026-09-09";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

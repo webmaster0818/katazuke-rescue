@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/cable-gadget-haisen-seiri/";
 const TITLE = "ケーブル・充電器・古いガジェットの整理と処分｜配線まわりを片付けて使わない機器を手放す手順";
 const DESC =
-  "テレビの裏で絡まったコード、机の下のたこ足配線、機種変更のたびに残った古いスマホや充電器、箱のまま眠るルーターやデジタルカメラ。ケーブルや充電器、古いガジェットは、一つひとつは小さくても、家中に分散して確実に増えていく品目です。増える構造、今ある機器と対応させて残す基準、配線まわりを安全に外して整える手順、小型家電の回収や電池の扱いを自治体の案内で確認する考え方、手放す前のデータ消去の一般論、残す機器の置き方までを解説します。";
+  "テレビ裏で絡まったコード、たこ足配線、機種変更で残った古いスマホや充電器。ケーブルやガジェットは小さくても家中に分散して増える品目です。今ある機器と対応させて残す基準、配線を安全に外して整える手順、小型家電の回収や電池の扱いを自治体の案内で確認する考え方、手放す前のデータ消去の一般論を解説します。";
 const PUBLISHED = "2026-09-09";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

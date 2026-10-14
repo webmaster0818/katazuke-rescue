@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/katazukerarenai-shinri/", label: "片付けられない心理と対処", desc: "片付けが続かない要因への向き合い方" },
   { href: "/guide/self-cleanup/", label: "自力で片付ける方法", desc: "部屋全体を自分で片付ける手順" },
   { href: "/service/katazuke-daikou/", label: "片付け代行サービスの選び方", desc: "仕分けから任せられるサービスの比較" },
+  { href: "/kimono-wafuku-seiri/", label: "着物・和服の整理と処分", desc: "残す着物の決め方と手放すルート" },
+  { href: "/sentakumono-yama-katazuke/", label: "洗濯物・衣類の山の片付け", desc: "山ができる仕組みと崩す手順" },
 ];
 
 const faqLd = {

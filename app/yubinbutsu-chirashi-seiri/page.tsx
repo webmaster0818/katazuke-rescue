@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/yubinbutsu-chirashi-seiri/";
 const TITLE = "郵便物・チラシ・紙類の山の整理｜未開封の封筒を崩す手順と紙が入ってこない仕組みづくり";
 const DESC =
-  "玄関やテーブルに積み上がった未開封の封筒、ポストからあふれるチラシ、いつのものか分からない明細やお知らせ。郵便物と紙類は毎日入ってくるのに、開封する判断が重くて後回しになり、気付くと山になっています。郵便物がたまる構造、差出人と期限で「開けて確認する物」を先に見つける決めごと、山を崩して4つに分ける手順、個人情報が載った紙の扱いと自治体の案内で確認する出し方、チラシや案内が入ってこない仕組みまでを解説します。";
+  "積み上がった未開封の封筒、ポストからあふれるチラシ、いつのものか分からない明細。郵便物と紙類は開封の判断が重く、気付くと山になります。たまる構造、差出人と期限で「開けて確認する物」を先に見つける決めごと、山を4つに分ける手順、個人情報が載った紙の扱いと出し方、チラシが入ってこない仕組みを解説します。";
 const PUBLISHED = "2026-09-09";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

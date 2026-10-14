@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const causes = [
@@ -126,6 +126,7 @@ const related = [
   { href: "/service/katazuke-daikou/", label: "片付け代行サービスの選び方", desc: "片付けを任せられるサービスの比較" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート比較", desc: "捨てる以外の手放し方も紹介" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/hitori-de-dekinai-katazuke-tanomikata/", label: "一人では片付けられないときの頼み方", desc: "家族・相談窓口・業者に頼める範囲" },
 ];
 
 const faqLd = {

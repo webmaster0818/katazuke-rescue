@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/furui-kaden-anzen-shobun/";
 const TITLE = "古い家電の安全確認と処分｜長く使った家電を見直すポイント";
 const DESC =
-  "片付けの途中で押し入れや物置から出てきた古い家電、長年使い続けている家電を、どう見直せばよいのか。電源コードやプラグの状態、使用中の異音・異臭・発熱といった安全確認のチェック項目、取扱説明書の標準使用期間の表示やリコール情報の確認先、動かない家電・使わない家電の手放し方の全体像までを、片付けの視点から整理して解説します。";
+  "片付けの途中で出てきた古い家電、長年使い続けている家電をどう見直すか。電源コードやプラグの状態、異音・異臭・発熱といった安全確認のチェック項目、取扱説明書の標準使用期間の表示やリコール情報の確認先、動かない家電・使わない家電の手放し方の全体像までを、片付けの視点から整理して解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/pc-sumaho-data-shoukyo/", label: "パソコン・スマホのデータ消去", desc: "手放す前に確認したい手順" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "自治体・買取・業者の使い分け" },
   { href: "/monooki-kaitai-mae-seiri/", label: "物置の解体前の整理", desc: "中身を出す順番と仕分け方" },
+  { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線を外す手順と小型家電の手放し方" },
+  { href: "/kisetsu-kaden-hokan-shobun/", label: "季節家電を保管するか手放すかの判断", desc: "しまう前の見直しと手放し方" },
 ];
 
 const faqLd = {

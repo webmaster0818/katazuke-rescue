@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/yokushitsu-mizumawari-seisou/";
 const TITLE = "浴室・水回りの徹底清掃｜水あか・カビを落とす手順と業者の使い分け";
 const DESC =
-  "浴室の汚れは、水あか・皮脂や石けんカス・カビという性質の異なる3種類が混在しており、それぞれ落とし方が違います。汚れ別の洗剤の使い分けと「絶対に混ぜない」原則、排水口・鏡・ゴムパッキン・エプロン内部など部位別の考え方、自力で徹底清掃を進める5ステップ、避けたいNG行動、ハウスクリーニング業者に任せる範囲の見極め方までを解説します。";
+  "浴室の汚れは、水あか・皮脂や石けんカス・カビという性質の異なる3種類が混在し、落とし方が違います。汚れ別の洗剤の使い分けと「絶対に混ぜない」原則、排水口・鏡・ゴムパッキン・エプロン内部など部位別の考え方、自力で進める5ステップ、避けたいNG行動、ハウスクリーニング業者に任せる範囲の見極め方を解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

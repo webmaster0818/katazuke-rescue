@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/katazuke-rebound-boushi/";
 const TITLE = "片付けのリバウンド防止｜散らからない部屋を維持する仕組みづくり";
 const DESC =
-  "せっかく片付けた部屋が数週間で元通り——リバウンドは意志の弱さではなく、仕組みの不在で起こります。リバウンドの3大原因（定位置がない・入る量が出る量を超えている・リセット習慣がない）、物の定位置と総量の上限の決め方、入ってくる物の入口管理、1日5分のリセット習慣、写真による定点観測、家族と暮らす場合の考え方までを解説します。";
+  "片付けた部屋が数週間で元通り——リバウンドは意志の弱さではなく仕組みの不在で起こります。3大原因（定位置がない・入る量が出る量を超える・リセット習慣がない）、定位置と総量の上限の決め方、入ってくる物の入口管理、1日5分のリセット習慣、写真による定点観測、家族と暮らす場合の考え方を解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

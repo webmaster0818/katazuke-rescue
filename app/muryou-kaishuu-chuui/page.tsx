@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/muryou-kaishuu-chuui/";
 const TITLE = "「無料回収」をうたう業者の注意点｜なぜ無料？トラブルを避ける確認ポイント";
 const DESC =
-  "「無料で回収します」という宣伝を見かけたとき、そのまま利用してよいのか不安になる方は多いはずです。この記事では、無料回収という宣伝で知られている一般的なトラブル事例、無料が成り立つ場合とそうでない場合の考え方、依頼前に確認すべきポイント、困ったときの相談先（消費者ホットライン188・自治体の窓口）までを解説します。特定の業者を評価するものではなく、一般的な注意点の解説です。";
+  "「無料で回収します」という宣伝をそのまま利用してよいのか不安な方へ。無料回収の宣伝で知られる一般的なトラブル事例、無料が成り立つ場合とそうでない場合の考え方、依頼前の確認ポイント、困ったときの相談先（消費者ホットライン188・自治体の窓口）を解説します。特定の業者を評価するものではなく一般的な注意点です。";
 const PUBLISHED = "2026-08-12";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

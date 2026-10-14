@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kuruma-shanai-seiri/";
 const TITLE = "車内・カー用品の整理と処分｜トランク・座席にたまった物と使わなくなったカー用品の手放し方";
 const DESC =
-  "トランクに入れっぱなしの荷物、座席の下に転がったままの小物、買い替えて余ったフロアマットやシートカバー、使わなくなったチャイルドシートや車載の工具。車の中は「降ろす機会がないまま物がたまる収納」になりやすい場所です。車内に物がたまる理由、全部降ろして仕分ける手順、車に常時載せる物の決め方、タイヤ・バッテリー・オイルなど扱いの分かれる品目の確認先、ドライブレコーダーやカーナビの記録を消してから手放す注意点までを順に解説します。";
+  "トランクに入れっぱなしの荷物、座席の下の小物、買い替えて余ったフロアマット。車内は降ろす機会がないまま物がたまる場所です。物がたまる理由、全部降ろして仕分ける手順、常時載せる物の決め方、タイヤ・バッテリー・オイルなど扱いの分かれる品目の確認先、ドライブレコーダーやカーナビの記録を消してから手放す注意点を解説します。";
 const PUBLISHED = "2026-09-17";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

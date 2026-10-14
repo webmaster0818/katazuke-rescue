@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/ihinseiri-jibunde/", label: "遺品整理の進め方", desc: "自分で行う手順と任せる範囲" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分", desc: "運べない物の搬出と選択肢" },
   { href: "/kichouhin-genkin-hakken/", label: "貴重品が出てきたら", desc: "保管・記録・相談先の考え方" },
+  { href: "/shisetsu-taikyo-kyoshitsu-seiri/", label: "施設の居室を引き払うときの整理", desc: "退去日から逆算した片付けの段取り" },
 ];
 
 const faqLd = {

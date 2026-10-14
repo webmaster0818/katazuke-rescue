@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/oya-settoku-katazuke/";
 const TITLE = "物を捨てない親への片付けの声かけ｜説得ではなく対話で進めるコツ";
 const DESC =
-  "高齢の親が物を手放そうとしないのには、世代背景や喪失への不安といった理由があります。「説得して捨てさせる」発想が逆効果になる構造、安全を主語にした声かけ・本人に決定権を残す・小さな成功体験という3つの工夫、目的の共有から維持までの5ステップ、黙って捨てるなどのNG行動、地域包括支援センターなど福祉的な相談先の存在までを解説します。";
+  "高齢の親が物を手放さないのには、世代背景や喪失への不安といった理由があります。「説得して捨てさせる」が逆効果になる構造、安全を主語にした声かけ・本人に決定権を残す・小さな成功体験という3つの工夫、目的の共有から維持までの5ステップ、黙って捨てるなどのNG行動、地域包括支援センターなどの相談先を解説します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

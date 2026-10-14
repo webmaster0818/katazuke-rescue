@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/hikidashi-komono-seiri/";
 const TITLE = "引き出し・小物の整理｜文房具・ケーブル・充電器がたまる引き出しを片付ける手順";
 const DESC =
-  "何が入っているか分からない引き出し、用途の分からないケーブルや充電器、書けなくなったペンや切れた電池。引き出しの中の小物は、一つひとつは小さくても、家中の引き出しに分散して積み重なります。引き出しに小物がたまる理由、文房具・ケーブル・充電器・電池を分ける基準、電池や充電式の小物を自治体の区分で出す考え方、一段ずつ進める手順、戻したあとに増やさない仕組みまでを解説します。";
+  "何が入っているか分からない引き出し、用途不明のケーブルや充電器、書けなくなったペンや切れた電池。引き出しの小物は家中に分散して積み重なります。小物がたまる理由、文房具・ケーブル・充電器・電池を分ける基準、電池や充電式の小物を自治体の区分で出す考え方、一段ずつ進める手順、増やさない仕組みを解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/hon-shorui-seiri/", label: "本・書類の整理と処分", desc: "残す書類と手放す書類の分け方" },
   { href: "/kichouhin-genkin-hakken/", label: "貴重品が出てきたら", desc: "保管・記録・相談先の考え方" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "片付いた状態を続ける仕組み" },
+  { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線を外す手順と小型家電の手放し方" },
 ];
 
 const faqLd = {

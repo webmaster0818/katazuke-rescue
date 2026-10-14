@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kusuri-keshouhin-shobun/";
 const TITLE = "古い薬・化粧品の処分方法｜安全に手放すための確認先と分け方";
 const DESC =
-  "薬箱に残った処方薬、洗面所にたまった使いかけの化粧品。どちらも「何ごみか分からない」まま放置されがちな物です。処方薬（残薬）はまず調剤薬局や医療機関に相談するという原則、市販薬の使用期限の確認先、洗面台やトイレに流さない理由、化粧品を中身と容器に分けて考える手順、ガラス瓶・プラスチック容器・金属チューブ・スプレー缶の分別の考え方、故人や介護で残った薬の相談先までを整理して解説します。";
+  "薬箱に残った処方薬、使いかけの化粧品は「何ごみか分からない」まま放置されがちです。残薬はまず調剤薬局や医療機関に相談する原則、市販薬の使用期限の確認先、洗面台やトイレに流さない理由、化粧品を中身と容器に分ける手順、瓶・容器・チューブ・スプレー缶の分別、故人や介護で残った薬の相談先を解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/ofuro-senmenjo-katazuke/";
 const TITLE = "浴室・洗面所まわりの片付け｜物を減らしてから掃除に入る順番と収納の考え方";
 const DESC =
-  "浴室と洗面所は、シャンプーやボディソープのボトル、洗面台下のストック、タオルや洗濯用品が集まり、狭いわりに物が増えやすい場所です。掃除の前に物を減らす理由、置いてよい物の基準、洗面台下と脱衣所の見直し方、家族で守れる置き場所のルール、掃除に進む順番までを手順に沿って解説します。カビや水あかの落とし方は専門記事に分けて案内します。";
+  "浴室と洗面所は、ボトル類、洗面台下のストック、タオルや洗濯用品が集まり、狭いわりに物が増えやすい場所です。掃除の前に物を減らす理由、置いてよい物の基準、洗面台下と脱衣所の見直し方、家族で守れる置き場所のルール、掃除に進む順番を手順に沿って解説します。カビや水あかの落とし方は専門記事で案内します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しいごみの捨て方", desc: "スプレー缶・電池などの考え方" },
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの買いすぎ問題", desc: "収納を増やすほど片付かない理由" },
   { href: "/house-cleaning-chigai/", label: "片付けとハウスクリーニングの違い", desc: "依頼先を分ける考え方" },
+  { href: "/nichiyohin-stock-seiri/", label: "日用品ストックの整理", desc: "洗剤・紙製品の上限と置き場所の決め方" },
 ];
 
 const faqLd = {

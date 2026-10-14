@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/reizouko-sentakuki-shobun-junbi/";
 const TITLE = "冷蔵庫・洗濯機を処分する前の準備｜中身整理・霜取り・水抜きの手順";
 const DESC =
-  "冷蔵庫・洗濯機は家電リサイクル法の対象で、処分には定められたルートと「事前準備」が必要です。中身の計画的な消費、冷蔵庫の電源オフ・霜取り、洗濯機の水抜きという当日までの段取りを5ステップで解説。準備を怠ると起きる水漏れトラブル、無料回収トラックに渡すなどのNG行動、買い替え・購入店・指定引取場所という処分ルートの枠組みまでを整理します。";
+  "冷蔵庫・洗濯機は家電リサイクル法の対象で、処分には定められたルートと事前準備が必要です。中身の計画的な消費、冷蔵庫の電源オフ・霜取り、洗濯機の水抜きという段取りを5ステップで解説。準備不足で起きる水漏れ、無料回収トラックに渡すなどのNG行動、買い替え・購入店・指定引取場所という処分ルートも整理します。";
 const PUBLISHED = "2026-08-16";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

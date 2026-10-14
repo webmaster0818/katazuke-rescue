@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/kitchen-shokki-seiri/", label: "食器・調理器具の整理", desc: "重複しやすい品目の仕分け基準" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "リサイクルショップ・買取の併用", desc: "売れる物を活かす手放し方" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "きれいな状態を保つ仕組み" },
+  { href: "/rikon-kazai-wakekata/", label: "離婚にともなう家財の整理", desc: "家財を分ける実務的な進め方" },
 ];
 
 const faqLd = {

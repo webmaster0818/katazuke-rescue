@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/bag-kaban-seiri-shobun/";
 const TITLE = "バッグ・かばんの整理と処分｜使わないバッグを手放す基準と素材別の処分の考え方";
 const DESC =
-  "クローゼットの上段に積まれた紙袋入りのバッグ、玄関に掛けたままのエコバッグ、旅行のたびに増えたスーツケースやボストンバッグ、もらった記念のトートバッグ。バッグやかばんは一つひとつが場所を取るのに、「高かった」「まだきれい」「いつか使う」という理由で手放しにくい品目です。バッグが増える理由、残す基準の決め方、革・金属・キャスター付きなど素材や構造で分かれる処分の考え方、売る・譲るという選択肢、残すバッグの保管の仕方までを解説します。";
+  "クローゼットに積まれたバッグ、増えたエコバッグやスーツケース、もらった記念のトートバッグ。バッグは場所を取るのに「高かった」「まだきれい」と手放しにくい品目です。増える理由、残す基準、革・金属・キャスター付きなど素材や構造で分かれる処分の考え方、売る・譲る選択肢、残すバッグの保管の仕方を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/oshiire-closet-seiri/", label: "押し入れ・クローゼットの整理", desc: "上段や奥にしまい込んだ物の見直し" },
   { href: "/genkan-getabako-seiri/", label: "玄関・下駄箱の片付け", desc: "靴と外まわり用品を減らす基準" },
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの買いすぎ問題", desc: "収納を増やすほど片付かない理由" },
+  { href: "/kutsu-collection-seiri/", label: "靴・スニーカーのコレクションの整理", desc: "箱のまま眠る靴の残し方と手放し方" },
 ];
 
 const faqLd = {

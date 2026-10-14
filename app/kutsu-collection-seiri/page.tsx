@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kutsu-collection-seiri/";
 const TITLE = "靴・スニーカーのコレクションの整理｜箱ごとたまった靴を残す基準と状態別の手放し方";
 const DESC =
-  "下駄箱に入りきらず、箱のままクローゼットの上段や押し入れに積まれた靴。限定のスニーカー、履くつもりで買ったまま一度も外に出ていない革靴、サイズが合わなくなったブーツ。靴やスニーカーは、一足ごとに思い入れがあり、箱に入っていると状態も量も見えないため、手放しにくい品目です。靴が増える構造、履く数の上限と「この一年で履いたか」で残す基準、箱から出して状態を確かめる手順、ソールの劣化や黄ばみなど状態別の判断、売る・譲るという選択肢、素材や構造で分かれる処分の考え方、残す靴の保管の仕方までを解説します。";
+  "下駄箱に入りきらず箱のまま積まれた靴、限定のスニーカー、一度も履いていない革靴。靴は一足ごとに思い入れがあり手放しにくい品目です。履く数の上限と「この一年で履いたか」で残す基準、箱から出して状態を確かめる手順、ソールの劣化など状態別の判断、売る・譲る選択肢、素材で分かれる処分、保管の仕方を解説します。";
 const PUBLISHED = "2026-09-09";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

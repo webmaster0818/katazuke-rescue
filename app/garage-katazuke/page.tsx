@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/muryou-kaishuu-chuui/", label: "無料回収をうたう業者の注意点", desc: "巡回トラックのトラブルと相談先" },
   { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "不用品の積み放題プランがある業者" },
   { href: "/area/saitama/", label: "埼玉の片付け業者比較", desc: "埼玉から依頼できる業者の比較" },
+  { href: "/kuruma-shanai-seiri/", label: "車内・カー用品の整理と処分", desc: "トランクの荷物と使わないカー用品の手放し方" },
 ];
 
 const faqLd = {

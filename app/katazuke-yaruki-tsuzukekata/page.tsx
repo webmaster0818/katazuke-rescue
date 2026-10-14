@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/katazuke-yaruki-tsuzukekata/";
 const TITLE = "片付けのやる気が続かないときの進め方｜小さく始める・時間で区切る・人に頼む判断の基準";
 const DESC =
-  "始めようと思っても手が動かない、始めても途中で止まる、片付いたと思ったらまた元に戻る。片付けのやる気が続かないのは意志の弱さではなく、やる気を前提にした進め方に原因があります。やる気が切れる場面別の構造、やる気に頼らない進め方の決めごと、今日一か所から再開する手順、途中で止まったときの立て直し方、自分で続けるか第三者に頼むかを判断する基準までを解説します。";
+  "始めようと思っても手が動かない、途中で止まる、また元に戻る。片付けのやる気が続かないのは意志の弱さではなく、やる気を前提にした進め方に原因があります。やる気が切れる場面別の構造、やる気に頼らない決めごと、今日一か所から再開する手順、止まったときの立て直し方、第三者に頼むかの判断基準を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/oheya-checklist/", label: "汚部屋レベルのチェックリスト", desc: "今の状態を客観的に確認する" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "片付いた状態を続ける仕組み" },
   { href: "/service/katazuke-daikou/", label: "片付け代行サービスとは", desc: "任せられる範囲と選び方" },
+  { href: "/hitori-de-dekinai-katazuke-tanomikata/", label: "一人では片付けられないときの頼み方", desc: "家族・相談窓口・業者に頼める範囲" },
 ];
 
 const faqLd = {

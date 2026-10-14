@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/taikyo-katazuke/", label: "退去前の片付けの段取り", desc: "期限から逆算する搬出と処分" },
   { href: "/review/minna-ihinseiri/", label: "みんなの遺品整理の評判", desc: "生前整理・家財整理にも対応する業者紹介" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/nyuin-taiin-ie-seiri/", label: "入院前・退院前に家を整える", desc: "留守中と退院後に備えた片付け" },
+  { href: "/shisetsu-taikyo-kyoshitsu-seiri/", label: "施設の居室を引き払うときの整理", desc: "退去日から逆算した片付けの段取り" },
 ];
 
 const faqLd = {

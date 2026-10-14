@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const principles = [
@@ -107,6 +107,7 @@ const related = [
   { href: "/guide/self-cleanup/", label: "自力での片付けガイド", desc: "自分で片付けるときの基礎知識" },
   { href: "/heya-shoushuu/", label: "部屋の臭いの消し方", desc: "染み付いた臭いの原因と対処" },
   { href: "/service/gomiyashiki/", label: "ゴミ屋敷清掃サービスの基礎知識", desc: "業者に頼める作業の範囲" },
+  { href: "/sentakumono-yama-katazuke/", label: "洗濯物・衣類の山の片付け", desc: "山ができる仕組みと崩す手順" },
 ];
 
 const faqLd = {

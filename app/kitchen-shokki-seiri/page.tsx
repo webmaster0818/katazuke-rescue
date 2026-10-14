@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kitchen-shokki-seiri/";
 const TITLE = "食器・調理器具の整理｜増えすぎた台所用品を減らす基準と処分方法";
 const DESC =
-  "食器棚に入りきらない皿、同じサイズの鍋やフライパン、フタの合わない保存容器——キッチンは物が増えやすい場所です。食器が増える経路、家族の人数と食事スタイルから普段使う枚数を逆算する考え方、来客用食器と調理器具の重複の見直し、未使用の引き出物の活かし方、陶磁器・ガラス・金属など素材別の処分区分の確認方法、割れ物や刃物を安全に出す手順、減らした後の収納までを解説します。";
+  "食器棚に入りきらない皿、同じサイズの鍋、フタの合わない保存容器。食器が増える経路、家族の人数と食事スタイルから普段使う枚数を逆算する考え方、来客用と調理器具の重複の見直し、未使用の引き出物の活かし方、素材別の処分区分の確認方法、割れ物や刃物を安全に出す手順、減らした後の収納を解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/recycle-shop-kaitori-heiyou/", label: "リサイクルショップ・買取の併用", desc: "売れる物を活かして手放す" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルートの使い分け", desc: "自治体・買取・業者の選び方" },
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの買いすぎ問題", desc: "収納を増やす前に考えたいこと" },
+  { href: "/dousei-kekkon-kazai-seiri/", label: "同棲・結婚で家財が重複したときの整理", desc: "重なった家具・家電の残し方" },
 ];
 
 const faqLd = {

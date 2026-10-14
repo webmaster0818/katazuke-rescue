@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const timings = [
@@ -121,6 +121,7 @@ const related = [
   { href: "/review/minna-ihinseiri/", label: "みんなの遺品整理の評判", desc: "審査済み業者を比較できる紹介サービス" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート7つの使い分け", desc: "実家の不用品を手放す方法" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
+  { href: "/dokuritsu-go-kodomobeya/", label: "独立後の子ども部屋の整理", desc: "本人の荷物の扱いと部屋の使い道の決め方" },
 ];
 
 const faqLd = {

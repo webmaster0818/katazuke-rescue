@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/service/ihinseiri/", label: "遺品整理業者の選び方", desc: "生前整理にも対応する業者の選び方" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
   { href: "/area/tokyo/", label: "東京の片付け業者おすすめ", desc: "東京から依頼できる業者の比較" },
+  { href: "/kimono-wafuku-seiri/", label: "着物・和服の整理と処分", desc: "残す着物の決め方と手放すルート" },
 ];
 
 const faqLd = {

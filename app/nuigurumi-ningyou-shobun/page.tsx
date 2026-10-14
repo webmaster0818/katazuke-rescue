@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/nuigurumi-ningyou-shobun/";
 const TITLE = "ぬいぐるみ・人形の処分｜気持ちの整理をつけて手放す方法";
 const DESC =
-  "ぬいぐるみや人形は、顔があること・贈り主の記憶・子どもの成長の記録が重なって手放しにくい物です。捨てられないのは意志が弱いからではありません。この記事では、気持ちの整理のつけ方、人形供養という選択肢との向き合い方（受け入れの可否や考え方は宗派・地域・寺社により異なります）、譲渡や売却で活かすルート、雛人形・五月人形のように複数素材が混ざる物の分け方、実家や遺品として大量に出てきた場合の進め方を解説します。";
+  "ぬいぐるみや人形は、顔があること・贈り主の記憶・成長の記録が重なって手放しにくい物です。気持ちの整理のつけ方、人形供養との向き合い方（受け入れは宗派・地域・寺社により異なります）、譲渡や売却のルート、雛人形・五月人形のように複数素材が混ざる物の分け方、実家や遺品で大量に出た場合の進め方を解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/jikka-katazuke/", label: "実家の片付け", desc: "親と一緒に進めるための段取り" },
   { href: "/shashin-album-seiri/", label: "写真・アルバムの整理", desc: "思い出を残しながら量を減らす" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "売る・譲る・出すの使い分け" },
+  { href: "/moraimono-kinenhin-seiri/", label: "もらい物・記念品の整理", desc: "引き出物や贈答品の手放し方" },
 ];
 
 const faqLd = {

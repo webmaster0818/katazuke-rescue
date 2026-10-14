@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/katazukerarenai-shinri/", label: "片付けられない心理", desc: "続かない要因と現実的な対処" },
   { href: "/jichitai-gyousha-tsukaiwake/", label: "自治体と業者の使い分け", desc: "どちらに頼むかの判断基準" },
   { href: "/kinjo-gomiyashiki-soudan/", label: "近所のゴミ屋敷の相談先", desc: "近隣で困ったときの窓口" },
+  { href: "/hitori-de-dekinai-katazuke-tanomikata/", label: "一人では片付けられないときの頼み方", desc: "家族・相談窓口・業者に頼める範囲" },
 ];
 
 const faqLd = {

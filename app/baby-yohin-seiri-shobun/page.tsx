@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/baby-yohin-seiri-shobun/";
 const TITLE = "ベビー用品の整理と処分｜チャイルドシート・ベビーカー・ベビーベッドを手放す基準と手順";
 const DESC =
-  "使わなくなったベビーカー、チャイルドシート、ベビーベッド、抱っこひも、哺乳瓶や離乳食の道具。子どもの成長とともに短期間で役目を終えるベビー用品は、次の子のためにと残しやすく、気付くと押し入れや物置を占領します。残すか手放すかを決める基準、安全に関わる用品を譲るときの注意点、大きい用品の処分区分の確認先、譲る・売る・寄付する選択肢までを解説します。";
+  "使わなくなったベビーカー、チャイルドシート、ベビーベッド、抱っこひも、哺乳瓶。短期間で役目を終えるベビー用品は、次の子のためにと残しやすく、押し入れや物置を占領します。残すか手放すかの基準、安全に関わる用品を譲るときの注意点、大きい用品の処分区分の確認先、譲る・売る・寄付する選択肢を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

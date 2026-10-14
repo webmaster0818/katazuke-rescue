@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/nichiyohin-stock-seiri/";
 const TITLE = "日用品ストックの整理｜洗剤・紙製品・消耗品の買いすぎを止める上限の決め方と置き場所";
 const DESC =
-  "洗剤やシャンプーの詰め替え、トイレットペーパーやティッシュの束、歯ブラシやスポンジ、ラップやごみ袋。安売りのたびに買い足した日用品のストックは、家のあちこちに分散して、同じ物をまた買う原因になります。日用品のストックが増える理由、家中から集めて総量を見る手順、種類ごとの上限の決め方、置き場所を一か所にまとめる考え方、古くなった物や使い切れない物の手放し方、買い足すときのルールまでを順に解説します。";
+  "洗剤やシャンプーの詰め替え、トイレットペーパーの束、歯ブラシやラップ。安売りのたびに買い足した日用品のストックは家中に分散し、同じ物をまた買う原因になります。ストックが増える理由、家中から集めて総量を見る手順、種類ごとの上限、置き場所を一か所にまとめる考え方、古い物の手放し方、買い足すルールを解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/ofuro-senmenjo-katazuke/", label: "浴室・洗面所まわりの片付け", desc: "物を減らしてから掃除に入る順番" },
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの買いすぎ問題", desc: "収納を増やすほど片付かない理由" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "片付いた状態を続ける仕組み" },
+  { href: "/shokuhin-stock-kigengire-seiri/", label: "食品ストック・期限切れ食品の整理", desc: "期限と状態で仕分ける手順" },
 ];
 
 const faqLd = {

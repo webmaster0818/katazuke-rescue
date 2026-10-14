@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/oshiire-closet-seiri/";
 const TITLE = "押し入れ・クローゼットの整理手順｜全部出すから戻すまでの進め方";
 const DESC =
-  "扉を閉めれば見えない押し入れとクローゼットは、家の中でいちばん物置化しやすい場所です。奥行きが深く上段・下段・天袋で使い勝手が違う構造、1区画ずつ全部出して仕分ける現実的な段取り、使用頻度によるゾーニング、奥を死蔵させない2列使いのルール、湿気やカビ・虫への備え、戻すときのラベリングと定位置化、出てきた不用品の処分ルートまでを手順に沿って解説します。";
+  "押し入れとクローゼットは家の中でいちばん物置化しやすい場所です。上段・下段・天袋で使い勝手が違う構造、1区画ずつ全部出して仕分ける段取り、使用頻度によるゾーニング、奥を死蔵させない2列使いのルール、湿気やカビ・虫への備え、ラベリングと定位置化、出てきた不用品の処分ルートまでを手順に沿って解説します。";
 const PUBLISHED = "2026-08-19";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,7 @@ const related = [
   { href: "/shuno-goods-tebanashi/", label: "収納グッズの手放し方", desc: "収納を増やすほど片付かない理由" },
   { href: "/kabi-seisou/", label: "カビの掃除", desc: "発生を抑える手入れと再発防止" },
   { href: "/futon-mattress-shobun/", label: "布団・マットレスの処分", desc: "かさばる寝具の手放し方" },
+  { href: "/bag-kaban-seiri-shobun/", label: "バッグ・かばんの整理と処分", desc: "残す基準と素材別の処分の考え方" },
 ];
 
 const faqLd = {

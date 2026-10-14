@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/shokuhin-stock-kigengire-seiri/";
 const TITLE = "食品ストック・期限切れ食品の整理｜パントリーや棚の奥にたまった食品を見直す手順と手放し方";
 const DESC =
-  "棚の奥から出てきた何年も前の缶詰、封を開けたまま固まった調味料、賞味期限の切れた乾麺やレトルト、もらったまま忘れていたお菓子や海苔。食品のストックは「食べ物を捨てるのは気が引ける」という気持ちから見直しが先送りされ、棚やパントリーの奥に積み重なります。食品ストックがたまる理由、賞味期限と消費期限の違いを踏まえた分け方、家中から集めて期限と状態で仕分ける手順、中身と容器を分けて出す考え方、買う前に確認する仕組みまでを解説します。";
+  "棚の奥の何年も前の缶詰、固まった調味料、期限切れの乾麺やレトルト。食品のストックは「食べ物を捨てるのは気が引ける」と見直しが先送りされがちです。たまる理由、賞味期限と消費期限の違いを踏まえた分け方、家中から集めて期限と状態で仕分ける手順、中身と容器を分けて出す考え方、買う前に確認する仕組みを解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

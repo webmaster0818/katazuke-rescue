@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kaimono-fukuro-stock/";
 const TITLE = "紙袋・包装材・空き箱のストック整理｜「いつか使う」を上限で区切る考え方と手順";
 const DESC =
-  "きれいな紙袋、店の包装紙、リボン、緩衝材、家電や贈り物の空き箱、保冷剤。捨てるほどではないが使う機会も少ない包装材は、押し入れや隙間に少しずつたまり、気付くと大きな場所を占めています。包装材がたまる理由、残す量の上限を決める考え方、種類別に「使う場面」を具体的にする基準、紙・プラスチック・保冷剤の分別の考え方、実家で大量に出てきた場合の進め方までを解説します。";
+  "きれいな紙袋、包装紙、リボン、緩衝材、空き箱、保冷剤。捨てるほどではないが使う機会も少ない包装材は、押し入れや隙間に少しずつたまります。包装材がたまる理由、残す量の上限を決める考え方、種類別に「使う場面」を具体的にする基準、紙・プラスチック・保冷剤の分別の考え方、実家で大量に出てきた場合の進め方を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/oya-settoku-katazuke/", label: "親に片付けを納得してもらう方法", desc: "反発を招かない進め方" },
   { href: "/katazukerarenai-shinri/", label: "片付けられない心理", desc: "手放せない気持ちの背景" },
   { href: "/katazuke-rebound-boushi/", label: "片付けのリバウンド防止", desc: "片付いた状態を続ける仕組み" },
+  { href: "/moraimono-kinenhin-seiri/", label: "もらい物・記念品の整理", desc: "引き出物や贈答品の手放し方" },
+  { href: "/nichiyohin-stock-seiri/", label: "日用品ストックの整理", desc: "洗剤・紙製品の上限と置き場所の決め方" },
 ];
 
 const faqLd = {

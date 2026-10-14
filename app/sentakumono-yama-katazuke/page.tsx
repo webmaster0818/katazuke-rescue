@@ -6,14 +6,14 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/sentakumono-yama-katazuke/";
 const TITLE = "洗濯物・衣類の山の片付け｜床やソファに積まれた服を「洗う」「戻す」「手放す」に分けて崩す手順";
 const DESC =
-  "ソファの上に積まれた乾いた洗濯物、床に脱ぎっぱなしの服、洗ったのか着たのか分からない山。衣類の山は、洗う・干す・畳む・しまうという工程のどこかが詰まると、毎日少しずつ高くなります。山ができる仕組み、洗う前と洗った後を見分けて分ける手順、放置した服のにおいやカビの扱い、畳まずに戻す仕組み、山を作らない工程の減らし方、業者に相談する目安までを解説します。";
+  "ソファに積まれた乾いた洗濯物、脱ぎっぱなしの服、洗ったのか着たのか分からない山。衣類の山は、洗う・干す・畳む・しまうの工程が詰まると毎日高くなります。山ができる仕組み、洗う前と後を見分けて分ける手順、放置した服のにおいやカビの扱い、畳まずに戻す仕組み、工程の減らし方、業者に相談する目安を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [

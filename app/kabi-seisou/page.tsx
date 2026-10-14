@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -122,6 +122,8 @@ const related = [
   { href: "/guide/self-cleanup/", label: "ゴミ屋敷を自分で片付ける方法", desc: "物が多い部屋の片付けの進め方" },
   { href: "/cost/price/", label: "片付け・清掃の費用相場", desc: "間取り・作業別の費用の考え方" },
   { href: "/area/tokyo/", label: "東京の片付け・清掃業者おすすめ", desc: "東京から依頼できる業者の比較" },
+  { href: "/mado-amido-sash-seisou/", label: "窓・網戸・サッシの掃除手順", desc: "汚れの種類別の落とし方" },
+  { href: "/saigai-go-katazuke/", label: "災害後の家の片付け", desc: "安全確認から家財の扱いまで" },
 ];
 
 const faqLd = {

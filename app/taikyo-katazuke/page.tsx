@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   alternates: { canonical: `${SITE}${PATH}` },
-  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article" },
+  openGraph: { title: TITLE, description: DESC, url: `${SITE}${PATH}`, type: "article", images: ["/og-default.png?v=20261014"] },
 };
 
 const basics = [
@@ -106,6 +106,7 @@ const related = [
   { href: "/guide/municipal-service/", label: "自治体の粗大ゴミ回収サービス活用法", desc: "自治体ルートの基礎知識" },
   { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "定額パック制の関東対応業者" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
+  { href: "/rikon-kazai-wakekata/", label: "離婚にともなう家財の整理", desc: "家財を分ける実務的な進め方" },
 ];
 
 const faqLd = {
