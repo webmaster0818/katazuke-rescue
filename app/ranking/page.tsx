@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import companiesData from "@/data/companies.json";
 import Breadcrumb from "@/components/Breadcrumb";
+import SourcedRating from "@/components/SourcedRating";
 
 export const metadata: Metadata = {
   title: "片付け業者おすすめランキング2026年版｜片付けレスキュー",
@@ -61,18 +62,8 @@ export default function RankingPage() {
                 </div>
                 <p className="text-sm text-slate-500 mb-2">{company.tagline}</p>
 
-                {/* Rating */}
-                <div className="flex items-center gap-2 mb-3">
-                  <div className="flex items-center gap-0.5">
-                    {[1,2,3,4,5].map((star) => (
-                      <svg key={star} width="14" height="14" viewBox="0 0 24 24" fill={star <= Math.floor(company.rating) ? "#F59E0B" : "#E2E8F0"} aria-hidden="true">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-                      </svg>
-                    ))}
-                  </div>
-                  <span className="text-sm font-bold text-slate-900">{company.rating}</span>
-                  <span className="text-xs text-slate-400">({company.reviewCount.toLocaleString()}件)</span>
-                </div>
+                {/* 評価：Googleで一次確認できた社のみ出典つきで表示 */}
+                <div className="mb-3 empty:hidden"><SourcedRating slug={company.slug} /></div>
 
                 <div className="flex flex-wrap gap-1 mb-3">
                   {company.features.slice(0, 4).map((f) => (

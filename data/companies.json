@@ -10,9 +10,7 @@
     "cons": ["遺品整理専門のため他サービスは少ない", "繁忙期は予約が取りにくい場合あり"],
     "coverage": "全国",
     "officialUrl": "https://example.com/minna-ihinseiri",
-    "priceRange": "3万円〜20万円",
-    "rating": 4.8,
-    "reviewCount": 1250
+    "priceRange": "3万円〜20万円"
   },
   {
     "id": 2,
@@ -25,9 +23,7 @@
     "cons": ["繁忙期は料金が上がる場合あり", "一部地域では対応不可"],
     "coverage": "全国",
     "officialUrl": "https://example.com/kataduke-nihonichi",
-    "priceRange": "1万円〜15万円",
-    "rating": 4.6,
-    "reviewCount": 3200
+    "priceRange": "1万円〜15万円"
   },
   {
     "id": 3,
@@ -40,9 +36,7 @@
     "cons": ["まだ対応エリアが限定的な地域あり", "特殊清掃は別途費用"],
     "coverage": "全国（拡大中）",
     "officialUrl": "https://example.com/gomiyashiki-partners",
-    "priceRange": "5万円〜50万円",
-    "rating": 4.7,
-    "reviewCount": 890
+    "priceRange": "5万円〜50万円"
   },
   {
     "id": 4,
@@ -55,9 +49,7 @@
     "cons": ["関東エリア外は対応不可（拡大中）", "大量の場合は別途見積もり"],
     "coverage": "関東（拡大中）",
     "officialUrl": "https://example.com/sodaigomi-honpo",
-    "priceRange": "8,000円〜10万円",
-    "rating": 4.5,
-    "reviewCount": 2100
+    "priceRange": "8,000円〜10万円"
   },
   {
     "id": 5,
@@ -70,9 +62,7 @@
     "cons": ["特殊清掃は費用が高め", "一般的な片付けより専門性が高い分割高"],
     "coverage": "全国",
     "officialUrl": "https://example.com/blue-clean",
-    "priceRange": "5万円〜100万円",
-    "rating": 4.9,
-    "reviewCount": 560
+    "priceRange": "5万円〜100万円"
   },
   {
     "id": 6,
@@ -85,9 +75,7 @@
     "cons": ["業者によってサービス品質が異なる", "直接契約のためトラブル時は自己対応"],
     "coverage": "全国",
     "officialUrl": "https://example.com/kurashi-market",
-    "priceRange": "業者により異なる",
-    "rating": 4.3,
-    "reviewCount": 45000
+    "priceRange": "業者により異なる"
   },
   {
     "id": 7,
@@ -100,9 +88,7 @@
     "cons": ["業者からの連絡が多くなる場合あり", "最安値業者の品質確認が必要"],
     "coverage": "全国",
     "officialUrl": "https://example.com/mitsumoa",
-    "priceRange": "業者により異なる",
-    "rating": 4.2,
-    "reviewCount": 38000
+    "priceRange": "業者により異なる"
   },
   {
     "id": 8,
@@ -115,9 +101,7 @@
     "cons": ["専門業者と比べると専門性は低い場合あり", "料金設定が業者により異なる"],
     "coverage": "全国",
     "officialUrl": "https://example.com/seikatsu110",
-    "priceRange": "業者により異なる",
-    "rating": 4.1,
-    "reviewCount": 12000
+    "priceRange": "業者により異なる"
   },
   {
     "id": 9,
@@ -130,9 +114,7 @@
     "cons": ["比較サービスのため直接契約に手間", "一部エリアでは業者が少ない"],
     "coverage": "全国",
     "officialUrl": "https://example.com/sumai-hotline",
-    "priceRange": "業者により異なる",
-    "rating": 4.0,
-    "reviewCount": 8500
+    "priceRange": "業者により異なる"
   },
   {
     "id": 10,
@@ -145,8 +127,6 @@
     "cons": ["他業者と比較すると料金やや高め", "予約が取りにくい人気業者"],
     "coverage": "全国",
     "officialUrl": "https://example.com/otasuke-usagi",
-    "priceRange": "3万円〜30万円",
-    "rating": 4.7,
-    "reviewCount": 2300
+    "priceRange": "3万円〜30万円"
   }
 ]

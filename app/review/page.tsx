@@ -25,7 +25,7 @@ export default function ReviewIndex() {
               <h2 className="font-bold text-text-primary">{r.companyName}</h2>
               {(r as any).ratingBlock ? (
                 <span className="text-sm text-text-muted whitespace-nowrap">
-                  <span className="text-warning">★</span> {(r as any).ratingBlock.rating}（{(r as any).ratingBlock.reviewCount}件）
+                  <span className="text-warning">★</span> {(r as any).ratingBlock.rating}（Google・{(r as any).ratingBlock.reviewCount.toLocaleString()}件・{(r as any).ratingBlock.fetchedAt}取得）
                 </span>
               ) : (
                 <span className="text-xs text-text-muted whitespace-nowrap">公式の声</span>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import companiesData from "@/data/companies.json";
 import Breadcrumb from "@/components/Breadcrumb";
+import SourcedRating from "@/components/SourcedRating";
 
 export async function generateStaticParams() {
   return companiesData.map((company) => ({ slug: company.slug }));
@@ -64,18 +65,8 @@ export default async function CompanyPage({
           </div>
         </div>
 
-        {/* Rating */}
-        <div className="flex items-center gap-4 mb-6 pb-6 border-b border-slate-100">
-          <div className="flex items-center gap-1">
-            {[1,2,3,4,5].map((star) => (
-              <svg key={star} width="20" height="20" viewBox="0 0 24 24" fill={star <= Math.floor(company.rating) ? "#F59E0B" : "#E2E8F0"} aria-hidden="true">
-                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-              </svg>
-            ))}
-          </div>
-          <span className="font-bold text-slate-900">{company.rating}</span>
-          <span className="text-sm text-slate-500">({company.reviewCount.toLocaleString()}件の評価)</span>
-        </div>
+        {/* 評価：Googleで一次確認できた社のみ出典つきで表示 */}
+        <div className="mb-6 pb-6 border-b border-slate-100 empty:hidden"><SourcedRating slug={company.slug} size="md" /></div>
 
         <p className="text-slate-600 leading-relaxed mb-6">{company.description}</p>
 
