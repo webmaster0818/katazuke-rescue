@@ -83,7 +83,7 @@ export default function PricePage() {
             <line x1="12" y1="17" x2="12.01" y2="17"/>
           </svg>
           <p className="text-sm text-amber-800">
-            <strong>ご注意：</strong>下記の料金は目安です。実際の費用は、ごみの量・種類・地域・業者によって大きく異なります。依頼前に無料見積もりを取得してください。
+            <strong>下記の料金は目安です。</strong>実際の費用は、ごみの量・種類・地域・業者によって大きく異なります。依頼前に無料見積もりを取得してください。
           </p>
         </div>
       </div>
