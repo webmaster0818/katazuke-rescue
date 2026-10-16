@@ -5,8 +5,8 @@ import Breadcrumb from "@/components/Breadcrumb";
 import SourcedRating from "@/components/SourcedRating";
 
 export const metadata: Metadata = {
-  title: "片付け業者おすすめランキング2026年版｜片付けレスキュー",
-  description: "片付け・不用品回収・ゴミ屋敷業者のおすすめランキング。料金・対応エリア・口コミを比較して最適な業者を見つけましょう。",
+  title: "片付け業者おすすめランキング2026年版",
+  description: "片付け・不用品回収・ゴミ屋敷の業者を、料金・対応エリア・口コミで比較したランキングです。依頼先の検討にご利用ください。",
   alternates: { canonical: "/ranking/" },
 };
 
@@ -26,7 +26,7 @@ export default function RankingPage() {
           片付け業者おすすめランキング【2026年版】
         </h1>
         <p className="text-slate-600 leading-relaxed">
-          全国対応から地域密着型まで、厳選した10社を比較。料金・実績・口コミを総合評価しました。
+          全国対応の業者から地域密着型の業者まで10社を、料金・実績・口コミの観点から総合的に評価しています。
         </p>
       </div>
 

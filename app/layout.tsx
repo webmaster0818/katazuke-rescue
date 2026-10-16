@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: "片付けレスキュー｜片付け・不用品回収業者の比較サイト",
     template: "%s｜片付けレスキュー",
   },
-  description: "片付け・不用品回収・ゴミ屋敷・遺品整理業者を徹底比較。費用相場・口コミ・おすすめランキングで信頼できる業者を見つけましょう。",
+  description: "片付け・不用品回収・ゴミ屋敷・遺品整理の業者を、費用相場・口コミ・ランキングで比較できる情報サイトです。",
   metadataBase: new URL("https://katazuke-rescue.com"),
   twitter: {
     card: "summary_large_image",

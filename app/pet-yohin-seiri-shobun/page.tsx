@@ -6,7 +6,7 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/pet-yohin-seiri-shobun/";
 const TITLE = "ペット用品の整理と処分｜使わなくなったケージ・キャリー・フード・おもちゃを手放す基準と手順";
 const DESC =
-  "使わないケージ、合わなかったフード、遊ばなくなったおもちゃ、買い替えて余ったトイレやキャリー。ペット用品は成長や買い替えのたびに増えます。必要な物の決め方、譲る・寄付する前の確認、フードや薬など消耗品の扱い、ケージや水槽など大型用品の処分区分の確認手順を解説します。見送ったペットの用品は別記事で扱います。";
+  "使わないケージ、合わなかったフード、遊ばなくなったおもちゃ、買い替えて余ったトイレやキャリーなど、ペット用品は成長や買い替えのたびに増えます。必要な物の決め方、譲る・寄付する前の確認、フードや薬など消耗品の扱い、ケージや水槽など大型用品の処分区分の確認手順を解説します。見送ったペットの用品は別記事で扱います。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const basics = [
   {
     title: "「試して合わなかった物」が、そのまま残りやすい",
-    body: "ペット用品は、実際に使ってみないと合うかどうかが分からない物がほとんどです。食べなかったフード、嫌がって入らないベッド、興味を示さなかったおもちゃ、サイズが合わなかった服や首輪など、「買ったけれど使わなかった物」が一定の割合で生まれます。人間の物と違って、飼い主自身が使えるわけではないため、「もったいない」という気持ちだけが残り、手放す判断が先送りにされます。試して合わなかった物は、ペットとの暮らしでは避けられない出費だと割り切ることが、整理の出発点になります。",
+    body: "ペット用品は、実際に使ってみないと合うかどうかが分からない物がほとんどです。食べなかったフード、嫌がって入らないベッド、興味を示さなかったおもちゃ、サイズが合わなかった服や首輪など、「買ったけれど使わなかった物」が一定の割合で生まれます。人間の物と違って、飼い主自身が使えるわけではないため、「もったいない」という気持ちだけが残り、手放す判断が先送りにされます。試して合わなかった物は、ペットとの暮らしでは避けられない出費と捉えることが、整理の第一歩となります。",
   },
   {
     title: "成長や体調の変化で、必要な物が入れ替わる",
@@ -34,7 +34,7 @@ const basics = [
 const merits = [
   {
     title: "確認1：今のペットの暮らしに「必要な物の一覧」を先に作る",
-    body: "整理を始める前に、今のペットが日常で使っている物と、これから必要になる物を書き出します。フードと食器、水入れ、トイレとトイレ材、寝る場所、首輪やリード、キャリー、爪とぎやおもちゃ、通院のときに使う物、季節の物など、種類ごとに一つずつ挙げます。一覧があると、出てきた用品を「今の暮らしに必要か」という一つの基準で判断でき、迷う時間が減ります。多頭飼いの場合は、頭数分の必要量も合わせて書いておきます。",
+    body: "整理を始める前に、今のペットが日常で使っている物と、これから必要になる物を書き出します。フードと食器、水入れ、トイレとトイレ材、寝る場所、首輪やリード、キャリー、爪とぎやおもちゃ、通院のときに使う物、季節の物など、種類ごとに一つずつ挙げます。一覧があると、出てきた用品を「今の暮らしに必要か」という一つの基準で判断でき、迷う時間が減ります。多頭飼いの場合は、頭数分の必要量も合わせて記入しておきます。",
   },
   {
     title: "確認2：譲る・寄付する予定の物は、受け入れの条件を先に調べる",
@@ -161,11 +161,11 @@ function H2({ id, num, children }: { id: string; num: string; children: React.Re
 export default function Page() {
   const toc = [
     { href: "#kiso", label: "1｜ペット用品が増える3つの理由" },
-    { href: "#merit", label: "2｜始める前に確認したい3つのこと" },
+    { href: "#merit", label: "2｜作業前に確認する3つの事項" },
     { href: "#houshin", label: "3｜「今の暮らしに必要か」と「人に渡せるか」の二つの軸で考える" },
     { href: "#steps", label: "4｜ペット用品を整理する5ステップ" },
-    { href: "#ng", label: "5｜やってはいけないNG行動4つ" },
-    { href: "#gyousha", label: "6｜業者に相談したほうがよいサイン" },
+    { href: "#ng", label: "5｜避けるべき4つの行動" },
+    { href: "#gyousha", label: "6｜業者への相談を検討すべき状況" },
     { href: "#faq", label: "7｜よくある質問" },
     { href: "#related", label: "8｜関連記事" },
   ];
@@ -189,7 +189,7 @@ export default function Page() {
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          子犬や子猫のころに使っていた小さなケージ、食べてくれずに残ったフードの袋、興味を示さなかったおもちゃ、買い替えて余ったトイレやキャリー、着てくれなかった服。ペットと暮らしていると、成長や好みの変化、買い替えのたびに使わなくなった用品が生まれ、「まだ使えるのに」という気持ちから手放せないまま、部屋の一角や押し入れ、物置を占領していきます。
+          子犬や子猫のころに使っていた小さなケージ、食べてくれずに残ったフードの袋、興味を示さなかったおもちゃ、買い替えて余ったトイレやキャリー、着てくれなかった服など、ペットと暮らしていると、成長や好みの変化、買い替えのたびに使わなくなった用品が生まれ、「まだ使えるのに」という気持ちから手放せないまま、部屋の一角や押し入れ、物置を占めていきます。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、ペット用品が増える理由、今のペットの暮らしに必要な物を先に決める考え方、譲る・寄付する前に確認すること、フードや薬、トイレ材などの消耗品の扱い、ケージや水槽など大きい用品の処分区分を確認して手放す手順を順に解説します。今ペットと暮らしている家庭で使わなくなった用品を対象にしており、見送ったペットの用品の整理は別の記事で扱っています。
@@ -198,12 +198,12 @@ export default function Page() {
 
       {/* 結論先出し */}
       <div className="my-8 rounded-2xl border-2 border-primary bg-blue-50 p-5 sm:p-6">
-        <p className="font-bold text-primary mb-2">この記事の結論</p>
+        <p className="font-bold text-primary mb-2">この記事の要点</p>
         <ul className="space-y-2 text-[15px] leading-8 text-text-secondary list-disc pl-5">
           <li>「今のペットの暮らしに必要な物の一覧」を先に作り、それを基準に用品を4つに分ける</li>
-          <li>譲る・寄付するときは受け入れ先の条件を先に確認する。開封済みのフードや使用済みの用品は受け付けないことが多い</li>
+          <li>譲る・寄付するときは受け入れ先の条件を先に確認（開封済みのフードや使用済みの用品は受け付けない場合が多い）</li>
           <li>薬は動物病院に相談、トイレ材は表示だけでなく自治体と住宅の案内を確認してから出す</li>
-          <li>ケージ・水槽・キャットタワーの処分区分は自治体により異なる。品目を書き出して分別案内で確認し、分解と水抜きをしてから運ぶ</li>
+          <li>ケージ・水槽・キャットタワーの処分区分は自治体により異なるため、品目を書き出して分別案内で確認し、分解と水抜きをしてから運ぶ</li>
         </ul>
       </div>
 
@@ -231,9 +231,9 @@ export default function Page() {
         ))}
       </div>
 
-      <H2 id="merit" num="2">始める前に確認したい3つのこと</H2>
+      <H2 id="merit" num="2">作業前に確認する3つの事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        必要な物の一覧、受け入れ先の条件、大きい物の段取り。この三つを先に整えておくと、当日の判断が止まりません。
+        必要な物の一覧、受け入れ先の条件、大きい物の段取りの三点を先に整えておくと、当日の判断を円滑に進められます。
       </p>
       <div className="space-y-4 mb-4">
         {merits.map((m) => (
@@ -257,7 +257,7 @@ export default function Page() {
 
       <H2 id="steps" num="4">ペット用品を整理する5ステップ</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        集めて並べる→4つに分ける→消耗品の扱いを確認する→大きい物の区分を確認して分解する→置き場所を決めて戻す。この順で進めます。
+        「集めて並べる→4つに分ける→消耗品の扱いを確認する→大きい物の区分を確認して分解する→置き場所を決めて戻す」の順で進めます。
       </p>
       <div className="space-y-5 mb-4">
         {steps.map((s, i) => (
@@ -280,7 +280,7 @@ export default function Page() {
         大きい用品を粗大ごみとして出す場合の流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみの申し込みの流れ</Link>、混み合う時期の対策は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの混雑対策</Link>、自分では運び出せない物の考え方は<Link href="/oogata-kagu-shobun/" className="text-primary underline underline-offset-2">大型家具の処分方法</Link>で扱っています。集合住宅で大きいケージや水槽を運び出す場合は<Link href="/mansion-hanshutsu-dandori/" className="text-primary underline underline-offset-2">マンションの搬出の段取り</Link>、屋外の犬小屋や柵などが残っている場合は<Link href="/niwa-fuyohin-shobun/" className="text-primary underline underline-offset-2">庭の不用品の処分</Link>も参考にしてください。
       </p>
 
-      <H2 id="ng" num="5">やってはいけないNG行動4つ</H2>
+      <H2 id="ng" num="5">避けるべき4つの行動</H2>
       <div className="space-y-4 mb-4">
         {ngActions.map((n) => (
           <div key={n.title} className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
@@ -290,9 +290,9 @@ export default function Page() {
         ))}
       </div>
 
-      <H2 id="gyousha" num="6">業者に相談したほうがよいサイン</H2>
+      <H2 id="gyousha" num="6">業者への相談を検討すべき状況</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        次のような状況では、自分たちだけで抱え込まず、片付け業者への相談を検討してよい場面です。対応できる業者は<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者</Link>や<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者</Link>などエリア別の比較記事から探せます。
+        次のような状況では、片付け業者への相談をご検討ください。対応できる業者は<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者</Link>や<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者</Link>などエリア別の比較記事から探せます。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (
@@ -303,11 +303,11 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        業者に依頼する場合も、今使う用品と譲る物は自分で先に取り分けておく必要があります。取り分けが済んでいれば、残りをまとめて依頼できるので、当日の作業が早く済みます。作業中はペットが驚いたり逃げ出したりしないよう、別の部屋やキャリーに入れておくなど、安全を確保しておきます。依頼先を選ぶ際は、家庭から出る不用品の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲が明記されていることを基準にしてください。確認の仕方は<Link href="/gyousha-kyoka-kakunin/" className="text-primary underline underline-offset-2">片付け業者の許可・資格の確認方法</Link>、依頼できる作業の範囲は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収サービスの内容</Link>、当日の流れは<Link href="/sagyou-toujitsu-tachiai/" className="text-primary underline underline-offset-2">作業当日の立ち会いの流れ</Link>でまとめています。料金は物量・作業内容・地域・事業者により異なりますので、同じ条件で複数社に依頼して比べましょう。
+        業者に依頼する場合も、今使う用品と譲る物は自分で先に取り分けておく必要があります。取り分けが済んでいれば、残りをまとめて依頼できるので、当日の作業が早く済みます。作業中はペットが驚いたり逃げ出したりしないよう、別の部屋やキャリーに入れておくなど、安全を確保しておきます。依頼先を選ぶ際は、家庭から出る不用品の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲が明記されていることを基準にしてください。確認の仕方は<Link href="/gyousha-kyoka-kakunin/" className="text-primary underline underline-offset-2">片付け業者の許可・資格の確認方法</Link>、依頼できる作業の範囲は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収サービスの内容</Link>、当日の流れは<Link href="/sagyou-toujitsu-tachiai/" className="text-primary underline underline-offset-2">作業当日の立ち会いの流れ</Link>でまとめています。料金は物量・作業内容・地域・業者により異なりますので、同じ条件で複数社に見積もりを依頼し、比較してください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">
-          どの業者に相談すべきか迷ったら、編集部が特徴・口コミを比較したランキングと費用相場を参考にしてください。
+          依頼先の業者を検討する際は、編集部が特徴・口コミを比較したランキングと費用相場のページもご参照ください。
         </p>
         <div className="grid sm:grid-cols-2 gap-3">
           <Link href="/ranking/" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-orange-500 text-white font-bold hover:bg-orange-600 transition-colors">
@@ -340,7 +340,7 @@ export default function Page() {
       </div>
 
       <p className="text-xs text-text-muted">
-        本記事は一般的な知識の提供を目的としたものです。ケージ・水槽・キャットタワーなどの分別区分・粗大ごみの対象、フード・トイレ材・砂利の出し方、電気を使う飼育用品の区分は自治体により異なりますので、必ずお住まいの市区町村の公式案内をご確認ください。処方された薬や医療に関わる用品の扱いは、処方した動物病院にご確認ください。寄付や譲渡の受け入れ条件は団体により異なりますので、事前にご確認ください。事業者に依頼する場合の料金および契約の条件は、物量・作業内容・地域・事業者により異なりますので、見積もりと契約書面でご確認ください。廃棄物の収集運搬や古物の取り扱いに必要な許可・届出の要否や範囲については、事業者および自治体の案内でご確認ください。契約や請求をめぐって不安や困りごとがあるときは、消費者ホットライン188に電話すると身近な相談窓口を案内してもらえます。
+        本記事は一般的な知識の提供を目的としたものです。ケージ・水槽・キャットタワーなどの分別区分・粗大ごみの対象、フード・トイレ材・砂利の出し方、電気を使う飼育用品の区分は自治体により異なりますので、必ずお住まいの市区町村の公式案内をご確認ください。処方された薬や医療に関わる用品の扱いは、処方した動物病院にご確認ください。寄付や譲渡の受け入れ条件は団体により異なりますので、事前にご確認ください。業者に依頼する場合の料金および契約の条件は、物量・作業内容・地域・業者により異なりますので、見積もりと契約書面でご確認ください。廃棄物の収集運搬や古物の取り扱いに必要な許可・届出の要否や範囲については、業者および自治体の案内でご確認ください。契約や請求をめぐって不安や困りごとがあるときは、消費者ホットライン188に電話すると身近な相談窓口を案内してもらえます。
       </p>
     </article>
   );

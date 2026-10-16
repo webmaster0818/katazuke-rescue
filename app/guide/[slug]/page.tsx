@@ -17,7 +17,7 @@ export async function generateMetadata({
   const guide = guidesData.find((g) => g.slug === slug);
   if (!guide) return {};
   return {
-    title: `${guide.title}｜片付けレスキュー`,
+    title: guide.title,
     description: guide.description,
     alternates: { canonical: `/guide/${slug}/` },
   };
@@ -102,8 +102,8 @@ export default async function GuidePage({
 
       {/* CTA */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">業者に依頼する場合は比較してから決めましょう</h2>
-        <p className="text-blue-100 text-sm mb-4">自分での作業が難しい場合は、専門業者への依頼も検討してみてください。</p>
+        <h2 className="text-xl font-bold mb-2">業者に依頼する場合は、複数の業者を比較したうえでお決めください</h2>
+        <p className="text-blue-100 text-sm mb-4">ご自身での作業が難しい場合は、専門業者への依頼もご検討ください。</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href="/ranking/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
             業者ランキングを見る

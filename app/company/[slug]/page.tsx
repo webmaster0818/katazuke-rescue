@@ -18,8 +18,8 @@ export async function generateMetadata({
   const company = companiesData.find((c) => c.slug === slug);
   if (!company) return {};
   return {
-    title: `${company.name}の口コミ・評判・料金｜片付けレスキュー`,
-    description: `${company.name}の特徴・料金・口コミ・評判を詳しく解説。${company.tagline}`,
+    title: `${company.name}の口コミ・評判・料金`,
+    description: `${company.name}の特徴・料金・口コミ・評判を解説します。${company.tagline}`,
     alternates: { canonical: `/company/${slug}/` },
   };
 }
@@ -95,7 +95,7 @@ export default async function CompanyPage({
           料金目安
         </h2>
         <p className="text-2xl font-bold text-blue-700">{company.priceRange}</p>
-        <p className="text-sm text-blue-600 mt-1">※規模・状況によって異なります。無料見積もりをご確認ください。</p>
+        <p className="text-sm text-blue-600 mt-1">※料金は作業の規模・状況によって異なります。正確な金額は無料見積もりにてご確認ください。</p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -157,7 +157,7 @@ export default async function CompanyPage({
       {/* CTA */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-6 md:p-8 text-white text-center">
         <h2 className="text-xl font-bold mb-2">{company.name}の無料見積もりを取る</h2>
-        <p className="text-blue-100 text-sm mb-4">公式サイトから無料で見積もりを依頼できます。複数業者と比較してから決めましょう。</p>
+        <p className="text-blue-100 text-sm mb-4">公式サイトから無料で見積もりを依頼できます。依頼先は、複数の業者と比較したうえでお決めください。</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
             href={company.officialUrl}

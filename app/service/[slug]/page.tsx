@@ -18,7 +18,7 @@ export async function generateMetadata({
   const service = servicesData.find((s) => s.slug === slug);
   if (!service) return {};
   return {
-    title: `${service.title}｜片付けレスキュー`,
+    title: service.title,
     description: service.description,
     alternates: { canonical: `/service/${slug}/` },
   };
@@ -60,7 +60,7 @@ export default async function ServicePage({
           <p className="text-sm text-orange-700 font-medium">費用相場</p>
           <p className="text-2xl font-bold text-orange-700">{service.costRange}</p>
         </div>
-        <p className="text-sm text-orange-600 flex-1">※状況・業者・地域により異なります。必ず複数業者から見積もりを取得してください。</p>
+        <p className="text-sm text-orange-600 flex-1">※料金は状況・業者・地域により異なります。複数の業者から見積もりを取得してください。</p>
       </div>
 
       {/* Sections */}
@@ -81,7 +81,7 @@ export default async function ServicePage({
             <line x1="12" y1="8" x2="12" y2="12"/>
             <line x1="12" y1="16" x2="12.01" y2="16"/>
           </svg>
-          賢い業者選びのポイント
+          業者選びの確認事項
         </h2>
         <ul className="space-y-2">
           {service.tips.map((tip, index) => (
@@ -157,8 +157,8 @@ export default async function ServicePage({
 
       {/* CTA */}
       <div className="bg-blue-600 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">まずは無料で見積もりを取りましょう</h2>
-        <p className="text-blue-100 text-sm mb-4">複数の業者を比較することで、最安値で最適な業者を見つけることができます。</p>
+        <h2 className="text-xl font-bold mb-2">依頼前に複数の業者から見積もりを取得することをおすすめします</h2>
+        <p className="text-blue-100 text-sm mb-4">同じ条件で複数の業者を比較すると、料金と作業内容が適正かどうかを判断しやすくなります。</p>
         <Link href="/ranking/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
           業者ランキングを確認する
         </Link>

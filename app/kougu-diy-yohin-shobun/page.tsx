@@ -6,7 +6,7 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/kougu-diy-yohin-shobun/";
 const TITLE = "工具・DIY用品・塗料の整理と処分｜刃物・電動工具・使いかけの塗料を安全に手放す手順";
 const DESC =
-  "押し入れやベランダの工具箱に増えた工具、DIYで余った木材や金物、使いかけの塗料やスプレー。何から手を付ければよいか分からず放置されがちな品目です。工具を残す基準、刃物や電動工具のバッテリーの扱い、塗料やスプレー缶を自治体の区分で出す考え方、端材やネジ類の整理、状態のよい工具を売る選択肢までを手順に沿って解説します。";
+  "押し入れやベランダの工具箱に増えた工具、DIYで余った木材や金物、使いかけの塗料やスプレーなどは、放置されやすい品目です。工具を残す基準、刃物や電動工具のバッテリーの扱い、塗料やスプレー缶を自治体の区分で出す考え方、端材やネジ類の整理、状態のよい工具を売る選択肢までを手順に沿って解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
@@ -48,8 +48,8 @@ const merits = [
 
 const steps = [
   {
-    title: "工具とDIY用品を、置き場所ごとに全部出す",
-    body: "押し入れの工具箱、ベランダや物置の棚、玄関の収納、車の中など、工具やDIY用品が分散している場所をすべて確認し、一か所に出します。木材や金属の端材、ネジや釘の小袋、塗料の缶、スプレー、接着剤、テープ類も含めます。分散したまま整理すると、同じ物を別々の場所に残してしまい、結局は減りません。量が多い場合は、「工具」「消耗品」「材料」「塗料類」と大まかに分けながら出すと、次の作業が早くなります。",
+    title: "工具とDIY用品を、置き場所ごとにすべて出す",
+    body: "押し入れの工具箱、ベランダや物置の棚、玄関の収納、車の中など、工具やDIY用品が分散している場所をすべて確認し、一か所に出します。木材や金属の端材、ネジや釘の小袋、塗料の缶、スプレー、接着剤、テープ類も含めます。分散したまま整理すると、同じ物を別々の場所に残してしまい、量が減りません。量が多い場合は、「工具」「消耗品」「材料」「塗料類」と大まかに分けながら出すと、次の作業が早くなります。",
   },
   {
     title: "工具を「使う」「予備」「使わない」に分ける",
@@ -57,7 +57,7 @@ const steps = [
   },
   {
     title: "塗料・スプレー・バッテリー・刃物は、自治体の分別区分を確認して出す",
-    body: "中身の残った塗料、スプレー缶、電動工具の充電式バッテリー、刃物は、それぞれ出し方が自治体によって決められていることが一般的です。塗料は中身を残したまま出せるか、固めてから出すのか、スプレー缶は穴あけが必要かどうか、バッテリーは回収拠点に持ち込むのか、刃物はどう包むのか。いずれも自治体ごとに異なるため、品目を書き出して、お住まいの市区町村の分別案内で確認してください。自治体で収集しない品目は、購入した販売店やメーカーの案内を確認する方法もあります。",
+    body: "中身の残った塗料、スプレー缶、電動工具の充電式バッテリー、刃物は、それぞれ出し方が自治体によって決められていることが一般的です。塗料は中身を残したまま出せるか、固めてから出すのか、スプレー缶は穴あけが必要かどうか、バッテリーは回収拠点に持ち込むのか、刃物をどう包むのかは、いずれも自治体ごとに異なるため、品目を書き出して、お住まいの市区町村の分別案内で確認してください。自治体で収集しない品目は、購入した販売店やメーカーの案内を確認する方法もあります。",
   },
   {
     title: "端材・ネジ・金物などの材料を、量の上限を決めて整理する",
@@ -161,11 +161,11 @@ function H2({ id, num, children }: { id: string; num: string; children: React.Re
 export default function Page() {
   const toc = [
     { href: "#kiso", label: "1｜工具・DIY用品が増え続ける3つの理由" },
-    { href: "#merit", label: "2｜始める前に確認したい3つのこと" },
+    { href: "#merit", label: "2｜作業前に確認する3つの事項" },
     { href: "#houshin", label: "3｜「残す工具」と「分けて出す物」を先に決める" },
     { href: "#steps", label: "4｜工具・DIY用品を整理する5ステップ" },
-    { href: "#ng", label: "5｜やってはいけないNG行動4つ" },
-    { href: "#gyousha", label: "6｜業者に相談したほうがよいサイン" },
+    { href: "#ng", label: "5｜避けるべき4つの行動" },
+    { href: "#gyousha", label: "6｜業者への相談を検討すべき状況" },
     { href: "#faq", label: "7｜よくある質問" },
     { href: "#related", label: "8｜関連記事" },
   ];
@@ -189,7 +189,7 @@ export default function Page() {
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          押し入れの奥の工具箱、ベランダの棚に並んだ塗料の缶、家具の組み立てで増えた六角レンチ、DIYで余った木材やネジの小袋。工具やDIY用品は壊れにくく減らないうえに、塗料やスプレー、刃物、バッテリーといった扱いに注意が必要な物が混ざっているため、「どう捨てればよいか分からない」で手が止まりやすい品目です。
+          押し入れの奥の工具箱、ベランダの棚に並んだ塗料の缶、家具の組み立てで増えた六角レンチ、DIYで余った木材やネジの小袋など、工具やDIY用品は壊れにくく減らないうえに、塗料やスプレー、刃物、バッテリーといった扱いに注意が必要な物が混ざっているため、「どう捨てればよいか分からない」で手が止まりやすい品目です。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、工具やDIY用品が増え続ける理由、残す工具を決める基準、塗料・スプレー・バッテリー・刃物を分けて考える理由、自治体の区分を確認してから出す進め方、端材やネジ類の整理、状態のよい工具を売る選択肢までを順に解説します。ガレージや物置全体の片付けは別の記事で扱っており、本記事は「工具とDIY用品そのもの」の整理に絞っています。
@@ -198,11 +198,11 @@ export default function Page() {
 
       {/* 結論先出し */}
       <div className="my-8 rounded-2xl border-2 border-primary bg-blue-50 p-5 sm:p-6">
-        <p className="font-bold text-primary mb-2">この記事の結論</p>
+        <p className="font-bold text-primary mb-2">この記事の要点</p>
         <ul className="space-y-2 text-[15px] leading-8 text-text-secondary list-disc pl-5">
           <li>工具は「この一年で使ったか」で残す物を決め、重複は状態のよい一本に絞る</li>
           <li>塗料・スプレー・バッテリー・刃物は最初に取り分け、自治体の分別区分を確認してから出す</li>
-          <li>塗料や溶剤を排水や土に流さない。スプレー缶の穴あけは自治体の指示に従う</li>
+          <li>塗料や溶剤は排水や土に流さず、スプレー缶の穴あけは自治体の指示に従う</li>
           <li>付属品がそろった状態のよい工具は、処分と分けて売る・譲る選択肢を残す</li>
         </ul>
       </div>
@@ -220,7 +220,7 @@ export default function Page() {
 
       <H2 id="kiso" num="1">工具・DIY用品が増え続ける3つの理由</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        なぜ工具箱はいつも満杯なのか。品目の性質を知ると、減らす基準が見えてきます。
+        工具箱が満杯になりやすい理由と、品目の性質をご説明します。性質を把握すると、減らす基準を決めやすくなります。
       </p>
       <div className="space-y-6 mb-4">
         {basics.map((c) => (
@@ -231,7 +231,7 @@ export default function Page() {
         ))}
       </div>
 
-      <H2 id="merit" num="2">始める前に確認したい3つのこと</H2>
+      <H2 id="merit" num="2">作業前に確認する3つの事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
         基準と安全の準備を先に済ませておくと、当日の作業が止まりません。
       </p>
@@ -257,7 +257,7 @@ export default function Page() {
 
       <H2 id="steps" num="4">工具・DIY用品を整理する5ステップ</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        全部出す→工具を分ける→危険な物の区分を確認する→材料を減らす→置き場所を固定する。この順で進めます。
+        「すべて出す→工具を分ける→危険な物の区分を確認する→材料を減らす→置き場所を固定する」の順で進めます。
       </p>
       <div className="space-y-5 mb-4">
         {steps.map((s, i) => (
@@ -280,7 +280,7 @@ export default function Page() {
         「使わない」に分けた工具のうち、状態がよく付属品がそろっている物は、処分と分けて売る、譲るという選択肢があります。売れる物と処分する物の分け方は<Link href="/recycle-shop-kaitori-heiyou/" className="text-primary underline underline-offset-2">リサイクルショップの買取と処分の併用</Link>で扱っています。端材や大きな工具を自分で処理施設に持ち込む方法は<Link href="/jiko-hannyu-shobun/" className="text-primary underline underline-offset-2">ごみ処理施設への自己搬入</Link>、粗大ごみとして出す場合の流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみの申し込みの流れ</Link>にまとめています。不用品の手放し方の全体像は<Link href="/fuyohin-shobun-route/" className="text-primary underline underline-offset-2">不用品の処分ルート</Link>を参考にしてください。
       </p>
 
-      <H2 id="ng" num="5">やってはいけないNG行動4つ</H2>
+      <H2 id="ng" num="5">避けるべき4つの行動</H2>
       <div className="space-y-4 mb-4">
         {ngActions.map((n) => (
           <div key={n.title} className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
@@ -290,9 +290,9 @@ export default function Page() {
         ))}
       </div>
 
-      <H2 id="gyousha" num="6">業者に相談したほうがよいサイン</H2>
+      <H2 id="gyousha" num="6">業者への相談を検討すべき状況</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        次のような状況では、自分たちだけで抱え込まず、片付け業者への相談を検討してよい場面です。対応できる業者は<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者</Link>や<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者</Link>などエリア別の比較記事から探せます。
+        次のような状況では、片付け業者への相談をご検討ください。対応できる業者は<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者</Link>や<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者</Link>などエリア別の比較記事から探せます。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (
@@ -303,11 +303,11 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        業者に依頼する場合も、塗料や溶剤、バッテリーなどは引き受けられる範囲が事業者によって異なります。見積もりの段階で、扱えない品目があるかどうかを確認しておくと、当日に残されることを防げます。依頼先を選ぶ際は、家庭から出る不用品の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲が明記されていることを基準にしてください。確認の仕方は<Link href="/gyousha-kyoka-kakunin/" className="text-primary underline underline-offset-2">片付け業者の許可・資格の確認方法</Link>、街中を巡回する無料回収をうたう車両への注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点</Link>でまとめています。料金は物量・作業内容・地域・事業者により異なりますので、同じ条件で複数社に依頼して比べましょう。
+        業者に依頼する場合も、塗料や溶剤、バッテリーなどは引き受けられる範囲が業者によって異なります。見積もりの段階で、扱えない品目があるかどうかを確認しておくと、当日に残されることを防げます。依頼先を選ぶ際は、家庭から出る不用品の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲が明記されていることを基準にしてください。確認の仕方は<Link href="/gyousha-kyoka-kakunin/" className="text-primary underline underline-offset-2">片付け業者の許可・資格の確認方法</Link>、街中を巡回する無料回収をうたう車両への注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点</Link>でまとめています。料金は物量・作業内容・地域・業者により異なりますので、同じ条件で複数社に見積もりを依頼し、比較してください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">
-          どの業者に相談すべきか迷ったら、編集部が特徴・口コミを比較したランキングと費用相場を参考にしてください。
+          依頼先の業者を検討する際は、編集部が特徴・口コミを比較したランキングと費用相場のページもご参照ください。
         </p>
         <div className="grid sm:grid-cols-2 gap-3">
           <Link href="/ranking/" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-orange-500 text-white font-bold hover:bg-orange-600 transition-colors">
@@ -340,7 +340,7 @@ export default function Page() {
       </div>
 
       <p className="text-xs text-text-muted">
-        本記事は一般的な知識の提供を目的としたものです。塗料・溶剤・スプレー缶・充電式バッテリー・刃物・木材などの分別区分、穴あけの要否、回収方法、出し方は自治体により異なりますので、必ずお住まいの市区町村の公式案内をご確認ください。自治体で収集しない品目は、購入した販売店やメーカーの案内をご確認ください。事業者に依頼する場合の料金および契約の条件は、物量・作業内容・地域・事業者により異なりますので、見積もりと契約書面でご確認ください。廃棄物の収集運搬や古物の取り扱いに必要な許可・届出の要否や範囲については、事業者および自治体の案内でご確認ください。契約や請求をめぐって不安や困りごとがあるときは、消費者ホットライン188に電話すると身近な相談窓口を案内してもらえます。
+        本記事は一般的な知識の提供を目的としたものです。塗料・溶剤・スプレー缶・充電式バッテリー・刃物・木材などの分別区分、穴あけの要否、回収方法、出し方は自治体により異なりますので、必ずお住まいの市区町村の公式案内をご確認ください。自治体で収集しない品目は、購入した販売店やメーカーの案内をご確認ください。業者に依頼する場合の料金および契約の条件は、物量・作業内容・地域・業者により異なりますので、見積もりと契約書面でご確認ください。廃棄物の収集運搬や古物の取り扱いに必要な許可・届出の要否や範囲については、業者および自治体の案内でご確認ください。契約や請求をめぐって不安や困りごとがあるときは、消費者ホットライン188に電話すると身近な相談窓口を案内してもらえます。
       </p>
     </article>
   );

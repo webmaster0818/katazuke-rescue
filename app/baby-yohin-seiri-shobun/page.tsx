@@ -6,7 +6,7 @@ const SITE = "https://katazuke-rescue.com";
 const PATH = "/baby-yohin-seiri-shobun/";
 const TITLE = "ベビー用品の整理と処分｜チャイルドシート・ベビーカー・ベビーベッドを手放す基準と手順";
 const DESC =
-  "使わなくなったベビーカー、チャイルドシート、ベビーベッド、抱っこひも、哺乳瓶。短期間で役目を終えるベビー用品は、次の子のためにと残しやすく、押し入れや物置を占領します。残すか手放すかの基準、安全に関わる用品を譲るときの注意点、大きい用品の処分区分の確認先、譲る・売る・寄付する選択肢を解説します。";
+  "使わなくなったベビーカー、チャイルドシート、ベビーベッド、抱っこひも、哺乳瓶など、短期間で役目を終えるベビー用品は、次の子のためにと残しやすく、押し入れや物置を占領します。残すか手放すかの基準、安全に関わる用品を譲るときの注意点、大きい用品の処分区分の確認先、譲る・売る・寄付する選択肢を解説します。";
 const PUBLISHED = "2026-09-08";
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ const basics = [
   },
   {
     title: "「次の子のため」が最も残す理由になりやすい",
-    body: "ベビー用品を残す理由として最も多いのは、「次の子が生まれたときに使うかもしれない」というものです。この考え方自体は自然ですが、次の子の予定が具体的にない場合や、生まれるまでの期間が長い場合、保管の場所と、その間に用品が傷んだり、安全の基準が変わったりすることを考える必要があります。「次の子のため」に残す物は、本当に必要な物に絞り、残す期間の目安を決めておくと、家の中を占領し続けることを防げます。",
+    body: "ベビー用品を残す理由として最も多いのは、「次の子が生まれたときに使うかもしれない」というものです。この考え方自体は自然ですが、次の子の予定が具体的にない場合や、生まれるまでの期間が長い場合、保管の場所と、その間に用品が傷んだり、安全の基準が変わったりすることを考える必要があります。「次の子のため」に残す物は、必要な物に絞り、残す期間の目安を決めておくと、家の中を占領し続けることを防げます。",
   },
   {
     title: "安全に関わる用品は、一般の不用品と分けて考える",
@@ -48,7 +48,7 @@ const merits = [
 
 const steps = [
   {
-    title: "ベビー用品を、大きい物と小さい物に分けて全部出す",
+    title: "ベビー用品を、大きい物と小さい物に分けてすべて出す",
     body: "押し入れ、クローゼット、物置、車の中、実家に預けている物など、ベビー用品がある場所をすべて確認し、一か所に出します。ベビーベッド、ベビーカー、チャイルドシート、ハイチェアなどの大きい物と、衣類、哺乳瓶、離乳食の道具、おもちゃ、絵本、抱っこひも、おむつ関連などの小さい物に分けながら出すと、次の作業が早くなります。成長の段階ごとに分けておくと、「次の子のため」に残す物を絞りやすくなります。",
   },
   {
@@ -65,7 +65,7 @@ const steps = [
   },
   {
     title: "残す用品は、まとめて保管し、期限を書いておく",
-    body: "次の子のために残すと決めた用品は、成長の段階ごとに箱にまとめ、中身と保管期間の上限を箱に書いておきます。衣類は洗ってから、哺乳瓶や道具は乾かしてからしまいます。大きい用品は分解できる物は分解し、部品と取扱説明書を一緒にまとめておくと、次に使うときに困りません。期限が来たら改めて見直し、使わなければ手放します。空いた場所は、今の子どもの成長に合わせた収納に使うと、次の物が入り込むのを防げます。",
+    body: "次の子のために残すと決めた用品は、成長の段階ごとに箱にまとめ、中身と保管期間の上限を箱に記入しておきます。衣類は洗ってから、哺乳瓶や道具は乾かしてからしまいます。大きい用品は分解できる物は分解し、部品と取扱説明書を一緒にまとめておくと、次に使うときに困りません。期限が来たら改めて見直し、使わなければ手放します。空いた場所は、今の子どもの成長に合わせた収納に使うと、次の物が入り込むのを防げます。",
   },
 ];
 
@@ -76,7 +76,7 @@ const ngActions = [
   },
   {
     title: "「次の子のため」と、期限を決めずにすべて残す",
-    body: "次の子の予定が具体的にないまま、すべてのベビー用品を残すと、押し入れや物置を長期間占領し、今の暮らしに必要な物の置き場所がなくなります。残す物は買い直す負担が大きい物に絞り、「二年以内に使わなければ手放す」のように期限を決めておきます。衣類や小物は、必要になったときに改めてそろえるという考え方も現実的です。",
+    body: "次の子の予定が具体的にないまま、すべてのベビー用品を残すと、押し入れや物置を長期間占領し、今の暮らしに必要な物の置き場所がなくなります。残す物は買い直す負担が大きい物に絞り、「二年以内に使わなければ手放す」のように期限を決めておきます。衣類や小物は、必要になったときに改めてそろえるという考え方もあります。",
   },
   {
     title: "電池の入ったおもちゃやメリーを、電池を外さずにそのまま出す",
@@ -161,11 +161,11 @@ function H2({ id, num, children }: { id: string; num: string; children: React.Re
 export default function Page() {
   const toc = [
     { href: "#kiso", label: "1｜ベビー用品が家を占領する3つの理由" },
-    { href: "#merit", label: "2｜始める前に確認したい3つのこと" },
+    { href: "#merit", label: "2｜作業前に確認する3つの事項" },
     { href: "#houshin", label: "3｜「次の子のため」と「安全」の二つの軸で考える" },
     { href: "#steps", label: "4｜ベビー用品を整理する5ステップ" },
-    { href: "#ng", label: "5｜やってはいけないNG行動4つ" },
-    { href: "#gyousha", label: "6｜業者に相談したほうがよいサイン" },
+    { href: "#ng", label: "5｜避けるべき4つの行動" },
+    { href: "#gyousha", label: "6｜業者への相談を検討すべき状況" },
     { href: "#faq", label: "7｜よくある質問" },
     { href: "#related", label: "8｜関連記事" },
   ];
@@ -189,7 +189,7 @@ export default function Page() {
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          玄関に置いたままのベビーカー、車から下ろしたチャイルドシート、分解して押し入れに入れたベビーベッド、箱に詰めた哺乳瓶や離乳食の道具。子どもの成長とともに短い期間で役目を終えるベビー用品は、「次の子のために」「まだきれいだから」と残しやすく、成長の段階ごとに使い終えた物が積み重なって、家の中で最も物量の多い品目の一つになります。
+          玄関に置いたままのベビーカー、車から下ろしたチャイルドシート、分解して押し入れに入れたベビーベッド、箱に詰めた哺乳瓶や離乳食の道具など、子どもの成長とともに短い期間で役目を終えるベビー用品は、「次の子のために」「まだきれいだから」と残しやすく、成長の段階ごとに使い終えた物が積み重なって、家の中で最も物量の多い品目の一つになります。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、ベビー用品が家を占領する理由、「次の子のため」に残す物を絞る考え方、チャイルドシートやベビーベッドなど安全に関わる用品を譲るときの注意点、大きい用品の処分区分を確認する進め方、譲る・売る・寄付するという選択肢、残す物の保管の仕方を順に解説します。育児の合間に少しずつ進められるよう、段階を区切って書いています。
@@ -198,12 +198,12 @@ export default function Page() {
 
       {/* 結論先出し */}
       <div className="my-8 rounded-2xl border-2 border-primary bg-blue-50 p-5 sm:p-6">
-        <p className="font-bold text-primary mb-2">この記事の結論</p>
+        <p className="font-bold text-primary mb-2">この記事の要点</p>
         <ul className="space-y-2 text-[15px] leading-8 text-text-secondary list-disc pl-5">
           <li>「次の子のため」に残す物は、買い直す負担が大きい物に絞り、保管期間の上限を決める</li>
-          <li>チャイルドシートなど安全に関わる用品は、使用期限とリコールを確認してから譲る。迷ったら譲らない</li>
-          <li>大きい用品の処分区分は自治体により異なる。品目を書き出して分別案内で確認する</li>
-          <li>電池の入ったおもちゃは電池を外してから出す。電池の区分は自治体の指示に従う</li>
+          <li>チャイルドシートなど安全に関わる用品は、使用期限とリコールを確認してから譲渡し、判断に迷う場合は譲らない</li>
+          <li>大きい用品の処分区分は自治体により異なるため、品目を書き出して分別案内で確認</li>
+          <li>電池の入ったおもちゃは電池を外してから出し、電池は自治体の区分に従って処分</li>
         </ul>
       </div>
 
@@ -220,7 +220,7 @@ export default function Page() {
 
       <H2 id="kiso" num="1">ベビー用品が家を占領する3つの理由</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        使う期間は短いのに、なぜこれほど増えるのか。理由が分かると、残す基準が決めやすくなります。
+        ベビー用品は使用期間が短い一方で、物量が増えやすい品目です。その理由を把握すると、残す基準を決めやすくなります。
       </p>
       <div className="space-y-6 mb-4">
         {basics.map((c) => (
@@ -231,9 +231,9 @@ export default function Page() {
         ))}
       </div>
 
-      <H2 id="merit" num="2">始める前に確認したい3つのこと</H2>
+      <H2 id="merit" num="2">作業前に確認する3つの事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        残す基準、安全の確認、搬出の段取り。この三つを先に整えておくと、当日の作業が止まりません。
+        残す基準、安全の確認、搬出の段取りの三点を先に整えておくと、当日の作業を円滑に進められます。
       </p>
       <div className="space-y-4 mb-4">
         {merits.map((m) => (
@@ -246,7 +246,7 @@ export default function Page() {
 
       <H2 id="houshin" num="3">「次の子のため」と「安全」の二つの軸で考える</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        ベビー用品の整理は、「残すかどうか」と「人に渡してよいかどうか」の二つの軸で考えると整理しやすくなります。残すかどうかは、次の子の予定と保管期間の上限で決めます。予定が具体的にあるなら必要な物を残し、未定なら買い直す負担の大きい物に絞って、期限を決めて残します。衣類や哺乳瓶、離乳食の道具などの小物は、必要になったときに改めてそろえるという考え方が現実的なことも多く、すべてを残す必要はありません。子どもの成長に合わせて物を入れ替えていく考え方は<Link href="/kodomo-seichou-shuunou/" className="text-primary underline underline-offset-2">子どもの成長に合わせた収納の見直し</Link>で扱っています。
+        ベビー用品の整理は、「残すかどうか」と「人に渡してよいかどうか」の二つの軸で考えると整理しやすくなります。残すかどうかは、次の子の予定と保管期間の上限で決めます。予定が具体的にあるなら必要な物を残し、未定なら買い直す負担の大きい物に絞って、期限を決めて残します。衣類や哺乳瓶、離乳食の道具などの小物は、必要になったときに改めてそろえるという考え方が適していることも多く、すべてを残す必要はありません。子どもの成長に合わせて物を入れ替えていく考え方は<Link href="/kodomo-seichou-shuunou/" className="text-primary underline underline-offset-2">子どもの成長に合わせた収納の見直し</Link>で扱っています。
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
         人に渡してよいかどうかは、安全に関わる用品かどうかで分けます。チャイルドシート、ベビーベッド、ベビーカー、抱っこひもなどは、製品の状態、使用期限の有無、リコールの対象になっていないかを確認してから、譲る、売る、寄付するかを決めます。事故の衝撃を受けたチャイルドシート、部品が欠けている物、取扱説明書がなく正しい使い方を伝えられない物は、見た目がきれいでも譲らないという判断が安全です。確認はメーカーの案内で行い、確認できない物は譲らずに処分する選択肢を残してください。状態のよい用品を売る場合の考え方は<Link href="/recycle-shop-kaitori-heiyou/" className="text-primary underline underline-offset-2">リサイクルショップの買取と処分の併用</Link>で扱っています。
@@ -257,7 +257,7 @@ export default function Page() {
 
       <H2 id="steps" num="4">ベビー用品を整理する5ステップ</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        全部出す→3つに分ける→安全を確認する→区分を確認して出す→残す物を期限付きで保管する。この順で進めます。
+        「すべて出す→3つに分ける→安全を確認する→区分を確認して出す→残す物を期限付きで保管する」の順で進めます。
       </p>
       <div className="space-y-5 mb-4">
         {steps.map((s, i) => (
@@ -280,7 +280,7 @@ export default function Page() {
         大きい用品を粗大ごみとして出す場合の流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみの申し込みの流れ</Link>、混み合う時期の対策は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの混雑対策</Link>、自分では運び出せない物の考え方は<Link href="/oogata-kagu-shobun/" className="text-primary underline underline-offset-2">大型家具の処分方法</Link>で扱っています。ベビーカーを玄関に置く場合の考え方は<Link href="/genkan-getabako-seiri/" className="text-primary underline underline-offset-2">玄関・下駄箱の片付け</Link>、残す用品を一時的に家の外に預ける場合は<Link href="/trunk-room-katsuyou/" className="text-primary underline underline-offset-2">トランクルームの活用</Link>を参考にしてください。
       </p>
 
-      <H2 id="ng" num="5">やってはいけないNG行動4つ</H2>
+      <H2 id="ng" num="5">避けるべき4つの行動</H2>
       <div className="space-y-4 mb-4">
         {ngActions.map((n) => (
           <div key={n.title} className="rounded-2xl border border-amber-300 bg-amber-50 p-5">
@@ -290,9 +290,9 @@ export default function Page() {
         ))}
       </div>
 
-      <H2 id="gyousha" num="6">業者に相談したほうがよいサイン</H2>
+      <H2 id="gyousha" num="6">業者への相談を検討すべき状況</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        次のような状況では、自分たちだけで抱え込まず、片付け業者への相談を検討してよい場面です。対応できる業者は<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者</Link>や<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者</Link>などエリア別の比較記事から探せます。
+        次のような状況では、片付け業者への相談をご検討ください。対応できる業者は<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者</Link>や<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者</Link>などエリア別の比較記事から探せます。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (
@@ -303,11 +303,11 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        業者に依頼する場合も、「次の子のために残す物」と「譲る物」は自分で先に取り分けておく必要があります。取り分けが済んでいれば、残りをまとめて依頼できるので、当日の作業が早く済みます。依頼先を選ぶ際は、家庭から出る不用品の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲が明記されていることを基準にしてください。確認の仕方は<Link href="/gyousha-kyoka-kakunin/" className="text-primary underline underline-offset-2">片付け業者の許可・資格の確認方法</Link>、集合住宅での搬出の段取りは<Link href="/mansion-hanshutsu-dandori/" className="text-primary underline underline-offset-2">マンションの搬出の段取り</Link>でまとめています。料金は物量・作業内容・地域・事業者により異なりますので、同じ条件で複数社に依頼して比べましょう。
+        業者に依頼する場合も、「次の子のために残す物」と「譲る物」は自分で先に取り分けておく必要があります。取り分けが済んでいれば、残りをまとめて依頼できるので、当日の作業が早く済みます。依頼先を選ぶ際は、家庭から出る不用品の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲が明記されていることを基準にしてください。確認の仕方は<Link href="/gyousha-kyoka-kakunin/" className="text-primary underline underline-offset-2">片付け業者の許可・資格の確認方法</Link>、集合住宅での搬出の段取りは<Link href="/mansion-hanshutsu-dandori/" className="text-primary underline underline-offset-2">マンションの搬出の段取り</Link>でまとめています。料金は物量・作業内容・地域・業者により異なりますので、同じ条件で複数社に見積もりを依頼し、比較してください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">
-          どの業者に相談すべきか迷ったら、編集部が特徴・口コミを比較したランキングと費用相場を参考にしてください。
+          依頼先の業者を検討する際は、編集部が特徴・口コミを比較したランキングと費用相場のページもご参照ください。
         </p>
         <div className="grid sm:grid-cols-2 gap-3">
           <Link href="/ranking/" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-orange-500 text-white font-bold hover:bg-orange-600 transition-colors">
@@ -340,7 +340,7 @@ export default function Page() {
       </div>
 
       <p className="text-xs text-text-muted">
-        本記事は一般的な知識の提供を目的としたものです。ベビー用品の分別区分・粗大ごみの対象・電池の出し方は自治体により異なりますので、必ずお住まいの市区町村の公式案内をご確認ください。チャイルドシートなど安全に関わる用品の使用期限やリコールの有無は、製品のメーカーの案内でご確認ください。寄付や譲渡の受け入れ条件は団体により異なりますので、事前にご確認ください。事業者に依頼する場合の料金および契約の条件は、物量・作業内容・地域・事業者により異なりますので、見積もりと契約書面でご確認ください。廃棄物の収集運搬や古物の取り扱いに必要な許可・届出の要否や範囲については、事業者および自治体の案内でご確認ください。契約や請求をめぐって不安や困りごとがあるときは、消費者ホットライン188に電話すると身近な相談窓口を案内してもらえます。
+        本記事は一般的な知識の提供を目的としたものです。ベビー用品の分別区分・粗大ごみの対象・電池の出し方は自治体により異なりますので、必ずお住まいの市区町村の公式案内をご確認ください。チャイルドシートなど安全に関わる用品の使用期限やリコールの有無は、製品のメーカーの案内でご確認ください。寄付や譲渡の受け入れ条件は団体により異なりますので、事前にご確認ください。業者に依頼する場合の料金および契約の条件は、物量・作業内容・地域・業者により異なりますので、見積もりと契約書面でご確認ください。廃棄物の収集運搬や古物の取り扱いに必要な許可・届出の要否や範囲については、業者および自治体の案内でご確認ください。契約や請求をめぐって不安や困りごとがあるときは、消費者ホットライン188に電話すると身近な相談窓口を案内してもらえます。
       </p>
     </article>
   );

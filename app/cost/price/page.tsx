@@ -4,7 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "片付け・不用品回収の費用相場2026年版｜サービス別料金比較",
-  description: "ゴミ屋敷・遺品整理・不用品回収・引越し片付けなどの費用相場を徹底解説。部屋の広さ別・サービス別の料金目安をご確認ください。",
+  description: "ゴミ屋敷の片付け・遺品整理・不用品回収・引っ越し前の片付けなどの費用相場を、部屋の広さ別・サービス別に掲載しています。",
   alternates: { canonical: "/cost/price/" },
 };
 
@@ -70,7 +70,7 @@ export default function PricePage() {
           片付け・不用品回収の費用相場【2026年最新版】
         </h1>
         <p className="text-slate-600 leading-relaxed">
-          サービス種別・部屋の広さ別の料金目安を解説します。見積もりを取る前の参考にご活用ください。
+          サービス種別・部屋の広さ別の料金目安を掲載しています。見積もりを依頼する前の参考としてご利用ください。
         </p>
       </div>
 
@@ -83,7 +83,7 @@ export default function PricePage() {
             <line x1="12" y1="17" x2="12.01" y2="17"/>
           </svg>
           <p className="text-sm text-amber-800">
-            <strong>ご注意：</strong>下記の料金はあくまでも目安です。実際の費用はゴミの量・種類・地域・業者によって大きく異なります。必ず事前に無料見積もりを取得してください。
+            <strong>ご注意：</strong>下記の料金は目安です。実際の費用は、ごみの量・種類・地域・業者によって大きく異なります。依頼前に無料見積もりを取得してください。
           </p>
         </div>
       </div>
@@ -152,14 +152,14 @@ export default function PricePage() {
 
       {/* Cost saving tips */}
       <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8">
-        <h2 className="font-bold text-green-900 mb-3">費用を安くするためのヒント</h2>
+        <h2 className="font-bold text-green-900 mb-3">費用を抑えるための方法</h2>
         <ul className="space-y-2 text-sm text-slate-700">
           {[
-            "3社以上の相見積もりで最安値を探す",
-            "平日・閑散期（5〜8月）に依頼すると割引になる場合が多い",
-            "リサイクル可能品は買い取りサービスで費用相殺",
-            "自治体の粗大ゴミ回収（1点200〜2,000円）を組み合わせる",
-            "事前に捨ててよいものをまとめておくと作業時間短縮",
+            "3社以上から相見積もりを取り、料金を比較する",
+            "平日・閑散期（5〜8月）の依頼は割引の対象となる場合がある",
+            "再利用できる品物は買取サービスを利用し、費用と相殺する",
+            "自治体の粗大ごみ収集（1点200〜2,000円）を併用する",
+            "処分してよい物を事前にまとめ、作業時間を短縮する",
           ].map((tip, i) => (
             <li key={i} className="flex items-start gap-2">
               <svg className="text-green-600 flex-shrink-0 mt-0.5" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -170,7 +170,7 @@ export default function PricePage() {
           ))}
         </ul>
         <Link href="/guide/cost-saving/" className="inline-flex items-center gap-1 text-sm text-green-700 font-medium mt-3 hover:underline">
-          費用節約の詳しいガイドを見る
+          費用を抑える方法を詳しく見る
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <polyline points="9 18 15 12 9 6"/>
           </svg>
@@ -179,8 +179,8 @@ export default function PricePage() {
 
       {/* CTA */}
       <div className="bg-blue-600 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">正確な費用は無料見積もりで確認</h2>
-        <p className="text-blue-100 text-sm mb-4">相場を参考にしながら、実際の費用は複数業者の見積もりで比較しましょう。</p>
+        <h2 className="text-xl font-bold mb-2">正確な費用は無料見積もりでご確認ください</h2>
+        <p className="text-blue-100 text-sm mb-4">実際の費用は、相場を参考にしながら複数の業者の見積もりで比較してください。</p>
         <Link href="/ranking/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
           おすすめ業者ランキングを見る
         </Link>

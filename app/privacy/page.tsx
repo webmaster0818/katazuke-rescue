@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "プライバシーポリシー｜片付けレスキュー",
+  title: "プライバシーポリシー",
   description: "片付けレスキューのプライバシーポリシーです。",
   alternates: { canonical: "/privacy/" },
 };

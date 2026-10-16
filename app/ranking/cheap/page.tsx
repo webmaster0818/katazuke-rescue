@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
   title: "格安片付け業者ランキング｜費用を安く抑えるおすすめ業者比較",
-  description: "料金の安い片付け・不用品回収業者のランキング。最安値水準の業者を厳選してご紹介。見積もり無料の業者も多数掲載。",
+  description: "料金を抑えて依頼できる片付け・不用品回収業者のランキングです。見積もり無料の業者を中心に、料金目安と特徴を比較して掲載しています。",
   alternates: { canonical: "/ranking/cheap/" },
 };
 
@@ -36,7 +36,7 @@ export default function CheapRankingPage() {
           格安片付け業者ランキング【2026年最新】
         </h1>
         <p className="text-slate-600 leading-relaxed">
-          費用を抑えながら安心して依頼できる格安業者をランキング形式でご紹介。料金の安さだけでなく、品質・信頼性も考慮した総合ランキングです。
+          費用を抑えて依頼できる業者をランキング形式で掲載しています。料金の安さに加え、品質と信頼性も評価の対象としています。
         </p>
       </div>
 
@@ -47,14 +47,14 @@ export default function CheapRankingPage() {
 
       {/* Tips box */}
       <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-8">
-        <h2 className="font-bold text-blue-900 mb-3">費用を安くするためのポイント</h2>
+        <h2 className="font-bold text-blue-900 mb-3">費用を抑えるための方法</h2>
         <ul className="space-y-1.5 text-sm text-blue-800">
           {[
-            "複数業者から相見積もりを取る（最低3社）",
+            "3社以上の業者から相見積もりを取る",
             "平日・閑散期（5〜8月）に依頼する",
-            "自分でできる作業は事前に済ませておく",
-            "買い取りサービスを活用して費用を相殺する",
-            "自治体の粗大ゴミ回収を組み合わせる",
+            "自分で対応できる作業を事前に済ませる",
+            "買取サービスを利用して費用を相殺する",
+            "自治体の粗大ごみ収集を併用する",
           ].map((tip, i) => (
             <li key={i} className="flex items-start gap-2">
               <svg className="text-blue-500 flex-shrink-0 mt-0.5" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -65,7 +65,7 @@ export default function CheapRankingPage() {
           ))}
         </ul>
         <Link href="/guide/cost-saving/" className="inline-flex items-center gap-1 text-sm text-blue-600 font-medium mt-3 hover:underline">
-          詳しい節約術を見る
+          費用を抑える方法を詳しく見る
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <polyline points="9 18 15 12 9 6"/>
           </svg>
@@ -123,8 +123,8 @@ export default function CheapRankingPage() {
 
       {/* CTA */}
       <div className="bg-blue-600 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">まずは無料見積もりで比較しましょう</h2>
-        <p className="text-blue-100 text-sm mb-4">複数業者に見積もりを依頼して最安値の業者を見つけましょう。</p>
+        <h2 className="text-xl font-bold mb-2">無料見積もりでの比較をおすすめします</h2>
+        <p className="text-blue-100 text-sm mb-4">複数の業者に同じ条件で見積もりを依頼し、料金と作業内容を比較してください。</p>
         <Link href="/ranking/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
           全業者ランキングを見る
         </Link>

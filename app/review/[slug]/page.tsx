@@ -33,9 +33,9 @@ export default async function ReviewPage({ params }: Props) {
   const toc = [
     { id: "basic", label: `${r.companyName}とは（運営会社・基本情報）` },
     { id: "reviews", label: r.reviewsHeading },
-    { id: "strengths", label: "口コミからわかる強み・特徴" },
-    { id: "cautions", label: "利用前に知っておきたい注意点" },
-    { id: "recommended", label: "どんな人におすすめか" },
+    { id: "strengths", label: "口コミから分かる強み・特徴" },
+    { id: "cautions", label: "利用前の注意点" },
+    { id: "recommended", label: "このような方におすすめです" },
     { id: "faq", label: "よくある質問" },
     { id: "summary", label: "まとめ" },
   ];
@@ -95,7 +95,7 @@ export default async function ReviewPage({ params }: Props) {
           <div className="flex-1 min-w-[200px]">
             <p className="text-sm text-text-secondary leading-6">
               <a href={rating.mapsUri} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{rating.sourceLabel}</a>
-              での評価です。口コミ {rating.reviewCount} 件の平均（{rating.fetchedAt}時点）。本記事の口コミはGoogleマップに実際に投稿されたレビューの抜粋です。
+              での評価です。口コミ {rating.reviewCount} 件の平均（{rating.fetchedAt}時点）。本記事の口コミはGoogleマップに実際に投稿された口コミの抜粋です。
             </p>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default async function ReviewPage({ params }: Props) {
 
       {/* Strengths */}
       <section id="strengths" className="scroll-mt-20 mb-12">
-        <h2 className="text-xl font-bold text-text-primary border-l-4 border-primary pl-3 mb-5">口コミからわかる強み・特徴</h2>
+        <h2 className="text-xl font-bold text-text-primary border-l-4 border-primary pl-3 mb-5">口コミから分かる強み・特徴</h2>
         <div className="space-y-5">
           {r.strengths.map((s: any, i: number) => (
             <div key={i}>
@@ -185,7 +185,7 @@ export default async function ReviewPage({ params }: Props) {
 
       {/* Cautions */}
       <section id="cautions" className="scroll-mt-20 mb-12">
-        <h2 className="text-xl font-bold text-text-primary border-l-4 border-primary pl-3 mb-5">利用前に知っておきたい注意点</h2>
+        <h2 className="text-xl font-bold text-text-primary border-l-4 border-primary pl-3 mb-5">利用前の注意点</h2>
         <div className="space-y-4">
           {r.cautions.map((c: any, i: number) => (
             <div key={i} className="rounded-2xl border border-border bg-surface-alt p-5">
@@ -198,7 +198,7 @@ export default async function ReviewPage({ params }: Props) {
 
       {/* Recommended */}
       <section id="recommended" className="scroll-mt-20 mb-12">
-        <h2 className="text-xl font-bold text-text-primary border-l-4 border-primary pl-3 mb-5">どんな人におすすめか</h2>
+        <h2 className="text-xl font-bold text-text-primary border-l-4 border-primary pl-3 mb-5">このような方におすすめです</h2>
         <ul className="space-y-3">
           {r.recommended.map((x: string, i: number) => (
             <li key={i} className="flex items-start gap-3 text-[15px] leading-8 text-text-secondary">
@@ -240,7 +240,7 @@ export default async function ReviewPage({ params }: Props) {
         </div>
       ) : (
         <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center">
-          <p className="text-sm text-text-secondary">現在、公式サイトの稼働が確認できないため、リンクは掲載していません。最新の提供状況はご自身でもご確認ください。</p>
+          <p className="text-sm text-text-secondary">現在、公式サイトの稼働が確認できないため、リンクは掲載していません。ご利用前に、最新の提供状況をご確認ください。</p>
           <p className="mt-3 text-xs text-text-muted">掲載情報は{r.updatedAt}時点のものです。</p>
         </div>
       )}

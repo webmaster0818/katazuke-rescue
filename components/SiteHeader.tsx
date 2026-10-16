@@ -27,7 +27,7 @@ export default function SiteHeader() {
           <Link href="/service/ihinseiri/" className="hover:text-blue-600 transition-colors">遺品整理</Link>
           <Link href="/cost/price/" className="hover:text-blue-600 transition-colors">費用相場</Link>
           <Link href="/ranking/" className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition-colors">
-            無料見積もり
+            業者を比較する
           </Link>
         </nav>
 
@@ -63,7 +63,7 @@ export default function SiteHeader() {
             <Link href="/service/ihinseiri/" className="py-2 px-3 rounded hover:bg-slate-50" onClick={() => setMenuOpen(false)}>遺品整理</Link>
             <Link href="/service/fuyohin/" className="py-2 px-3 rounded hover:bg-slate-50" onClick={() => setMenuOpen(false)}>不用品回収</Link>
             <Link href="/cost/price/" className="py-2 px-3 rounded hover:bg-slate-50" onClick={() => setMenuOpen(false)}>費用相場</Link>
-            <Link href="/ranking/" className="mt-2 bg-orange-500 text-white text-center py-2 px-3 rounded-lg hover:bg-orange-600" onClick={() => setMenuOpen(false)}>無料見積もりを取る</Link>
+            <Link href="/ranking/" className="mt-2 bg-orange-500 text-white text-center py-2 px-3 rounded-lg hover:bg-orange-600" onClick={() => setMenuOpen(false)}>業者を比較する</Link>
           </nav>
         </div>
       )}

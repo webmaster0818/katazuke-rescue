@@ -15,7 +15,7 @@ export default function SiteFooter() {
               <span className="font-bold text-white">片付けレスキュー</span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed">
-              片付け・不用品回収業者の信頼できる比較情報を提供するメディアです。
+              片付け・不用品回収業者の情報を、公式サイトの公開情報と利用者の口コミにもとづいて比較する情報サイトです。
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function SiteFooter() {
               <li><Link href="/service/gomiyashiki/" className="hover:text-white transition-colors">ゴミ屋敷片付け</Link></li>
               <li><Link href="/service/fuyohin/" className="hover:text-white transition-colors">不用品回収</Link></li>
               <li><Link href="/service/ihinseiri/" className="hover:text-white transition-colors">遺品整理</Link></li>
-              <li><Link href="/service/hikkoshi/" className="hover:text-white transition-colors">引越し前の片付け</Link></li>
+              <li><Link href="/service/hikkoshi/" className="hover:text-white transition-colors">引っ越し前の片付け</Link></li>
               <li><Link href="/service/katazuke-daikou/" className="hover:text-white transition-colors">片付け代行</Link></li>
             </ul>
           </div>
@@ -46,9 +46,9 @@ export default function SiteFooter() {
             <h3 className="text-white font-semibold mb-3 text-sm">お役立ちガイド</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/guide/self-cleanup/" className="hover:text-white transition-colors">自分で片付ける方法</Link></li>
-              <li><Link href="/guide/cost-saving/" className="hover:text-white transition-colors">費用を安くするコツ</Link></li>
+              <li><Link href="/guide/cost-saving/" className="hover:text-white transition-colors">費用を抑える方法</Link></li>
               <li><Link href="/guide/illegal-dumping/" className="hover:text-white transition-colors">違法業者の見分け方</Link></li>
-              <li><Link href="/guide/municipal-service/" className="hover:text-white transition-colors">自治体サービス活用法</Link></li>
+              <li><Link href="/guide/municipal-service/" className="hover:text-white transition-colors">自治体サービスの活用方法</Link></li>
               <li><Link href="/guide/before-after/" className="hover:text-white transition-colors">ビフォーアフター事例</Link></li>
             </ul>
           </div>
