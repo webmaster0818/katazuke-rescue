@@ -81,14 +81,14 @@ export default function RankingPage() {
                 >
                   詳細を見る
                 </Link>
-                <a
+                {company.officialUrl ? (<a
                   href={company.officialUrl}
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   className="border border-blue-300 text-blue-700 hover:bg-blue-50 text-sm font-medium px-4 py-2 rounded-lg transition-colors text-center"
                 >
                   公式サイト
-                </a>
+                </a>) : null}
               </div>
             </div>
 
@@ -99,14 +99,14 @@ export default function RankingPage() {
               >
                 詳細を見る
               </Link>
-              <a
+              {company.officialUrl ? (<a
                 href={company.officialUrl}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="flex-1 border border-blue-300 text-blue-700 hover:bg-blue-50 text-sm font-medium py-2 rounded-lg transition-colors text-center"
               >
                 公式サイト
-              </a>
+              </a>) : null}
             </div>
           </div>
         ))}

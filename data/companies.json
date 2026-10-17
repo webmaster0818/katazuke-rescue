@@ -9,7 +9,7 @@
     "pros": ["品質監査を通過した業者に依頼できる", "全国に対応", "遺品整理の専門知識が豊富", "価格が明瞭"],
     "cons": ["遺品整理が中心のため、その他のサービスは限られる", "繁忙期は予約が取りにくい場合がある"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/minna-ihinseiri",
+    "officialUrl": "https://m-ihinseiri.jp/",
     "priceRange": "3万円〜20万円"
   },
   {
@@ -22,7 +22,7 @@
     "pros": ["長年の営業実績がある", "料金を抑えて依頼できる", "経験豊富なスタッフが対応", "対応が迅速"],
     "cons": ["繁忙期は料金が上がる場合がある", "一部の地域は対応対象外"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/kataduke-nihonichi",
+    "officialUrl": "",
     "priceRange": "1万円〜15万円"
   },
   {
@@ -35,7 +35,7 @@
     "pros": ["ゴミ屋敷の専門知識がある", "プライバシーに配慮した対応", "消臭・除菌まで対応", "相談無料"],
     "cons": ["対応エリアが限られる地域がある", "特殊清掃は別途費用"],
     "coverage": "全国（拡大中）",
-    "officialUrl": "https://example.com/gomiyashiki-partners",
+    "officialUrl": "",
     "priceRange": "5万円〜50万円"
   },
   {
@@ -48,7 +48,7 @@
     "pros": ["定額パックで料金が明確", "即日対応が可能", "関東エリアでの実績が豊富", "追加料金なし"],
     "cons": ["関東エリア外は対応対象外（拡大中）", "大量の場合は別途見積もりが必要"],
     "coverage": "関東（拡大中）",
-    "officialUrl": "https://example.com/sodaigomi-honpo",
+    "officialUrl": "",
     "priceRange": "8,000円〜10万円"
   },
   {
@@ -61,7 +61,7 @@
     "pros": ["特殊清掃の技術を有する", "全国に対応", "緊急時の依頼に対応", "原状回復まで一貫対応"],
     "cons": ["特殊清掃は費用が高くなる傾向がある", "専門性が高いため、一般的な片付けより料金が高くなる場合がある"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/blue-clean",
+    "officialUrl": "https://b-clean.jp/",
     "priceRange": "5万円〜100万円"
   },
   {
@@ -74,7 +74,7 @@
     "pros": ["口コミを確認して業者を選べる", "予約前に料金を確認できる", "多くの業者から選択できる", "オンラインで予約まで完了できる"],
     "cons": ["業者によってサービス品質が異なる", "業者との直接契約のため、トラブル時は利用者自身での対応が必要"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/kurashi-market",
+    "officialUrl": "https://curama.jp/",
     "priceRange": "業者により異なる"
   },
   {
@@ -87,7 +87,7 @@
     "pros": ["複数社の見積もりを一度に取れる", "業者間の比較により料金が下がる場合がある", "チャットで詳細を確認できる", "無料で利用できる"],
     "cons": ["業者からの連絡が多くなる場合がある", "料金の安い業者は作業品質の確認が必要"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/mitsumoa",
+    "officialUrl": "https://meetsmore.com/",
     "priceRange": "業者により異なる"
   },
   {
@@ -100,7 +100,7 @@
     "pros": ["24時間いつでも相談できる", "生活トラブルを一元対応", "緊急時の依頼に対応", "業者探しから手配までを任せられる"],
     "cons": ["専門業者と比べて専門性が低い場合がある", "料金は紹介先の業者により異なる"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/seikatsu110",
+    "officialUrl": "https://www.seikatsu110.jp/",
     "priceRange": "業者により異なる"
   },
   {
@@ -113,7 +113,7 @@
     "pros": ["料金を比較しやすい", "無料で見積もりを取得できる", "住まい関連サービスが充実", "保証制度が用意されている"],
     "cons": ["比較サービスのため、業者との契約手続きが別途必要", "一部のエリアは登録業者が少ない"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/sumai-hotline",
+    "officialUrl": "https://hotlines.shop/",
     "priceRange": "業者により異なる"
   },
   {
@@ -126,7 +126,7 @@
     "pros": ["メディア掲載の実績がある", "紹介割引を利用できる", "丁寧なアフターフォロー", "利用者の口コミで対応が評価されている"],
     "cons": ["他の業者と比較して料金がやや高い", "予約が取りにくい場合がある"],
     "coverage": "全国",
-    "officialUrl": "https://example.com/otasuke-usagi",
+    "officialUrl": "https://otasukeusagi.jp/",
     "priceRange": "3万円〜30万円"
   }
 ]

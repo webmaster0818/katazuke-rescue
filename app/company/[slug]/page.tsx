@@ -71,14 +71,14 @@ export default async function CompanyPage({
         <p className="text-slate-600 leading-relaxed mb-6">{company.description}</p>
 
         <div className="flex flex-col sm:flex-row gap-3">
-          <a
+          {company.officialUrl ? (<a
             href={company.officialUrl}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="flex-1 bg-orange-500 hover:bg-orange-600 text-white font-bold text-center py-3 rounded-xl transition-colors"
           >
             公式サイトで見積もりを確認する
-          </a>
+          </a>) : null}
           <Link href="/ranking/" className="flex-1 border border-slate-200 text-slate-700 font-medium text-center py-3 rounded-xl hover:border-slate-300 hover:bg-slate-50 transition-colors">
             他の業者と比較する
           </Link>
@@ -157,16 +157,16 @@ export default async function CompanyPage({
       {/* CTA */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-6 md:p-8 text-white text-center">
         <h2 className="text-xl font-bold mb-2">{company.name}の無料見積もりを取る</h2>
-        <p className="text-blue-100 text-sm mb-4">公式サイトから無料で見積もりを依頼できます。依頼先は、複数の業者と比較したうえでお決めください。</p>
+        <p className="text-blue-100 text-sm mb-4">{company.officialUrl ? "公式サイトから無料で見積もりを依頼できます。依頼先は、複数の業者と比較したうえでお決めください。" : "当サイトでは、この業者の公式サイトを確認できていません。依頼先は、複数の業者と比較したうえでお決めください。"}</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <a
+          {company.officialUrl ? (<a
             href={company.officialUrl}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors"
           >
             公式サイトへ（無料見積もり）
-          </a>
+          </a>) : null}
           <Link href="/ranking/" className="bg-white/20 hover:bg-white/30 border border-white/30 text-white font-medium px-8 py-3 rounded-xl transition-colors">
             他の業者と比較する
           </Link>
