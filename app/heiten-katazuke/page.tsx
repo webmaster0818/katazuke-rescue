@@ -120,7 +120,7 @@ const related = [
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない大型品の搬出と処分の選択肢" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "片付けと買取の併用", desc: "売れる物を活かして負担を減らす方法" },
   { href: "/guide/illegal-dumping/", label: "違法業者の見分け方", desc: "許可のない回収業者を避けるための確認事項" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "定額パック制の関東対応回収業者" },
+  { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/fukuoka/", label: "福岡の片付け業者比較", desc: "福岡で依頼できる業者の比較" },
 ];
 
@@ -291,7 +291,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼先を探す際は、複数業者へ一括で見積もりを依頼できる<Link href="/review/mitsumoa/" className="text-primary underline underline-offset-2">ミツモア</Link>のようなサービスも活用できます。関東エリアなら定額パックプランのある<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>も候補になります（事業所対応の可否は見積もり時に確認してください）。福岡など各都市の業者は<Link href="/area/fukuoka/" className="text-primary underline underline-offset-2">福岡の片付け業者比較</Link>で紹介しています。
+        依頼先を探す際は、複数業者へ一括で見積もりを依頼できる<Link href="/review/mitsumoa/" className="text-primary underline underline-offset-2">ミツモア</Link>のようなサービスも活用できます。事業所からの回収に対応しているかどうかは、見積もりの際にご確認ください。福岡など各都市の業者は<Link href="/area/fukuoka/" className="text-primary underline underline-offset-2">福岡の片付け業者比較</Link>で紹介しています。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

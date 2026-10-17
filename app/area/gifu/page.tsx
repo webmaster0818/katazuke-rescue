@@ -237,8 +237,8 @@ const faqs = [
     a: "一般論として、自治体の粗大ごみ収集は費用を抑えやすい一方、事前申し込みが必要で収集まで日数がかかることがあり、指定場所への搬出も自分で行うのが基本です。広い家の段階的な片付けでは、各段階で出る少量の粗大ごみを自治体の収集で処分し、納屋や蔵のようにまとまった量・重量物が出る段階だけ業者に頼む、という組み合わせ方もできます。申し込み方法や対象品目は岐阜市など自治体ごとに異なるため、お住まいの市区町村の案内をご確認ください。",
   },
   {
-    q: "東京の記事で見た粗大ゴミ回収本舗やブルークリーンは岐阜でも使えますか？",
-    a: "当サイトで確認した対応エリアでは、粗大ゴミ回収本舗は関東一円（東京・神奈川・埼玉・千葉）、ブルークリーン・お部屋片付け日本一・お助けうさぎも関東圏中心のため、岐阜は対応エリア外です。ゴミ屋敷専門パートナーズは関東・東海・関西を対応エリアとしていますが、市区町村単位の対応可否は公式サイトでの個別確認が必要です。本記事では、岐阜から確実に利用しやすい全国対応・検索型のサービスに絞って紹介しています。",
+    q: "東京の記事で見たブルークリーンやお助けうさぎは岐阜でも使えますか？",
+    a: "当サイトで確認した対応エリアでは、ブルークリーン・お助けうさぎは関東圏中心のため、岐阜は対応エリア外です。本記事では、岐阜から確実に利用しやすい全国対応・検索型のサービスに絞って紹介しています。",
   },
 ];
 
@@ -378,7 +378,7 @@ export default function AreaGifuPage() {
       {/* 1｜おすすめ5社 */}
       <H2 id="gifu5" num="1">岐阜のゴミ屋敷片付け・不用品回収業者おすすめ5社</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        岐阜から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる5社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版で紹介した粗大ゴミ回収本舗・ブルークリーン・お部屋片付け日本一・お助けうさぎは関東圏中心の対応エリアで岐阜は対応外、ゴミ屋敷専門パートナーズは関東・東海・関西が対応エリアですが市区町村単位の対応可否は個別確認が必要なため、本記事のカードには岐阜から確実に利用しやすい全国対応・検索型のサービスのみを掲載しています。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
+        岐阜から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる5社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版で紹介したブルークリーン・お助けうさぎは関東圏中心の対応エリアで岐阜は対応外のため、本記事のカードには岐阜から確実に利用しやすい全国対応・検索型のサービスのみを掲載しています。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
       </p>
 
       <h3 id="hikaku" className="scroll-mt-20 text-lg font-bold text-text-primary mb-4">
@@ -587,7 +587,7 @@ export default function AreaGifuPage() {
             <Link href="/area/aomori/" className="text-primary underline underline-offset-2">青森のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/fujisawa/" className="text-primary underline underline-offset-2">藤沢のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -638,7 +638,7 @@ export default function AreaGifuPage() {
             <Link href="/area/kitakyushu/" className="text-primary underline underline-offset-2">北九州のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/kochi/" className="text-primary underline underline-offset-2">高知のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -656,10 +656,10 @@ export default function AreaGifuPage() {
             <Link href="/area/kurume/" className="text-primary underline underline-offset-2">久留米のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
-            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
             <Link href="/area/matsue/" className="text-primary underline underline-offset-2">松江のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -671,7 +671,7 @@ export default function AreaGifuPage() {
             <Link href="/area/matsuyama/" className="text-primary underline underline-offset-2">松山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/miyazaki/" className="text-primary underline underline-offset-2">宮崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -686,7 +686,7 @@ export default function AreaGifuPage() {
             <Link href="/area/nagasaki/" className="text-primary underline underline-offset-2">長崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/naha/" className="text-primary underline underline-offset-2">那覇のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -704,7 +704,7 @@ export default function AreaGifuPage() {
             <Link href="/area/okayama/" className="text-primary underline underline-offset-2">岡山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/otsu/" className="text-primary underline underline-offset-2">大津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -716,7 +716,7 @@ export default function AreaGifuPage() {
             <Link href="/area/sagamihara/" className="text-primary underline underline-offset-2">相模原のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -740,7 +740,7 @@ export default function AreaGifuPage() {
             <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/tottori/" className="text-primary underline underline-offset-2">鳥取のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -752,7 +752,7 @@ export default function AreaGifuPage() {
             <Link href="/area/tsu/" className="text-primary underline underline-offset-2">津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/wakayama/" className="text-primary underline underline-offset-2">和歌山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -764,7 +764,7 @@ export default function AreaGifuPage() {
             <Link href="/area/yamaguchi/" className="text-primary underline underline-offset-2">山口のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
         </ul>
       </div>

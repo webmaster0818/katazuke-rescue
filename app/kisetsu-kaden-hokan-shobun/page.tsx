@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼先を選ぶときは、廃棄物の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、質問に具体的に答えることを基準にしてください。買い取りを伴う場合は、古物の取り扱いに関する許可についても確認しておくことをおすすめします。料金は物量・間取り・建物の条件・作業内容・地域・業者により異なりますので、同じ条件で複数社に依頼して比べるのが確実です。見積もり書の読み方は<Link href="/mitsumorisho-mikata/" className="text-primary underline underline-offset-2">見積もり書の見方</Link>、無料をうたう回収への注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点</Link>で扱っています。依頼先の候補としては<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>や<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>で対応の範囲や特徴を比較できます。
+        依頼先を選ぶときは、廃棄物の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、質問に具体的に答えることを基準にしてください。買い取りを伴う場合は、古物の取り扱いに関する許可についても確認しておくことをおすすめします。料金は物量・間取り・建物の条件・作業内容・地域・業者により異なりますので、同じ条件で複数社に依頼して比べるのが確実です。見積もり書の読み方は<Link href="/mitsumorisho-mikata/" className="text-primary underline underline-offset-2">見積もり書の見方</Link>、無料をうたう回収への注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点</Link>で扱っています。依頼先の候補としては<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>で対応の範囲や特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

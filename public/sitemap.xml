@@ -31,24 +31,6 @@
     <priority>0.7</priority>
   </url>
 <url>
-    <loc>https://katazuke-rescue.com/company/kataduke-nihonichi/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://katazuke-rescue.com/company/gomiyashiki-partners/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://katazuke-rescue.com/company/sodaigomi-honpo/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
     <loc>https://katazuke-rescue.com/company/blue-clean/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -164,9 +146,6 @@
   </url>
 <url><loc>https://katazuke-rescue.com/review/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/review/minna-ihinseiri/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://katazuke-rescue.com/review/kataduke-nihonichi/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://katazuke-rescue.com/review/gomiyashiki-partners/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://katazuke-rescue.com/review/sodaigomi-honpo/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/review/blue-clean/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/review/kurashi-market/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/review/mitsumoa/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>

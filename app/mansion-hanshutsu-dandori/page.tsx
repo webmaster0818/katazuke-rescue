@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼先を選ぶときは、集合住宅での作業に慣れているか、養生の範囲と資材を説明できるか、届出に必要な情報を出してもらえるかを確認してください。あわせて、廃棄物の収集運搬に必要な許可を確認できること、書面で見積もりを出すこと、質問に具体的に答えることも基準になります。書面の読み方は<Link href="/mitsumorisho-mikata/" className="text-primary underline underline-offset-2">見積もり書の見方</Link>で扱っています。依頼先の候補としては<Link href="/review/blue-clean/" className="text-primary underline underline-offset-2">ブルークリーン</Link>や<Link href="/review/kataduke-nihonichi/" className="text-primary underline underline-offset-2">お部屋片付け日本一</Link>で特徴を比較できます。
+        依頼先を選ぶときは、集合住宅での作業に慣れているか、養生の範囲と資材を説明できるか、届出に必要な情報を出してもらえるかを確認してください。あわせて、廃棄物の収集運搬に必要な許可を確認できること、書面で見積もりを出すこと、質問に具体的に答えることも基準になります。書面の読み方は<Link href="/mitsumorisho-mikata/" className="text-primary underline underline-offset-2">見積もり書の見方</Link>で扱っています。依頼先の候補としては<Link href="/review/blue-clean/" className="text-primary underline underline-offset-2">ブルークリーン</Link>で特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

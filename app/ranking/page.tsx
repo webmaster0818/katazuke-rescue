@@ -26,7 +26,7 @@ export default function RankingPage() {
           片付け業者おすすめランキング【2026年版】
         </h1>
         <p className="text-slate-600 leading-relaxed">
-          全国対応の業者から地域密着型の業者まで10社を、料金・実績・口コミの観点から総合的に評価しています。
+          全国対応の業者から地域密着型の業者まで7社を、料金・実績・口コミの観点から総合的に評価しています。
         </p>
       </div>
 

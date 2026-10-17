@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼する際は、廃棄物の収集運搬に必要な許可を確認できる業者を選び、作業前の見積もりで総額と作業範囲を書面にしてもらってください。保管に回す物と処分する物が混在する場合は、その線引きを事前に伝えておくと、当日の判断が早くなります。料金は物量・間取り・作業内容・地域によって異なるため、複数社を比較するのが確実です。依頼先の候補としては<Link href="/review/kataduke-nihonichi/" className="text-primary underline underline-offset-2">お部屋片付け日本一</Link>や<Link href="/review/seikatsu110/" className="text-primary underline underline-offset-2">生活110番</Link>で特徴を比較できます。
+        依頼する際は、廃棄物の収集運搬に必要な許可を確認できる業者を選び、作業前の見積もりで総額と作業範囲を書面にしてもらってください。保管に回す物と処分する物が混在する場合は、その線引きを事前に伝えておくと、当日の判断が早くなります。料金は物量・間取り・作業内容・地域によって異なるため、複数社を比較するのが確実です。依頼先の候補としては<Link href="/review/seikatsu110/" className="text-primary underline underline-offset-2">生活110番</Link>で特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

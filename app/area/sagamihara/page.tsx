@@ -237,8 +237,8 @@ const faqs = [
     a: "出張の可否と出張費の扱いは業者によって異なります。本記事で紹介している検索型・紹介型のサービスでは、住所を伝えて対応できる業者を探す使い方になるため、見積もりの依頼時に正確な住所と、作業車を停められる場所、道路の幅を伝えて確認してください。対応できる業者が限られる場合は、一度の作業でまとめて依頼できるよう、事前の仕分けを済ませておくと効率的です。",
   },
   {
-    q: "東京や横浜の記事で見た粗大ゴミ回収本舗やブルークリーンは相模原でも使えますか？",
-    a: "当サイトで確認した対応エリアでは、粗大ゴミ回収本舗は関東一円（東京・神奈川・埼玉・千葉）、ブルークリーンは東京・千葉・埼玉・神奈川を中心とした地域、お部屋片付け日本一は関東と東海・中部の一部、ゴミ屋敷専門パートナーズは関東・東海・関西、お助けうさぎは首都圏中心とされており、いずれも神奈川県を対応エリアに含みます。各社の料金目安や特徴は横浜版・東京版の記事で詳しく紹介しているため、あわせてご覧ください。本記事では、相模原の住所から検索・比較して選べる全国対応・検索型のサービス5社を紹介しています。市内の住所ごとの対応可否や出張費の扱いは、各社公式サイトまたは見積もりの際にご確認ください。",
+    q: "東京や横浜の記事で見たブルークリーンやお助けうさぎは相模原でも使えますか？",
+    a: "当サイトで確認した対応エリアでは、ブルークリーンは東京・千葉・埼玉・神奈川を中心とした地域、お助けうさぎは首都圏中心とされており、いずれも神奈川県を対応エリアに含みます。各社の料金目安や特徴は横浜版・東京版の記事で詳しく紹介しているため、あわせてご覧ください。本記事では、相模原の住所から検索・比較して選べる全国対応・検索型のサービス5社を紹介しています。市内の住所ごとの対応可否や出張費の扱いは、各社公式サイトまたは見積もりの際にご確認ください。",
   },
   {
     q: "自治体の粗大ごみ収集と業者はどう使い分ければいいですか？",
@@ -382,7 +382,7 @@ export default function AreaSagamiharaPage() {
       {/* 1｜おすすめ5社 */}
       <H2 id="sagamihara5" num="1">相模原のゴミ屋敷片付け・不用品回収業者おすすめ5社</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        相模原から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる5社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版・横浜版で紹介した粗大ゴミ回収本舗・ブルークリーン・お部屋片付け日本一・ゴミ屋敷専門パートナーズ・お助けうさぎは神奈川県を対応エリアに含む業者のため、相模原からの依頼も検討できます。各社の詳細は<Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜版</Link>・<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京版</Link>をご覧ください。本記事のカードでは、相模原の住所から地域の登録業者を検索・比較できる全国対応型のサービス5社に絞って紹介しています。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
+        相模原から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる5社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版・横浜版で紹介したブルークリーン・お助けうさぎは神奈川県を対応エリアに含む業者のため、相模原からの依頼も検討できます。各社の詳細は<Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜版</Link>・<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京版</Link>をご覧ください。本記事のカードでは、相模原の住所から地域の登録業者を検索・比較できる全国対応型のサービス5社に絞って紹介しています。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
       </p>
 
       <h3 id="hikaku" className="scroll-mt-20 text-lg font-bold text-text-primary mb-4">
@@ -591,7 +591,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/aomori/" className="text-primary underline underline-offset-2">青森のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/fujisawa/" className="text-primary underline underline-offset-2">藤沢のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -645,7 +645,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/kitakyushu/" className="text-primary underline underline-offset-2">北九州のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/kochi/" className="text-primary underline underline-offset-2">高知のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -663,10 +663,10 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/kurume/" className="text-primary underline underline-offset-2">久留米のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
-            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
             <Link href="/area/matsue/" className="text-primary underline underline-offset-2">松江のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -678,7 +678,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/matsuyama/" className="text-primary underline underline-offset-2">松山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/miyazaki/" className="text-primary underline underline-offset-2">宮崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -693,7 +693,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/nagasaki/" className="text-primary underline underline-offset-2">長崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/naha/" className="text-primary underline underline-offset-2">那覇のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -711,7 +711,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/okayama/" className="text-primary underline underline-offset-2">岡山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/otsu/" className="text-primary underline underline-offset-2">大津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -720,7 +720,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/saga/" className="text-primary underline underline-offset-2">佐賀のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -744,7 +744,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/tottori/" className="text-primary underline underline-offset-2">鳥取のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -756,7 +756,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/tsu/" className="text-primary underline underline-offset-2">津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/wakayama/" className="text-primary underline underline-offset-2">和歌山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -768,7 +768,7 @@ export default function AreaSagamiharaPage() {
             <Link href="/area/yamaguchi/" className="text-primary underline underline-offset-2">山口のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
         </ul>
       </div>

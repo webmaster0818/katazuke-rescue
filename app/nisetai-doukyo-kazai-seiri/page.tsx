@@ -120,7 +120,7 @@ const related = [
   { href: "/oya-settoku-katazuke/", label: "物を捨てない親への声かけ", desc: "本人を尊重した進め方" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない大型品の搬出と処分" },
   { href: "/hikkoshi-mae-danshari/", label: "引っ越し前の断捨離", desc: "荷物を減らす逆算スケジュール" },
-  { href: "/review/kataduke-nihonichi/", label: "片付け日本一の評判", desc: "物量の多い片付けに対応する業者" },
+  { href: "/service/katazuke-daikou/", label: "片付け代行サービスの料金と選び方", desc: "仕分けから搬出まで任せる場合の基礎知識" },
   { href: "/area/saitama/", label: "埼玉の片付け業者比較", desc: "埼玉から依頼できる業者の比較" },
 ];
 
@@ -291,7 +291,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        物量が多い場合は、仕分けから搬出・処分まで対応する<Link href="/review/kataduke-nihonichi/" className="text-primary underline underline-offset-2">片付け日本一</Link>のような片付け業者や、トラック単位で回収する不用品回収業者が候補になります。回収を依頼する際は、廃棄物の処理に必要な許可を確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/katazuke-daikou/" className="text-primary underline underline-offset-2">片付け代行の選び方</Link>を参考にしてください。
+        物量が多い場合は、仕分けから搬出・処分まで対応する片付け業者や、トラック単位で回収する不用品回収業者が候補になります。回収を依頼する際は、廃棄物の処理に必要な許可を確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/katazuke-daikou/" className="text-primary underline underline-offset-2">片付け代行の選び方</Link>を参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

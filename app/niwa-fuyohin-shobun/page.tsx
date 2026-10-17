@@ -120,7 +120,7 @@ const related = [
   { href: "/garage-katazuke/", label: "車庫・ガレージの片付け", desc: "工具・タイヤ・危険物の処分" },
   { href: "/monooki-kaitai-mae-seiri/", label: "物置の解体前の整理", desc: "解体前に中身を空にする段取り" },
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しい物の処分", desc: "スプレー缶・電池などの扱い方" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "不用品の積み放題プランがある業者" },
+  { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/chiba/", label: "千葉の片付け業者比較", desc: "千葉から依頼できる業者の比較" },
 ];
 
@@ -291,7 +291,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        物量が多い場合は、トラック単位で回収に対応する<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような不用品回収業者が候補になります。回収を依頼する際は、廃棄物の処理に必要な許可を確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方</Link>を参考にしてください。
+        物量が多い場合は、トラック単位で回収に対応する不用品回収業者が候補になります。回収を依頼する際は、廃棄物の処理に必要な許可を確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方</Link>を参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

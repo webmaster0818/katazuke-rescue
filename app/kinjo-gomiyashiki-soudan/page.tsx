@@ -280,7 +280,7 @@ export default function Page() {
 
       <H2 id="gyousha" num="6">片付け業者の出番になるケース</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        近隣住民の立場で業者を手配することは通常ありませんが、当事者が自分の家族・親族である場合や、本人が片付けに同意した場合には、片付け業者への依頼が解決の実行手段になります。次のような状況が業者相談の目安です。ゴミ屋敷清掃の業者選びは<Link href="/review/gomiyashiki-partners/" className="text-primary underline underline-offset-2">ゴミ屋敷専門パートナーズの口コミ・評判</Link>や<Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋の片付け業者おすすめ</Link>などエリア別の比較も参考にしてください。
+        近隣住民の立場で業者を手配することは通常ありませんが、当事者が自分の家族・親族である場合や、本人が片付けに同意した場合には、片付け業者への依頼が解決の実行手段になります。次のような状況が業者相談の目安です。ゴミ屋敷清掃の業者選びは<Link href="/service/gomiyashiki/" className="text-primary underline underline-offset-2">ゴミ屋敷片付け業者の選び方と費用相場</Link>や<Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋の片付け業者おすすめ</Link>などエリア別の比較も参考にしてください。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (

@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼先を選ぶ際は、廃棄物の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲を明記することを基準にしてください。転居先が未定の場合は、搬出したあとの行き先が分かれること、日程が動く可能性があることも事前に伝えておくと、行き違いが減ります。見積もり書の読み方は<Link href="/mitsumorisho-mikata/" className="text-primary underline underline-offset-2">見積もり書の見方</Link>、引っ越しに伴う片付けの依頼先は<Link href="/service/hikkoshi/" className="text-primary underline underline-offset-2">引っ越し時の片付けサービス</Link>で整理しています。依頼先の候補としては<Link href="/review/blue-clean/" className="text-primary underline underline-offset-2">ブルークリーン</Link>や<Link href="/review/kataduke-nihonichi/" className="text-primary underline underline-offset-2">お部屋片付け日本一</Link>で対応の範囲や特徴を比較できます。
+        依頼先を選ぶ際は、廃棄物の収集運搬に必要な許可の体制を確認できること、書面で見積もりを出すこと、作業の範囲を明記することを基準にしてください。転居先が未定の場合は、搬出したあとの行き先が分かれること、日程が動く可能性があることも事前に伝えておくと、行き違いが減ります。見積もり書の読み方は<Link href="/mitsumorisho-mikata/" className="text-primary underline underline-offset-2">見積もり書の見方</Link>、引っ越しに伴う片付けの依頼先は<Link href="/service/hikkoshi/" className="text-primary underline underline-offset-2">引っ越し時の片付けサービス</Link>で整理しています。依頼先の候補としては<Link href="/review/blue-clean/" className="text-primary underline underline-offset-2">ブルークリーン</Link>で対応の範囲や特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

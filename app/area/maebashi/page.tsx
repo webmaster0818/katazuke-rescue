@@ -8,14 +8,14 @@ const UPDATED = "2026年8月19日";
 const UPDATED_ISO = "2026-08-19";
 
 export const metadata: Metadata = {
-  title: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選【2026年版】",
+  title: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
   description:
-    "前橋でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス6社を比較しています。みんなの遺品整理・ゴミ屋敷専門パートナーズ・お助けうさぎ・くらしのマーケット・ミツモア・生活110番の料金目安と特徴、物置や車庫の中身を使う季節と最後に使った年で仕分ける進め方、農作業用品を処分に出す前の下準備までをまとめています。",
+    "前橋でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス5社を比較しています。みんなの遺品整理・お助けうさぎ・くらしのマーケット・ミツモア・生活110番の料金目安と特徴、物置や車庫の中身を使う季節と最後に使った年で仕分ける進め方、農作業用品を処分に出す前の下準備までをまとめています。",
   alternates: { canonical: `${SITE}${PATH}` },
   openGraph: {
-    title: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選【2026年版】",
+    title: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
     description:
-      "前橋でゴミ屋敷片付け・不用品回収を頼める業者・サービス6社を、当サイト掲載の料金目安・公式サイト確認情報で比較しています。物置・車庫の仕分け方と農作業用品の下準備も解説します。",
+      "前橋でゴミ屋敷片付け・不用品回収を頼める業者・サービス5社を、当サイト掲載の料金目安・公式サイト確認情報で比較しています。物置・車庫の仕分け方と農作業用品の下準備も解説します。",
     url: `${SITE}${PATH}`,
     type: "article",
     images: ["/images/hero-final.png"],
@@ -25,7 +25,6 @@ export const metadata: Metadata = {
 // アフィリエイトリンク（提携開始後にURLを設定。nullの間は公式サイトへ）
 const AFF: Record<string, string | null> = {
   "minna-ihinseiri": null,
-  "gomiyashiki-partners": null,
   "otasuke-usagi": null,
   "kurashi-market": null,
   mitsumoa: null,
@@ -77,36 +76,8 @@ const companies: AreaCompany[] = [
       "公式サイト（m-ihinseiri.jp）で、審査済み業者のみ掲載・最大3社の一括見積もり・相談無料・全国対応の記載を確認しています（2026年8月19日時点）。全国47都道府県対応のため群馬県・前橋市からも利用できます。自社で作業を行う業者ではなく紹介型サービスのため、実際の作業料金は紹介先業者の見積もりで確定します。",
   },
   {
-    slug: "gomiyashiki-partners",
-    num: "1-2",
-    catch: "ゴミ屋敷専門・最短到着60分",
-    name: "ゴミ屋敷専門パートナーズ",
-    officialUrl: "https://gomikaisyu-pro.com/",
-    image: "/images/hero-c.png",
-    imageAlt: "ゴミ屋敷専門パートナーズの紹介イメージ",
-    intro: [
-      "ゴミ屋敷専門パートナーズは、TKC株式会社（大阪府大阪市）が運営するゴミ屋敷・汚部屋の片付け専門業者です。ごみの搬出だけでなく、不用品の回収・買取、生前整理・遺品整理、ハウスクリーニング、害虫駆除・消臭まで対応し、片付けたあと住める状態に戻すところまで一括で依頼できます。",
-      "当サイト掲載の対応エリアは関東・東海・関西の各府県で、関東に含まれる群馬県も対応範囲です。見積もりは無料で買取査定にも対応します。屋外の収納に長く物を置いたままの家では、扉を開けた瞬間に虫やカビ、湿気のにおいが出てくることがあり、運び出しだけでは終わらないケースもあります。搬出のあとの清掃・消臭・害虫駆除まで同じ窓口で頼めることは、外の物置や車庫まで含めて片付ける前橋の戸建てでは実用的な強みになります。",
-    ],
-    recommend: [
-      "ゴミ屋敷・汚部屋の片付けに特化した業者に頼みたい方",
-      "清掃・消臭・害虫駆除までまとめて依頼したい方",
-      "買取を併用して費用を抑えたい方",
-      "近隣に配慮した作業を希望する方",
-    ],
-    table: [
-      { k: "料金目安", v: "5万円〜50万円", note: "当サイト掲載の目安。物量・作業範囲で変動" },
-      { k: "対応スピード", v: "最短到着60分（公式表記）" },
-      { k: "見積もり", v: "無料・買取査定あり" },
-      { k: "対応エリア", v: "関東・東海・関西の各府県（関東＝群馬を含む）" },
-      { k: "運営会社", v: "TKC株式会社（大阪府大阪市）" },
-    ],
-    memo:
-      "公式サイト（gomikaisyu-pro.com）で、最短到着60分の表記・見積もり無料・買取査定ありの記載を確認しています（2026年8月19日時点）。対応エリアは当サイトのレビューページ掲載値（公式サイト確認情報）で関東・東海・関西の各府県とされており、群馬県は関東として対応範囲に含まれます。市町村単位の対応可否は依頼前に必ず住所を伝えて確認してください。ゴミ屋敷の片付け費用は物量で大きく変わるため、写真見積もりや訪問見積もりで総額を確定したうえでご依頼ください。",
-  },
-  {
     slug: "otasuke-usagi",
-    num: "1-3",
+    num: "1-2",
     catch: "回収・買取・清掃を一括対応",
     name: "お助けうさぎ",
     officialUrl: "https://otasukeusagi.jp/",
@@ -134,7 +105,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "kurashi-market",
-    num: "1-4",
+    num: "1-3",
     catch: "口コミと料金で地域の業者を選べる",
     name: "くらしのマーケット",
     officialUrl: "https://curama.jp/",
@@ -161,7 +132,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "mitsumoa",
-    num: "1-5",
+    num: "1-4",
     catch: "最大5社の見積もりを比較",
     name: "ミツモア",
     officialUrl: "https://meetsmore.com/",
@@ -189,7 +160,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "seikatsu110",
-    num: "1-6",
+    num: "1-5",
     catch: "提携業者を無料で紹介・手配",
     name: "生活110番",
     officialUrl: "https://www.seikatsu110.jp/",
@@ -220,7 +191,6 @@ const companies: AreaCompany[] = [
 // 比較表（前橋から利用できるサービス・料金目安は当サイト掲載値）
 const compareRows = [
   { slug: "minna-ihinseiri", name: "みんなの遺品整理", area: "全国", price: "3万円〜20万円", point: "審査済み業者を最大3社比較・遺品整理に強い" },
-  { slug: "gomiyashiki-partners", name: "ゴミ屋敷専門パートナーズ", area: "関東・東海・関西（関東＝群馬を含む）", price: "5万円〜50万円", point: "ゴミ屋敷専門・消臭や害虫駆除まで対応" },
   { slug: "otasuke-usagi", name: "お助けうさぎ", area: "首都圏中心の9都県（群馬を含む）", price: "3万円〜30万円", point: "回収・買取・清掃を一括対応" },
   { slug: "kurashi-market", name: "くらしのマーケット", area: "全国", price: "業者により異なる", point: "口コミと料金を見て地域の業者を選べる" },
   { slug: "mitsumoa", name: "ミツモア", area: "全国", price: "業者により異なる", point: "最大5社の一括見積もり比較" },
@@ -249,7 +219,7 @@ const steps = [
 const faqs = [
   {
     q: "前橋のゴミ屋敷片付け・不用品回収の費用はどのくらいですか？",
-    a: "当サイト掲載の料金目安では、遺品整理を伴う片付けがみんなの遺品整理経由で3万円〜20万円、お助けうさぎが3万円〜30万円、ゴミ屋敷の片付けはゴミ屋敷専門パートナーズで5万円〜50万円が目安です。くらしのマーケット・ミツモア・生活110番は業者ごとに料金が異なります。実際の金額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで総額を確認してください。",
+    a: "当サイト掲載の料金目安では、遺品整理を伴う片付けがみんなの遺品整理経由で3万円〜20万円、お助けうさぎが3万円〜30万円が目安です。くらしのマーケット・ミツモア・生活110番は業者ごとに料金が異なります。実際の金額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで総額を確認してください。",
   },
   {
     q: "物置や車庫の中身も、家の中の不用品と一緒に片付けてもらえますか？",
@@ -264,8 +234,8 @@ const faqs = [
     a: "判断が止まる物は、使う季節と最後に使った年の2つで見ると決めやすくなります。使う季節が来ているのに直近2シーズン以上出していない物は、次の季節にも使われない可能性が高いと考えられます。逆に、季節が来れば必ず出す物は、使う時期ごとにまとめて置き場所を決め直せば残す価値があります。迷った物は「保留」の箱を一つだけ作って入れ、次に同じ季節が来たときに開けていなければ手放す、という運用にすると、その場で決めきれなくても片付けが止まりません。",
   },
   {
-    q: "東京の記事で見た粗大ゴミ回収本舗やお部屋片付け日本一は前橋でも使えますか？",
-    a: "当サイト掲載の対応エリア（2026年8月19日時点）では、粗大ゴミ回収本舗は東京・神奈川・埼玉・千葉の4都県、ブルークリーンは東京・千葉・埼玉・神奈川を中心とした地域、お部屋片付け日本一は関東として東京・埼玉・千葉・神奈川・茨城を挙げており、いずれも群馬県の対応を確認できませんでした。一方、ゴミ屋敷専門パートナーズは関東・東海・関西の各府県、お助けうさぎは群馬県を含む9都県が対応エリアとされているため、本記事のカードで紹介しています。そのほかは前橋から利用できる全国対応・検索型のサービスを掲載しています。",
+    q: "東京の記事で見たブルークリーンは前橋でも使えますか？",
+    a: "当サイト掲載の対応エリア（2026年8月19日時点）では、ブルークリーンは東京・千葉・埼玉・神奈川を中心とした地域で、群馬県の対応を確認できませんでした。一方、お助けうさぎは群馬県を含む9都県が対応エリアとされているため、本記事のカードで紹介しています。そのほかは前橋から利用できる全国対応・検索型のサービスを掲載しています。",
   },
   {
     q: "前橋市の粗大ごみ収集と業者はどう使い分ければいいですか？",
@@ -294,9 +264,9 @@ export default function AreaMaebashiPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選【2026年版】",
+    headline: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
     description:
-      "前橋でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス6社を、当サイト掲載の料金目安・公式サイト確認情報で比較した記事です。",
+      "前橋でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス5社を、当サイト掲載の料金目安・公式サイト確認情報で比較した記事です。",
     image: `${SITE}/images/hero-final.png`,
     datePublished: `${UPDATED_ISO}T00:00:00+09:00`,
     dateModified: `${UPDATED_ISO}T00:00:00+09:00`,
@@ -318,16 +288,16 @@ export default function AreaMaebashiPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "片付けレスキュー", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選", item: `${SITE}${PATH}` },
+      { "@type": "ListItem", position: 2, name: "前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選", item: `${SITE}${PATH}` },
     ],
   };
 
   const toc = [
     {
       href: "#maebashi6",
-      label: "1｜前橋のゴミ屋敷片付け・不用品回収業者おすすめ6社",
+      label: "1｜前橋のゴミ屋敷片付け・不用品回収業者おすすめ5社",
       sub: [
-        { href: "#hikaku", label: "前橋から利用できる片付け・回収サービス6社を一覧比較" },
+        { href: "#hikaku", label: "前橋から利用できる片付け・回収サービス5社を一覧比較" },
         ...companies.map((c) => ({ href: `#${c.slug}`, label: `${c.num}｜【${c.catch}】${c.name}` })),
       ],
     },
@@ -351,7 +321,7 @@ export default function AreaMaebashiPage() {
       <header className="mt-2">
         <span className="label inline-block mb-3 text-primary">エリア別 業者比較</span>
         <h1 className="text-2xl sm:text-3xl font-bold leading-snug text-text-primary mb-4">
-          前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選
+          前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選
         </h1>
         <div className="flex items-center gap-3 text-sm text-text-muted mb-4">
           <time dateTime={UPDATED_ISO}>最終更新：{UPDATED}</time>
@@ -377,7 +347,7 @@ export default function AreaMaebashiPage() {
           「物置と車庫に何年も置いたままの物が積み上がって、扉が開かない」「使わなくなった農作業の道具や機械をどう処分すればいいのか分からない」「家の中まで物があふれて自力では戻せない」など、前橋でこうした悩みを抱えたとき、どこに頼めばよいか迷う方は少なくありません。敷地に物置や車庫がある家では、屋内に置き場のない物が自然と外の収納へ移り、そこが「とりあえず置く場所」になります。一つひとつは壊れていない物なので判断が止まり、気付いたときには手を付けられない量になっている、というのが片付けが後回しになる典型的な流れです。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
-          本記事では、前橋から依頼できるゴミ屋敷片付け・不用品回収・清掃の業者・サービス6社を、当サイト掲載の料金目安と公式サイトで確認した情報（2026年8月19日時点）をもとに比較しました。あわせて、物置・車庫の中身を「使う季節」と「最後に使った年」の2つで仕分ける判断のつくり方と、農作業用品やエンジン付き機器を処分に出す前の下準備もまとめています。業者選びの参考にしてください。
+          本記事では、前橋から依頼できるゴミ屋敷片付け・不用品回収・清掃の業者・サービス5社を、当サイト掲載の料金目安と公式サイトで確認した情報（2026年8月19日時点）をもとに比較しました。あわせて、物置・車庫の中身を「使う季節」と「最後に使った年」の2つで仕分ける判断のつくり方と、農作業用品やエンジン付き機器を処分に出す前の下準備もまとめています。業者選びの参考にしてください。
         </p>
       </header>
 
@@ -406,17 +376,17 @@ export default function AreaMaebashiPage() {
         </ol>
       </nav>
 
-      {/* 1｜おすすめ6社 */}
-      <H2 id="maebashi6" num="1">前橋のゴミ屋敷片付け・不用品回収業者おすすめ6社</H2>
+      {/* 1｜おすすめ5社 */}
+      <H2 id="maebashi6" num="1">前橋のゴミ屋敷片付け・不用品回収業者おすすめ5社</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        前橋から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる6社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月19日時点）にもとづきます。なお、東京版で紹介した粗大ゴミ回収本舗（東京・神奈川・埼玉・千葉）、ブルークリーン（東京・千葉・埼玉・神奈川中心）、お部屋片付け日本一（関東は東京・埼玉・千葉・神奈川・茨城）は、群馬県の対応を確認できなかったため本記事のカードには含めていません。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
+        前橋から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる5社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月19日時点）にもとづきます。なお、東京版で紹介したブルークリーン（東京・千葉・埼玉・神奈川中心）は、群馬県の対応を確認できなかったため本記事のカードには含めていません。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
       </p>
 
       <h3 id="hikaku" className="scroll-mt-20 text-lg font-bold text-text-primary mb-4">
-        前橋から利用できる片付け・回収サービス6社を一覧比較
+        前橋から利用できる片付け・回収サービス5社を一覧比較
       </h3>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        群馬対応を確認できた専門業者と、全国対応の紹介・比較サービスを合わせた、前橋から利用できる6社の一覧です。
+        群馬対応を確認できた専門業者と、全国対応の紹介・比較サービスを合わせた、前橋から利用できる5社の一覧です。
       </p>
       <div className="overflow-x-auto mb-3 rounded-2xl border border-border">
         <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -598,7 +568,7 @@ export default function AreaMaebashiPage() {
       {/* 8｜まとめ */}
       <H2 id="matome" num="8">まとめ｜季節と使用年の2つの基準で物置・車庫を片付ける</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        前橋から依頼できるゴミ屋敷片付け・不用品回収の業者・サービス6社を紹介しました。遺品整理・生前整理を伴うなら審査済み業者を比較できるみんなの遺品整理、ゴミ屋敷の片付けから清掃・消臭までなら群馬を含む関東が対応範囲のゴミ屋敷専門パートナーズ、回収と買取を一度でまとめるなら群馬が対応都県に明記されたお助けうさぎ、量を区切って進めるならくらしのマーケット、品目の事情を伝えて見積もりを比較するならミツモア、業者探しから手配まで任せるなら生活110番と、目的によって向いているサービスは変わります。
+        前橋から依頼できるゴミ屋敷片付け・不用品回収の業者・サービス5社を紹介しました。遺品整理・生前整理を伴うなら審査済み業者を比較できるみんなの遺品整理、回収と買取を一度でまとめるなら群馬が対応都県に明記されたお助けうさぎ、量を区切って進めるならくらしのマーケット、品目の事情を伝えて見積もりを比較するならミツモア、業者探しから手配まで任せるなら生活110番と、目的によって向いているサービスは変わります。
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-8">
         物置と車庫の片付けは、物の状態で迷い続けるより、使う季節と最後に使った年という自分の使い方を基準にした方が判断が進みます。そのうえで、燃料の残った機器、刃物、肥料や農薬といった下準備が必要な品目を先に抜き出し、回収可否を見積もりの段階で確認しておけば、当日に積み残しが出る事態を防げます。同じ条件で複数社の見積もりを取り、総額と内訳に納得してから依頼することがトラブルを防ぐための共通の原則です。本記事の情報を出発点に、状況に合った依頼先を選んでください。
@@ -618,7 +588,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/aomori/" className="text-primary underline underline-offset-2">青森のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/fujisawa/" className="text-primary underline underline-offset-2">藤沢のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -672,7 +642,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/kitakyushu/" className="text-primary underline underline-offset-2">北九州のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/kochi/" className="text-primary underline underline-offset-2">高知のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -690,7 +660,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/kurume/" className="text-primary underline underline-offset-2">久留米のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/matsue/" className="text-primary underline underline-offset-2">松江のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -702,7 +672,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/matsuyama/" className="text-primary underline underline-offset-2">松山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/miyazaki/" className="text-primary underline underline-offset-2">宮崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -717,7 +687,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/nagasaki/" className="text-primary underline underline-offset-2">長崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/naha/" className="text-primary underline underline-offset-2">那覇のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -735,7 +705,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/okayama/" className="text-primary underline underline-offset-2">岡山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/otsu/" className="text-primary underline underline-offset-2">大津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -747,7 +717,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/sagamihara/" className="text-primary underline underline-offset-2">相模原のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -771,7 +741,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/tottori/" className="text-primary underline underline-offset-2">鳥取のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -783,7 +753,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/tsu/" className="text-primary underline underline-offset-2">津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/wakayama/" className="text-primary underline underline-offset-2">和歌山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -795,7 +765,7 @@ export default function AreaMaebashiPage() {
             <Link href="/area/yamaguchi/" className="text-primary underline underline-offset-2">山口のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
         </ul>
       </div>

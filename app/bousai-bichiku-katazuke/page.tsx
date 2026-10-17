@@ -120,7 +120,7 @@ const related = [
   { href: "/kaigo-juukankyou-seiri/", label: "介護に備えた住環境整理", desc: "動線・転倒対策の整え方" },
   { href: "/gomiyashiki-houchi-risk/", label: "ゴミ屋敷放置のリスク", desc: "火災・健康リスクの解説" },
   { href: "/katazuke-junban/", label: "片付けの順番", desc: "無理なく進める片付けの手順" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "不用品の積み放題プランがある業者" },
+  { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/sendai/", label: "仙台の片付け業者比較", desc: "仙台から依頼できる業者の比較" },
   { href: "/nichiyohin-stock-seiri/", label: "日用品ストックの整理", desc: "洗剤・紙製品の上限と置き場所の決め方" },
   { href: "/saigai-go-katazuke/", label: "災害後の家の片付け", desc: "安全確認から家財の扱いまで" },
@@ -294,7 +294,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        物量が多い場合は、仕分けから搬出まで対応する片付け業者や、トラック単位で回収する<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような不用品回収業者が候補になります。回収を依頼する際は、廃棄物の処理に必要な許可を確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/katazuke-daikou/" className="text-primary underline underline-offset-2">片付け代行の選び方</Link>を参考にしてください。
+        物量が多い場合は、仕分けから搬出まで対応する片付け業者や、トラック単位で回収する不用品回収業者が候補になります。回収を依頼する際は、廃棄物の処理に必要な許可を確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/katazuke-daikou/" className="text-primary underline underline-offset-2">片付け代行の選び方</Link>を参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

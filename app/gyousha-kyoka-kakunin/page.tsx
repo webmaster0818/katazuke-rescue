@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        これらを確認したうえで、料金は物量・間取り・建物の条件・作業内容・地域・業者により異なりますので、同じ条件で複数社に見積もりを依頼して比べてください。粗大ごみの受付が混み合っていて自治体の収集が期限に合わないときの考え方は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの予約が取れないときの対処</Link>で整理しています。依頼先の候補としては<Link href="/review/blue-clean/" className="text-primary underline underline-offset-2">ブルークリーン</Link>や<Link href="/review/kataduke-nihonichi/" className="text-primary underline underline-offset-2">お部屋片付け日本一</Link>で特徴を比較できます。
+        これらを確認したうえで、料金は物量・間取り・建物の条件・作業内容・地域・業者により異なりますので、同じ条件で複数社に見積もりを依頼して比べてください。粗大ごみの受付が混み合っていて自治体の収集が期限に合わないときの考え方は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの予約が取れないときの対処</Link>で整理しています。依頼先の候補としては<Link href="/review/blue-clean/" className="text-primary underline underline-offset-2">ブルークリーン</Link>で特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

@@ -25,7 +25,7 @@
       "作業内容の詳細な見積書を必ず受け取る",
       "処分できない物の対応方法を確認する"
     ],
-    "recommendedCompanies": ["gomiyashiki-partners", "blue-clean", "minna-ihinseiri"],
+    "recommendedCompanies": ["blue-clean", "minna-ihinseiri"],
     "faqs": [
       {
         "question": "ゴミ屋敷の片付けは何日かかりますか？",
@@ -67,7 +67,7 @@
       "再利用できる品物は買取も検討する",
       "自治体の粗大ごみ収集と比較する"
     ],
-    "recommendedCompanies": ["sodaigomi-honpo", "kurashi-market", "mitsumoa"],
+    "recommendedCompanies": ["kurashi-market", "mitsumoa"],
     "faqs": [
       {
         "question": "不用品回収の相場はいくらですか？",
@@ -151,7 +151,7 @@
       "引っ越し業者と不用品回収業者を比較する",
       "搬出が難しい大型家具は専門業者に依頼する"
     ],
-    "recommendedCompanies": ["sodaigomi-honpo", "kurashi-market", "sumai-hotline"],
+    "recommendedCompanies": ["kurashi-market", "sumai-hotline"],
     "faqs": [
       {
         "question": "引っ越し前に不用品を処分するのに適した時期はいつですか？",
@@ -193,7 +193,7 @@
       "不用品処分もセットで依頼できるか確認する",
       "アフターフォローの有無を確認する"
     ],
-    "recommendedCompanies": ["kataduke-nihonichi", "kurashi-market", "otasuke-usagi"],
+    "recommendedCompanies": ["kurashi-market", "otasuke-usagi"],
     "faqs": [
       {
         "question": "片付け代行の料金はどの程度かかりますか？",

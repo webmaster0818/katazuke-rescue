@@ -295,7 +295,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        業者選びでは、立ち会いのもとで仕分けに対応してくれるかをご確認ください。長年の実績を持つ<Link href="/review/kataduke-nihonichi/" className="text-primary underline underline-offset-2">お部屋片付け日本一</Link>や、丁寧な対応に定評のある<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">お助けうさぎ</Link>のような片付け業者が候補になります。名古屋など各都市の業者は<Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋の片付け業者比較</Link>で紹介しています。
+        業者選びでは、立ち会いのもとで仕分けに対応してくれるかをご確認ください。丁寧な対応に定評のある<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">お助けうさぎ</Link>のような片付け業者が候補になります。名古屋など各都市の業者は<Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋の片付け業者比較</Link>で紹介しています。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

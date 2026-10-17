@@ -120,7 +120,7 @@ const related = [
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しいごみの処分", desc: "電池・スプレー缶などの出し方の考え方" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート比較", desc: "自治体・売却・回収業者の使い分け" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "片付けと買取の併用", desc: "売れる物を活かして負担を減らす" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "不用品をまとめて回収依頼する場合" },
+  { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/tokyo/", label: "東京の片付け業者比較", desc: "東京から依頼できる業者の比較" },
   { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線を外す手順と小型家電の手放し方" },
 ];
@@ -292,7 +292,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        パソコン・スマホ以外の不用品もまとめて手放すなら、<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような回収業者に、消去を済ませた端末ごと搬出を任せる方法もあります。地域の業者を口コミで比較したい場合は<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>が活用できます。業者選びで避けるべき特徴は<Link href="/guide/illegal-dumping/" className="text-primary underline underline-offset-2">違法業者の見分け方</Link>にまとめています。
+        パソコン・スマホ以外の不用品もまとめて手放す場合は、消去を済ませた端末ごと不用品回収業者に搬出を任せる方法もあります。地域の業者を口コミで比較したい場合は<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>が活用できます。業者選びで避けるべき特徴は<Link href="/guide/illegal-dumping/" className="text-primary underline underline-offset-2">違法業者の見分け方</Link>にまとめています。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

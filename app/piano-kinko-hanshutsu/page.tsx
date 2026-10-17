@@ -120,7 +120,6 @@ const related = [
   { href: "/recycle-shop-kaitori-heiyou/", label: "片付けと買取の併用", desc: "売れる物を活かして負担を減らす" },
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方", desc: "搬出から処分まで任せられる業者" },
   { href: "/guide/illegal-dumping/", label: "違法業者の見分け方", desc: "無許可回収のリスクと確認事項" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "大型・重量物に対応する回収業者" },
   { href: "/area/tokyo/", label: "東京の片付け業者比較", desc: "東京から依頼できる業者の比較" },
 ];
 
@@ -291,7 +290,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        大型・重量物の回収に対応する業者としては<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような専門業者が候補になります。複数の業者を比較して選びたい場合は、見積もりを比較できる<Link href="/review/mitsumoa/" className="text-primary underline underline-offset-2">ミツモア</Link>も活用できます。お住まいの地域の業者選びは<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者比較</Link>など各エリアページを参考にしてください。
+        大型・重量物の回収は、重量物の搬出に対応する専門業者が候補になります。複数の業者を比較して選びたい場合は、見積もりを比較できる<Link href="/review/mitsumoa/" className="text-primary underline underline-offset-2">ミツモア</Link>も活用できます。お住まいの地域の業者選びは<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪の片付け業者比較</Link>など各エリアページを参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

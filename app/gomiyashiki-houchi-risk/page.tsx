@@ -280,7 +280,7 @@ export default function Page() {
 
       <H2 id="gyousha" num="6">業者・相談窓口を頼るべきサイン</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        次のいずれかに当てはまる場合は、自力での回復にこだわらず、ゴミ屋敷清掃に対応する業者への相談をご検討ください。心身の不調が背景にある場合は、自治体の福祉窓口や(高齢の方の場合)地域包括支援センターという相談先もあります。業者選びは<Link href="/review/gomiyashiki-partners/" className="text-primary underline underline-offset-2">ゴミ屋敷専門パートナーズの口コミ・評判</Link>や<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者おすすめ</Link>などの記事も参考にしてください。
+        次のいずれかに当てはまる場合は、自力での回復にこだわらず、ゴミ屋敷清掃に対応する業者への相談をご検討ください。心身の不調が背景にある場合は、自治体の福祉窓口や(高齢の方の場合)地域包括支援センターという相談先もあります。業者選びは<Link href="/service/gomiyashiki/" className="text-primary underline underline-offset-2">ゴミ屋敷片付け業者の選び方と費用相場</Link>や<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者おすすめ</Link>などの記事も参考にしてください。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (

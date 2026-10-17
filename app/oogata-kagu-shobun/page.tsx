@@ -286,7 +286,7 @@ export default function Page() {
 
       <H2 id="gyousha" num="6">業者に任せたほうがよいサイン</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        次のいずれかに当てはまる場合は、自力にこだわらず、搬出まで対応する不用品回収業者・片付け業者への依頼をご検討ください。粗大ごみに強い業者の例としては<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗の口コミ・評判</Link>などのレビュー記事も参考になります。
+        次のいずれかに当てはまる場合は、自力にこだわらず、搬出まで対応する不用品回収業者・片付け業者への依頼をご検討ください。業者の選び方は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方と料金比較</Link>で整理しています。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (

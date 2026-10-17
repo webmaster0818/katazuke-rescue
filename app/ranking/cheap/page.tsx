@@ -11,8 +11,7 @@ export const metadata: Metadata = {
 
 // Sort by price range (approximate - using companies with clear price info)
 const cheapRanking = [...companiesData].sort((a, b) => {
-  // Companies known for being cheap: kataduke-nihonichi, sodaigomi-honpo first
-  const cheapOrder = ["kataduke-nihonichi", "sodaigomi-honpo", "mitsumoa", "kurashi-market", "sumai-hotline"];
+  const cheapOrder = ["mitsumoa", "kurashi-market", "sumai-hotline"];
   const aIndex = cheapOrder.indexOf(a.slug);
   const bIndex = cheapOrder.indexOf(b.slug);
   if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;

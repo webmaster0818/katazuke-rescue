@@ -28,7 +28,7 @@ export default function HomePage() {
             片付け業者の選定に必要な情報を<br className="sm:hidden"/>比較して掲載します
           </h1>
           <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            ゴミ屋敷の片付け、遺品整理、不用品回収などの依頼先を検討する方に向けて、10社の特徴・料金目安・口コミを比較して掲載しています。
+            ゴミ屋敷の片付け、遺品整理、不用品回収などの依頼先を検討する方に向けて、7社の特徴・料金目安・口コミを比較して掲載しています。
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/ranking/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-lg">
@@ -46,7 +46,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { label: "掲載業者数", value: "10社", sub: "ランキングに掲載" },
+              { label: "掲載業者数", value: "7社", sub: "ランキングに掲載" },
               { label: "サービスガイド", value: "5種類", sub: "サービス別に解説" },
               { label: "解説記事", value: "120本以上", sub: "随時更新" },
               { label: "エリア別ページ", value: "64都市", sub: "地域別に比較" },
@@ -147,7 +147,7 @@ export default function HomePage() {
 
           <div className="text-center mt-8">
             <Link href="/ranking/" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors">
-              全10社のランキングを見る
+              全7社のランキングを見る
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="9 18 15 12 9 6"/>
               </svg>

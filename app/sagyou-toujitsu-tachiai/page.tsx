@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼にあたっては、廃棄物の収集運搬に必要な許可を確認できる業者を選び、作業前の見積もりで総額と作業範囲を書面にしてもらってください。当日の進め方、立ち会いの要否、追加が生じる場合の手順についても、契約の前に確認しておくことをおすすめします。料金は物量・間取り・作業内容・地域によって異なるため、複数社を比べるのが確実です。依頼先の候補としては<Link href="/review/minna-ihinseiri/" className="text-primary underline underline-offset-2">みんなの遺品整理</Link>や<Link href="/review/gomiyashiki-partners/" className="text-primary underline underline-offset-2">ゴミ屋敷専門パートナーズ</Link>で特徴を比較できます。
+        依頼にあたっては、廃棄物の収集運搬に必要な許可を確認できる業者を選び、作業前の見積もりで総額と作業範囲を書面にしてもらってください。当日の進め方、立ち会いの要否、追加が生じる場合の手順についても、契約の前に確認しておくことをおすすめします。料金は物量・間取り・作業内容・地域によって異なるため、複数社を比べるのが確実です。依頼先の候補としては<Link href="/review/minna-ihinseiri/" className="text-primary underline underline-offset-2">みんなの遺品整理</Link>で特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

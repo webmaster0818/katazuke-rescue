@@ -111,7 +111,7 @@ const faqs = [
   },
   {
     q: "不用品回収業者の料金はどのくらいかかりますか？",
-    a: "物量・品目・搬出条件により大きく異なるため、一律の金額は言えません。トラック積載量ベースのパックプランを設ける業者もあります（例として当サイト掲載の粗大ゴミ回収本舗は定額パック9,800円からと公式サイトに記載）。総額は現場条件で変わるため、複数社の見積もりで内訳を比較するのが基本です。詳しくは費用相場ページをご覧ください。",
+    a: "物量・品目・搬出条件により大きく異なるため、一律の金額は言えません。トラック積載量ベースのパックプランを設ける業者もあります。総額は現場条件で変わるため、複数社の見積もりで内訳を比較するのが基本です。詳しくは費用相場ページをご覧ください。",
   },
   {
     q: "悪質な回収業者を避けるにはどこを確認すればいいですか？",
@@ -123,7 +123,6 @@ const related = [
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "回収業者に頼む場合の基礎知識" },
   { href: "/guide/municipal-service/", label: "自治体の粗大ごみ回収サービス活用法", desc: "自治体ルートの使い方を詳しく" },
   { href: "/guide/illegal-dumping/", label: "不用品回収の違法業者の見分け方", desc: "トラブルを避けるための確認事項" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "定額パック制の関東対応業者" },
   { href: "/area/tokyo/", label: "東京の片付け・不用品回収業者おすすめ", desc: "東京から依頼できる業者の比較" },
 ];
 
@@ -275,7 +274,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        費用は物量・搬出条件により異なるため、複数社の見積もり比較が基本です。業者ごとの特徴は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方と料金比較</Link>と各社レビュー（<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>、<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">お助けうさぎ</Link>など）で解説しています。
+        費用は物量・搬出条件により異なるため、複数社の見積もり比較が基本です。業者ごとの特徴は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方と料金比較</Link>と各社レビュー（<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">お助けうさぎ</Link>など）で解説しています。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

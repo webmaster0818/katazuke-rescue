@@ -298,7 +298,7 @@ export default function Page() {
         </div>
       </div>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        個別の業者の特徴は<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>や<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>などのレビュー記事で、地域別の依頼先は<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪</Link>・<Link href="/area/sapporo/" className="text-primary underline underline-offset-2">札幌</Link>など各エリアページで紹介しています。
+        個別の業者の特徴は<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>などのレビュー記事で、地域別の依頼先は<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪</Link>・<Link href="/area/sapporo/" className="text-primary underline underline-offset-2">札幌</Link>など各エリアページで紹介しています。
       </p>
 
       <H2 id="faq" num="6">よくある質問</H2>

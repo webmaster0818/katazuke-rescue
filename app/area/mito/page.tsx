@@ -8,14 +8,14 @@ const UPDATED = "2026年8月16日";
 const UPDATED_ISO = "2026-08-16";
 
 export const metadata: Metadata = {
-  title: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選【2026年版】",
+  title: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選【2026年版】",
   description:
-    "水戸でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス6社を比較しています。みんなの遺品整理・お部屋片付け日本一・ゴミ屋敷専門パートナーズ・お助けうさぎ・くらしのマーケット・ミツモアの料金目安と特徴、庭付き戸建ての一括整理と、片付けをリバウンドさせない年間の物の流れづくりまでをまとめています。",
+    "水戸でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス4社を比較しています。みんなの遺品整理・お助けうさぎ・くらしのマーケット・ミツモアの料金目安と特徴、庭付き戸建ての一括整理と、片付けをリバウンドさせない年間の物の流れづくりまでをまとめています。",
   alternates: { canonical: `${SITE}${PATH}` },
   openGraph: {
-    title: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選【2026年版】",
+    title: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選【2026年版】",
     description:
-      "水戸でゴミ屋敷片付け・不用品回収を頼める業者・サービス6社を、当サイト掲載の料金目安・公式サイト確認情報で比較しています。庭付き戸建ての一括整理と年間の物の流れづくりの考え方も解説します。",
+      "水戸でゴミ屋敷片付け・不用品回収を頼める業者・サービス4社を、当サイト掲載の料金目安・公式サイト確認情報で比較しています。庭付き戸建ての一括整理と年間の物の流れづくりの考え方も解説します。",
     url: `${SITE}${PATH}`,
     type: "article",
     images: ["/images/hero-final.png"],
@@ -25,8 +25,6 @@ export const metadata: Metadata = {
 // アフィリエイトリンク（提携開始後にURLを設定。nullの間は公式サイトへ）
 const AFF: Record<string, string | null> = {
   "minna-ihinseiri": null,
-  "kataduke-nihonichi": null,
-  "gomiyashiki-partners": null,
   "otasuke-usagi": null,
   "kurashi-market": null,
   mitsumoa: null,
@@ -77,64 +75,8 @@ const companies: AreaCompany[] = [
       "公式サイト（m-ihinseiri.jp）で、審査済み業者のみ掲載・最大3社の一括見積もり・相談無料・全国対応の記載を確認しています（2026年8月16日時点）。自社で作業を行う業者ではなく紹介型サービスのため、実際の作業料金は紹介先業者の見積もりで確定します。",
   },
   {
-    slug: "kataduke-nihonichi",
-    num: "1-2",
-    catch: "許可・保険を備えた一括対応の専門業者",
-    name: "お部屋片付け日本一",
-    officialUrl: "https://kataduke-nihonichi.com/",
-    image: "/images/hero-b.png",
-    imageAlt: "お部屋片付け日本一の紹介イメージ",
-    intro: [
-      "お部屋片付け日本一は、株式会社アースアラウンド（2006年設立・東京都文京区）が運営する、不用品回収・ゴミ屋敷片付け・遺品整理の専門業者です。実績は26,000件超（公式記載）で、産業廃棄物収集運搬業許可・古物商許可を持ち、最大1億円の賠償保険を完備しています。",
-      "対応エリアは関東（東京・埼玉・千葉・神奈川・茨城）と東海・中部の一部で、公式サイトの対応エリアに茨城県・水戸市が含まれることを確認しています（2026年8月16日時点）。庭付き戸建ての一括整理では、家財の搬出で庭先や外構まわりを何度も行き来することになるため、賠償保険を備えた業者に頼めることは安心材料です。回収と買取の併用にも対応し、即日対応・年中無休をうたっています。",
-    ],
-    recommend: [
-      "許可・保険のそろった専門業者に直接頼みたい方",
-      "家一軒分の片付けをまとめて任せたい方",
-      "買取の併用で費用を少しでも抑えたい方",
-      "実績の多い業者を選びたい方",
-    ],
-    table: [
-      { k: "料金目安", v: "1万円〜15万円", note: "当サイト掲載の目安。物量・間取りで変動" },
-      { k: "見積もり", v: "無料・即日対応可（公式表記）" },
-      { k: "対応エリア", v: "関東（茨城・水戸対応）・東海/中部の一部" },
-      { k: "運営会社", v: "株式会社アースアラウンド（2006年設立）" },
-      { k: "許可・保険", v: "産廃収集運搬業許可・古物商許可・最大1億円の賠償保険" },
-    ],
-    memo:
-      "公式サイト（kataduke-nihonichi.com）の対応エリアページで、茨城県の対応市町村に水戸市が含まれることを確認しています（2026年8月16日時点）。実績26,000件超・許可・保険の内容は当サイトのレビューページ掲載値（公式サイト確認情報）にもとづきます。実際の総額は物量・搬出条件で変わるため、見積もりで確認してからご依頼ください。",
-  },
-  {
-    slug: "gomiyashiki-partners",
-    num: "1-3",
-    catch: "ゴミ屋敷専門・最短到着60分",
-    name: "ゴミ屋敷専門パートナーズ",
-    officialUrl: "https://gomikaisyu-pro.com/",
-    image: "/images/hero-c.png",
-    imageAlt: "ゴミ屋敷専門パートナーズの紹介イメージ",
-    intro: [
-      "ゴミ屋敷専門パートナーズは、TKC株式会社（大阪府大阪市）が運営するゴミ屋敷・汚部屋の片付け専門業者です。ごみの搬出だけでなく、不用品の回収・買取、生前整理・遺品整理、ハウスクリーニング、害虫駆除・消臭まで対応し、ゴミ屋敷を「片付けたあと住める状態に戻す」ところまで一括で依頼できます。",
-      "対応エリアは関東・東海・関西の各府県で、公式サイトの対応エリアに茨城県が含まれることを確認しています（2026年8月16日時点）。見積もりは無料で買取査定にも対応します。長年手を付けていなかった実家がゴミ屋敷状態になっているケースでは、片付け・清掃・消臭までまとめて任せられることが強みです。プライバシーへの配慮を重視する方の相談先としても候補になります。",
-    ],
-    recommend: [
-      "ゴミ屋敷・汚部屋の片付けに特化した業者に頼みたい方",
-      "清掃・消臭・害虫駆除までまとめて依頼したい方",
-      "買取を併用して費用を抑えたい方",
-      "近隣に配慮した作業を希望する方",
-    ],
-    table: [
-      { k: "料金目安", v: "5万円〜50万円", note: "当サイト掲載の目安。物量・作業範囲で変動" },
-      { k: "対応スピード", v: "最短到着60分（公式表記）" },
-      { k: "見積もり", v: "無料・買取査定あり" },
-      { k: "対応エリア", v: "関東・東海・関西の各府県（茨城・水戸対応）" },
-      { k: "運営会社", v: "TKC株式会社（大阪府大阪市）" },
-    ],
-    memo:
-      "公式サイト（gomikaisyu-pro.com）で、対応エリアに茨城県が含まれることを確認しています（2026年8月16日時点）。「最短到着60分」の表記・見積もり無料・買取査定あり・料金目安は当サイトのレビューページ掲載値にもとづきます。ゴミ屋敷の片付け費用は物量で大きく変わるため、写真見積もりや訪問見積もりで総額を確定したうえでご依頼ください。",
-  },
-  {
     slug: "otasuke-usagi",
-    num: "1-4",
+    num: "1-2",
     catch: "回収・買取・清掃を一括対応",
     name: "お助けうさぎ",
     officialUrl: "https://otasukeusagi.jp/",
@@ -162,7 +104,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "kurashi-market",
-    num: "1-5",
+    num: "1-3",
     catch: "口コミと料金で地域の業者を選べる",
     name: "くらしのマーケット",
     officialUrl: "https://curama.jp/",
@@ -189,7 +131,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "mitsumoa",
-    num: "1-6",
+    num: "1-4",
     catch: "最大5社の見積もりを比較",
     name: "ミツモア",
     officialUrl: "https://meetsmore.com/",
@@ -220,8 +162,6 @@ const companies: AreaCompany[] = [
 // 比較表（水戸から利用できるサービス・料金目安は当サイト掲載値）
 const compareRows = [
   { slug: "minna-ihinseiri", name: "みんなの遺品整理", area: "全国", price: "3万円〜20万円", point: "審査済み業者を最大3社比較・遺品整理に強い" },
-  { slug: "kataduke-nihonichi", name: "お部屋片付け日本一", area: "関東（茨城対応）・東海/中部", price: "1万円〜15万円", point: "2006年設立・最大1億円の賠償保険完備" },
-  { slug: "gomiyashiki-partners", name: "ゴミ屋敷専門パートナーズ", area: "関東・東海・関西（茨城対応）", price: "5万円〜50万円", point: "ゴミ屋敷専門・消臭や害虫駆除まで対応" },
   { slug: "otasuke-usagi", name: "お助けうさぎ", area: "首都圏中心の9都県（茨城対応）", price: "3万円〜30万円", point: "回収・買取・清掃を一括対応" },
   { slug: "kurashi-market", name: "くらしのマーケット", area: "全国", price: "業者により異なる", point: "口コミと料金を見て地域の業者を選べる" },
   { slug: "mitsumoa", name: "ミツモア", area: "全国", price: "業者により異なる", point: "最大5社の一括見積もり比較" },
@@ -249,15 +189,15 @@ const steps = [
 const faqs = [
   {
     q: "水戸のゴミ屋敷片付け・不用品回収の費用はどのくらいですか？",
-    a: "当サイト掲載の料金目安では、お部屋片付け日本一が1万円〜15万円、みんなの遺品整理経由の遺品整理が3万円〜20万円、お助けうさぎが3万円〜30万円、ゴミ屋敷の片付けはゴミ屋敷専門パートナーズで5万円〜50万円が目安です。くらしのマーケット・ミツモアは業者ごとに料金が異なります。実際の金額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで総額を確認してください。",
+    a: "当サイト掲載の料金目安では、みんなの遺品整理経由の遺品整理が3万円〜20万円、お助けうさぎが3万円〜30万円が目安です。くらしのマーケット・ミツモアは業者ごとに料金が異なります。実際の金額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで総額を確認してください。",
   },
   {
     q: "庭の植木鉢・プランター・園芸用品も回収してもらえますか？",
     a: "多くの片付け業者が植木鉢や園芸用品の回収に対応しますが、中の土や庭の土・石・砂利は「自然物」として引き受けられないとする業者が少なくありません。土は抜いてから回収という条件が付く場合もあります。庭付きの家が多い水戸の一括整理では庭まわりの品目が交ざりやすいため、見積もりの際に品目と状態を具体的に伝え、回収可否と条件をご確認ください。回収できない土などは、自治体の案内や園芸店への相談で扱いを確認するのが基本です。",
   },
   {
-    q: "東京の記事で見た粗大ゴミ回収本舗やブルークリーンは水戸でも使えますか？",
-    a: "編集部が公式サイトで確認した対応エリア（2026年8月16日時点）では、粗大ゴミ回収本舗は東京・神奈川・埼玉・千葉の4都県で茨城は対応エリア外、ブルークリーンも東京・千葉・埼玉・神奈川中心で茨城の対応は確認できませんでした。一方、お部屋片付け日本一・ゴミ屋敷専門パートナーズ・お助けうさぎは対応エリアに茨城県が含まれることを確認できたため、本記事のカードで紹介しています。そのほかは水戸から利用できる全国対応・検索型のサービスを掲載しています。",
+    q: "東京の記事で見たブルークリーンは水戸でも使えますか？",
+    a: "編集部が公式サイトで確認した対応エリア（2026年8月16日時点）では、ブルークリーンは東京・千葉・埼玉・神奈川中心で、茨城の対応は確認できませんでした。一方、お助けうさぎは対応エリアに茨城県が含まれることを確認できたため、本記事のカードで紹介しています。そのほかは水戸から利用できる全国対応・検索型のサービスを掲載しています。",
   },
   {
     q: "水戸市の粗大ごみ収集と業者はどう使い分ければいいですか？",
@@ -294,9 +234,9 @@ export default function AreaMitoPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選【2026年版】",
+    headline: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選【2026年版】",
     description:
-      "水戸でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス6社を、当サイト掲載の料金目安・公式サイト確認情報で比較した記事です。",
+      "水戸でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス4社を、当サイト掲載の料金目安・公式サイト確認情報で比較した記事です。",
     image: `${SITE}/images/hero-final.png`,
     datePublished: `${UPDATED_ISO}T00:00:00+09:00`,
     dateModified: `${UPDATED_ISO}T00:00:00+09:00`,
@@ -318,16 +258,16 @@ export default function AreaMitoPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "片付けレスキュー", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選", item: `${SITE}${PATH}` },
+      { "@type": "ListItem", position: 2, name: "水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選", item: `${SITE}${PATH}` },
     ],
   };
 
   const toc = [
     {
       href: "#mito6",
-      label: "1｜水戸のゴミ屋敷片付け・不用品回収業者おすすめ6社",
+      label: "1｜水戸のゴミ屋敷片付け・不用品回収業者おすすめ4社",
       sub: [
-        { href: "#hikaku", label: "水戸から利用できる片付け・回収サービス6社を一覧比較" },
+        { href: "#hikaku", label: "水戸から利用できる片付け・回収サービス4社を一覧比較" },
         ...companies.map((c) => ({ href: `#${c.slug}`, label: `${c.num}｜【${c.catch}】${c.name}` })),
       ],
     },
@@ -351,7 +291,7 @@ export default function AreaMitoPage() {
       <header className="mt-2">
         <span className="label inline-block mb-3 text-primary">エリア別 業者比較</span>
         <h1 className="text-2xl sm:text-3xl font-bold leading-snug text-text-primary mb-4">
-          水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選
+          水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選
         </h1>
         <div className="flex items-center gap-3 text-sm text-text-muted mb-4">
           <time dateTime={UPDATED_ISO}>最終更新：{UPDATED}</time>
@@ -377,7 +317,7 @@ export default function AreaMitoPage() {
           「実家の家財を屋内も庭まわりもまとめて整理したい」「納戸や庭先の物まで含めると、どこから手を付ければいいのか分からない」「部屋がゴミ屋敷状態になり自力では戻せない」など、水戸でこうした悩みを抱えたとき、依頼先に迷う方は少なくありません。庭付き戸建ての多い水戸の片付けは、屋内の家財と庭まわりの物で品目の性質が違ううえ、業者によって回収できる範囲も異なるため、比較せずに選ぶと「庭の分は引き受けてもらえなかった」「思ったより高くついた」といった後悔につながりかねません。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
-          本記事では、水戸から依頼できるゴミ屋敷片付け・不用品回収・清掃の業者・サービス6社を、当サイト掲載の料金目安と公式サイトで確認した情報（2026年8月16日時点）をもとに比較しました。庭付き戸建てを場所ごとに把握してまとめて依頼する段取りと、片付けを一度きりにしない「年間の物の流れ」のつくり方もまとめています。業者選びの参考にしてください。
+          本記事では、水戸から依頼できるゴミ屋敷片付け・不用品回収・清掃の業者・サービス4社を、当サイト掲載の料金目安と公式サイトで確認した情報（2026年8月16日時点）をもとに比較しました。庭付き戸建てを場所ごとに把握してまとめて依頼する段取りと、片付けを一度きりにしない「年間の物の流れ」のつくり方もまとめています。業者選びの参考にしてください。
         </p>
       </header>
 
@@ -406,17 +346,17 @@ export default function AreaMitoPage() {
         </ol>
       </nav>
 
-      {/* 1｜おすすめ6社 */}
-      <H2 id="mito6" num="1">水戸のゴミ屋敷片付け・不用品回収業者おすすめ6社</H2>
+      {/* 1｜おすすめ4社 */}
+      <H2 id="mito6" num="1">水戸のゴミ屋敷片付け・不用品回収業者おすすめ4社</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        水戸から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる6社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版で紹介した粗大ゴミ回収本舗（東京・神奈川・埼玉・千葉）とブルークリーンは、茨城での対応が公式サイトで確認できなかったため本記事のカードには含めていません。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
+        水戸から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる4社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版で紹介したブルークリーンは、茨城での対応が公式サイトで確認できなかったため本記事のカードには含めていません。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
       </p>
 
       <h3 id="hikaku" className="scroll-mt-20 text-lg font-bold text-text-primary mb-4">
-        水戸から利用できる片付け・回収サービス6社を一覧比較
+        水戸から利用できる片付け・回収サービス4社を一覧比較
       </h3>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        茨城対応を確認できた専門業者と全国対応の紹介・比較サービスを合わせた、水戸から利用できる6社の一覧です。
+        茨城対応を確認できた専門業者と全国対応の紹介・比較サービスを合わせた、水戸から利用できる4社の一覧です。
       </p>
       <div className="overflow-x-auto mb-3 rounded-2xl border border-border">
         <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -598,7 +538,7 @@ export default function AreaMitoPage() {
       {/* 8｜まとめ */}
       <H2 id="matome" num="8">まとめ｜場所ごとの把握と年間の流れづくりが庭付き戸建て整理の要点</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        水戸から依頼できるゴミ屋敷片付け・不用品回収の業者・サービス6社を紹介しました。遺品整理・生前整理を伴うなら審査済み業者を比較できるみんなの遺品整理、許可・保険を備えた専門業者に直接頼むなら茨城対応を確認できたお部屋片付け日本一、ゴミ屋敷の片付けから清掃・消臭まではゴミ屋敷専門パートナーズ、回収と買取の一括対応ならお助けうさぎ、場所を区切って進めるならくらしのマーケット、品目の事情を伝えて見積もりを比較するならミツモアと、目的によって向いているサービスは変わります。
+        水戸から依頼できるゴミ屋敷片付け・不用品回収の業者・サービス4社を紹介しました。遺品整理・生前整理を伴うなら審査済み業者を比較できるみんなの遺品整理、回収と買取の一括対応ならお助けうさぎ、場所を区切って進めるならくらしのマーケット、品目の事情を伝えて見積もりを比較するならミツモアと、目的によって向いているサービスは変わります。
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-8">
         庭付き戸建ての片付けは、屋内・納戸・庭まわりと場所を分けて品目まで書き出して全体を見せることと、土の入った鉢や灯油の残ったポリタンクのような扱いの分かれる品目の回収可否を先に確認することが、見積もりの精度と当日の段取りを決めます。そして、一括整理の後は季節の節目に小さな手放しを組み込む「年間の物の流れ」を作れば、片付いた状態が続きます。複数社の見積もりを比較し、総額と内訳に納得してから依頼することがトラブルを防ぐための共通の原則です。本記事の情報を出発点に、状況に合った依頼先を選んでください。
@@ -618,7 +558,7 @@ export default function AreaMitoPage() {
             <Link href="/area/aomori/" className="text-primary underline underline-offset-2">青森のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/fujisawa/" className="text-primary underline underline-offset-2">藤沢のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -672,7 +612,7 @@ export default function AreaMitoPage() {
             <Link href="/area/kitakyushu/" className="text-primary underline underline-offset-2">北九州のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/kochi/" className="text-primary underline underline-offset-2">高知のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -690,10 +630,10 @@ export default function AreaMitoPage() {
             <Link href="/area/kurume/" className="text-primary underline underline-offset-2">久留米のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
-            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
             <Link href="/area/matsue/" className="text-primary underline underline-offset-2">松江のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -717,7 +657,7 @@ export default function AreaMitoPage() {
             <Link href="/area/nagasaki/" className="text-primary underline underline-offset-2">長崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/naha/" className="text-primary underline underline-offset-2">那覇のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -735,7 +675,7 @@ export default function AreaMitoPage() {
             <Link href="/area/okayama/" className="text-primary underline underline-offset-2">岡山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/otsu/" className="text-primary underline underline-offset-2">大津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -747,7 +687,7 @@ export default function AreaMitoPage() {
             <Link href="/area/sagamihara/" className="text-primary underline underline-offset-2">相模原のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -771,7 +711,7 @@ export default function AreaMitoPage() {
             <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/tottori/" className="text-primary underline underline-offset-2">鳥取のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -783,7 +723,7 @@ export default function AreaMitoPage() {
             <Link href="/area/tsu/" className="text-primary underline underline-offset-2">津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/utsunomiya/" className="text-primary underline underline-offset-2">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/wakayama/" className="text-primary underline underline-offset-2">和歌山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -795,7 +735,7 @@ export default function AreaMitoPage() {
             <Link href="/area/yamaguchi/" className="text-primary underline underline-offset-2">山口のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
         </ul>
       </div>

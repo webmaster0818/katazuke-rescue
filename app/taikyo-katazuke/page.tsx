@@ -104,7 +104,7 @@ const related = [
   { href: "/service/hikkoshi/", label: "引っ越し前の片付け・不用品処分ガイド", desc: "引っ越しと処分をまとめて進める方法" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート7つの使い分け", desc: "処分方法の選び方を詳しく" },
   { href: "/guide/municipal-service/", label: "自治体の粗大ごみ回収サービス活用法", desc: "自治体ルートの基礎知識" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "定額パック制の関東対応業者" },
+  { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
   { href: "/rikon-kazai-wakekata/", label: "離婚にともなう家財の整理", desc: "家財を分ける実務的な進め方" },
 ];
@@ -253,7 +253,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        費用は物量・間取り・搬出条件により異なります。関東エリアでは、日時指定に対応する<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような定額パック制の業者も候補になります。東京での業者選びは<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者比較</Link>を参考にしてください。
+        費用は物量・間取り・搬出条件により異なります。業者によっては、日時指定や定額パック制に対応している場合もあります。東京での業者選びは<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者比較</Link>を参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

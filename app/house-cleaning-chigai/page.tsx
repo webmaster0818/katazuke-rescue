@@ -120,7 +120,6 @@ const related = [
   { href: "/service/gomiyashiki/", label: "ゴミ屋敷清掃業者の選び方", desc: "片付けと清掃を一貫対応する業者" },
   { href: "/tokusou-seisou/", label: "特殊清掃とは", desc: "通常清掃との違いと必要になる場面" },
   { href: "/guide/self-cleanup/", label: "自力での片付け・清掃ガイド", desc: "自分で進めるための基本と道具" },
-  { href: "/review/gomiyashiki-partners/", label: "ゴミ屋敷専門パートナーズの評判", desc: "消臭・清掃まで対応する専門業者" },
   { href: "/area/tokyo/", label: "東京の片付け業者比較", desc: "東京から依頼できる業者の比較" },
 ];
 
@@ -291,7 +290,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        片付けと清掃の一貫対応なら、消臭・清掃まで対応する<Link href="/review/gomiyashiki-partners/" className="text-primary underline underline-offset-2">ゴミ屋敷専門パートナーズ</Link>のような専門業者が候補になります。ハウスクリーニングの業者を口コミで比較したい場合は<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>が活用できます。東京での業者選びは<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者比較</Link>を参考にしてください。
+        片付けと清掃の一貫対応なら、消臭・清掃まで対応する専門業者が候補になります。選び方は<Link href="/service/gomiyashiki/" className="text-primary underline underline-offset-2">ゴミ屋敷片付け業者の選び方と費用相場</Link>で整理しています。ハウスクリーニングの業者を口コミで比較したい場合は<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>が活用できます。東京での業者選びは<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者比較</Link>を参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

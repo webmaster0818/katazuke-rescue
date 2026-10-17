@@ -291,7 +291,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        家全体の片付けと合わせて依頼するなら、関東エリアで定額パックプランのある<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような回収業者が候補になります。生活まわりのトラブル対応をまとめて相談したい場合は<Link href="/review/seikatsu110/" className="text-primary underline underline-offset-2">生活110番</Link>のようなサービスもあります。札幌など各都市の業者は<Link href="/area/sapporo/" className="text-primary underline underline-offset-2">札幌の片付け業者比較</Link>で紹介しています。
+        家全体の片付けと合わせて依頼する場合は、不用品回収業者が候補になります。業者選びの基本は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方</Link>で整理しています。生活まわりのトラブル対応をまとめて相談したい場合は<Link href="/review/seikatsu110/" className="text-primary underline underline-offset-2">生活110番</Link>のようなサービスもあります。札幌など各都市の業者は<Link href="/area/sapporo/" className="text-primary underline underline-offset-2">札幌の片付け業者比較</Link>で紹介しています。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

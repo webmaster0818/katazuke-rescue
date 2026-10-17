@@ -305,7 +305,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        依頼する際は、廃棄物の収集運搬に必要な許可を確認できる業者を選び、作業前の見積もりで総額と作業範囲を書面にしてもらってください。料金は物量・間取り・作業内容・地域によって異なるため、複数社を比較するのが確実です。書類が含まれる場合は、個人情報が載った紙の扱いをどうするかを事前に伝えておくことをおすすめします。依頼先の候補としては<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>や<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>で特徴を比較できます。回収をめぐる注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点</Link>で整理しています。
+        依頼する際は、廃棄物の収集運搬に必要な許可を確認できる業者を選び、作業前の見積もりで総額と作業範囲を書面にしてもらってください。料金は物量・間取り・作業内容・地域によって異なるため、複数社を比較するのが確実です。書類が含まれる場合は、個人情報が載った紙の扱いをどうするかを事前に伝えておくことをおすすめします。依頼先の候補としては<Link href="/review/kurashi-market/" className="text-primary underline underline-offset-2">くらしのマーケット</Link>で特徴を比較できます。回収をめぐる注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点</Link>で整理しています。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

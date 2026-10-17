@@ -120,7 +120,7 @@ const related = [
   { href: "/aircon-torihazushi-shobun/", label: "エアコンの取り外しと処分", desc: "同じ対象品目の取り外しの流れ" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない大型品の搬出と処分" },
   { href: "/hikkoshi-mae-danshari/", label: "引っ越し前の断捨離", desc: "荷物を減らす逆算スケジュール" },
-  { href: "/review/sodaigomi-honpo/", label: "粗大ゴミ回収本舗の評判", desc: "不用品の積み放題プランがある業者" },
+  { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/kobe/", label: "神戸の片付け業者比較", desc: "神戸から依頼できる業者の比較" },
 ];
 
@@ -291,7 +291,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        他の不用品とまとめて処分したい場合は、<Link href="/review/sodaigomi-honpo/" className="text-primary underline underline-offset-2">粗大ゴミ回収本舗</Link>のような不用品回収業者が候補になります。家電リサイクル法対象品を含む回収では、対象品目を適正なリサイクルルートで扱うことを確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方</Link>を参考にしてください。
+        他の不用品とまとめて処分したい場合は、不用品回収業者が候補になります。家電リサイクル法対象品を含む回収では、対象品目を適正なリサイクルルートで扱うことを確認できる業者を選ぶことが大前提です。業者選びの基本は<Link href="/service/fuyohin/" className="text-primary underline underline-offset-2">不用品回収業者の選び方</Link>を参考にしてください。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

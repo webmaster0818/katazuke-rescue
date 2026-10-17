@@ -8,14 +8,14 @@ const UPDATED = "2026年8月16日";
 const UPDATED_ISO = "2026-08-16";
 
 export const metadata: Metadata = {
-  title: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
+  title: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選【2026年版】",
   description:
-    "宇都宮でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス5社を比較しています。みんなの遺品整理・ゴミ屋敷専門パートナーズ・くらしのマーケット・ミツモア・生活110番の料金目安と特徴、戸建ての物置・ガレージ・農作業用品まで含めた一括整理の段取りまでをまとめています。",
+    "宇都宮でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス4社を比較しています。みんなの遺品整理・くらしのマーケット・ミツモア・生活110番の料金目安と特徴、戸建ての物置・ガレージ・農作業用品まで含めた一括整理の段取りまでをまとめています。",
   alternates: { canonical: `${SITE}${PATH}` },
   openGraph: {
-    title: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
+    title: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選【2026年版】",
     description:
-      "宇都宮でゴミ屋敷片付け・不用品回収を頼める業者・サービス5社を、当サイト掲載の料金目安・公式サイト確認情報で比較しています。物置・ガレージ・農作業用品まで含めた一括整理の考え方も解説します。",
+      "宇都宮でゴミ屋敷片付け・不用品回収を頼める業者・サービス4社を、当サイト掲載の料金目安・公式サイト確認情報で比較しています。物置・ガレージ・農作業用品まで含めた一括整理の考え方も解説します。",
     url: `${SITE}${PATH}`,
     type: "article",
     images: ["/images/hero-final.png"],
@@ -25,7 +25,6 @@ export const metadata: Metadata = {
 // アフィリエイトリンク（提携開始後にURLを設定。nullの間は公式サイトへ）
 const AFF: Record<string, string | null> = {
   "minna-ihinseiri": null,
-  "gomiyashiki-partners": null,
   "kurashi-market": null,
   mitsumoa: null,
   seikatsu110: null,
@@ -76,36 +75,8 @@ const companies: AreaCompany[] = [
       "公式サイト（m-ihinseiri.jp）で、審査済み業者のみ掲載・最大3社の一括見積もり・相談無料・全国対応の記載を確認しています（2026年8月16日時点）。自社で作業を行う業者ではなく紹介型サービスのため、実際の作業料金は紹介先業者の見積もりで確定します。",
   },
   {
-    slug: "gomiyashiki-partners",
-    num: "1-2",
-    catch: "ゴミ屋敷専門・最短到着60分",
-    name: "ゴミ屋敷専門パートナーズ",
-    officialUrl: "https://gomikaisyu-pro.com/",
-    image: "/images/hero-c.png",
-    imageAlt: "ゴミ屋敷専門パートナーズの紹介イメージ",
-    intro: [
-      "ゴミ屋敷専門パートナーズは、TKC株式会社（大阪府大阪市）が運営するゴミ屋敷・汚部屋の片付け専門業者です。ごみの搬出だけでなく、不用品の回収・買取、生前整理・遺品整理、ハウスクリーニング、害虫駆除・消臭まで対応し、ゴミ屋敷を「片付けたあと住める状態に戻す」ところまで一括で依頼できます。",
-      "対応エリアは関東・東海・関西の各府県で、公式サイトの対応エリアに栃木県が含まれることを確認しています（2026年8月16日時点）。見積もりは無料で買取査定にも対応します。戸建てのゴミ屋敷は室内だけでなく物置やガレージ、敷地内にも物が広がっているケースがあり、片付けから清掃・消臭まで一括で任せたいときの候補になります。プライバシーへの配慮を重視する方の相談先としても候補になります。",
-    ],
-    recommend: [
-      "ゴミ屋敷・汚部屋の片付けに特化した業者に頼みたい方",
-      "清掃・消臭・害虫駆除までまとめて依頼したい方",
-      "買取を併用して費用を抑えたい方",
-      "近隣に配慮した作業を希望する方",
-    ],
-    table: [
-      { k: "料金目安", v: "5万円〜50万円", note: "当サイト掲載の目安。物量・作業範囲で変動" },
-      { k: "対応スピード", v: "最短到着60分（公式表記）" },
-      { k: "見積もり", v: "無料・買取査定あり" },
-      { k: "対応エリア", v: "関東・東海・関西の各府県（栃木・宇都宮対応）" },
-      { k: "運営会社", v: "TKC株式会社（大阪府大阪市）" },
-    ],
-    memo:
-      "公式サイト（gomikaisyu-pro.com）で、対応エリアに栃木県が含まれることを確認しています（2026年8月16日時点）。「最短到着60分」の表記・見積もり無料・買取査定あり・料金目安は当サイトのレビューページ掲載値にもとづきます。ゴミ屋敷の片付け費用は物量で大きく変わるため、写真見積もりや訪問見積もりで総額を確定したうえでご依頼ください。",
-  },
-  {
     slug: "kurashi-market",
-    num: "1-3",
+    num: "1-2",
     catch: "口コミと料金で地域の業者を選べる",
     name: "くらしのマーケット",
     officialUrl: "https://curama.jp/",
@@ -132,7 +103,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "mitsumoa",
-    num: "1-4",
+    num: "1-3",
     catch: "最大5社の見積もりを比較",
     name: "ミツモア",
     officialUrl: "https://meetsmore.com/",
@@ -160,7 +131,7 @@ const companies: AreaCompany[] = [
   },
   {
     slug: "seikatsu110",
-    num: "1-5",
+    num: "1-4",
     catch: "提携業者を無料で紹介・手配",
     name: "生活110番",
     officialUrl: "https://www.seikatsu110.jp/",
@@ -191,7 +162,6 @@ const companies: AreaCompany[] = [
 // 比較表（宇都宮から利用できるサービス・料金目安は当サイト掲載値）
 const compareRows = [
   { slug: "minna-ihinseiri", name: "みんなの遺品整理", area: "全国", price: "3万円〜20万円", point: "審査済み業者を最大3社比較・遺品整理に強い" },
-  { slug: "gomiyashiki-partners", name: "ゴミ屋敷専門パートナーズ", area: "関東・東海・関西（栃木対応）", price: "5万円〜50万円", point: "ゴミ屋敷専門・消臭や害虫駆除まで対応" },
   { slug: "kurashi-market", name: "くらしのマーケット", area: "全国", price: "業者により異なる", point: "口コミと料金を見て地域の業者を選べる" },
   { slug: "mitsumoa", name: "ミツモア", area: "全国", price: "業者により異なる", point: "最大5社の一括見積もり比較" },
   { slug: "seikatsu110", name: "生活110番", area: "全国", price: "業者により異なる", point: "提携専門業者を無料紹介・手配" },
@@ -219,7 +189,7 @@ const steps = [
 const faqs = [
   {
     q: "宇都宮のゴミ屋敷片付け・不用品回収の費用はどのくらいですか？",
-    a: "当サイト掲載の料金目安では、遺品整理を伴う片付けはみんなの遺品整理経由で3万円〜20万円、ゴミ屋敷の片付けはゴミ屋敷専門パートナーズで5万円〜50万円が目安です。くらしのマーケット・ミツモア・生活110番は業者ごとに料金が異なるため、料金表示や見積もりで確認します。実際の金額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで総額を確認してください。",
+    a: "当サイト掲載の料金目安では、遺品整理を伴う片付けはみんなの遺品整理経由で3万円〜20万円が目安です。くらしのマーケット・ミツモア・生活110番は業者ごとに料金が異なるため、料金表示や見積もりで確認します。実際の金額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで総額を確認してください。",
   },
   {
     q: "ガレージに残ったタイヤ・バッテリー・オイル缶も回収してもらえますか？",
@@ -230,8 +200,8 @@ const faqs = [
     a: "くわ・スコップなどの道具類は多くの業者が回収に対応しますが、肥料や農薬の残りは一般の不用品回収では扱えないことが多い品目です。農薬は自治体の案内や購入した販売店・メーカーへの相談で処分方法をご確認ください。噴霧器などの道具は、中身を使い切って洗浄した状態であれば回収できる場合もあるため、状態とあわせて見積もり時に伝えるのが確実です。",
   },
   {
-    q: "東京の記事で見た粗大ゴミ回収本舗やブルークリーンは宇都宮でも使えますか？",
-    a: "編集部が公式サイトで確認した対応エリア（2026年8月16日時点）では、粗大ゴミ回収本舗は東京・神奈川・埼玉・千葉の4都県で栃木は対応エリア外、お部屋片付け日本一とブルークリーンも栃木の対応は確認できませんでした。一方、ゴミ屋敷専門パートナーズは対応エリアに栃木県が含まれることを確認できたため、本記事のカードで紹介しています。そのほかは宇都宮から利用できる全国対応・検索型のサービスを掲載しています。",
+    q: "東京の記事で見たブルークリーンは宇都宮でも使えますか？",
+    a: "編集部が公式サイトで確認した対応エリア（2026年8月16日時点）では、ブルークリーンは栃木の対応を確認できませんでした。本記事では、宇都宮から利用できる全国対応・検索型のサービスを掲載しています。",
   },
   {
     q: "自治体の粗大ごみ収集と業者はどう使い分ければいいですか？",
@@ -264,9 +234,9 @@ export default function AreaUtsunomiyaPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
+    headline: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選【2026年版】",
     description:
-      "宇都宮でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス5社を、当サイト掲載の料金目安・公式サイト確認情報で比較した記事です。",
+      "宇都宮でゴミ屋敷片付け・不用品回収・清掃を頼める業者・サービス4社を、当サイト掲載の料金目安・公式サイト確認情報で比較した記事です。",
     image: `${SITE}/images/hero-final.png`,
     datePublished: `${UPDATED_ISO}T00:00:00+09:00`,
     dateModified: `${UPDATED_ISO}T00:00:00+09:00`,
@@ -288,16 +258,16 @@ export default function AreaUtsunomiyaPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "片付けレスキュー", item: `${SITE}/` },
-      { "@type": "ListItem", position: 2, name: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選", item: `${SITE}${PATH}` },
+      { "@type": "ListItem", position: 2, name: "宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選", item: `${SITE}${PATH}` },
     ],
   };
 
   const toc = [
     {
       href: "#utsunomiya5",
-      label: "1｜宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5社",
+      label: "1｜宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4社",
       sub: [
-        { href: "#hikaku", label: "宇都宮から利用できる片付け・回収サービス5社を一覧比較" },
+        { href: "#hikaku", label: "宇都宮から利用できる片付け・回収サービス4社を一覧比較" },
         ...companies.map((c) => ({ href: `#${c.slug}`, label: `${c.num}｜【${c.catch}】${c.name}` })),
       ],
     },
@@ -321,7 +291,7 @@ export default function AreaUtsunomiyaPage() {
       <header className="mt-2">
         <span className="label inline-block mb-3 text-primary">エリア別 業者比較</span>
         <h1 className="text-2xl sm:text-3xl font-bold leading-snug text-text-primary mb-4">
-          宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5選
+          宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4選
         </h1>
         <div className="flex items-center gap-3 text-sm text-text-muted mb-4">
           <time dateTime={UPDATED_ISO}>最終更新：{UPDATED}</time>
@@ -347,7 +317,7 @@ export default function AreaUtsunomiyaPage() {
           「家の中だけでなく、物置とガレージにも処分したい物がたまっている」「使わなくなったタイヤや工具、農作業の道具まであって、どこに頼めばいいのか分からない」「部屋がゴミ屋敷状態になり自力では戻せない」など、宇都宮でこうした悩みを抱えたとき、依頼先に迷う方は少なくありません。敷地内に物の置き場が複数ある戸建ての片付けは、場所ごとに品目の性質が違ううえ、業者によって回収できる範囲も異なるため、比較せずに選ぶと「ガレージの分は当日引き受けてもらえなかった」「思ったより高くついた」といった後悔につながりかねません。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
-          本記事では、宇都宮から依頼できるゴミ屋敷片付け・不用品回収・清掃の業者・サービス5社を、当サイト掲載の料金目安と公式サイトで確認した情報（2026年8月16日時点）をもとに比較しました。母屋・物置・ガレージを分けて把握してまとめて依頼する段取りと、タイヤ・工具・農作業用品のように回収可否が分かれる品目の確認事項もまとめています。業者選びの参考にしてください。
+          本記事では、宇都宮から依頼できるゴミ屋敷片付け・不用品回収・清掃の業者・サービス4社を、当サイト掲載の料金目安と公式サイトで確認した情報（2026年8月16日時点）をもとに比較しました。母屋・物置・ガレージを分けて把握してまとめて依頼する段取りと、タイヤ・工具・農作業用品のように回収可否が分かれる品目の確認事項もまとめています。業者選びの参考にしてください。
         </p>
       </header>
 
@@ -376,17 +346,17 @@ export default function AreaUtsunomiyaPage() {
         </ol>
       </nav>
 
-      {/* 1｜おすすめ5社 */}
-      <H2 id="utsunomiya5" num="1">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ5社</H2>
+      {/* 1｜おすすめ4社 */}
+      <H2 id="utsunomiya5" num="1">宇都宮のゴミ屋敷片付け・不用品回収業者おすすめ4社</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
-        宇都宮から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる5社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版で紹介した粗大ゴミ回収本舗（東京・神奈川・埼玉・千葉）・ブルークリーン・お部屋片付け日本一は、栃木での対応が公式サイトで確認できなかったため本記事のカードには含めていません。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
+        宇都宮から依頼できる片付け・不用品回収の業者・サービスのうち、対応内容の異なる4社を紹介します。掲載している料金・対応エリア・運営会社などの情報は、当サイトの各レビューページ掲載値と、編集部が各社公式サイトで確認した内容（2026年8月16日時点）にもとづきます。なお、東京版で紹介したブルークリーンは、栃木での対応が公式サイトで確認できなかったため本記事のカードには含めていません。実際の総額は物量・間取り・搬出条件で変わるため、必ず作業前の見積もりで確認してください。
       </p>
 
       <h3 id="hikaku" className="scroll-mt-20 text-lg font-bold text-text-primary mb-4">
-        宇都宮から利用できる片付け・回収サービス5社を一覧比較
+        宇都宮から利用できる片付け・回収サービス4社を一覧比較
       </h3>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        栃木対応を確認できた専門業者と全国対応の紹介・比較サービスを合わせた、宇都宮から利用できる5社の一覧です。
+        宇都宮から利用できる、全国対応の紹介・比較サービス4社の一覧です。
       </p>
       <div className="overflow-x-auto mb-3 rounded-2xl border border-border">
         <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -568,7 +538,7 @@ export default function AreaUtsunomiyaPage() {
       {/* 8｜まとめ */}
       <H2 id="matome" num="8">まとめ｜場所ごとの把握と品目の線引き確認が一括整理の要点</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        宇都宮から依頼できるゴミ屋敷片付け・不用品回収の業者・サービス5社を紹介しました。遺品整理・生前整理を伴うなら審査済み業者を比較できるみんなの遺品整理、ゴミ屋敷の片付けから清掃・消臭までなら栃木対応を確認できたゴミ屋敷専門パートナーズ、場所を区切って進めるならくらしのマーケット、品目の事情を伝えて見積もりを比較するならミツモア、業者探しから手配まで任せるなら生活110番と、目的によって向いているサービスは変わります。
+        宇都宮から依頼できるゴミ屋敷片付け・不用品回収の業者・サービス4社を紹介しました。遺品整理・生前整理を伴うなら審査済み業者を比較できるみんなの遺品整理、場所を区切って進めるならくらしのマーケット、品目の事情を伝えて見積もりを比較するならミツモア、業者探しから手配まで任せるなら生活110番と、目的によって向いているサービスは変わります。
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-8">
         母屋・物置・ガレージと置き場が分かれる戸建ての片付けは、場所ごとに品目まで書き出して全体を見せることと、タイヤ・オイル類・農作業用品のような扱いの分かれる品目の回収可否を先に確認することが、見積もりの精度と当日の段取りを決めます。複数社の見積もりを比較し、総額と内訳に納得してから依頼することがトラブルを防ぐための共通の原則です。本記事の情報を出発点に、状況に合った依頼先を選んでください。
@@ -588,7 +558,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/aomori/" className="text-primary underline underline-offset-2">青森のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/chiba/" className="text-primary underline underline-offset-2">千葉のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/fujisawa/" className="text-primary underline underline-offset-2">藤沢のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -642,7 +612,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/kitakyushu/" className="text-primary underline underline-offset-2">北九州のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/kochi/" className="text-primary underline underline-offset-2">高知のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -660,10 +630,10 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/kurume/" className="text-primary underline underline-offset-2">久留米のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
-            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/maebashi/" className="text-primary underline underline-offset-2">前橋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
             <Link href="/area/matsue/" className="text-primary underline underline-offset-2">松江のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -675,7 +645,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/matsuyama/" className="text-primary underline underline-offset-2">松山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ6選</Link>
+            <Link href="/area/mito/" className="text-primary underline underline-offset-2">水戸のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/miyazaki/" className="text-primary underline underline-offset-2">宮崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -690,7 +660,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/nagasaki/" className="text-primary underline underline-offset-2">長崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/nagoya/" className="text-primary underline underline-offset-2">名古屋のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/naha/" className="text-primary underline underline-offset-2">那覇のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -708,7 +678,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/okayama/" className="text-primary underline underline-offset-2">岡山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
           </li>
           <li>
             <Link href="/area/otsu/" className="text-primary underline underline-offset-2">大津のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -720,7 +690,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/sagamihara/" className="text-primary underline underline-offset-2">相模原のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -744,7 +714,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
             <Link href="/area/tottori/" className="text-primary underline underline-offset-2">鳥取のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -765,7 +735,7 @@ export default function AreaUtsunomiyaPage() {
             <Link href="/area/yamaguchi/" className="text-primary underline underline-offset-2">山口のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
           </li>
           <li>
-            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜のゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
         </ul>
       </div>
