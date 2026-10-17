@@ -303,7 +303,7 @@ export default function Page() {
         ))}
       </ul>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        片付け業者の中には、買取を併せて扱う業者もあります。その場合、買取に必要な許可を持っているか、査定の結果をどのように示すかを確認しておくことをおすすめします。廃棄物の収集運搬に必要な許可とは別のものですので、両方を確認できる業者を選んでください。料金は物量・間取り・作業内容・地域によって異なるため、作業前の見積もりで総額と作業範囲を書面にしてもらい、複数社を比較するのが確実です。依頼先の候補としては<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">おたすけうさぎ</Link>や<Link href="/review/mitsumoa/" className="text-primary underline underline-offset-2">ミツモア</Link>で特徴を比較できます。
+        片付け業者の中には、買取を併せて扱う業者もあります。その場合、買取に必要な許可を持っているか、査定の結果をどのように示すかを確認しておくことをおすすめします。廃棄物の収集運搬に必要な許可とは別のものですので、両方を確認できる業者を選んでください。料金は物量・間取り・作業内容・地域によって異なるため、作業前の見積もりで総額と作業範囲を書面にしてもらい、複数社を比較するのが確実です。依頼先の候補としては<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">お助けうさぎ</Link>や<Link href="/review/mitsumoa/" className="text-primary underline underline-offset-2">ミツモア</Link>で特徴を比較できます。
       </p>
       <div className="rounded-2xl border border-border bg-surface-alt p-6 text-center mb-6">
         <p className="text-sm text-text-secondary mb-4">

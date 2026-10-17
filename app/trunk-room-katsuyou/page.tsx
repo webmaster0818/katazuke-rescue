@@ -280,7 +280,7 @@ export default function Page() {
 
       <H2 id="gyousha" num="6">業者への相談を検討すべき状況</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        トランクルームは自力の片付けを助けるサービスですが、次のような状況では、片付け業者・不用品回収業者との組み合わせや切り替えをご検討ください。<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">おたすけうさぎの口コミ・評判</Link>など業者のレビュー記事や、<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者おすすめ</Link>などエリア別の比較も参考にしてください。
+        トランクルームは自力の片付けを助けるサービスですが、次のような状況では、片付け業者・不用品回収業者との組み合わせや切り替えをご検討ください。<Link href="/review/otasuke-usagi/" className="text-primary underline underline-offset-2">お助けうさぎの口コミ・評判</Link>など業者のレビュー記事や、<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京の片付け業者おすすめ</Link>などエリア別の比較も参考にしてください。
       </p>
       <ul className="space-y-2 mb-6 text-[15px] leading-8 text-text-secondary">
         {judgeSigns.map((s) => (
