@@ -122,6 +122,8 @@ const related = [
   { href: "/furui-kaden-anzen-shobun/", label: "古い家電の安全確認と処分", desc: "コード・発熱・異音の確認事項" },
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しいごみの捨て方", desc: "スプレー缶・電池など迷ったときの考え方" },
   { href: "/digital-ihin-seiri/", label: "デジタル遺品の整理方法", desc: "故人のスマホ・PC・ネット契約の扱い方" },
+  { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
+  { href: "/kogata-kaden-recycle/", label: "小型家電リサイクルの使い方", desc: "回収ボックスと認定事業者の回収" },
 ];
 
 const faqLd = {

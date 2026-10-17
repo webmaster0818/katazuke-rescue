@@ -122,6 +122,7 @@ const related = [
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "手放し方の選択肢と使い分け" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "リサイクルショップの併用", desc: "買取と処分の組み合わせ方" },
   { href: "/taikyo-katazuke/", label: "退去前の片付け", desc: "期限から逆算する進め方" },
+  { href: "/sodaigomi-size-kijun/", label: "粗大ごみになる大きさの基準", desc: "自治体ごとの違いと解体前の確認" },
 ];
 
 const faqLd = {

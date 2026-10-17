@@ -137,6 +137,7 @@ const related = [
   { href: "/guide/self-cleanup/", label: "ゴミ屋敷を自分で片付ける方法", desc: "自力で片付ける5ステップの詳細版" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
   { href: "/area/tokyo/", label: "東京の片付け・ゴミ屋敷業者おすすめ", desc: "東京から依頼できる業者の比較" },
+  { href: "/gomiyashiki-jourei/", label: "ゴミ屋敷に関する自治体の条例と支援", desc: "本人・家族が相談するときの流れ" },
 ];
 
 const faqLd = {

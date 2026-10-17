@@ -123,6 +123,7 @@ const related = [
   { href: "/jichitai-gyousha-tsukaiwake/", label: "自治体と業者の使い分け", desc: "どちらに頼むかの判断基準" },
   { href: "/kinjo-gomiyashiki-soudan/", label: "近所のゴミ屋敷の相談先", desc: "近隣で困ったときの窓口" },
   { href: "/hitori-de-dekinai-katazuke-tanomikata/", label: "一人では片付けられないときの頼み方", desc: "家族・相談窓口・業者に頼める範囲" },
+  { href: "/gomiyashiki-jourei/", label: "ゴミ屋敷に関する自治体の条例と支援", desc: "本人・家族が相談するときの流れ" },
 ];
 
 const faqLd = {

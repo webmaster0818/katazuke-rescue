@@ -122,6 +122,7 @@ const related = [
   { href: "/sodaigomi-moushikomi-nagare/", label: "粗大ごみ申し込みの流れ", desc: "申し込みから収集までの手順" },
   { href: "/akiya-katazuke/", label: "空き家の片付け", desc: "残された家財への向き合い方" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "手放し方の選択肢と使い分け" },
+  { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
 ];
 
 const faqLd = {

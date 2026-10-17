@@ -122,6 +122,7 @@ const related = [
   { href: "/gaichu-heya-seisou/", label: "害虫が発生した部屋の清掃", desc: "虫の影響への対処と依頼判断" },
   { href: "/service/gomiyashiki/", label: "ゴミ屋敷清掃業者の選び方", desc: "片付けの実行段階での業者選び" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/gomiyashiki-jourei/", label: "ゴミ屋敷に関する自治体の条例と支援", desc: "本人・家族が相談するときの流れ" },
 ];
 
 const faqLd = {

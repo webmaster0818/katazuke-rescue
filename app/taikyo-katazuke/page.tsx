@@ -107,6 +107,7 @@ const related = [
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
   { href: "/rikon-kazai-wakekata/", label: "離婚にともなう家財の整理", desc: "家財を分ける実務的な進め方" },
+  { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
 ];
 
 const faqLd = {

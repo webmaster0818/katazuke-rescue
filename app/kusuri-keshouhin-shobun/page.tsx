@@ -142,6 +142,7 @@ const related = [
   { href: "/seizen-seiri/", label: "生前整理の進め方", desc: "元気なうちに整える考え方" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理を自分で進める方法", desc: "家族だけで進めるときの手順" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "捨てる・売る・譲るの使い分け" },
+  { href: "/suigin-keikoutou-shobun/", label: "蛍光灯・水銀体温計の処分", desc: "割らずに出す方法と割れたときの対処" },
 ];
 
 const faqLd = {

@@ -123,6 +123,7 @@ const related = [
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/saitama/", label: "埼玉の片付け業者比較", desc: "埼玉から依頼できる業者の比較" },
   { href: "/kuruma-shanai-seiri/", label: "車内・カー用品の整理と処分", desc: "トランクの荷物と使わないカー用品の手放し方" },
+  { href: "/shoukaki-shobun/", label: "家庭の消火器の処分方法", desc: "リサイクル窓口とゆうパック回収" },
 ];
 
 const faqLd = {

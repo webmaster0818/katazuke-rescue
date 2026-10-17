@@ -122,6 +122,7 @@ const related = [
   { href: "/recycle-shop-kaitori-heiyou/", label: "リサイクルショップの買取と併用", desc: "売れる物と処分する物の分け方" },
   { href: "/jiko-hannyu-shobun/", label: "ごみ処理施設への自己搬入", desc: "持ち込みが向く場面と事前確認" },
   { href: "/veranda-katazuke/", label: "ベランダの片付け", desc: "屋外に置かれた物の見直し方" },
+  { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
 ];
 
 const faqLd = {

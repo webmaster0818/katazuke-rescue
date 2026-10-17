@@ -125,6 +125,7 @@ const related = [
   { href: "/nichiyohin-stock-seiri/", label: "日用品ストックの整理", desc: "洗剤・紙製品の上限と置き場所の決め方" },
   { href: "/saigai-go-katazuke/", label: "災害後の家の片付け", desc: "安全確認から家財の扱いまで" },
   { href: "/shokuhin-stock-kigengire-seiri/", label: "食品ストック・期限切れ食品の整理", desc: "期限と状態で仕分ける手順" },
+  { href: "/shoukaki-shobun/", label: "家庭の消火器の処分方法", desc: "リサイクル窓口とゆうパック回収" },
 ];
 
 const faqLd = {

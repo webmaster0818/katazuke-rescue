@@ -123,6 +123,8 @@ const related = [
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
   { href: "/area/tokyo/", label: "東京の片付け業者比較", desc: "東京から依頼できる業者の比較" },
   { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線を外す手順と小型家電の手放し方" },
+  { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
+  { href: "/kogata-kaden-recycle/", label: "小型家電リサイクルの使い方", desc: "回収ボックスと認定事業者の回収" },
 ];
 
 const faqLd = {

@@ -126,6 +126,7 @@ const related = [
   { href: "/guide/illegal-dumping/", label: "違法業者の見分け方", desc: "無許可回収のトラブルを避ける" },
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方", desc: "家電を含む一括回収の依頼方法" },
   { href: "/area/tokyo/", label: "東京の不用品回収業者おすすめ", desc: "東京から依頼できる業者の比較" },
+  { href: "/kogata-kaden-recycle/", label: "小型家電リサイクルの使い方", desc: "回収ボックスと認定事業者の回収" },
 ];
 
 const faqLd = {

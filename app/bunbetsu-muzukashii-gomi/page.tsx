@@ -122,6 +122,9 @@ const related = [
   { href: "/muryou-kaishuu-chuui/", label: "無料回収業者の注意点", desc: "トラブルの典型例と相談先" },
   { href: "/guide/municipal-service/", label: "自治体サービス活用ガイド", desc: "自治体のごみ収集サービスの使い方" },
   { href: "/area/sapporo/", label: "札幌の片付け業者比較", desc: "札幌で依頼できる業者の比較" },
+  { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
+  { href: "/shoukaki-shobun/", label: "家庭の消火器の処分方法", desc: "リサイクル窓口とゆうパック回収" },
+  { href: "/suigin-keikoutou-shobun/", label: "蛍光灯・水銀体温計の処分", desc: "割らずに出す方法と割れたときの対処" },
 ];
 
 const faqLd = {

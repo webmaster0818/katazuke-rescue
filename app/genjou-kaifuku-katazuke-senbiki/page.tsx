@@ -122,6 +122,7 @@ const related = [
   { href: "/yokushitsu-mizumawari-seisou/", label: "浴室・水回りの徹底清掃", desc: "水あか・カビの落とし方" },
   { href: "/house-cleaning-chigai/", label: "ハウスクリーニングと片付け業者の違い", desc: "どちらに頼むべきかの判断" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
+  { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
 ];
 
 const faqLd = {

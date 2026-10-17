@@ -122,6 +122,7 @@ const related = [
   { href: "/gaichu-heya-seisou/", label: "害虫が発生した部屋の清掃", desc: "虫が出た部屋の安全な清掃手順" },
   { href: "/kinjo-gomiyashiki-soudan/", label: "近所のゴミ屋敷の相談先", desc: "近隣の立場で困ったときの窓口" },
   { href: "/service/gomiyashiki/", label: "ゴミ屋敷清掃業者の選び方", desc: "専門業者に頼む場合の選び方" },
+  { href: "/gomiyashiki-jourei/", label: "ゴミ屋敷に関する自治体の条例と支援", desc: "本人・家族が相談するときの流れ" },
 ];
 
 const faqLd = {

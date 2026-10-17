@@ -122,6 +122,7 @@ const related = [
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分", desc: "運び出せない物の手放し方" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "手放し方の選択肢と使い分け" },
   { href: "/heiten-katazuke/", label: "閉店・オフィス移転の片付け", desc: "什器・備品の処分の進め方" },
+  { href: "/sodaigomi-size-kijun/", label: "粗大ごみになる大きさの基準", desc: "自治体ごとの違いと解体前の確認" },
 ];
 
 const faqLd = {

@@ -124,6 +124,8 @@ const related = [
   { href: "/monooki-kaitai-mae-seiri/", label: "物置の解体前の整理", desc: "中身を出す順番と仕分け方" },
   { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線を外す手順と小型家電の手放し方" },
   { href: "/kisetsu-kaden-hokan-shobun/", label: "季節家電を保管するか手放すかの判断", desc: "しまう前の見直しと手放し方" },
+  { href: "/kogata-kaden-recycle/", label: "小型家電リサイクルの使い方", desc: "回収ボックスと認定事業者の回収" },
+  { href: "/suigin-keikoutou-shobun/", label: "蛍光灯・水銀体温計の処分", desc: "割らずに出す方法と割れたときの対処" },
 ];
 
 const faqLd = {

@@ -122,6 +122,7 @@ const related = [
   { href: "/guide/municipal-service/", label: "自治体サービス活用ガイド", desc: "粗大ごみ収集の使い方の基本" },
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方", desc: "搬出まで任せられる業者の選び方" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/sodaigomi-size-kijun/", label: "粗大ごみになる大きさの基準", desc: "自治体ごとの違いと解体前の確認" },
 ];
 
 const faqLd = {

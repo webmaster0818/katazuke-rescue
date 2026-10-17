@@ -122,6 +122,7 @@ const related = [
   { href: "/baby-yohin-seiri-shobun/", label: "ベビー用品の整理と処分", desc: "チャイルドシートを手放す基準" },
   { href: "/sports-outdoor-seiri/", label: "スポーツ・アウトドア用品の整理", desc: "かさばる道具の見直し方" },
   { href: "/pc-sumaho-data-shoukyo/", label: "パソコン・スマホのデータ消去", desc: "記録を残さず機器を手放す手順" },
+  { href: "/shoukaki-shobun/", label: "家庭の消火器の処分方法", desc: "リサイクル窓口とゆうパック回収" },
 ];
 
 const faqLd = {

@@ -122,6 +122,7 @@ const related = [
   { href: "/service/ihinseiri/", label: "遺品整理業者の選び方", desc: "家財整理に対応する業者の選び方" },
   { href: "/review/minna-ihinseiri/", label: "みんなの遺品整理の評判", desc: "審査を通過した遺品整理業者の紹介サービス" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
+  { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
 ];
 
 const faqLd = {

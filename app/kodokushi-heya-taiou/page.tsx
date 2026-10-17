@@ -122,6 +122,8 @@ const related = [
   { href: "/heya-shoushuu/", label: "部屋の臭いが消えないときの対処", desc: "臭いの原因の切り分けと消臭手順" },
   { href: "/akiya-katazuke/", label: "空き家の片付けと管理", desc: "その後の家の扱いを考える" },
   { href: "/service/ihinseiri/", label: "遺品整理業者の選び方", desc: "特殊清掃に対応する業者の選び方" },
+  { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
+  { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
 ];
 
 const faqLd = {

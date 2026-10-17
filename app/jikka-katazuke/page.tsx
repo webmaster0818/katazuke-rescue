@@ -122,6 +122,7 @@ const related = [
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート7つの使い分け", desc: "実家の不用品を手放す方法" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
   { href: "/dokuritsu-go-kodomobeya/", label: "独立後の子ども部屋の整理", desc: "本人の荷物の扱いと部屋の使い道の決め方" },
+  { href: "/suigin-keikoutou-shobun/", label: "蛍光灯・水銀体温計の処分", desc: "割らずに出す方法と割れたときの対処" },
 ];
 
 const faqLd = {

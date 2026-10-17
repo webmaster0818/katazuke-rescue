@@ -122,6 +122,7 @@ const related = [
   { href: "/hon-shorui-seiri/", label: "本・書類の整理", desc: "残すべき重要書類の見分け方" },
   { href: "/seizen-seiri/", label: "生前整理のやり方", desc: "元気なうちに持ち物を整える手順" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "片付けと買取の併用術", desc: "売れる物と処分する物の分け方" },
+  { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
 ];
 
 const faqLd = {

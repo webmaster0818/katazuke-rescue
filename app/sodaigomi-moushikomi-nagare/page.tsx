@@ -107,6 +107,7 @@ const related = [
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない家具の搬出と処分の選択肢" },
   { href: "/futon-mattress-shobun/", label: "布団・マットレスの処分方法", desc: "かさばる寝具の手放し方" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "業者に頼む場合の費用の考え方" },
+  { href: "/sodaigomi-size-kijun/", label: "粗大ごみになる大きさの基準", desc: "自治体ごとの違いと解体前の確認" },
 ];
 
 const faqLd = {

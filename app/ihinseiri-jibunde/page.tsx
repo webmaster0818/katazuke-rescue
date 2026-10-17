@@ -107,6 +107,8 @@ const related = [
   { href: "/tokusou-seisou/", label: "特殊清掃とは", desc: "清掃・消臭を伴う場合の基礎知識" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "費用の考え方と見積もりの確認事項" },
   { href: "/kodokushi-heya-taiou/", label: "孤独死があった部屋の対応", desc: "発見後の手順と相談先の考え方" },
+  { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
+  { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
 ];
 
 const faqLd = {
