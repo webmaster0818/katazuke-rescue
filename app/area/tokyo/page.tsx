@@ -115,7 +115,7 @@ const compareRows = [
   { slug: "mitsumoa", name: "ミツモア", area: "全国", price: "業者により異なる", point: "最大5社の一括見積もり比較" },
   { slug: "seikatsu110", name: "生活110番", area: "全国", price: "業者により異なる", point: "提携専門業者を無料紹介・手配" },
   { slug: "sumai-hotline", name: "すまいのホットライン", area: "掲載業者ごとに異なる", price: "業者により異なる", point: "住まい関連サービスの比較・予約" },
-  { slug: "otasuke-usagi", name: "お助けうさぎ", area: "首都圏中心の9都県", price: "3万円〜30万円", point: "回収・買取・清掃を一括対応" },
+  { slug: "otasuke-usagi", name: "お助けうさぎ", area: "関東・山梨・長野・静岡・愛知・岐阜・福島の13都県", price: "3万円〜30万円", point: "回収・買取・清掃を一括対応" },
 ];
 
 const steps = [
