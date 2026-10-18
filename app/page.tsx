@@ -173,8 +173,8 @@ export default function HomePage() {
               ),
             },
             {
-              title: "許可を確認した業者を掲載します",
-              description: "一般廃棄物収集運搬業の許可を確認した業者のみを掲載し、悪質な業者に依頼するリスクの低減に努めます。",
+              title: "許可の有無は業者ごとに公式で確認します",
+              description: "許可・資格は、各社の公式サイトで確認できたものだけを記載しています。くらしのマーケット・ミツモアなどの仲介サービスでは作業する業者が依頼ごとに異なるため、依頼先の業者ごとに一般廃棄物収集運搬業の許可（または許可業者への委託）をご確認ください。",
               icon: (
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10B981" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>

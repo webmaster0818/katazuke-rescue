@@ -49,7 +49,7 @@ export default function SiteFooter() {
               <li><Link href="/guide/cost-saving/" className="hover:text-white transition-colors">費用を抑える方法</Link></li>
               <li><Link href="/guide/illegal-dumping/" className="hover:text-white transition-colors">違法業者の見分け方</Link></li>
               <li><Link href="/guide/municipal-service/" className="hover:text-white transition-colors">自治体サービスの活用方法</Link></li>
-              <li><Link href="/guide/before-after/" className="hover:text-white transition-colors">ビフォーアフター事例</Link></li>
+              <li><Link href="/guide/before-after/" className="hover:text-white transition-colors">規模別の片付けの進め方</Link></li>
             </ul>
           </div>
         </div>

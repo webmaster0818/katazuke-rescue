@@ -13,7 +13,7 @@ export default function ContentPolicyPage() {
       <Breadcrumb items={[{ label: "コンテンツポリシー" }]} />
       <h1 className="text-2xl font-bold text-slate-900 mb-6">コンテンツポリシー</h1>
       <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8">
-        <p className="text-sm text-slate-500 mb-6">最終更新日：2026年4月27日</p>
+        <p className="text-sm text-slate-500 mb-6">最終更新日：2026年10月18日</p>
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">編集方針</h2>
         <p className="text-slate-600 text-sm leading-relaxed mb-6">
@@ -35,7 +35,8 @@ export default function ContentPolicyPage() {
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">掲載業者の選定基準</h2>
         <ul className="text-slate-600 text-sm space-y-2 mb-6 list-disc list-inside">
-          <li>適切な許可（一般廃棄物収集運搬業許可等）を取得していること</li>
+          <li>許可・資格は、各社の公式サイトで確認できたものだけを記載すること</li>
+          <li>仲介サービスについては、作業する業者ごとに一般廃棄物収集運搬業の許可（または許可業者への委託）の確認が必要である旨を案内すること</li>
           <li>明確な料金体系を持ち、不当な追加請求がないこと</li>
           <li>ユーザーの口コミ・評判が一定水準を満たすこと</li>
           <li>会社情報・連絡先が明記されていること</li>
@@ -53,7 +54,7 @@ export default function ContentPolicyPage() {
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">コンテンツに関するお問い合わせ</h2>
         <p className="text-slate-600 text-sm leading-relaxed">
-          掲載情報に誤りや問題がある場合は、当サイトのお問い合わせページよりご連絡ください。速やかに確認・対応いたします。
+          掲載情報に誤りや問題がある場合は、<a href="/about/" className="text-blue-600 hover:underline">運営者情報</a>に記載のメールアドレス（webmaster@mediax.biz）までご連絡ください。速やかに確認・対応いたします。
         </p>
       </div>
     </div>

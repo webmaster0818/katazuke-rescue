@@ -13,7 +13,7 @@ export default function PrivacyPage() {
       <Breadcrumb items={[{ label: "プライバシーポリシー" }]} />
       <h1 className="text-2xl font-bold text-slate-900 mb-6">プライバシーポリシー</h1>
       <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8">
-        <p className="text-sm text-slate-500 mb-6">最終更新日：2026年4月27日</p>
+        <p className="text-sm text-slate-500 mb-6">最終更新日：2026年10月18日</p>
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">個人情報の収集について</h2>
         <p className="text-slate-600 text-sm leading-relaxed mb-6">
@@ -42,7 +42,7 @@ export default function PrivacyPage() {
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">お問い合わせ</h2>
         <p className="text-slate-600 text-sm leading-relaxed">
-          個人情報の取り扱いに関するお問い合わせは、当サイトのお問い合わせページよりご連絡ください。
+          個人情報の取り扱いに関するお問い合わせは、<a href="/about/" className="text-blue-600 hover:underline">運営者情報</a>に記載のメールアドレス（webmaster@mediax.biz）までご連絡ください。
         </p>
       </div>
     </div>
