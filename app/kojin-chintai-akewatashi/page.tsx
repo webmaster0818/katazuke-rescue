@@ -121,6 +121,7 @@ const sources = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理の注意点", desc: "判断が済むまでの家財の扱い" },
   { href: "/chintai-zanchibutsu/", label: "賃貸の残置物とは", desc: "借りる側・貸す側の考え方と相談先" },
   { href: "/genjou-kaifuku-katazuke-senbiki/", label: "賃貸の原状回復と片付けの線引き", desc: "退去前に借主が行うこと" },

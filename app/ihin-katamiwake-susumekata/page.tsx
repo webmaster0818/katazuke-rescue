@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理を自分で進める方法", desc: "手順と業者に任せる範囲の線引き" },
   { href: "/souzoku-ie-katazuke/", label: "相続した家の片付け", desc: "専門家に相談すべき論点の整理" },
   { href: "/butsudan-kamidana-seiri/", label: "仏壇・神棚の整理", desc: "宗教に関わる品の一般的な扱い" },

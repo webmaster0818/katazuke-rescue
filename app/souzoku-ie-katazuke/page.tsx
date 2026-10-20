@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/akiya-katazuke/", label: "空き家の片付けと管理", desc: "残置物の処分と家を空ける際の管理" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理を自分で進める方法", desc: "自分で行う範囲と業者に任せる線引き" },
   { href: "/digital-ihin-seiri/", label: "デジタル遺品の整理", desc: "故人のスマホ・PC・ネット契約の扱い" },

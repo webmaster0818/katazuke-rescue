@@ -101,6 +101,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/service/ihinseiri/", label: "遺品整理業者の選び方と費用ガイド", desc: "業者に依頼する場合の基礎知識" },
   { href: "/review/minna-ihinseiri/", label: "みんなの遺品整理の評判", desc: "審査済み業者を最大3社比較できる" },
   { href: "/jikka-katazuke/", label: "実家の片付けの進め方", desc: "親が元気なうちの生前整理はこちら" },

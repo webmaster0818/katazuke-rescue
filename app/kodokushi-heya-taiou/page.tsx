@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/tokusou-seisou/", label: "特殊清掃とは何か", desc: "通常清掃との違いと依頼の流れ" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理を自分で進める方法", desc: "自分で行う範囲と業者に任せる線引き" },
   { href: "/digital-ihin-seiri/", label: "デジタル遺品の整理方法", desc: "故人のスマホ・契約の扱い方" },

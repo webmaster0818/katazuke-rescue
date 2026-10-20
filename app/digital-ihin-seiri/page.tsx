@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理を自分で進める方法", desc: "物の遺品整理の手順と業者に任せる線引き" },
   { href: "/seizen-seiri/", label: "生前整理のやり方", desc: "自分のデジタル情報を元気なうちに整理する" },
   { href: "/hon-shorui-seiri/", label: "本・書類の整理と処分方法", desc: "契約書類など重要書類の見分け方" },

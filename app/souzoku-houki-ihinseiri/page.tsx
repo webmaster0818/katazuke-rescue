@@ -121,6 +121,7 @@ const sources = [
 ];
 
 const related = [
+  { href: "/shibougo-tetsuzuki-ihinseiri/", label: "家族が亡くなった後の手続きと遺品整理の順番", desc: "期限のある届出と片付けを始める時期" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理の進め方", desc: "自分で行う手順と業者に任せる範囲" },
   { href: "/souzoku-ie-katazuke/", label: "相続した家の片付け", desc: "始める時期と専門家に相談すべき論点" },
   { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の解約・明け渡し", desc: "管理会社への連絡と退去日の調整" },
