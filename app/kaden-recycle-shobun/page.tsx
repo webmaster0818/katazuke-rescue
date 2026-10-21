@@ -120,6 +120,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/massage-chair-kenkoukigu-shobun/", label: "マッサージチェアなど健康器具の処分方法", desc: "家電リサイクル法の対象外・粗大ごみの手数料と搬出" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート比較", desc: "自治体・売却・譲渡・回収業者の使い分け" },
   { href: "/futon-mattress-shobun/", label: "布団・マットレスの処分方法", desc: "処分に迷いやすい寝具の捨て方" },
   { href: "/guide/municipal-service/", label: "自治体サービス活用ガイド", desc: "粗大ごみ収集の使い方と注意点" },

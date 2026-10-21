@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/massage-chair-kenkoukigu-shobun/", label: "マッサージチェアなど健康器具の処分方法", desc: "家電リサイクル法の対象外・粗大ごみの手数料と搬出" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない家具の搬出と処分の選択肢" },
   { href: "/recycle-shop-kaitori-heiyou/", label: "片付けと買取の併用", desc: "売れる物を活かして負担を減らす" },
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方", desc: "搬出から処分まで任せられる業者" },

@@ -123,6 +123,7 @@ const sources = [
 ];
 
 const related = [
+  { href: "/massage-chair-kenkoukigu-shobun/", label: "マッサージチェアなど健康器具の処分方法", desc: "家電リサイクル法の対象外・粗大ごみの手数料と搬出" },
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法対象品の処分方法", desc: "冷蔵庫・洗濯機・テレビ・エアコン" },
   { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
   { href: "/pc-sumaho-data-shoukyo/", label: "パソコン・スマホのデータ消去と処分", desc: "初期化だけで手放さないための手順" },
