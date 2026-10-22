@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/sodaigomi-tesuryou-hikaku/", label: "粗大ごみの手数料の自治体比較", desc: "ベッド・ソファ・たんすの手数料と持ち込みの扱い" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート比較", desc: "自治体・売却・譲渡・回収業者の使い分け" },
   { href: "/futon-mattress-shobun/", label: "布団・マットレスの処分方法", desc: "処理が難しい寝具類の手放し方" },
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法対象品の処分方法", desc: "冷蔵庫・洗濯機など対象家電のルート" },

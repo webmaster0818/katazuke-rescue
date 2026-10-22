@@ -101,6 +101,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/sodaigomi-tesuryou-hikaku/", label: "粗大ごみの手数料の自治体比較", desc: "ベッド・ソファ・たんすの手数料と持ち込みの扱い" },
   { href: "/jichitai-gyousha-tsukaiwake/", label: "自治体回収と業者回収の使い分け", desc: "どちらに頼むべきかの判断基準" },
   { href: "/guide/municipal-service/", label: "自治体サービス活用ガイド", desc: "自治体の収集制度を上手に使う方法" },
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法対象品の処分", desc: "粗大ごみに出せない家電の処分ルート" },

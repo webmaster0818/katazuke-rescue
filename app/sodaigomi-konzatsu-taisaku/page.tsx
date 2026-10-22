@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/sodaigomi-tesuryou-hikaku/", label: "粗大ごみの手数料の自治体比較", desc: "ベッド・ソファ・たんすの手数料と持ち込みの扱い" },
   { href: "/sodaigomi-moushikomi-nagare/", label: "粗大ごみ申し込みの流れ", desc: "受付から収集日までの基本" },
   { href: "/jichitai-gyousha-tsukaiwake/", label: "自治体と業者の使い分け", desc: "どちらに頼むかの判断基準" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分", desc: "運び出せない物の手放し方" },

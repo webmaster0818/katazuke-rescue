@@ -150,6 +150,7 @@ const sources = [
 ];
 
 const related = [
+  { href: "/sodaigomi-tesuryou-hikaku/", label: "粗大ごみの手数料の自治体比較", desc: "ベッド・ソファ・たんすの手数料と持ち込みの扱い" },
   { href: "/piano-kinko-hanshutsu/", label: "ピアノ・金庫など重量物の搬出と処分", desc: "自力搬出を避けるべき理由と依頼の流れ" },
   { href: "/sodaigomi-moushikomi-nagare/", label: "粗大ごみ収集の申し込みの流れ", desc: "一般的な手順と出すときの注意点" },
   { href: "/sodaigomi-size-kijun/", label: "粗大ごみになる大きさの基準", desc: "自治体ごとの違いと解体前の確認" },

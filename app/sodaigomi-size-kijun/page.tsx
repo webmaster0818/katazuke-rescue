@@ -132,6 +132,7 @@ const sources = [
 ];
 
 const related = [
+  { href: "/sodaigomi-tesuryou-hikaku/", label: "粗大ごみの手数料の自治体比較", desc: "ベッド・ソファ・たんすの手数料と持ち込みの扱い" },
   { href: "/massage-chair-kenkoukigu-shobun/", label: "マッサージチェアなど健康器具の処分方法", desc: "家電リサイクル法の対象外・粗大ごみの手数料と搬出" },
   { href: "/sodaigomi-moushikomi-nagare/", label: "粗大ごみ収集の申し込みの流れ", desc: "一般的な手順と出すときの注意点" },
   { href: "/sodaigomi-konzatsu-taisaku/", label: "粗大ごみの予約が取れないときの対処", desc: "混み合う時期と期限に間に合わせる段取り" },
