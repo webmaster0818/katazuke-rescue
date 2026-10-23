@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・石油ファンヒーターの処分方法", desc: "灯油と電池を抜いて粗大ごみへ・残った灯油の相談先" },
   { href: "/sodaigomi-moushikomi-nagare/", label: "粗大ごみ申し込みの流れ", desc: "自治体収集を申し込む一般的な手順" },
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法対象品の処分方法", desc: "テレビ・冷蔵庫などの正しい処分ルート" },
   { href: "/jichitai-gyousha-tsukaiwake/", label: "自治体回収と業者回収の使い分け", desc: "どちらに頼むべきかの判断基準" },

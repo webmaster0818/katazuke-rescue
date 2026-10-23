@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・石油ファンヒーターの処分方法", desc: "灯油と電池を抜いて粗大ごみへ・残った灯油の相談先" },
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法の対象と処分", desc: "決められた回収ルートの進め方" },
   { href: "/reizouko-sentakuki-shobun-junbi/", label: "冷蔵庫・洗濯機の処分準備", desc: "水抜き・霜取りと搬出の段取り" },
   { href: "/aircon-torihazushi-shobun/", label: "エアコンの取り外しと処分", desc: "取り外し依頼から処分までの流れ" },

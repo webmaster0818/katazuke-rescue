@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・石油ファンヒーターの処分方法", desc: "灯油と電池を抜いて粗大ごみへ・残った灯油の相談先" },
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しい物の処分", desc: "スプレー缶・電池などの扱い方" },
   { href: "/monooki-kaitai-mae-seiri/", label: "物置の解体前の整理", desc: "解体前に中身を空にする段取り" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない大型品の搬出と処分" },
