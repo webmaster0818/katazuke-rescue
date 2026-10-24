@@ -138,6 +138,7 @@ const sources = [
 ];
 
 const related = [
+  { href: "/zaitaku-iryou-haikibutsu-shobun/", label: "在宅医療廃棄物の捨て方", desc: "注射針は医療機関・薬局へ返却、バッグやチューブは自治体の区分で" },
   { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
   { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
   { href: "/ihinseiri-jibunde/", label: "遺品整理の進め方", desc: "自分で行う手順と業者に任せる範囲" },

@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/zaitaku-iryou-haikibutsu-shobun/", label: "在宅医療廃棄物の捨て方", desc: "注射針は医療機関・薬局へ返却、バッグやチューブは自治体の区分で" },
   { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・石油ファンヒーターの処分方法", desc: "灯油と電池を抜いて粗大ごみへ・残った灯油の相談先" },
   { href: "/sodaigomi-moushikomi-nagare/", label: "粗大ごみ申し込みの流れ", desc: "自治体収集を申し込む一般的な手順" },
   { href: "/kaden-recycle-shobun/", label: "家電リサイクル法対象品の処分方法", desc: "テレビ・冷蔵庫などの正しい処分ルート" },

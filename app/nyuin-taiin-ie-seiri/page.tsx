@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/zaitaku-iryou-haikibutsu-shobun/", label: "在宅医療廃棄物の捨て方", desc: "注射針は医療機関・薬局へ返却、バッグやチューブは自治体の区分で" },
   { href: "/kaigo-juukankyou-seiri/", label: "介護に備えた住環境の整理", desc: "動線と転倒対策の考え方" },
   { href: "/tanshin-koureisha-mimamori/", label: "高齢の親の見守りと片付け", desc: "離れて暮らす家族の関わり方" },
   { href: "/reizouko-sentakuki-shobun-junbi/", label: "冷蔵庫・洗濯機の準備", desc: "霜取り・水抜きと搬出の手順" },

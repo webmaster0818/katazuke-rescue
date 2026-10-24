@@ -136,6 +136,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/zaitaku-iryou-haikibutsu-shobun/", label: "在宅医療廃棄物の捨て方", desc: "注射針は医療機関・薬局へ返却、バッグやチューブは自治体の区分で" },
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しいごみの出し方", desc: "区分に迷う品目の調べ方" },
   { href: "/yokushitsu-mizumawari-seisou/", label: "浴室・水まわりの掃除", desc: "洗面所まわりを整える手順" },
   { href: "/katazuke-junban/", label: "片付けの順番", desc: "無理なく進める片付けの手順" },

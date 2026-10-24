@@ -140,7 +140,7 @@
   </url>
 <url>
     <loc>https://katazuke-rescue.com/content-policy/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -152,7 +152,7 @@
 <url><loc>https://katazuke-rescue.com/review/seikatsu110/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/review/sumai-hotline/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/review/otasuke-usagi/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://katazuke-rescue.com/about/</loc><lastmod>2026-10-23</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+<url><loc>https://katazuke-rescue.com/about/</loc><lastmod>2026-10-24</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 <url><loc>https://katazuke-rescue.com/area/tokyo/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/gomiyashiki-genin/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/katazuke-junban/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -207,7 +207,7 @@
 <url><loc>https://katazuke-rescue.com/shisetsu-nyukyomae-kazai-seiri/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/souzoku-ie-katazuke/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/heiten-katazuke/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-<url><loc>https://katazuke-rescue.com/bunbetsu-muzukashii-gomi/</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://katazuke-rescue.com/bunbetsu-muzukashii-gomi/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/recycle-shop-kaitori-heiyou/</loc><lastmod>2026-10-16</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/house-cleaning-chigai/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/piano-kinko-hanshutsu/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -302,7 +302,7 @@
   </url>
   <url>
     <loc>https://katazuke-rescue.com/kusuri-keshouhin-shobun/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -380,7 +380,7 @@
   </url>
   <url>
     <loc>https://katazuke-rescue.com/nyuin-taiin-ie-seiri/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -561,7 +561,7 @@
 <url><loc>https://katazuke-rescue.com/jiko-hannyu-shobun/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/mado-amido-sash-seisou/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/genkan-getabako-seiri/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://katazuke-rescue.com/kaigo-youhin-shobun/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://katazuke-rescue.com/kaigo-youhin-shobun/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/shumi-collection-seiri/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/dokuritsu-go-kodomobeya/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/area/kofu/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -643,8 +643,9 @@
 <url><loc>https://katazuke-rescue.com/gomiyashiki-jourei/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/souzoku-houki-ihinseiri/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/kojin-chintai-akewatashi/</loc><lastmod>2026-10-17</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://katazuke-rescue.com/shibougo-tetsuzuki-ihinseiri/</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://katazuke-rescue.com/shibougo-tetsuzuki-ihinseiri/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/massage-chair-kenkoukigu-shobun/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://katazuke-rescue.com/sodaigomi-tesuryou-hikaku/</loc><lastmod>2026-10-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://katazuke-rescue.com/zaitaku-iryou-haikibutsu-shobun/</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://katazuke-rescue.com/sekiyu-stove-shobun/</loc><lastmod>2026-10-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

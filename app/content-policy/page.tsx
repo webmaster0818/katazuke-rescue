@@ -13,17 +13,17 @@ export default function ContentPolicyPage() {
       <Breadcrumb items={[{ label: "コンテンツポリシー" }]} />
       <h1 className="text-2xl font-bold text-slate-900 mb-6">コンテンツポリシー</h1>
       <div className="bg-white border border-slate-200 rounded-2xl p-6 md:p-8">
-        <p className="text-sm text-slate-500 mb-6">最終更新日：2026年10月18日</p>
+        <p className="text-sm text-slate-500 mb-6">最終更新日：2026年10月24日</p>
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">編集方針</h2>
         <p className="text-slate-600 text-sm leading-relaxed mb-6">
-          片付けレスキューは、ユーザーが信頼できる情報に基づいて片付け業者を選べるよう、正確で有用なコンテンツの提供を目指しています。掲載情報は編集部が独自に調査・評価したものです。
+          片付けレスキューは、ユーザーが信頼できる情報に基づいて片付け業者を選べるよう、正確で有用なコンテンツの提供を目指しています。掲載情報は、編集部が各社の公式サイトと公的機関（国・自治体など）の公開情報を確認して記載したものです。独自の調査・アンケートは行っていません。
         </p>
 
         <h2 className="text-lg font-bold text-slate-900 mb-3">情報の正確性への取り組み</h2>
         <ul className="text-slate-600 text-sm space-y-2 mb-6 list-disc list-inside">
           <li>掲載業者の情報は定期的に確認・更新しています</li>
-          <li>費用相場は複数の情報源を元に算出しています</li>
+          <li>費用の目安は、各社の公式サイトや自治体の公開情報を確認して掲載します（出典を確認できない料金は確認のうえ修正・削除します）</li>
           <li>誤情報・古い情報を発見した場合は速やかに修正します</li>
           <li>根拠のある情報のみを掲載し、推測は推測として明示します</li>
         </ul>
@@ -37,8 +37,8 @@ export default function ContentPolicyPage() {
         <ul className="text-slate-600 text-sm space-y-2 mb-6 list-disc list-inside">
           <li>許可・資格は、各社の公式サイトで確認できたものだけを記載すること</li>
           <li>仲介サービスについては、作業する業者ごとに一般廃棄物収集運搬業の許可（または許可業者への委託）の確認が必要である旨を案内すること</li>
-          <li>明確な料金体系を持ち、不当な追加請求がないこと</li>
-          <li>ユーザーの口コミ・評判が一定水準を満たすこと</li>
+          <li>料金・追加料金の扱いは、各社の公式サイトの記載を確認して掲載すること</li>
+          <li>口コミは、各社の公式サイトやGoogleマップに掲載されたものを出典リンクつきで引用すること（当サイトでは口コミの募集・集計を行っていません）</li>
           <li>会社情報・連絡先が明記されていること</li>
         </ul>
 
