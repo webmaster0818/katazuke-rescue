@@ -50,7 +50,6 @@ export default function CheapRankingPage() {
         <ul className="space-y-1.5 text-sm text-blue-800">
           {[
             "3社以上の業者から相見積もりを取る",
-            "平日・閑散期（5〜8月）に依頼する",
             "自分で対応できる作業を事前に済ませる",
             "買取サービスを利用して費用を相殺する",
             "自治体の粗大ごみ収集を併用する",
