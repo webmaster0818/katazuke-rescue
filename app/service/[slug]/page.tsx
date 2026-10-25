@@ -60,7 +60,16 @@ export default async function ServicePage({
           <p className="text-sm text-orange-700 font-medium">費用相場</p>
           <p className="text-2xl font-bold text-orange-700">{service.costRange}</p>
         </div>
-        <p className="text-sm text-orange-600 flex-1">※料金は状況・業者・地域により異なります。複数の業者から見積もりを取得してください。</p>
+        <p className="text-sm text-orange-600 flex-1">
+          {service.costSource ? (
+            <>
+              出典：<a href={service.costSource.url} target="_blank" rel="noopener noreferrer" className="underline">{service.costSource.label}</a>（{service.costSource.checked}確認）。
+            </>
+          ) : (
+            <>公的機関・業者の公式に一般的な相場の記載がないため、金額は業者の見積もりで確認してください。</>
+          )}
+          ※料金は状況・業者・地域により異なります。複数の業者から見積もりを取得してください。
+        </p>
       </div>
 
       {/* Sections */}

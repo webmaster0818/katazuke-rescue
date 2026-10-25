@@ -3,61 +3,29 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "片付け・不用品回収の費用相場2026年版｜サービス別料金比較",
-  description: "ゴミ屋敷の片付け・遺品整理・不用品回収・引っ越し前の片付けなどの費用相場を、部屋の広さ別・サービス別に掲載しています。",
+  title: "片付け・不用品回収の費用相場｜遺品整理は公式の間取り別相場",
+  description: "遺品整理の費用相場を、みんなの遺品整理の公式サイトに掲載された間取り別の金額（1R・1K 3万〜8万円ほか）で掲載しています。ゴミ屋敷片付け・不用品回収は見積もりで確認する際の要点をまとめています。",
   alternates: { canonical: "/cost/price/" },
 };
 
-const priceData = [
-  {
-    service: "ゴミ屋敷片付け",
-    link: "/service/gomiyashiki/",
-    prices: [
-      { size: "1K（軽度）", range: "5〜15万円", time: "半日〜1日" },
-      { size: "1K（重度）", range: "15〜30万円", time: "1〜2日" },
-      { size: "1LDK", range: "20〜50万円", time: "1〜3日" },
-      { size: "2LDK以上", range: "40〜100万円+", time: "2〜5日" },
-    ],
-  },
-  {
-    service: "不用品回収",
-    link: "/service/fuyohin/",
-    prices: [
-      { size: "軽トラック1台", range: "1.5〜3万円", time: "1〜3時間" },
-      { size: "2トントラック", range: "3〜8万円", time: "半日" },
-      { size: "大型トラック", range: "8〜15万円+", time: "半日〜1日" },
-      { size: "品目別（冷蔵庫）", range: "5,000〜10,000円", time: "30分〜" },
-    ],
-  },
-  {
-    service: "遺品整理",
-    link: "/service/ihinseiri/",
-    prices: [
-      { size: "1K・1DK", range: "3〜8万円", time: "1日" },
-      { size: "2LDK", range: "10〜20万円", time: "1〜2日" },
-      { size: "3LDK", range: "20〜35万円", time: "2〜3日" },
-      { size: "一戸建て", range: "20〜50万円+", time: "2〜5日" },
-    ],
-  },
-  {
-    service: "片付け代行",
-    link: "/service/katazuke-daikou/",
-    prices: [
-      { size: "1時間（時間制）", range: "3,000〜8,000円", time: "—" },
-      { size: "1K・1DK（成果物型）", range: "3〜8万円", time: "1日" },
-      { size: "2LDK（成果物型）", range: "8〜20万円", time: "2〜3日" },
-      { size: "一戸建て（成果物型）", range: "20〜50万円+", time: "3〜5日" },
-    ],
-  },
+// 料金は公式に記載のあるものだけを掲載（2026-10-25 確認）。根拠の確認できない相場は掲載しない
+const IHIN_SOURCE = {
+  label: "みんなの遺品整理「遺品整理の費用相場」",
+  url: "https://m-ihinseiri.jp/article-1/ihinseiri/cost/",
+  checked: "2026年10月25日",
+};
+
+const ihinPrices = [
+  { size: "1R・1K", range: "3万〜8万円", time: "1〜2時間" },
+  { size: "2LDK", range: "12万〜30万円", time: "3〜8時間" },
+  { size: "3LDK", range: "17万〜50万円", time: "5〜12時間" },
+  { size: "4LDK以上", range: "22万〜60万円", time: "6〜15時間" },
 ];
 
-const additionalCosts = [
-  { item: "消臭・除菌処理", range: "1〜5万円" },
-  { item: "特殊清掃（孤独死など）", range: "10〜50万円+" },
-  { item: "家電リサイクル料（冷蔵庫）", range: "3,000〜5,000円" },
-  { item: "家電リサイクル料（洗濯機）", range: "2,500〜3,500円" },
-  { item: "エアコン取り外し", range: "5,000〜10,000円" },
-  { item: "遺品供養", range: "5,000〜2万円" },
+const noPriceServices = [
+  { service: "ゴミ屋敷片付け", link: "/service/gomiyashiki/" },
+  { service: "不用品回収", link: "/service/fuyohin/" },
+  { service: "片付け代行", link: "/service/katazuke-daikou/" },
 ];
 
 export default function PricePage() {
@@ -67,10 +35,10 @@ export default function PricePage() {
 
       <div className="mb-8">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">
-          片付け・不用品回収の費用相場【2026年最新版】
+          片付け・不用品回収の費用相場と見積もりの確認点
         </h1>
         <p className="text-slate-600 leading-relaxed">
-          サービス種別・部屋の広さ別の料金目安を掲載しています。見積もりを依頼する前の参考としてご利用ください。
+          遺品整理は、みんなの遺品整理の公式サイトに掲載された間取り別の費用相場を掲載しています。そのほかのサービスは公式に確認できる相場がないため、見積もりで確認する際の要点をまとめています。
         </p>
       </div>
 
@@ -83,71 +51,55 @@ export default function PricePage() {
             <line x1="12" y1="17" x2="12.01" y2="17"/>
           </svg>
           <p className="text-sm text-amber-800">
-            <strong>下記の料金は目安です。</strong>実際の費用は、ごみの量・種類・地域・業者によって大きく異なります。依頼前に無料見積もりを取得してください。
+            <strong>掲載している金額は、公式サイトに記載のある相場だけです。</strong>実際の費用は、ごみの量・種類・地域・業者によって大きく異なります。依頼前に無料見積もりを取得してください。
           </p>
         </div>
       </div>
 
-      {/* Price tables */}
-      <div className="space-y-8 mb-10">
-        {priceData.map((category) => (
-          <div key={category.service} className="bg-white border border-slate-200 rounded-2xl overflow-hidden">
-            <div className="bg-slate-50 border-b border-slate-200 px-6 py-4 flex items-center justify-between">
-              <h2 className="font-bold text-slate-900 text-lg">{category.service}</h2>
-              <Link href={category.link} className="text-sm text-blue-600 hover:underline flex items-center gap-1">
-                詳しく見る
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <polyline points="9 18 15 12 9 6"/>
-                </svg>
-              </Link>
-            </div>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="bg-slate-50/50 border-b border-slate-100">
-                    <th className="text-left px-6 py-3 text-slate-600 font-medium">規模</th>
-                    <th className="text-left px-6 py-3 text-slate-600 font-medium">費用目安</th>
-                    <th className="text-left px-6 py-3 text-slate-600 font-medium">作業時間目安</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {category.prices.map((row, index) => (
-                    <tr key={index} className={`border-b border-slate-50 ${index % 2 === 0 ? "" : "bg-slate-50/30"}`}>
-                      <td className="px-6 py-3 text-slate-700">{row.size}</td>
-                      <td className="px-6 py-3 font-semibold text-blue-700">{row.range}</td>
-                      <td className="px-6 py-3 text-slate-500">{row.time}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Additional costs */}
-      <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden mb-10">
-        <div className="bg-slate-50 border-b border-slate-200 px-6 py-4">
-          <h2 className="font-bold text-slate-900 text-lg">よくある追加費用</h2>
+      {/* 遺品整理（公式の相場） */}
+      <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden mb-8">
+        <div className="bg-slate-50 border-b border-slate-200 px-6 py-4 flex items-center justify-between">
+          <h2 className="font-bold text-slate-900 text-lg">遺品整理</h2>
+          <Link href="/service/ihinseiri/" className="text-sm text-blue-600 hover:underline">詳しく見る</Link>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
               <tr className="bg-slate-50/50 border-b border-slate-100">
-                <th className="text-left px-6 py-3 text-slate-600 font-medium">オプション・追加サービス</th>
-                <th className="text-left px-6 py-3 text-slate-600 font-medium">費用目安</th>
+                <th className="text-left px-6 py-3 text-slate-600 font-medium">間取り</th>
+                <th className="text-left px-6 py-3 text-slate-600 font-medium">費用相場</th>
+                <th className="text-left px-6 py-3 text-slate-600 font-medium">作業時間</th>
               </tr>
             </thead>
             <tbody>
-              {additionalCosts.map((row, index) => (
+              {ihinPrices.map((row, index) => (
                 <tr key={index} className={`border-b border-slate-50 ${index % 2 === 0 ? "" : "bg-slate-50/30"}`}>
-                  <td className="px-6 py-3 text-slate-700">{row.item}</td>
-                  <td className="px-6 py-3 font-semibold text-orange-600">{row.range}</td>
+                  <td className="px-6 py-3 text-slate-700">{row.size}</td>
+                  <td className="px-6 py-3 font-semibold text-blue-700">{row.range}</td>
+                  <td className="px-6 py-3 text-slate-500">{row.time}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
+        <p className="px-6 py-3 text-xs text-slate-500">
+          出典：<a href={IHIN_SOURCE.url} target="_blank" rel="noopener noreferrer" className="underline">{IHIN_SOURCE.label}</a>（{IHIN_SOURCE.checked}確認）。同社に掲載されている業者の公式サイトと利用金額のデータから算出された相場で、ゴミ屋敷の状態や特殊清掃が必要な場合は料金が変わるとされています。
+        </p>
+      </div>
+
+      {/* 公式に相場の記載がないサービス */}
+      <div className="bg-white border border-slate-200 rounded-2xl p-6 mb-10">
+        <h2 className="font-bold text-slate-900 text-lg mb-3">ゴミ屋敷片付け・不用品回収・片付け代行・追加費用</h2>
+        <p className="text-sm text-slate-700 leading-relaxed">
+          これらの費用は、公的機関や掲載業者の公式サイトで確認できる相場の記載がないため、当サイトでは金額を掲載していません。金額は業者の見積もりで確認してください。見積もりでは、作業費・車両費・処分費・オプション（消臭、家電リサイクル料金など）の内訳と総額を確認すると比較しやすくなります。
+        </p>
+        <ul className="mt-3 flex flex-wrap gap-3 text-sm">
+          {noPriceServices.map((s) => (
+            <li key={s.link}>
+              <Link href={s.link} className="text-blue-600 hover:underline">{s.service}の業者の選び方</Link>
+            </li>
+          ))}
+        </ul>
       </div>
 
       {/* Cost saving tips */}
@@ -158,7 +110,7 @@ export default function PricePage() {
             "3社以上から相見積もりを取り、料金を比較する",
             "平日・閑散期（5〜8月）の依頼は割引の対象となる場合がある",
             "再利用できる品物は買取サービスを利用し、費用と相殺する",
-            "自治体の粗大ごみ収集（1点200〜2,000円）を併用する",
+            "自治体の粗大ごみ収集を併用する（手数料は自治体・品目ごとに異なる）",
             "処分してよい物を事前にまとめ、作業時間を短縮する",
           ].map((tip, i) => (
             <li key={i} className="flex items-start gap-2">

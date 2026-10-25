@@ -10,7 +10,8 @@
     "cons": ["遺品整理が中心のため、その他のサービスは限られる", "繁忙期は予約が取りにくい場合がある"],
     "coverage": "全国",
     "officialUrl": "https://m-ihinseiri.jp/",
-    "priceRange": "3万円〜20万円"
+    "priceRange": "3万円〜60万円（公式の間取り別の費用相場。1R・1K 3万〜8万円、4LDK以上 22万〜60万円）",
+    "priceSource": {"url": "https://m-ihinseiri.jp/article-1/ihinseiri/cost/", "checked": "2026-10-25"}
   },
   {
     "id": 5,
@@ -23,7 +24,7 @@
     "cons": ["特殊清掃は費用が高くなる傾向がある", "専門性が高いため、一般的な片付けより料金が高くなる場合がある"],
     "coverage": "全国",
     "officialUrl": "https://b-clean.jp/",
-    "priceRange": "5万円〜100万円"
+    "priceRange": "公式に料金表の記載なし（見積もりで確認）"
   },
   {
     "id": 6,
@@ -88,6 +89,7 @@
     "cons": ["他の業者と比較して料金がやや高い", "予約が取りにくい場合がある"],
     "coverage": "東京・神奈川・埼玉・千葉・茨城・山梨・栃木・群馬・静岡・長野・愛知・福島・岐阜（公式の対応エリア 2026年10月17日確認）",
     "officialUrl": "https://otasukeusagi.jp/",
-    "priceRange": "3万円〜30万円"
+    "priceRange": "4,980円〜（税込・SS〜Sパック。2トントラック載せ放題のLLパックは98,880円、ゴミ屋敷は応相談）",
+    "priceSource": {"url": "https://otasukeusagi.jp/price/", "checked": "2026-10-25"}
   }
 ]

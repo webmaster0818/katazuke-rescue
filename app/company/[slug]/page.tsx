@@ -95,6 +95,11 @@ export default async function CompanyPage({
           料金目安
         </h2>
         <p className="text-2xl font-bold text-blue-700">{company.priceRange}</p>
+        {company.priceSource && (
+          <p className="text-xs text-blue-600 mt-1">
+            出典：<a href={company.priceSource.url} target="_blank" rel="noopener noreferrer" className="underline">{company.name} 公式サイト</a>（{company.priceSource.checked}確認）
+          </p>
+        )}
         <p className="text-sm text-blue-600 mt-1">※料金は作業の規模・状況によって異なります。正確な金額は無料見積もりにてご確認ください。</p>
       </div>
 
