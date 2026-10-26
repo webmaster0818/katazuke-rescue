@@ -124,6 +124,7 @@ const related = [
   { href: "/review/minna-ihinseiri/", label: "みんなの遺品整理の評判", desc: "審査を通過した遺品整理業者の紹介サービス" },
   { href: "/cost/price/", label: "片付け・不用品回収の費用相場", desc: "間取り・作業別の費用の考え方" },
   { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
+  { href: "/nihontou-hakken-tetsuzuki/", label: "遺品や実家から日本刀が出てきたら", desc: "登録証の確認と発見届・所有者変更の届出" },
 ];
 
 const faqLd = {

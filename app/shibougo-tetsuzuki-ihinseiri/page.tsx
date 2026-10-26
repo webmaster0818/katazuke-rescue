@@ -145,6 +145,7 @@ const related = [
   { href: "/ihin-katamiwake-susumekata/", label: "遺品整理と形見分けの進め方", desc: "時期・順番・渡し方の考え方" },
   { href: "/souzoku-ie-katazuke/", label: "相続した家の片付け", desc: "始める時期と専門家に相談すべき論点" },
   { href: "/digital-ihin-seiri/", label: "デジタル遺品の整理方法", desc: "故人のスマホ・PC・ネット契約の扱い" },
+  { href: "/nihontou-hakken-tetsuzuki/", label: "遺品や実家から日本刀が出てきたら", desc: "登録証の確認と発見届・所有者変更の届出" },
 ];
 
 const faqLd = {

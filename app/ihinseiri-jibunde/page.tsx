@@ -110,6 +110,7 @@ const related = [
   { href: "/kodokushi-heya-taiou/", label: "孤独死があった部屋の対応", desc: "発見後の手順と相談先の考え方" },
   { href: "/souzoku-houki-ihinseiri/", label: "相続放棄を考えているときの遺品整理", desc: "判断が済むまでの家財の扱い" },
   { href: "/kojin-chintai-akewatashi/", label: "亡くなった家族の賃貸住宅の明け渡し", desc: "解約から退去日までの段取り" },
+  { href: "/nihontou-hakken-tetsuzuki/", label: "遺品や実家から日本刀が出てきたら", desc: "登録証の確認と発見届・所有者変更の届出" },
 ];
 
 const faqLd = {
