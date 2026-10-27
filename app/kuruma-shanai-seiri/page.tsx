@@ -123,6 +123,7 @@ const related = [
   { href: "/sports-outdoor-seiri/", label: "スポーツ・アウトドア用品の整理", desc: "かさばる道具の見直し方" },
   { href: "/pc-sumaho-data-shoukyo/", label: "パソコン・スマホのデータ消去", desc: "記録を残さず機器を手放す手順" },
   { href: "/shoukaki-shobun/", label: "家庭の消火器の処分方法", desc: "リサイクル窓口とゆうパック回収" },
+  { href: "/kojin-kuruma-souzoku-haisha/", label: "亡くなった家族の車の処分", desc: "相続の名義変更と廃車（抹消登録）の手続き" },
 ];
 
 const faqLd = {
