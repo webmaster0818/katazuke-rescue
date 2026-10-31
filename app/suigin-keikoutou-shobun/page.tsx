@@ -61,7 +61,7 @@ const steps = [
   },
   {
     title: "割れてしまった物は、密閉できる容器や袋に入れて分けておく",
-    body: "保管や運搬の途中で割れてしまった物は、環境省のガイドラインにあるとおり、ポリ袋や密閉できる容器に入れて、水銀が飛散・流出しないようにします。同ガイドラインでは、破損した物を燃やすごみの区分で出さないよう周知することが望ましいとされています。割れた物と割れていない物は、処理の方法が異なる場合があるため、袋や容器を分けておいてください。出し方は、割れていない物と同じとは限らないため、自治体の案内で破損時の扱いを確認するか、清掃担当の窓口に問い合わせます。",
+    body: "保管や運搬の途中で割れてしまった物は、環境省のガイドラインにあるとおり、ポリ袋や密閉できる容器に入れて、水銀が飛散・流出しないようにします。同ガイドラインでは、水銀使用廃製品は割れた物も含めてほかの廃棄物と混ぜずに分別し、燃やすごみ（可燃物）の区分では出さないよう周知する必要があるとされています。割れた物と割れていない物は、処理の方法が異なる場合があるため、袋や容器を分けておいてください。出し方は、割れていない物と同じとは限らないため、自治体の案内で破損時の扱いを確認するか、清掃担当の窓口に問い合わせます。",
   },
   {
     title: "指定の日時や回収箱に、割れないように運んで出す",
@@ -97,7 +97,7 @@ const breakageSteps = [
       "硬い紙やボール紙でガラスの破片や粉をすくい取り、密閉できるガラス瓶やポリ袋に入れる",
       "残った細かい破片や粉は粘着テープで集め、湿ったペーパータオルなどで拭き取り、同じように密閉する",
       "掃除機は水銀蒸気を拡散させるおそれがあるため、使用は望ましくないとされている",
-      "片付け後は破片などを密閉したまま屋外のごみ箱に置き、手を洗い、処分方法を市町村に確認する。可能であれば数時間換気を続ける",
+      "片付け後は破片や粘着テープなどを密閉したまま直ちに建物の外のごみ箱に入れ、手を洗い、処分方法を市町村に確認する。可能であれば数時間換気を続ける",
     ],
   },
   {
@@ -179,7 +179,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: "2026-10-31",
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -220,6 +220,7 @@ export default function Page() {
         </h1>
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年10月17日</time>
+          <time dateTime="2026-10-31">更新：2026年10月31日</time>
           <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
@@ -374,7 +375,7 @@ export default function Page() {
       <ul className="space-y-2 mb-8 text-sm leading-7 text-text-secondary list-disc pl-5">
         {sources.map((s) => (
           <li key={s.url}>
-            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{s.label}</a>（{s.org}・2026年10月17日確認）
+            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{s.label}</a>（{s.org}・2026年10月31日確認）
           </li>
         ))}
       </ul>
