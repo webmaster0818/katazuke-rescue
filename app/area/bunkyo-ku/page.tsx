@@ -111,7 +111,7 @@ const d: AreaCityData = {
     { label: "粗大ごみ受付センター（インターネット申込）", org: "文京区", url: "https://ecolife.e-tumo.jp/sodai-bunkyo-tokyo-u/" },
     { label: "テレビ・エアコン・冷蔵庫（冷凍庫）・洗濯機・衣類乾燥機", org: "文京区", url: "https://www.city.bunkyo.lg.jp/b039/p000934.html", updated: "2026年10月27日" },
     { label: "パソコン", org: "文京区", url: "https://www.city.bunkyo.lg.jp/b039/p000935.html", updated: "2024年6月11日" },
-    { label: "不用品・廃品回収業者とのトラブルにご注意ください", org: "文京区", url: "https://www.city.bunkyo.lg.jp/b038/p000769.html", updated: "2018年11月8日" },
+    { label: "不用品・廃品回収業者とのトラブルにご注意ください！", org: "文京区", url: "https://www.city.bunkyo.lg.jp/b038/p000769.html", updated: "2018年11月8日" },
     ...vendorSources(vc),
   ],
 };

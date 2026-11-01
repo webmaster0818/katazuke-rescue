@@ -109,7 +109,7 @@ const d: AreaCityData = {
     { label: "粗大ごみについて", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/e025/kurashi/gomi_recycle/kategomi/sodai_mosikomi.html", updated: "2026年10月28日" },
     { label: "家電リサイクル法対象品の出し方", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/e025/kurashi/gomi_recycle/kategomi/dashikata.html", updated: "2026年6月23日" },
     { label: "家庭用パソコンの出し方", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/e025/kurashi/gomi_recycle/kategomi/bunbetsu/computer.html", updated: "2025年4月1日" },
-    { label: "違法な不用品回収業者にご注意ください", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/kurashi/gomi_recycle/kategomi/ihogyosha.html", updated: "2023年12月20日" },
+    { label: "違法な不用品回収業者にご注意ください！", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/kurashi/gomi_recycle/kategomi/ihogyosha.html", updated: "2023年12月20日" },
     { label: "ごみを大量に出す場合", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/e025/kurashi/gomi_recycle/kategomi/tairyou.html", updated: "2025年11月11日" },
     ...vendorSources(vc),
   ],

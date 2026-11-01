@@ -116,7 +116,7 @@ const d: AreaCityData = {
     { label: "ごみの持ち込み（柏地域）", org: "柏市", url: "https://www.city.kashiwa.lg.jp/kankyoservice/garbage_environment/kashiwaarea/mochikomi.html", updated: "令和8年5月15日" },
     { label: "ごみの持ち込み（沼南地域）", org: "柏市", url: "https://www.city.kashiwa.lg.jp/kankyoservice/garbage_environment/shonanarea/mochikomi.html", updated: "令和8年5月15日" },
     { label: "エアコン（室内機・室外機とも）｜ごみ分別便利ガイド（柏地域）", org: "柏市", url: "https://www.city.kashiwa.lg.jp/garbage_environment/kashiwaarea/guide-k/e/0001.html" },
-    { label: "無許可の違法な不用品回収業者への依頼について（市の注意喚起ページ）", org: "柏市", url: "https://www.city.kashiwa.lg.jp/haikibutsuseisaku/jigyosha/gomi/2603.html", updated: "令和7年2月21日" },
+    { label: "「無許可」の違法な不用品回収業者に依頼をしないで！", org: "柏市", url: "https://www.city.kashiwa.lg.jp/haikibutsuseisaku/jigyosha/gomi/2603.html", updated: "令和7年2月21日" },
     { label: "事業系のごみ（柏地域）・一般廃棄物の収集運搬業者一覧表", org: "柏市", url: "https://www.city.kashiwa.lg.jp/haikibutsuseisaku/jigyosha/gomi/kashiwa.html", updated: "令和7年4月1日" },
     ...vendorSources(vc),
   ],

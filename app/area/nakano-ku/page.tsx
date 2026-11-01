@@ -114,7 +114,7 @@ const d: AreaCityData = {
     { label: "一度に多量のごみが出るとき（臨時ごみ）", org: "中野区", url: "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/dashikata/taryonogomi.html", updated: "2026年2月4日" },
     { label: "家庭のエアコン、テレビ、冷蔵庫・冷凍庫、洗濯機・衣類乾燥機の処分", org: "中野区", url: "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/dashikata/katei-aircon.html", updated: "2026年5月20日" },
     { label: "「パソコン」の処理方法", org: "中野区", url: "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/dashikata/pcsyori.html", updated: "2025年10月29日" },
-    { label: "違法な不用品回収業者にご注意ください", org: "中野区", url: "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/dashikata/0686037120231017140829021.html", updated: "2023年10月20日" },
+    { label: "違法な不用品回収業者にご注意ください！", org: "中野区", url: "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/dashikata/0686037120231017140829021.html", updated: "2023年10月20日" },
     ...vendorSources(vc),
   ],
 };
