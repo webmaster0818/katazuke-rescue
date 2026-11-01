@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const basics = [
   {
     title: "消火器は家庭のごみ収集に出せない物として扱われる",
-    body: "総務省消防庁の住宅用消火器に関する案内では、消火器は一般廃棄物として出せないとされ、特定窓口への依頼、指定引取場所への持ち込み、ゆうパックによる回収という方法が示されています。消火器は内部に圧力や薬剤を抱えた容器であり、通常の焼却や破砕の工程にそのまま入れることができないためです。消火器リサイクル推進センターも、廃棄される消火器は自治体が処理困難物として回収しないことが多いと説明しています。片付けの途中で消火器が出てきたら、燃えないごみや粗大ごみの日に出すのではなく、専用の回収ルートに回す物として分けておいてください。",
+    body: "総務省消防庁の住宅用消火器に関する案内では、消火器は一般廃棄物として出せないとされ、特定窓口への依頼、指定引取場所への持ち込み、ゆうパックによる回収という方法が示されています。消火器リサイクル推進センターも、廃棄される消火器は自治体が処理困難物として回収しないことが多いと説明しています。片付けの途中で消火器が出てきたら、燃えないごみや粗大ごみの日に出すのではなく、専用の回収ルートに回す物として分けておいてください。",
   },
   {
     title: "国内メーカー製の消火器は全国共通のリサイクルの仕組みで回収される",
@@ -72,7 +72,7 @@ const steps = [
 const ngActions = [
   {
     title: "燃えないごみや粗大ごみの日に消火器を出す",
-    body: "消火器を通常のごみとして集積所に出すと、収集されずに残されたり、収集車や処理施設で破損して事故につながったりするおそれがあります。消防庁は消火器を一般廃棄物として出せないと案内しており、多くの自治体でも収集の対象外とされています。お住まいの自治体の分別案内で消火器の項目を確認すると、専用の回収ルートが紹介されていることが一般的です。分別に迷う物をまとめて集積所に出すことは、片付けの現場で起きやすいつまずきの一つです。",
+    body: "消防庁は、消火器を一般廃棄物として出せないと案内しています。消火器リサイクル推進センターによると、廃棄される消火器は自治体が処理困難物として回収しないことが多く、不法投棄や放置されて老朽化することなどにより、破裂等の事故につながるケースがあったとされています。お住まいの自治体の分別案内で消火器の項目を確認し、案内されている回収ルートを利用してください。分別に迷う物をまとめて集積所に出すことは、片付けの現場で起きやすいつまずきの一つです。",
   },
   {
     title: "中身を空にしようとして、古い消火器を放射させる",
@@ -80,7 +80,7 @@ const ngActions = [
   },
   {
     title: "自分で分解したり、穴を開けたりする",
-    body: "金属資源として出すつもりで、本体のキャップを外したり、穴を開けたりする行為も危険です。消火器は圧力容器であり、内部に圧力が残っていると部品が飛ぶおそれがあります。薬剤の粉末が室内に広がると、片付けどころではなくなります。分解や解体は専門の設備で行う工程であり、家庭で行う作業ではありません。そのままの形で窓口に引き渡すことが、最も安全で手間の少ない処分方法です。",
+    body: "金属資源として出すつもりで、本体のキャップを外したり、穴を開けたりするのは避けてください。消火器リサイクル推進センターは、老朽化した消火器の「消火薬剤の放射」「解体」は絶対に行わないよう注意喚起しており、消火器の処分には専門的な知識と設備が必要であると説明しています。そのままの形で窓口に引き渡すことが、最も安全で手間の少ない処分方法です。",
   },
   {
     title: "回収の勧誘をその場で受け、費用を確かめずに引き渡す",
@@ -128,6 +128,9 @@ const sources = [
   { label: "リサイクルシールの購入方法", org: "消火器リサイクル推進センター", url: "https://www.ferpc.jp/recycleseal/buy/" },
   { label: "回収できないもの（対象外品目）", org: "消火器リサイクル推進センター", url: "https://www.ferpc.jp/object/about/" },
   { label: "よくあるご質問", org: "消火器リサイクル推進センター", url: "https://www.ferpc.jp/disposal/qa/" },
+  { label: "リサイクルの目的（メーカーを問わない収集・運搬、撤退した国内メーカーの廃消火器）", org: "消火器リサイクル推進センター", url: "https://www.ferpc.jp/recycle/purpose/" },
+  { label: "広域認定制度", org: "消火器リサイクル推進センター", url: "https://www.ferpc.jp/system/koiki/" },
+  { label: "業務内容（処理困難物・リサイクルシールの目的）", org: "消火器リサイクル推進センター", url: "https://www.ferpc.jp/company/business/" },
   { label: "家庭用廃消火器 回収・リサイクル（引き取り回収ゆうパック）", org: "初田製作所", url: "https://www.ferecycle.jp/" },
   { label: "消費者ホットライン", org: "消費者庁", url: "https://www.caa.go.jp/policies/policy/local_cooperation/local_consumer_administration/hotline/" },
 ];
@@ -163,7 +166,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: "2026-11-01",
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -204,6 +207,8 @@ export default function Page() {
         </h1>
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年10月17日</time>
+          <span className="w-px h-3 bg-border" />
+          <time dateTime="2026-11-01">更新：2026年11月1日</time>
           <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
@@ -346,7 +351,7 @@ export default function Page() {
       <ul className="space-y-2 mb-8 text-sm leading-7 text-text-secondary list-disc pl-5">
         {sources.map((s) => (
           <li key={s.url}>
-            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{s.label}</a>（{s.org}・2026年10月17日確認）
+            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{s.label}</a>（{s.org}・2026年11月1日確認）
           </li>
         ))}
       </ul>
