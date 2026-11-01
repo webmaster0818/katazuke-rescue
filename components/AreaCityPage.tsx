@@ -65,6 +65,9 @@ export interface AreaCityData {
   factsLead: ReactNode;
   facts: { k: string; v: ReactNode; src: string }[];
   sections: AreaSection[];
+  // 区の公式案内（家庭ごみの回収と業者）を記事冒頭の第1章に置く場合に指定（2026-11-01〜・板橋/江戸川/杉並/北/中野/墨田）。
+  // 指定したページでは業者の見出しを「おすすめ・順位」ではなく「片付けを頼める業者」の表現にする。
+  guidanceFirst?: AreaSection;
   steps: { t: string; b: string }[];
   faqs: { q: string; a: string }[];
   matome: ReactNode[];
@@ -109,7 +112,14 @@ function H4({ children }: { children: ReactNode }) {
 export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; otherAreas: ReactNode }) {
   const path = `/area/${d.slug}/`;
   const n = d.vendors.length;
-  const secBase = 3; // 1=業者, 2=市の公式情報, 3〜=市区固有の解説
+  const g = d.guidanceFirst;
+  const off = g ? 1 : 0; // guidanceFirst がある場合: 1=区の公式案内, 2=業者, 3=市の公式情報, 4〜=解説
+  const numVendor = String(1 + off);
+  const numFacts = String(2 + off);
+  const secBase = 3 + off; // 1=業者, 2=市の公式情報, 3〜=市区固有の解説
+  const vendorH2 = g ? `${d.name}で片付けを頼める業者` : `${d.name}のゴミ屋敷片付け・不用品回収業者${n}社`;
+  const hikakuH3 = g ? `${d.name}を対応エリアに含む業者の一覧` : `${d.name}を対応エリアに含む${n}社を一覧比較`;
+  const vendorH3 = (c: AreaVendor) => (g ? `【${c.catch}】${c.name}` : `${c.num}｜【${c.catch}】${c.name}`);
   const numSel = secBase + d.sections.length;
   const numFaq = numSel + 1;
   const numMatome = numFaq + 1;
@@ -146,15 +156,16 @@ export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; other
   };
 
   const toc = [
+    ...(g ? [{ href: `#${g.id}`, label: `1｜${g.title}`, sub: undefined }] : []),
     {
       href: "#gyousha",
-      label: `1｜${d.name}のゴミ屋敷片付け・不用品回収業者${n}社`,
+      label: `${numVendor}｜${vendorH2}`,
       sub: [
-        { href: "#hikaku", label: `${d.name}を対応エリアに含む${n}社を一覧比較` },
-        ...d.vendors.map((c) => ({ href: `#${c.slug}`, label: `${c.num}｜【${c.catch}】${c.name}` })),
+        { href: "#hikaku", label: hikakuH3 },
+        ...d.vendors.map((c) => ({ href: `#${c.slug}`, label: vendorH3(c) })),
       ],
     },
-    { href: "#shi-koushiki", label: `2｜${d.factsTitle}` },
+    { href: "#shi-koushiki", label: `${numFacts}｜${d.factsTitle}` },
     ...d.sections.map((s, i) => ({ href: `#${s.id}`, label: `${secBase + i}｜${s.title}`, sub: undefined })),
     { href: "#erabikata", label: `${numSel}｜片付け業者を選ぶ際の確認事項` },
     { href: "#faq", label: `${numFaq}｜${d.name}の片付けでよくある質問` },
@@ -223,12 +234,19 @@ export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; other
         </ol>
       </nav>
 
+      {g && (
+        <section>
+          <H2 id={g.id} num="1">{g.title}</H2>
+          {g.body}
+        </section>
+      )}
+
       {/* 1｜業者 */}
-      <H2 id="gyousha" num="1">{`${d.name}のゴミ屋敷片付け・不用品回収業者${n}社`}</H2>
+      <H2 id="gyousha" num={numVendor}>{vendorH2}</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">{d.vendorLead}</p>
 
       <h3 id="hikaku" className="scroll-mt-20 text-lg font-bold text-text-primary mb-4">
-        {`${d.name}を対応エリアに含む${n}社を一覧比較`}
+        {hikakuH3}
       </h3>
       <div className="overflow-x-auto mb-3 rounded-2xl border border-border">
         <table className="w-full text-sm border-collapse min-w-[640px]">
@@ -261,7 +279,7 @@ export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; other
       {d.vendors.map((c) => (
         <section key={c.slug} id={c.slug} className="scroll-mt-20 mb-14">
           <h3 className="text-lg sm:text-xl font-bold text-text-primary border-b-2 border-primary pb-2 mb-5">
-            {c.num}｜【{c.catch}】{c.name}
+            {vendorH3(c)}
           </h3>
 
           <a href={c.officialUrl} target="_blank" rel="sponsored nofollow noopener" className="block mb-5">
@@ -280,7 +298,7 @@ export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; other
             </p>
           ))}
 
-          <H4>このような方におすすめです</H4>
+          <H4>{g ? "このような方に向いています" : "このような方におすすめです"}</H4>
           <ul className="rounded-2xl bg-surface-alt border border-border p-5 space-y-2">
             {c.recommend.map((r) => (
               <li key={r} className="flex items-start gap-3 text-sm leading-7 text-text-secondary">
@@ -332,7 +350,7 @@ export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; other
       ))}
 
       {/* 2｜市区の公式情報 */}
-      <H2 id="shi-koushiki" num="2">{d.factsTitle}</H2>
+      <H2 id="shi-koushiki" num={numFacts}>{d.factsTitle}</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-5">{d.factsLead}</p>
       <div className="overflow-x-auto mb-3 rounded-2xl border border-border">
         <table className="w-full text-sm border-collapse min-w-[560px]">
