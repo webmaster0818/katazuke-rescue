@@ -147,8 +147,8 @@ export function vendorSources(c: VendorCity): AreaSource[] {
     { label: `ミツモア「${c.name}の不用品回収」`, org: "ミツモア（公式）", url: c.meetsmore.url },
   ];
   if (c.usagi) {
-    s.push({ label: "お助けうさぎ「対応エリア」", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/area/" });
-    s.push({ label: "お助けうさぎ「料金」", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/price/" });
+    s.push({ label: "お助けうさぎ「ご利用可能なエリア」", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/area/" });
+    s.push({ label: "お助けうさぎ「料金プラン・お支払い方法」", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/price/" });
     s.push({ label: "お助けうさぎ「会社概要」", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/about/" });
   }
   return s;

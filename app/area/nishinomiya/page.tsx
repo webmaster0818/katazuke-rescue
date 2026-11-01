@@ -56,7 +56,7 @@ const d: AreaCityData = {
     { k: "市が収集しないごみ", v: "引越し・大掃除・植木剪定などの一時的に多量なごみ、家屋造作・廃材、一畳を超える物置、事業活動に伴うごみ。家電リサイクル対象品目は収集も処分もしない", src: "西宮市「引越しのごみや大掃除のごみはマナーを守って処分しましょう」（ページの更新日 2026年10月16日）" },
     { k: "多量ごみの処理方法", v: "自分で東部総合処理センターへ持ち込む（前日までにごみ電話受付センター 0798-22-6600 に予約、搬入は月曜〜土曜（祝日を含む）、粗大ごみ・もやさないごみは8時〜15時30分）か、許可業者に依頼する（問い合わせ先: にしのみや環境サポート協同組合 0798-36-7806）", src: "同上" },
     { k: "持ち込み手数料", v: "令和8年4月1日から、持ち込み先は東部総合処理センター。手数料は持ち込んだごみの総重量で50kgまで450円、超える場合は10kgまでごとに90円加算。もやすごみを含むすべてのごみ種が有料", src: "西宮市「ごみの持込みについて【一般家庭の方】」（ページの更新日 2026年10月30日）" },
-    { k: "家電4品目・パソコン", v: "市の粗大ごみ・もやさないごみでの収集や処理センターへの持ち込みはできない。買い替え時は販売店、処分のみの場合は「西宮電化商組合」の加盟店（義務外品引取協力店）に依頼するか、郵便局でリサイクル料金を払って指定取引場所（株式会社善商）へ直接搬入する", src: "西宮市「エアコン・テレビ・冷蔵（凍）庫・洗濯機・衣類乾燥機の処分」（ページの更新日 2026年7月15日）" },
+    { k: "家電4品目・パソコン", v: "市の粗大ごみ・もやさないごみでの収集や処理センターへの持ち込みはできない。買い替え時は販売店、処分のみの場合は「西宮電化商組合」の加盟店（義務外品引取協力店）に依頼するか、郵便局でリサイクル料金を払って指定取引場所（株式会社善商）へ直接搬入する", src: "西宮市「エアコン・テレビ（ブラウン管式、液晶式、プラズマ式）・冷蔵（凍）庫・洗濯機・衣類乾燥機の処分」（ページの更新日 2026年7月15日）" },
     { k: "無許可の回収業者", v: "家庭から廃棄物を回収するには一般廃棄物処理業の許可が必要で、無許可業者による不法投棄・高額請求の事例があるとして、利用しないよう呼びかけている", src: "西宮市「引越しのごみや大掃除のごみはマナーを守って処分しましょう」" },
   ],
   sections: [
@@ -115,8 +115,8 @@ const d: AreaCityData = {
     { label: "粗大（大型）ごみ料金表", org: "西宮市", url: "https://www.nishi.or.jp/kurashi/gomi/gominoshushu/seikatsugomi/ryokinhyo.html", updated: "2026年4月24日" },
     { label: "引越しのごみや大掃除のごみはマナーを守って処分しましょう", org: "西宮市", url: "https://www.nishi.or.jp/kurashi/gomi/gominoshushu/seikatsugomi/hikkoshigomi.html", updated: "2026年10月16日" },
     { label: "ごみの持込みについて【一般家庭の方】", org: "西宮市", url: "https://www.nishi.or.jp/kurashi/gomi/shisetsu/nishi-shori.html", updated: "2026年10月30日" },
-    { label: "エアコン・テレビ・冷蔵（凍）庫・洗濯機・衣類乾燥機の処分", org: "西宮市", url: "https://www.nishi.or.jp/kurashi/gomi/gominoshushu/seikatsugomi/eakon-tv-shobun.html", updated: "2026年7月15日" },
-    { label: "お助けうさぎ「対応エリア」（兵庫県が対象外であることの確認）", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/area/" },
+    { label: "エアコン・テレビ（ブラウン管式、液晶式、プラズマ式）・冷蔵（凍）庫・洗濯機・衣類乾燥機の処分", org: "西宮市", url: "https://www.nishi.or.jp/kurashi/gomi/gominoshushu/seikatsugomi/eakon-tv-shobun.html", updated: "2026年7月15日" },
+    { label: "お助けうさぎ「ご利用可能なエリア」（兵庫県が対象外であることの確認）", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/area/" },
     ...vendorSources(vc),
   ],
 };
@@ -145,6 +145,9 @@ export default function AreaNishinomiyaPage() {
             </li>
             <li>
               <Link href="/area/arakawa-ku/" className="text-primary underline underline-offset-2">荒川区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+            </li>
+            <li>
+              <Link href="/area/asahikawa/" className="text-primary underline underline-offset-2">旭川市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/bunkyo-ku/" className="text-primary underline underline-offset-2">文京区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
@@ -183,7 +186,13 @@ export default function AreaNishinomiyaPage() {
               <Link href="/area/gifu/" className="text-primary underline underline-offset-2">岐阜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
+              <Link href="/area/hachinohe/" className="text-primary underline underline-offset-2">八戸市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
+            </li>
+            <li>
               <Link href="/area/hachioji/" className="text-primary underline underline-offset-2">八王子のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/hakodate/" className="text-primary underline underline-offset-2">函館市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/hamamatsu/" className="text-primary underline underline-offset-2">浜松のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -198,7 +207,13 @@ export default function AreaNishinomiyaPage() {
               <Link href="/area/hiroshima/" className="text-primary underline underline-offset-2">広島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
+              <Link href="/area/ichinomiya/" className="text-primary underline underline-offset-2">一宮市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
+            </li>
+            <li>
               <Link href="/area/itabashi-ku/" className="text-primary underline underline-offset-2">板橋区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+            </li>
+            <li>
+              <Link href="/area/iwaki/" className="text-primary underline underline-offset-2">いわき市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/kagoshima/" className="text-primary underline underline-offset-2">鹿児島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -235,6 +250,9 @@ export default function AreaNishinomiyaPage() {
             </li>
             <li>
               <Link href="/area/kofu/" className="text-primary underline underline-offset-2">甲府のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/koriyama/" className="text-primary underline underline-offset-2">郡山市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/koshigaya/" className="text-primary underline underline-offset-2">越谷市のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
@@ -357,6 +375,9 @@ export default function AreaNishinomiyaPage() {
               <Link href="/area/suginami-ku/" className="text-primary underline underline-offset-2">杉並区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
             </li>
             <li>
+              <Link href="/area/suita/" className="text-primary underline underline-offset-2">吹田市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
+            </li>
+            <li>
               <Link href="/area/sumida-ku/" className="text-primary underline underline-offset-2">墨田区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
             </li>
             <li>
@@ -367,6 +388,9 @@ export default function AreaNishinomiyaPage() {
             </li>
             <li>
               <Link href="/area/takasaki/" className="text-primary underline underline-offset-2">高崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/takatsuki/" className="text-primary underline underline-offset-2">高槻市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -382,6 +406,9 @@ export default function AreaNishinomiyaPage() {
             </li>
             <li>
               <Link href="/area/toyama/" className="text-primary underline underline-offset-2">富山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/toyohashi/" className="text-primary underline underline-offset-2">豊橋市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/toyonaka/" className="text-primary underline underline-offset-2">豊中市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>

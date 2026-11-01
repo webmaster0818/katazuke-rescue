@@ -121,7 +121,7 @@ const d: AreaCityData = {
     { label: "パソコンの処分方法", org: "豊田市", url: "https://www.city.toyota.aichi.jp/sumaikankyo/gomi/gomi/1073817/1003830.html", updated: "2021年6月8日" },
     { label: "違法な「無許可」の不用品回収業者を利用しないでください", org: "豊田市", url: "https://www.city.toyota.aichi.jp/sumaikankyo/gomi/gomi/1073631/1059300.html", updated: "2024年6月13日" },
     { label: "ふれあい収集について", org: "豊田市", url: "https://www.city.toyota.aichi.jp/sumaikankyo/gomi/gomi/1073818/1003793.html", updated: "2024年12月2日" },
-    { label: "お助けうさぎ「対応エリア」（愛知県の市区町村一覧が掲載されていないことの確認）", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/area/" },
+    { label: "お助けうさぎ「ご利用可能なエリア」（愛知県の市区町村一覧が掲載されていないことの確認）", org: "お助けうさぎ（公式）", url: "https://otasukeusagi.jp/area/" },
     ...vendorSources(vc),
   ],
 };
@@ -150,6 +150,9 @@ export default function AreaToyotaPage() {
             </li>
             <li>
               <Link href="/area/arakawa-ku/" className="text-primary underline underline-offset-2">荒川区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+            </li>
+            <li>
+              <Link href="/area/asahikawa/" className="text-primary underline underline-offset-2">旭川市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/bunkyo-ku/" className="text-primary underline underline-offset-2">文京区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
@@ -188,7 +191,13 @@ export default function AreaToyotaPage() {
               <Link href="/area/gifu/" className="text-primary underline underline-offset-2">岐阜のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
+              <Link href="/area/hachinohe/" className="text-primary underline underline-offset-2">八戸市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
+            </li>
+            <li>
               <Link href="/area/hachioji/" className="text-primary underline underline-offset-2">八王子のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/hakodate/" className="text-primary underline underline-offset-2">函館市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/hamamatsu/" className="text-primary underline underline-offset-2">浜松のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -203,7 +212,13 @@ export default function AreaToyotaPage() {
               <Link href="/area/hiroshima/" className="text-primary underline underline-offset-2">広島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
+              <Link href="/area/ichinomiya/" className="text-primary underline underline-offset-2">一宮市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
+            </li>
+            <li>
               <Link href="/area/itabashi-ku/" className="text-primary underline underline-offset-2">板橋区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+            </li>
+            <li>
+              <Link href="/area/iwaki/" className="text-primary underline underline-offset-2">いわき市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/kagoshima/" className="text-primary underline underline-offset-2">鹿児島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -240,6 +255,9 @@ export default function AreaToyotaPage() {
             </li>
             <li>
               <Link href="/area/kofu/" className="text-primary underline underline-offset-2">甲府のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/koriyama/" className="text-primary underline underline-offset-2">郡山市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/koshigaya/" className="text-primary underline underline-offset-2">越谷市のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
@@ -365,6 +383,9 @@ export default function AreaToyotaPage() {
               <Link href="/area/suginami-ku/" className="text-primary underline underline-offset-2">杉並区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
             </li>
             <li>
+              <Link href="/area/suita/" className="text-primary underline underline-offset-2">吹田市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
+            </li>
+            <li>
               <Link href="/area/sumida-ku/" className="text-primary underline underline-offset-2">墨田区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
             </li>
             <li>
@@ -375,6 +396,9 @@ export default function AreaToyotaPage() {
             </li>
             <li>
               <Link href="/area/takasaki/" className="text-primary underline underline-offset-2">高崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/takatsuki/" className="text-primary underline underline-offset-2">高槻市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/tokushima/" className="text-primary underline underline-offset-2">徳島のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -390,6 +414,9 @@ export default function AreaToyotaPage() {
             </li>
             <li>
               <Link href="/area/toyama/" className="text-primary underline underline-offset-2">富山のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            </li>
+            <li>
+              <Link href="/area/toyohashi/" className="text-primary underline underline-offset-2">豊橋市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
               <Link href="/area/toyonaka/" className="text-primary underline underline-offset-2">豊中市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
