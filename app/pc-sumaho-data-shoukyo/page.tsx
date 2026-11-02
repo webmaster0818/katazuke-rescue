@@ -125,6 +125,7 @@ const related = [
   { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線を外す手順と小型家電の手放し方" },
   { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
   { href: "/kogata-kaden-recycle/", label: "小型家電リサイクルの使い方", desc: "回収ボックスと認定事業者の回収" },
+  { href: "/sumaho-keitai-shobun/", label: "スマホ・携帯電話の処分方法", desc: "携帯ショップの無償回収（MRN）" },
 ];
 
 const faqLd = {

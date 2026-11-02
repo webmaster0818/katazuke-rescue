@@ -130,6 +130,7 @@ const related = [
   { href: "/cable-gadget-haisen-seiri/", label: "ケーブル・充電器・古いガジェットの整理", desc: "配線まわりと使わない機器" },
   { href: "/furui-kaden-anzen-shobun/", label: "古い家電の安全確認と処分", desc: "長く使った家電の確認事項" },
   { href: "/muryou-kaishuu-chuui/", label: "「無料回収」をうたう業者の注意点", desc: "トラブルを避ける確認事項" },
+  { href: "/sumaho-keitai-shobun/", label: "スマホ・携帯電話の処分方法", desc: "携帯ショップの無償回収（MRN）" },
 ];
 
 const faqLd = {

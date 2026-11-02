@@ -127,6 +127,7 @@ const related = [
   { href: "/lithium-battery-shobun/", label: "モバイルバッテリー・リチウムイオン電池の処分", desc: "発火を防ぐ出し方と回収先" },
   { href: "/shoukaki-shobun/", label: "家庭の消火器の処分方法", desc: "リサイクル窓口とゆうパック回収" },
   { href: "/suigin-keikoutou-shobun/", label: "蛍光灯・水銀体温計の処分", desc: "割らずに出す方法と割れたときの対処" },
+  { href: "/spray-cassette-bombe-shobun/", label: "スプレー缶・カセットボンベの処分方法", desc: "中身の出し切り方と穴あけの扱い" },
 ];
 
 const faqLd = {

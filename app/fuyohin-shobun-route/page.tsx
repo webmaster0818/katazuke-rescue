@@ -123,6 +123,7 @@ const related = [
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "回収業者に頼む場合の基礎知識" },
   { href: "/guide/municipal-service/", label: "自治体の粗大ごみ回収サービス活用法", desc: "自治体ルートの使い方を詳しく" },
   { href: "/guide/illegal-dumping/", label: "不用品回収の違法業者の見分け方", desc: "トラブルを避けるための確認事項" },
+  { href: "/compare/curama-vs-meetsmore/", label: "くらしのマーケットとミツモアの違い", desc: "不用品回収の頼み方で比べる" },
   { href: "/area/tokyo/", label: "東京の片付け・不用品回収業者おすすめ", desc: "東京から依頼できる業者の比較" },
 ];
 

@@ -8,6 +8,7 @@ const TITLE = "ゴミ屋敷に関する自治体の条例と支援の仕組み�
 const DESC =
   "いわゆるゴミ屋敷について、足立区・横浜市・京都市・大阪市・神戸市が定めている条例の名称と時期、福祉的な支援から指導・勧告・命令・代執行までの流れ、片付け費用の扱い、相談窓口を、各自治体の公式情報をもとに整理します。本人や家族が自治体に相談するときの進め方と、業者に依頼する場合の考え方も解説します。";
 const PUBLISHED = "2026-10-17";
+const UPDATED = "2026-11-02";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -36,7 +37,7 @@ const ordinances = [
   { city: "横浜市", name: "横浜市建築物等における不良な生活環境の解消及び発生の防止を図るための支援及び措置に関する条例", when: "平成28年12月1日施行", point: "本人による解消が基本。福祉的な視点からの支援を優先し、改善されない場合は指導・勧告・命令・代執行", desk: "各区の福祉保健課" },
   { city: "京都市", name: "京都市不良な生活環境を解消するための支援及び措置に関する条例", when: "平成26年11月制定", point: "本人による改善が原則。困難な場合は医療・介護・経済的支援など人に寄り添った支援。費用は原則として本人負担", desk: "各区役所・支所の地域力推進室" },
   { city: "大阪市", name: "大阪市住居における物品等の堆積による不良な状態の適正化に関する条例", when: "平成25年12月制定", point: "強制的な権限をすぐに使わず、福祉的な支援が必要な場合は区役所と関係機関が連携。撤去後も再発防止の見守りを続ける", desk: "お住まいの区の区役所" },
-  { city: "神戸市", name: "神戸市住居等における廃棄物その他の物の堆積による地域の不良な生活環境の改善に関する条例", when: "（公式ページに施行時期の記載なし）", point: "居住者への働きかけと、介護サービスの導入などの福祉・医療的支援を検討・実施。改善されない場合は助言・指導・勧告・命令、代執行の費用は居住者負担", desk: "各区の地域協働課" },
+  { city: "神戸市", name: "神戸市住居等における廃棄物その他の物の堆積による地域の不良な生活環境の改善に関する条例", when: "平成28年6月29日公布・同年8月1日施行（助言・指導から代執行までの規定は同年10月1日施行）", point: "居住者への働きかけと、介護サービスの導入などの福祉・医療的支援を検討・実施。改善されない場合は助言・指導・勧告・命令、代執行の費用は居住者負担", desk: "各区の地域協働課" },
 ];
 
 const merits = [
@@ -129,6 +130,7 @@ const sources = [
   { label: "不良な生活環境（ごみ屋敷）の解消のために", org: "京都市", url: "https://www.city.kyoto.lg.jp/hokenfukushi/page/0000278733.html" },
   { label: "いわゆる「ごみ屋敷」対策について", org: "大阪市", url: "https://www.city.osaka.lg.jp/fukushi/page/0000511345.html" },
   { label: "ごみ屋敷にお困りの方へ", org: "神戸市", url: "https://www.city.kobe.lg.jp/a84526/kurashi/recycle/gomi/shisaku/gomiyashiki-taisaku.html" },
+  { label: "神戸市住居等における廃棄物その他の物の堆積による地域の不良な生活環境の改善に関する条例（PDF）", org: "神戸市", url: "https://www.city.kobe.lg.jp/documents/3774/gomiyashikijyorei_1.pdf", checked: "2026年11月2日" },
 ];
 
 const related = [
@@ -161,7 +163,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: UPDATED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -202,6 +204,8 @@ export default function Page() {
         </h1>
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年10月17日</time>
+          <span className="w-px h-3 bg-border" />
+          <time dateTime={UPDATED}>更新：2026年11月2日</time>
           <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
@@ -277,7 +281,7 @@ export default function Page() {
         出典は各自治体の公式ページ（本記事の「出典・参考にした公的情報」に掲載）。電話番号は各自治体の公式ページでご確認ください。
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        各地域の片付け業者は、<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京</Link>・<Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜</Link>・<Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都</Link>・<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪</Link>・<Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸</Link>の各エリアページで紹介しています。
+        各地域の片付け業者は、<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京</Link>・<Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜</Link>・<Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都</Link>・<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪</Link>・<Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸</Link>の各エリアページで紹介しています。横浜市・京都市・大阪市・神戸市の条例の流れと相談窓口は、<Link href="/area/yokohama/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">横浜市</Link>・<Link href="/area/kyoto/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">京都市</Link>・<Link href="/area/osaka/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">大阪市</Link>・<Link href="/area/kobe/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">神戸市</Link>の各ページで詳しく整理しています。
       </p>
 
       <H2 id="merit" num="3">本人・家族が知っておくべき3つの点</H2>
@@ -365,7 +369,7 @@ export default function Page() {
       <ul className="space-y-2 mb-8 text-sm leading-7 text-text-secondary list-disc pl-5">
         {sources.map((s) => (
           <li key={s.url}>
-            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{s.label}</a>（{s.org}・2026年10月17日確認）
+            <a href={s.url} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">{s.label}</a>（{s.org}・{"checked" in s ? s.checked : "2026年10月17日"}確認）
           </li>
         ))}
       </ul>

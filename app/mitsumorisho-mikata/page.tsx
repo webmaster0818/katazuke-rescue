@@ -122,6 +122,7 @@ const related = [
   { href: "/house-cleaning-chigai/", label: "ハウスクリーニングとの違い", desc: "依頼先の選び方" },
   { href: "/oosouji-gyousha-hani/", label: "大掃除を頼む範囲", desc: "自分で行う場所との分け方" },
   { href: "/fuyohin-shobun-route/", label: "不用品の処分ルート", desc: "手放し方の選択肢と使い分け" },
+  { href: "/compare/curama-vs-meetsmore/", label: "くらしのマーケットとミツモアの違い", desc: "不用品回収の頼み方で比べる" },
 ];
 
 const faqLd = {

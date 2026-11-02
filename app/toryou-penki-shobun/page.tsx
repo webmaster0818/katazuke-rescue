@@ -103,6 +103,7 @@ const related: Related[] = [
   { href: "/monooki-kaitai-mae-seiri/", label: "物置・倉庫の解体前整理", desc: "中身の片付けと処分の段取り" },
   { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・灯油の処分", desc: "残った灯油の扱い" },
   { href: "/car-battery-shobun/", label: "車のバッテリーの処分方法", desc: "鉛バッテリーの引き取り先" },
+  { href: "/spray-cassette-bombe-shobun/", label: "スプレー缶・カセットボンベの処分方法", desc: "中身の出し切り方と穴あけの扱い" },
 ];
 
 export default function Page() {
