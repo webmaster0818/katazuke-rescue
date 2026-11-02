@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import companiesData from "@/data/companies.json";
 import Breadcrumb from "@/components/Breadcrumb";
-import SourcedRating from "@/components/SourcedRating";
+import SourcedRating, { getRatingBlock } from "@/components/SourcedRating";
+import reviewsData from "@/data/reviews.json";
 
 export async function generateStaticParams() {
   return companiesData.map((company) => ({ slug: company.slug }));
@@ -17,9 +18,13 @@ export async function generateMetadata({
   const { slug } = await params;
   const company = companiesData.find((c) => c.slug === slug);
   if (!company) return {};
+  // このページに口コミ本文は無い。出典つきの評価（Googleマップ）がある社だけ title で「評判」に触れる
+  const hasRating = getRatingBlock(slug) !== null;
   return {
-    title: `${company.name}の口コミ・評判・料金`,
-    description: `${company.name}の特徴・料金・口コミ・評判を解説します。${company.tagline}`,
+    title: hasRating ? `${company.name}の口コミ・評判・料金` : `${company.name}の料金・特徴・メリットとデメリット`,
+    description: hasRating
+      ? `${company.name}の特徴・料金と、Googleマップの評価（出典・取得日つき）を掲載しています。${company.tagline}`
+      : `${company.name}の特徴・料金・メリットとデメリットを掲載しています。${company.tagline}`,
     alternates: { canonical: `/company/${slug}/` },
   };
 }
@@ -34,6 +39,7 @@ export default async function CompanyPage({
   if (!company) notFound();
 
   const rank = companiesData.findIndex((c) => c.slug === slug) + 1;
+  const reviewPage = reviewsData.find((r) => r.slug === slug);
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
@@ -69,6 +75,13 @@ export default async function CompanyPage({
         <div className="mb-6 pb-6 border-b border-slate-100 empty:hidden"><SourcedRating slug={company.slug} size="md" /></div>
 
         <p className="text-slate-600 leading-relaxed mb-6">{company.description}</p>
+        {reviewPage ? (
+          <p className="text-sm text-slate-600 mb-6">
+            口コミ・評判の調査結果と運営会社の情報は、
+            <Link href={`/review/${slug}/`} className="text-blue-700 underline underline-offset-2">{company.name}の評判ページ</Link>
+            にまとめています。
+          </p>
+        ) : null}
 
         <div className="flex flex-col sm:flex-row gap-3">
           {company.officialUrl ? (<a
