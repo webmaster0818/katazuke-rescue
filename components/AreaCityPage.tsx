@@ -431,7 +431,7 @@ export default function AreaCityPage({ d, otherAreas }: { d: AreaCityData; other
             href="/ranking/"
             className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-primary text-white font-bold hover:opacity-90 transition-opacity"
           >
-            片付け業者おすすめランキングを見る
+            {g ? "全国の片付け業者の比較を見る" : "片付け業者おすすめランキングを見る"}
           </Link>
           <Link
             href="/cost/price/"

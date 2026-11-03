@@ -103,7 +103,7 @@ const d: AreaCityData = {
   ],
   matome: [
     "江戸川区の粗大ごみは、受付センターへの事前申し込みのうえ、自宅前での収集か、北部・南部の粗大ごみ持込施設への持ち込みで出します。持ち込みは収集より割安ですが年度内3回・1回10個までの上限があり、2026年10月からは無料だった品目も200円になりました。点数の多い片付けは、収集・持ち込みと業者の組み合わせで考えるのが基本です。",
-    "業者に頼む場合は、江戸川区を対応エリアに含むことを確認できた4社から、遺品整理や家一軒分ならみんなの遺品整理、一部の品物だけならくらしのマーケット、条件をそろえて見積もりを比べるならミツモア、日程が迫っているならお助けうさぎ、と目的に合わせて選んでください。区は許可の有無に関係なく業者に家庭ごみの回収を認めていないと案内しているため、引き取った物の行き先と処分の方法を契約前に必ず確認しましょう。",
+    "業者に頼む場合は、江戸川区を対応エリアに含むことを確認できた4社から、遺品整理や家一軒分ならみんなの遺品整理、一部の品物だけならくらしのマーケット、条件をそろえて見積もりを比べるならミツモア、日程が迫っているならお助けうさぎ、と目的に合わせて選んでください。区は許可の有無に関係なく業者に家庭ごみの回収を認めていないと案内しているため、引き取った物の行き先と処分の方法を契約前に必ず確認してください。",
   ],
   sources: [
     { label: "粗大ごみについて", org: "江戸川区", url: "https://www.city.edogawa.tokyo.jp/e025/kurashi/gomi_recycle/kategomi/sodai_mosikomi.html", updated: "2026年10月28日" },
@@ -207,7 +207,7 @@ export default function AreaEdogawaPage() {
               <Link href="/area/ichinomiya/" className="text-primary underline underline-offset-2">一宮市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
-              <Link href="/area/itabashi-ku/" className="text-primary underline underline-offset-2">板橋区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+              <Link href="/area/itabashi-ku/" className="text-primary underline underline-offset-2">板橋区でゴミ屋敷片付け・不用品回収を頼める業者</Link>
             </li>
             <li>
               <Link href="/area/iwaki/" className="text-primary underline underline-offset-2">いわき市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
@@ -234,7 +234,7 @@ export default function AreaEdogawaPage() {
               <Link href="/area/kawasaki/" className="text-primary underline underline-offset-2">川崎のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
-              <Link href="/area/kita-ku/" className="text-primary underline underline-offset-2">北区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+              <Link href="/area/kita-ku/" className="text-primary underline underline-offset-2">北区でゴミ屋敷片付け・不用品回収を頼める業者</Link>
             </li>
             <li>
               <Link href="/area/kitakyushu/" className="text-primary underline underline-offset-2">北九州のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -312,7 +312,7 @@ export default function AreaEdogawaPage() {
               <Link href="/area/naha/" className="text-primary underline underline-offset-2">那覇のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
-              <Link href="/area/nakano-ku/" className="text-primary underline underline-offset-2">中野区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+              <Link href="/area/nakano-ku/" className="text-primary underline underline-offset-2">中野区でゴミ屋敷片付け・不用品回収を頼める業者</Link>
             </li>
             <li>
               <Link href="/area/nara/" className="text-primary underline underline-offset-2">奈良のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
@@ -384,13 +384,13 @@ export default function AreaEdogawaPage() {
               <Link href="/area/shizuoka/" className="text-primary underline underline-offset-2">静岡のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
             </li>
             <li>
-              <Link href="/area/suginami-ku/" className="text-primary underline underline-offset-2">杉並区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+              <Link href="/area/suginami-ku/" className="text-primary underline underline-offset-2">杉並区でゴミ屋敷片付け・不用品回収を頼める業者</Link>
             </li>
             <li>
               <Link href="/area/suita/" className="text-primary underline underline-offset-2">吹田市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
             </li>
             <li>
-              <Link href="/area/sumida-ku/" className="text-primary underline underline-offset-2">墨田区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
+              <Link href="/area/sumida-ku/" className="text-primary underline underline-offset-2">墨田区でゴミ屋敷片付け・不用品回収を頼める業者</Link>
             </li>
             <li>
               <Link href="/area/taito-ku/" className="text-primary underline underline-offset-2">台東区のゴミ屋敷片付け・不用品回収業者おすすめ4選</Link>
