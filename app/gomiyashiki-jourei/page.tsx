@@ -8,7 +8,7 @@ const TITLE = "ゴミ屋敷に関する自治体の条例と支援の仕組み�
 const DESC =
   "いわゆるゴミ屋敷について、足立区・横浜市・京都市・大阪市・神戸市が定めている条例の名称と時期、福祉的な支援から指導・勧告・命令・代執行までの流れ、片付け費用の扱い、相談窓口を、各自治体の公式情報をもとに整理します。本人や家族が自治体に相談するときの進め方と、業者に依頼する場合の考え方も解説します。";
 const PUBLISHED = "2026-10-17";
-const UPDATED = "2026-11-02";
+const UPDATED = "2026-11-03";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -205,7 +205,7 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年10月17日</time>
           <span className="w-px h-3 bg-border" />
-          <time dateTime={UPDATED}>更新：2026年11月2日</time>
+          <time dateTime={UPDATED}>更新：2026年11月3日</time>
           <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
@@ -281,7 +281,7 @@ export default function Page() {
         出典は各自治体の公式ページ（本記事の「出典・参考にした公的情報」に掲載）。電話番号は各自治体の公式ページでご確認ください。
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        各地域の片付け業者は、<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京</Link>・<Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜</Link>・<Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都</Link>・<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪</Link>・<Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸</Link>の各エリアページで紹介しています。横浜市・京都市・大阪市・神戸市の条例の流れと相談窓口は、<Link href="/area/yokohama/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">横浜市</Link>・<Link href="/area/kyoto/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">京都市</Link>・<Link href="/area/osaka/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">大阪市</Link>・<Link href="/area/kobe/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">神戸市</Link>の各ページで詳しく整理しています。
+        各地域の片付け業者は、<Link href="/area/tokyo/" className="text-primary underline underline-offset-2">東京</Link>・<Link href="/area/yokohama/" className="text-primary underline underline-offset-2">横浜</Link>・<Link href="/area/kyoto/" className="text-primary underline underline-offset-2">京都</Link>・<Link href="/area/osaka/" className="text-primary underline underline-offset-2">大阪</Link>・<Link href="/area/kobe/" className="text-primary underline underline-offset-2">神戸</Link>の各エリアページで紹介しています。横浜市・京都市・大阪市・神戸市の条例の流れと相談窓口は、<Link href="/area/yokohama/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">横浜市</Link>・<Link href="/area/kyoto/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">京都市</Link>・<Link href="/area/osaka/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">大阪市</Link>・<Link href="/area/kobe/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">神戸市</Link>の各ページで詳しく整理しています。このほか、条例を設けている<Link href="/area/nagoya/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">名古屋市</Link>・<Link href="/area/hamamatsu/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">浜松市</Link>・<Link href="/area/koriyama/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">郡山市</Link>・<Link href="/area/setagaya-ku/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">世田谷区</Link>・<Link href="/area/nerima-ku/gomiyashiki-taisaku/" className="text-primary underline underline-offset-2">練馬区</Link>の対象・流れ・相談窓口も、各自治体の公式情報（2026年11月3日確認）をもとにまとめています。
       </p>
 
       <H2 id="merit" num="3">本人・家族が知っておくべき3つの点</H2>
