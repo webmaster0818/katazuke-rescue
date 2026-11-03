@@ -23,7 +23,7 @@ export async function generateMetadata({
   return {
     title: hasRating ? `${company.name}の口コミ・評判・料金` : `${company.name}の料金・特徴・メリットとデメリット`,
     description: hasRating
-      ? `${company.name}の特徴・料金と、Googleマップの評価（出典・取得日つき）を掲載しています。${company.tagline}`
+      ? `${company.name}の特徴・料金と、Googleマップの評価（出典と取得日を明記）を掲載しています。${company.tagline}`
       : `${company.name}の特徴・料金・メリットとデメリットを掲載しています。${company.tagline}`,
     alternates: { canonical: `/company/${slug}/` },
   };
