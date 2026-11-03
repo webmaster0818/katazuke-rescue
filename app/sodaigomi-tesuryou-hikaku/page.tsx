@@ -368,6 +368,9 @@ export default function Page() {
       <p className="text-xs text-text-muted mb-6">
         出典（いずれも{CHECKED}確認）：世田谷区・横浜市・川崎市は各市区の粗大ごみインターネット受付の品目一覧、新宿区は「粗大ごみの処理手数料一覧」、名古屋市は「粗大ごみ処理手数料の例」、仙台市は「五十音で引くワケ方事典」。各ページのURLは本記事の「出典・参考にした公的情報」に掲載しています。世田谷区はベッドマットのスプリングの有無による区分を設けていないため、ベッドマットの金額を記載しています。家電リサイクル法の対象品（エアコン・テレビ・冷蔵庫・洗濯機など）は、いずれの自治体でも粗大ごみとしては収集しません。
       </p>
+      <p className="text-[15px] leading-8 text-text-secondary mb-6">
+        仙台市・横浜市・川崎市・名古屋市は、2026年11月3日に各市の公式ページを開き直して確認した品目別の手数料と、申し込み・持ち込みの手順を市ごとのページにまとめています：<Link href="/area/sendai/sodaigomi/" className="text-primary underline underline-offset-2">仙台市</Link>・<Link href="/area/yokohama/sodaigomi/" className="text-primary underline underline-offset-2">横浜市</Link>・<Link href="/area/kawasaki/sodaigomi/" className="text-primary underline underline-offset-2">川崎市</Link>・<Link href="/area/nagoya/sodaigomi/" className="text-primary underline underline-offset-2">名古屋市</Link>。
+      </p>
 
       <H2 id="moushikomi" num="3">申し込み方法と持ち込みの扱いの比較</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
