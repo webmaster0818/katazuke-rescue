@@ -30,3 +30,77 @@ body {
 
 .label{font-family:var(--font-mono);font-size:.6875rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;}
 .mono{font-family:var(--font-mono);font-feature-settings:"tnum" 1;}
+
+/* ======================================================================
+ * TOP 刷新（2026-11-04・redesign-20261104 ブランチ）
+ * 紺（車体）と段ボールの茶を基調に、白とごく薄い灰の面を、はっきりした枠線で区切る。
+ * 操作ボタンはすべて同じ紺（--kr-navy）。グラデーション・大きな角丸・影の多用はしない。
+ * ====================================================================== */
+:root {
+  --kr-ink: #17212E;
+  --kr-navy: #1F4673;
+  --kr-navy-dark: #15335A;
+  --kr-kraft: #B07B3E;
+  --kr-kraft-pale: #F4ECE1;
+  --kr-wash: #EDF2F8;
+  --kr-paper: #F8FAFC;
+  --kr-border: #CDD5DF;
+  --kr-border-strong: #8D9BAE;
+  --kr-muted: #4A5768;
+}
+
+@layer components {
+.kr-page { background: var(--kr-paper); color: var(--kr-ink); font-feature-settings: "palt" 1; }
+.kr-page :focus-visible { outline: 3px solid #5B86B8; outline-offset: 2px; }
+
+.kr-container { max-width: 1160px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+@media (min-width: 768px) { .kr-container { padding-left: 24px; padding-right: 24px; } }
+
+/* 統一ボタン（色は1色） */
+.kr-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+  min-height: 52px; padding: 0.8rem 1.5rem; border-radius: 3px;
+  background: var(--kr-navy); color: #fff; border: 1px solid var(--kr-navy);
+  font-weight: 700; letter-spacing: 0.04em; line-height: 1.35; text-align: center;
+  transition: background-color .2s ease;
+}
+.kr-btn:hover { background: var(--kr-navy-dark); }
+.kr-btn--lg { min-height: 64px; font-size: 18px; padding: 0.9rem 1.5rem; }
+@media (min-width: 768px) { .kr-btn--lg { min-height: 72px; font-size: 19px; } }
+
+/* 枠 */
+.kr-card { background: #fff; border: 1px solid var(--kr-border); border-radius: 3px; }
+.kr-card-link { transition: border-color .2s ease, background-color .2s ease; }
+.kr-card-link:hover { border-color: var(--kr-navy); background: #FBFCFE; }
+
+/* 見出し：左寄せ＋下罫線。英字ラベルは使わない */
+.kr-h2 {
+  font-size: 24px; font-weight: 700; letter-spacing: 0.04em; line-height: 1.4;
+  padding-bottom: 12px; border-bottom: 2px solid var(--kr-ink); margin-bottom: 12px;
+}
+@media (min-width: 768px) { .kr-h2 { font-size: 30px; } }
+.kr-lead { font-size: 14px; color: var(--kr-muted); margin-bottom: 24px; line-height: 1.8; }
+@media (min-width: 768px) { .kr-lead { font-size: 15px; margin-bottom: 32px; } }
+
+.kr-section { padding: 56px 0; }
+@media (min-width: 768px) { .kr-section { padding: 84px 0; } }
+.kr-band { background: #fff; border-top: 1px solid var(--kr-border); border-bottom: 1px solid var(--kr-border); }
+
+/* 箇条の印（✓の代わりに小さな四角） */
+.kr-dot { position: relative; padding-left: 14px; }
+.kr-dot::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 6px; height: 6px; background: var(--kr-kraft); }
+
+/* details */
+.kr-acc > summary { list-style: none; cursor: pointer; }
+.kr-acc > summary::-webkit-details-marker { display: none; }
+.kr-acc[open] > summary .kr-chev { transform: rotate(180deg); }
+.kr-chev { transition: transform .25s ease; }
+}
+
+/* スクロールで順に表示（JS 実行後に html.kr-js を付ける。JS 無効・印刷・reduced-motion では常に表示） */
+.kr-js .kr-reveal { opacity: 0; transform: translateY(16px); transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1); }
+.kr-js .kr-reveal.kr-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .kr-js .kr-reveal { opacity: 1; transform: none; transition: none; }
+}
+@media print { .kr-js .kr-reveal { opacity: 1 !important; transform: none !important; } }

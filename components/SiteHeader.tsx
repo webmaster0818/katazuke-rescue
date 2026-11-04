@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import LogoMark from "@/components/brand/LogoMark";
 
 export default function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,10 +12,7 @@ export default function SiteHeader() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="28" height="28" rx="6" fill="#2563EB"/>
-            <path d="M8 14l4 4 8-8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
+          <LogoMark size={34} />
           <span className="font-bold text-lg text-slate-900">片付けレスキュー</span>
           <span className="hidden sm:inline-block text-xs bg-orange-500 text-white px-2 py-0.5 rounded-full font-medium">PR</span>
         </Link>

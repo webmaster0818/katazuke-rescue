@@ -1,4 +1,5 @@
 import Link from "next/link";
+import LogoMark from "@/components/brand/LogoMark";
 
 export default function SiteFooter() {
   return (
@@ -8,10 +9,7 @@ export default function SiteFooter() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect width="28" height="28" rx="6" fill="#2563EB"/>
-                <path d="M8 14l4 4 8-8" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
+              <LogoMark size={30} tone="light" />
               <span className="font-bold text-white">片付けレスキュー</span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed">
