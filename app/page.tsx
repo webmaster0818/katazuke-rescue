@@ -124,7 +124,7 @@ function Hero() {
         {/* 右（PC）：写真を見出しの下まで広げ、左から背景色のグラデーションを重ねる */}
         <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[64%] md:block lg:w-[62%]" aria-hidden>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/fv-kaishu-pc.jpg" alt="" width={2000} height={1569} className="absolute inset-0 h-full w-full object-cover object-[72%_6%]" fetchPriority="high" />
+          <img src="/images/fv-boxes-pc.jpg" alt="" width={2000} height={1325} className="absolute inset-0 h-full w-full object-cover object-[58%_50%]" fetchPriority="high" />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,#fff_0%,#fff_8%,rgba(255,255,255,0.8)_26%,rgba(255,255,255,0.3)_44%,rgba(255,255,255,0)_60%)]" />
           <p className="absolute bottom-3 right-3 bg-black/45 px-2 py-1 text-[11px] text-white">写真はイメージです</p>
         </div>
@@ -133,7 +133,7 @@ function Hero() {
         {/* スマホ：写真の中に主導線 */}
         <div className="relative md:hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/fv-kaishu-sp.jpg" alt="段ボール箱を抱えた作業着の男性" width={1200} height={900} className="block h-[360px] w-full object-cover object-[60%_0%]" fetchPriority="high" />
+          <img src="/images/fv-boxes-sp.jpg" alt="段ボール箱と観葉植物が並ぶ部屋" width={1200} height={900} className="block h-[360px] w-full object-cover object-[50%_30%]" fetchPriority="high" />
           <p className="absolute right-2 top-2 bg-black/45 px-2 py-0.5 text-[10px] text-white">写真はイメージです</p>
           <div className="absolute inset-x-3 bottom-3">
             <HeroButtons />
@@ -178,7 +178,7 @@ function TrustBadges() {
         </dl>
       </div>
       <p className="kr-container pb-3 text-[11px] leading-relaxed text-[color:var(--kr-muted)]">
-        ※ 数字は当サイトの掲載ページ・掲載データを数えた値です（2026年11月4日時点）。写真はイメージです（ぱくたそ・撮影 すしぱく・モデル あまのじゃく）。当サイトは片付け業者ではなく、依頼前の比較に使う情報サイトです。
+        ※ 数字は当サイトの掲載ページ・掲載データを数えた値です（2026年11月4日時点）。写真はイメージです（<a href="https://unsplash.com/photos/j7vbBmTHmjY" target="_blank" rel="noopener noreferrer" className="underline">Unsplash</a>・撮影 Dina Badamshina・Unsplash License、2026年11月5日確認）。当サイトは片付け業者ではなく、依頼前の比較に使う情報サイトです。
       </p>
     </section>
   );
