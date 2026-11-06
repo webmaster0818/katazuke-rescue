@@ -370,6 +370,7 @@ export default function Page() {
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
         仙台市・横浜市・川崎市・名古屋市は、2026年11月3日に各市の公式ページを開き直して確認した品目別の手数料と、申し込み・持ち込みの手順を市ごとのページにまとめています：<Link href="/area/sendai/sodaigomi/" className="text-primary underline underline-offset-2">仙台市</Link>・<Link href="/area/yokohama/sodaigomi/" className="text-primary underline underline-offset-2">横浜市</Link>・<Link href="/area/kawasaki/sodaigomi/" className="text-primary underline underline-offset-2">川崎市</Link>・<Link href="/area/nagoya/sodaigomi/" className="text-primary underline underline-offset-2">名古屋市</Link>。
+        2026年11月6日には、<Link href="/area/saitama/sodaigomi/" className="text-primary underline underline-offset-2">さいたま市</Link>・<Link href="/area/chiba/sodaigomi/" className="text-primary underline underline-offset-2">千葉市</Link>・<Link href="/area/kyoto/sodaigomi/" className="text-primary underline underline-offset-2">京都市</Link>・<Link href="/area/osaka/sodaigomi/" className="text-primary underline underline-offset-2">大阪市</Link>・<Link href="/area/kobe/sodaigomi/" className="text-primary underline underline-offset-2">神戸市</Link>の同じ形のページを追加しました（京都市・神戸市は「大型ごみ」の名称です）。
       </p>
 
       <H2 id="moushikomi" num="3">申し込み方法と持ち込みの扱いの比較</H2>
