@@ -101,6 +101,7 @@ const faqs = [
 ];
 
 const related = [
+  { href: "/monooki-shobun/", label: "物置本体の処分方法", desc: "解体の要否と大きさの区分を自治体の案内で確認" },
   { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・石油ファンヒーターの処分方法", desc: "灯油と電池を抜いて粗大ごみへ・残った灯油の相談先" },
   { href: "/akiya-katazuke/", label: "空き家の片付けの進め方", desc: "空き家の残置物整理と管理の段取り" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない大型品の搬出と処分の選択肢" },

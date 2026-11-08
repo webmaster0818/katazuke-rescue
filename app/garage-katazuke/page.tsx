@@ -119,6 +119,7 @@ const related = [
   { href: "/sekiyu-stove-shobun/", label: "石油ストーブ・石油ファンヒーターの処分方法", desc: "灯油と電池を抜いて粗大ごみへ・残った灯油の相談先" },
   { href: "/bunbetsu-muzukashii-gomi/", label: "分別が難しい物の処分", desc: "スプレー缶・電池などの扱い方" },
   { href: "/monooki-kaitai-mae-seiri/", label: "物置の解体前の整理", desc: "解体前に中身を空にする段取り" },
+  { href: "/monooki-shobun/", label: "物置本体の処分方法", desc: "解体の要否と大きさの区分を自治体の案内で確認" },
   { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "運べない大型品の搬出と処分" },
   { href: "/muryou-kaishuu-chuui/", label: "無料回収をうたう業者の注意点", desc: "巡回トラックのトラブルと相談先" },
   { href: "/service/fuyohin/", label: "不用品回収業者の選び方と料金比較", desc: "許可の確認と料金の比べ方" },
