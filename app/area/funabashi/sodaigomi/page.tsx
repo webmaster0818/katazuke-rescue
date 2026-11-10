@@ -136,7 +136,7 @@ const d: SodaigomiCity = {
     { href: "/area/chiba/sodaigomi/", label: "千葉市の粗大ごみの手数料と出し方", desc: "近隣の政令市" },
     { href: "/area/hachioji/sodaigomi/", label: "八王子市の粗大ごみの手数料と出し方", desc: "品目別料金と持ち込み10kg350円" },
     { href: "/oogata-kagu-shobun/", label: "大型家具の処分方法", desc: "たんす・ベッドの出し方" },
-    { href: "/piano-kinko-hanshutsu/", label: "ピアノ・金庫の搬出と処分", desc: "市で収集しない品目の扱い" },
+    { href: "/area/utsunomiya/sodaigomi/", label: "宇都宮市の粗大ごみの手数料と出し方", desc: "収集は1点840円・持ち込みは無料" },
   ],
 };
 
