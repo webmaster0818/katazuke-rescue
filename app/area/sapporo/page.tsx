@@ -820,7 +820,7 @@ export default function AreaSapporoPage() {
             <Link href="/area/saitama/" className="text-primary underline underline-offset-2">さいたまのゴミ屋敷片付け・不用品回収業者おすすめ2選</Link>
           </li>
           <li>
-            <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷片付け・不用品回収業者おすすめ5選</Link>
+            <Link href="/area/sakai/" className="text-primary underline underline-offset-2">堺のゴミ屋敷・不用品の片付け業者おすすめ5選</Link>
           </li>
           <li>
             <Link href="/area/sasebo/" className="text-primary underline underline-offset-2">佐世保市のゴミ屋敷片付け・不用品回収業者おすすめ3選</Link>
