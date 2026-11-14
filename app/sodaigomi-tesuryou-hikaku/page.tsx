@@ -377,6 +377,7 @@ export default function Page() {
         2026年11月11日には、<Link href="/area/kawaguchi/sodaigomi/" className="text-primary underline underline-offset-2">川口市</Link>・<Link href="/area/takasaki/sodaigomi/" className="text-primary underline underline-offset-2">高崎市</Link>・<Link href="/area/kanazawa/sodaigomi/" className="text-primary underline underline-offset-2">金沢市</Link>のページを追加しました。
         2026年11月12日には、<Link href="/area/kashiwa/sodaigomi/" className="text-primary underline underline-offset-2">柏市</Link>・<Link href="/area/nishinomiya/sodaigomi/" className="text-primary underline underline-offset-2">西宮市</Link>・<Link href="/area/setagaya-ku/sodaigomi/" className="text-primary underline underline-offset-2">世田谷区</Link>のページを追加しました（柏市は柏地域と沼南地域で手数料が違います）。
         2026年11月13日には、<Link href="/area/kumamoto/sodaigomi/" className="text-primary underline underline-offset-2">熊本市</Link>・<Link href="/area/kagoshima/sodaigomi/" className="text-primary underline underline-offset-2">鹿児島市</Link>のページを追加しました（熊本市は「大型ごみ」の名称です）。
+        2026年11月14日には、<Link href="/area/nagano/sodaigomi/" className="text-primary underline underline-offset-2">長野市</Link>・<Link href="/area/matsuyama/sodaigomi/" className="text-primary underline underline-offset-2">松山市</Link>・<Link href="/area/oita/sodaigomi/" className="text-primary underline underline-offset-2">大分市</Link>・<Link href="/area/nagasaki/sodaigomi/" className="text-primary underline underline-offset-2">長崎市</Link>のページを追加しました（長野市は粗大ごみシールで集積所に出す方式、松山市は戸別収集が無料です）。
       </p>
 
       <H2 id="moushikomi" num="3">申し込み方法と持ち込みの扱いの比較</H2>
