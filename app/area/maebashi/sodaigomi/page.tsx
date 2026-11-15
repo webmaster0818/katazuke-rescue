@@ -5,7 +5,6 @@ const DASHIKATA = `${BASE}/gomiseisaku/gyomu/2_2/2/2594.html`;
 const KOBETSU = `${BASE}/gomishushu/42979.html`;
 const JIKO = `${BASE}/seisoshisetsu/gyomu/1/2/1/2642.html`;
 const FAQ = `${BASE}/seisoshisetsu/shitsumon/1/1/6191.html`;
-const HIKKOSHI = `${BASE}/gomiseisaku/gyomu/2_2/2/4245.html`;
 const GUIDE = "https://www.city.maebashi.gunma.jp/material/files/group/47/R6syuuseikateiyousigenngomibunnbetugaidobook.pdf";
 
 const d: SodaigomiCity = {
@@ -95,8 +94,7 @@ const d: SodaigomiCity = {
     {
       title: "手数料の払い方",
       body:
-        "家庭から出るごみは1日200kgまで無料で、200kgを超えた分は10kgにつき180円です。その場で計量し、現金で払います。" +
-        "引っ越しのごみを集積場所に出す場合、一度に出せるのは20kgまでです。",
+        "家庭から出るごみは1日200kgまで無料で、200kgを超えた分は10kgにつき180円です。その場で計量し、現金で払います。",
     },
   ],
   support: [
@@ -139,7 +137,6 @@ const d: SodaigomiCity = {
     { label: "家庭用資源・ごみ分別ガイドブック 保存版（PDF）", org: "前橋市", url: GUIDE },
     { label: "家庭ごみの自己搬入方法についてお知らせします", org: "前橋市（更新日 2023年11月11日）", url: JIKO },
     { label: "可燃ごみや不燃ごみ、粗大ごみを自己搬入するときの手数料と納入方法を教えてください", org: "前橋市（更新日 2019年2月1日）", url: FAQ },
-    { label: "引越ごみは計画的に出しましょう", org: "前橋市（更新日 2023年11月11日）", url: HIKKOSHI },
   ],
   related: [
     { href: "/area/maebashi/", label: "前橋の片付け・不用品回収業者", desc: "前橋市で頼める業者" },
