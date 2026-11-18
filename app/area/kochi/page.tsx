@@ -4,8 +4,8 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 const SITE = "https://katazuke-rescue.com";
 const PATH = "/area/kochi/";
-const UPDATED = "2026年8月21日";
-const UPDATED_ISO = "2026-08-21";
+const UPDATED = "2026年11月18日";
+const UPDATED_ISO = "2026-11-18";
 
 export const metadata: Metadata = {
   title: "高知のゴミ屋敷片付け・不用品回収業者おすすめ5選【2026年版】",
@@ -234,7 +234,7 @@ const faqs = [
   },
   {
     q: "高知市の粗大ごみ収集と、災害で出たごみの扱いは同じですか？",
-    a: "同じとは限りません。ふだんの粗大ごみは、事前申し込みのうえ指定場所へ自分で出すのが基本ですが、災害で出たごみについては、別の受け付け方法や仮置き場が案内されることがあります。分け方や出せる期間も、そのときの状況によって変わります。自己判断で出す前に、高知市などお住まいの市町村が出している案内を必ず確認してください。量が多い場合や、大型の家財を運び出せない場合は、運搬まで任せられる業者に相談する方法もあります。",
+    a: "同じとは限りません。高知市のふだんの粗大ごみ（たんす・いす・本棚・カーペットなど、燃える素材で45リットルのごみ袋に入らない「可燃粗大ごみ」）は、申し込みなしで資源物・不燃ごみステーションに、地区ごとに月1回の収集日に出す区分です（高知市の公式ページ、2026年11月18日確認）。一方、災害で出たごみについては、別の受け付け方法や仮置き場が案内されることがあります。分け方や出せる期間も、そのときの状況によって変わります。自己判断で出す前に、高知市などお住まいの市町村が出している案内を必ず確認してください。量が多い場合や、大型の家財を運び出せない場合は、運搬まで任せられる業者に相談する方法もあります。",
   },
   {
     q: "東京の記事で見たブルークリーンやお助けうさぎは高知でも使えますか？",
@@ -533,7 +533,10 @@ export default function AreaKochiPage() {
       {/* 5｜自治体との使い分け */}
       <H2 id="jichitai" num="5">自治体の粗大ごみ収集との使い分け</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
-        高知市をはじめとする自治体には粗大ごみの収集制度があり、費用を抑えて処分したい場合の基本の選択肢です。一般論として、自治体の収集は料金が比較的安い一方で、事前の申し込みが必要で収集日まで日数がかかることがあり、指定場所までの搬出は自分で行うのが基本です。ふだんの片付けであれば、出せる量とタイミングが合えば費用を抑えられる手段になります。
+        高知市では、たんす・いす・本棚・カーペットなど、燃える素材で45リットルのごみ袋に入らない大きさのものは「可燃粗大ごみ」として、紙類・カン・金属類・家電品などと同じ資源物・不燃ごみステーションに出します。出す前の申し込みは要りません。資源物・不燃ごみは月1回、20の地区に分けて収集しており、収集日は公表されていないため、分からない場合は市の環境業務課に問い合わせます。テレビ・エアコン・冷蔵庫・冷凍庫・洗濯機・衣類乾燥機とパソコンは市が回収しないものです。ふだんの片付けであれば、収集日に合わせて少しずつ出すことで費用を抑えられます。一方、自分でステーションへ出したり清掃施設へ持ち込んだりするのが難しい場合は、市が許可した一般廃棄物収集運搬許可業者（有料）に依頼するよう市は案内しています。
+      </p>
+      <p className="text-xs leading-6 text-text-muted mt-2 mb-4">
+        出典：高知市「<a href="https://www.city.kochi.kochi.jp/soshiki/64/gomitop1.html" target="_blank" rel="noopener" className="underline">家庭ごみ 分別について</a>」（更新日 2022年8月1日）、「<a href="https://www.city.kochi.kochi.jp/soshiki/64/collection-kochi2.html" target="_blank" rel="noopener" className="underline">高知市のごみ収集日</a>」（更新日 2020年5月18日）、「<a href="https://www.city.kochi.kochi.jp/soshiki/64/kateigomihikitori.html" target="_blank" rel="noopener" className="underline">家庭ごみの引取りを依頼する場合について</a>」（更新日 2017年12月5日）。いずれも2026年11月18日確認
       </p>
       <p className="text-[15px] leading-8 text-text-secondary mb-4">
         一方、災害で出たごみについては、通常の粗大ごみとは別の受け付け方法や仮置き場が案内されることがあります。分け方、出せる場所、受け付けの期間も、そのときの状況によって変わります。自己判断で出す前に、お住まいの市町村が出している案内を確認してください。量が多い場合や、大型の家財を自分たちで運び出せない場合は、運搬まで任せられる業者の方が負担は小さくなります。急ぎたい時期ほど、料金の説明を受けないまま依頼してしまいがちですが、総額と内訳を確認してから決めるという原則は変わりません。無料をうたう回収の注意点は<Link href="/muryou-kaishuu-chuui/" className="text-primary underline underline-offset-2">無料回収の注意点ガイド</Link>、自治体と業者の役割分担は<Link href="/jichitai-gyousha-tsukaiwake/" className="text-primary underline underline-offset-2">自治体と業者の使い分けガイド</Link>、費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
