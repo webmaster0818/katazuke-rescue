@@ -8,6 +8,7 @@ const TITLE = "片付けられない心理と原因｜意志の弱さではな�
 const DESC =
   "片付けられないのは意志や性格の問題とは限りません。判断疲れ・完璧主義・もったいない意識・生活環境など、片付けが続かない心理的・環境的要因を整理し、意志に頼らず仕組みで解決する5つの対処ステップ、逆効果になる行動、業者や専門機関に相談すべきサインまでを解説します。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-20";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -150,7 +151,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -191,10 +192,14 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月20日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          片付けなければと思っても手が動かない、何度片付けても元に戻ってしまうといった悩みを、多くの方は意志の弱さや性格によるものと考えます。しかし、片付けが続かない背景には、判断疲れや完璧主義、損失回避といった、誰にでも働く心理の仕組みがあります。
+          片付けられない理由の多くは、意志の弱さや性格ではなく、判断疲れや完璧主義、「もったいない」という損失回避といった誰にでも働く心理と、忙しさや体調などの環境にあります。一方で、国立精神・神経医療研究センターの「こころの情報サイト」は、注意欠如・多動性障害（ADHD）の不注意の症状として「課題や作業の段取りが苦手」「整理整頓が苦手」「忘れ物や紛失が多い」などを挙げ、大人になると「計画的に物事を進められない」といった形で現れることがあるとしています（
+          <a href="https://kokoro.ncnp.go.jp/disease.php?@uid=MbkmLbVbTEhSpxyE" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">国立精神・神経医療研究センター こころの情報サイト「発達障害（神経発達症）」</a>
+          ・2026年11月20日確認）。当てはまるかどうかはこの記事では判断できないため、片付けられない状態が生活全般に支障を及ぼしている場合は、医療機関や自治体の相談窓口に相談してください。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、片付けられない心理的・環境的要因を4つに整理し、「意志に頼らず仕組みで解決する」という方針のもと、今日から実行できる5つのステップ、逆効果になりやすい避けるべき行動、業者や専門機関に相談すべきサインまでを解説します。
