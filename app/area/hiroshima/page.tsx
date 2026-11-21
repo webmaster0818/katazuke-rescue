@@ -536,6 +536,10 @@ export default function AreaHiroshimaPage() {
         実家じまいのように家一軒分の家財を処分する場合、一点ずつ自治体の収集に出す方法では申し込みと搬出の手間が膨大になり、帰省日程内に終わらないことがほとんどです。自力で運べる少量は自治体、家全体の整理や重量物の搬出は業者、と使い分けることをおすすめします。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        広島市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/hiroshima/sodaigomi/" className="text-primary underline underline-offset-2">広島市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

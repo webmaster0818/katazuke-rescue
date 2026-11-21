@@ -540,6 +540,10 @@ export default function AreaMoriokaPage() {
         自力で運べる少量の物は自治体の収集、大型家具や物置ひとつ分のようにまとまった量は業者に依頼するのが基本的な使い分けです。申し込みから収集までの流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみ申し込みの流れ</Link>、希望日が取れないときの対処は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの予約が取れないときの対処</Link>で解説しています。自治体で受け付けている場合の持ち込みについては<Link href="/jiko-hannyu-shobun/" className="text-primary underline underline-offset-2">ごみ処理施設への自己搬入</Link>も参考にしてください。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で確認できます。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        盛岡市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/morioka/sodaigomi/" className="text-primary underline underline-offset-2">盛岡市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

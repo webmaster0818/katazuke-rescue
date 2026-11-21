@@ -536,6 +536,10 @@ export default function AreaGifuPage() {
         段階的な片付けとの相性で言えば、自治体の収集は「各段階で出る、自分で運べる少量」の受け皿として優秀です。母屋の部屋ごとの整理で出る粗大ごみは自治体へ、納屋・蔵のようにまとまった量と重量物が一度に出る段階は業者へ、と役割を分けると、総費用を抑えながら計画を進められます。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        岐阜市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/gifu/sodaigomi/" className="text-primary underline underline-offset-2">岐阜市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

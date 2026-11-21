@@ -536,6 +536,10 @@ export default function AreaMatsuyamaPage() {
         高齢のひとり暮らしでは、申し込みの手続きよりも「指定場所まで運ぶ」ことが最大の課題となりやすくなります。帰省した家族が搬出を手伝える少量は自治体、タンスやベッドのような重量物、まとまった量の処分は搬出から任せられる業者、と使い分けることが安全で適切です。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        松山市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/matsuyama/sodaigomi/" className="text-primary underline underline-offset-2">松山市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

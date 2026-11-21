@@ -541,6 +541,10 @@ export default function AreaHachiojiPage() {
         退去日まで余裕があり自力で運べる少量なら自治体の収集、退去日が迫っている場合や冷蔵庫・ベッドのように自分で運び出せない大型品なら業者、という使い分けが基本形です。申し込みから収集までの流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみ申し込みの流れ</Link>、収集が混み合う時期の考え方は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみが混み合う時期の対策</Link>、自治体の収集と業者の使い分けは<Link href="/jichitai-gyousha-tsukaiwake/" className="text-primary underline underline-offset-2">自治体と業者の使い分け</Link>、ごみ出しのルールに迷ったときの相談先は<Link href="/gomidashi-rule-soudan/" className="text-primary underline underline-offset-2">ごみ出しルールの相談先</Link>で解説しています。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で確認できます。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        八王子市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/hachioji/sodaigomi/" className="text-primary underline underline-offset-2">八王子市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

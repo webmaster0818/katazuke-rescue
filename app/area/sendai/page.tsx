@@ -536,6 +536,10 @@ export default function AreaSendaiPage() {
         一方、「立ち会いの日程が決まっていて収集日を待てない」「家具・家電をまとめて処分したい」「自分で運び出せない」という場合は、業者への依頼が向いています。日数に余裕のある少量は自治体、期限付き・大量・リサイクル対象品を含む処分は業者、と使い分けるのが費用と手間のバランスを取りやすい考え方です。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        仙台市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/sendai/sodaigomi/" className="text-primary underline underline-offset-2">仙台市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

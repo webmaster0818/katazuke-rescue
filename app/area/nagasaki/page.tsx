@@ -536,6 +536,10 @@ export default function AreaNagasakiPage() {
         家電リサイクル法の対象品目のように粗大ごみとして出せない物もあり、これらは別のルートでの処分が必要です。申し込み方法・料金・対象品目は自治体ごとに異なるため、必ず家のある市区町村の案内を確認してください。自治体と業者の役割分担の考え方は<Link href="/jichitai-gyousha-tsukaiwake/" className="text-primary underline underline-offset-2">自治体と業者の使い分けガイド</Link>、費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        長崎市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/nagasaki/sodaigomi/" className="text-primary underline underline-offset-2">長崎市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

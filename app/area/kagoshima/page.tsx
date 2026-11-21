@@ -536,6 +536,10 @@ export default function AreaKagoshimaPage() {
         遠方に住む家族にとっては、収集日に合わせた申し込みと搬出を代行してくれる人が現地にいるかどうかが分かれ目になります。実家に住む親や近くの親族が対応できる少量の処分は自治体、まとまった量を遠隔で手配する場合は搬出まで任せられる業者、と使い分けることをおすすめします。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        鹿児島市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/kagoshima/sodaigomi/" className="text-primary underline underline-offset-2">鹿児島市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

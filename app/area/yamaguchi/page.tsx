@@ -540,6 +540,10 @@ export default function AreaYamaguchiPage() {
         範囲を区切って進める片付けとは、自治体の収集は相性がよい組み合わせです。一部屋分ずつ仕上げていくなら、その都度出る粗大ごみを申し込みながら進められます。ただし、一度に出せる点数や収集までの日数には制約があることが多いため、期限がある場合は業者への依頼と併用するほうが確実です。申し込みの流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみ申し込みの流れ</Link>、希望日が取れないときは<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの予約が取れないときの対処</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        山口市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/yamaguchi/sodaigomi/" className="text-primary underline underline-offset-2">山口市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

@@ -536,6 +536,10 @@ export default function AreaNahaPage() {
         台風シーズン前に屋外の物を片付ける場合は、収集日までのあいだ処分予定の物が屋外に残る期間も考えに入れておいてください。自分で搬出できる少量は自治体、日程を決めて一度に運び出したい場合や物干し台のような重さのある物は業者、と使い分けることをおすすめします。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        那覇市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/naha/sodaigomi/" className="text-primary underline underline-offset-2">那覇市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

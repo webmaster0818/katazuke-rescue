@@ -540,6 +540,10 @@ export default function AreaOitaPage() {
         溜まった袋や家財がまとまった量になっている場合、自治体の収集だけで解消しようとすると回数と日数がかかります。自力で運べる少量は自治体、まとまった量は業者、という使い分けをおすすめします。あわせて、ごみ出しそのものに困りごとがある場合は、自治体の窓口で利用できる仕組みがないか確認してみてください。申し込みの流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみ申し込みの流れ</Link>、費用感は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で確認できます。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        大分市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/oita/sodaigomi/" className="text-primary underline underline-offset-2">大分市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

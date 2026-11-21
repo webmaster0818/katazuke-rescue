@@ -536,6 +536,10 @@ export default function AreaNaganoPage() {
         別荘の場合は、収集日と滞在日程を合わせられるかが実務上の分かれ目になります。滞在中に申し込みから搬出まで完結できる少量なら自治体、滞在が短い・重量物がある・量がまとまっている場合は日程を指定して搬出まで任せられる業者、と使い分けることをおすすめします。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        長野市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/nagano/sodaigomi/" className="text-primary underline underline-offset-2">長野市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

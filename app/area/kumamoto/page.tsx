@@ -536,6 +536,10 @@ export default function AreaKumamotoPage() {
         退去前の片付けで自治体の収集を使う場合は、申し込みから収集日までの日数が退去日に間に合うかが分かれ目になります。退去まで余裕があるうちに出せる物は自治体へ、退去日が迫ってからまとめて処分する物や大型家財は業者へ、と時期で使い分けることをおすすめします。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        熊本市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/kumamoto/sodaigomi/" className="text-primary underline underline-offset-2">熊本市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

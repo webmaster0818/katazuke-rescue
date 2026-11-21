@@ -509,6 +509,10 @@ export default function AreaKobePage() {
         坂や階段のある家では、「指定場所まで自分で運ぶ」ことが平地以上の負担となります。自力で無理なく運べる少量は自治体、階段搬出が必要な大型品や大量の処分は業者、と使い分けるのが、費用と安全のバランスを取りやすい考え方です。無理に自分で運んでけがをすることは避けるべきであるため、大型品は業者への依頼を前向きにご検討ください。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        神戸市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/kobe/sodaigomi/" className="text-primary underline underline-offset-2">神戸市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

@@ -509,6 +509,10 @@ export default function AreaKyotoPage() {
         一方、「退去日が迫っている」「量が多く自分で運び出せない」「路地奥からの搬出を任せたい」という場合は、業者への依頼が向いています。少量は自治体、運び出せない大型品や急ぎ・大量の処分は業者、と使い分けるのが費用と手間のバランスを取りやすい考え方です。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        京都市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/kyoto/sodaigomi/" className="text-primary underline underline-offset-2">京都市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

@@ -457,6 +457,10 @@ export default function AreaChibaPage() {
         退去を控えた片付けでは、「収集日が退去日に間に合うか」が使い分けの分かれ目になります。日数に余裕のある少量は自治体、退去日が迫っている・量が多い・カビた荷物の処分と清掃をまとめたいという場合は業者への依頼が向いています。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        千葉市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/chiba/sodaigomi/" className="text-primary underline underline-offset-2">千葉市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

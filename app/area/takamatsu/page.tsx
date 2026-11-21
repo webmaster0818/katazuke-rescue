@@ -536,6 +536,10 @@ export default function AreaTakamatsuPage() {
         空き家の片付けでこの方法を使えるかどうかは、申し込みと搬出を担える人が現地に通えるかで決まります。近くに住む家族が帰るたびに少しずつ出せるなら費用の節約になりますが、家一軒分をこの形で処分し切るには相応の回数と期間が必要です。期限のある売却・解体を控えているなら、まとめて搬出できる業者との併用や使い分けをご検討ください。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        高松市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/takamatsu/sodaigomi/" className="text-primary underline underline-offset-2">高松市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

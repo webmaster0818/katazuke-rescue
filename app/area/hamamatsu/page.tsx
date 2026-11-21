@@ -540,6 +540,10 @@ export default function AreaHamamatsuPage() {
         自力で運べる少量なら自治体の収集や持ち込み、ピアノや婚礼家具のような重量物や部屋ひとつ分のようにまとまった量なら業者、という使い分けが基本形です。申し込みから収集までの流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみ申し込みの流れ</Link>、希望日が取れないときの対処は<Link href="/sodaigomi-konzatsu-taisaku/" className="text-primary underline underline-offset-2">粗大ごみの予約が取れないときの対処</Link>、ごみ出しのルールに迷ったときの相談先は<Link href="/gomidashi-rule-soudan/" className="text-primary underline underline-offset-2">ごみ出しルールの相談先</Link>で解説しています。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で確認できます。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        浜松市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/hamamatsu/sodaigomi/" className="text-primary underline underline-offset-2">浜松市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

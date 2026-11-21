@@ -537,6 +537,10 @@ export default function AreaMaebashiPage() {
         また、家電リサイクル法の対象品目や、土・石・ブロック、燃料や薬剤といった品目は粗大ごみとして出せないとされることが多く、物置・車庫の片付けでは対象外品目が交ざりやすい点に注意が必要です。申し込み方法・料金・対象品目は自治体ごとに異なるため、必ず家のある市区町村の案内を確認してください。自治体と業者の役割分担の考え方は<Link href="/jichitai-gyousha-tsukaiwake/" className="text-primary underline underline-offset-2">自治体と業者の使い分けガイド</Link>、費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        前橋市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/maebashi/sodaigomi/" className="text-primary underline underline-offset-2">前橋市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

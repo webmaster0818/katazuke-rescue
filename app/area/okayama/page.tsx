@@ -536,6 +536,10 @@ export default function AreaOkayamaPage() {
         戸建ての一括整理では、屋内の家財に庭・物置の分が加わって物量が膨らみやすく、一点ずつ自治体の収集に出す方法では申し込みと搬出の手間が大きくなりやすくなります。自力で運べる少量は自治体、家全体の整理や重量物・大型物の搬出は業者、と使い分けるのが費用と手間のバランスを取りやすい考え方です。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        岡山市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/okayama/sodaigomi/" className="text-primary underline underline-offset-2">岡山市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

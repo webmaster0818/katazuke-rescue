@@ -536,6 +536,10 @@ export default function AreaNiigataPage() {
         雪のシーズン前に終わらせたい片付けでは、申し込みから収集日までの日数も計画に織り込む必要があります。時間に余裕があり自力で運べる少量は自治体、締め切りまでにまとめて片付けたい場合や大型・重量物の搬出は業者、と使い分けることをおすすめします。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        新潟市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/niigata/sodaigomi/" className="text-primary underline underline-offset-2">新潟市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

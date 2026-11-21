@@ -536,6 +536,10 @@ export default function AreaKanazawaPage() {
         受け継いだ家の整理では、家一軒分の家財を自治体の収集だけで処分することは難しい場合が多く、自力で運べる少量は自治体、蔵の中身や大型家財を含むまとまった量は業者、と使い分けるのが基本形になります。査定に回す物・処分する物の仕分けが済んでから業者の見積もりを取ると、回収量が確定して金額のぶれも小さくなります。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        金沢市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/kanazawa/sodaigomi/" className="text-primary underline underline-offset-2">金沢市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

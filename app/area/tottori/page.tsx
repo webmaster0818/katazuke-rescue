@@ -540,6 +540,10 @@ export default function AreaTottoriPage() {
         現地に通える回数が限られる場合、収集日に合わせて何度も足を運ぶことは難しい場合があります。自力で運べる少量は自治体、家一軒分・納屋ひとつ分のようにまとまった量は業者、という使い分けが基本形です。申し込みの流れは<Link href="/sodaigomi-moushikomi-nagare/" className="text-primary underline underline-offset-2">粗大ごみ申し込みの流れ</Link>、自治体が受け付けている場合の持ち込みは<Link href="/jiko-hannyu-shobun/" className="text-primary underline underline-offset-2">ごみ処理施設への自己搬入</Link>で解説しています。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で確認できます。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        鳥取市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/tottori/sodaigomi/" className="text-primary underline underline-offset-2">鳥取市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">

@@ -507,6 +507,10 @@ export default function AreaUtsunomiyaPage() {
         車で運べる環境があれば、自治体の処理施設への自己搬入という選択肢を設けている地域もあり、少量なら費用を抑えやすい方法です。一方、母屋・物置・ガレージを合わせた家一軒分の片付けでは、対象外品目の仕分けも含めて業者にまとめて任せる方が、結果として手間と時間の節約になる場合が多くあります。費用感の全体像は<Link href="/cost/price/" className="text-primary underline underline-offset-2">費用相場ページ</Link>で解説しています。
       </p>
 
+      <p className="text-[15px] leading-8 text-text-secondary mb-4">
+        宇都宮市の粗大ごみの手数料と申し込み方法は、市の公式情報をもとに<Link href="/area/utsunomiya/sodaigomi/" className="text-primary underline underline-offset-2">宇都宮市の粗大ごみの手数料と出し方</Link>にまとめています。
+      </p>
+
       {/* 6｜選び方 */}
       <H2 id="erabikata" num="6">片付け業者を選ぶ際の4つの確認事項</H2>
       <p className="text-[15px] leading-8 text-text-secondary mb-6">
