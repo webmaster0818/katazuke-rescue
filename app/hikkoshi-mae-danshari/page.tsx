@@ -8,6 +8,7 @@ const TITLE = "引っ越し前の断捨離の段取り｜時期別に減らす�
 const DESC =
   "引っ越しは持ち物を見直す絶好の機会です。荷物が減れば梱包・搬出・新居での荷ほどきまで一連の負担が軽くなります。この記事では、引っ越し前の断捨離をいつから始めるか、逆算スケジュールの立て方、自力で進める5ステップ、陥りやすい誤り、業者に頼るべきサインまでを順を追って解説します。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-21";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -147,7 +148,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -187,10 +188,14 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月21日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          引っ越しを機に物を減らしたいものの、いつから何をすればよいか分からず、直前になってすべてを段ボールに詰めることになる例は少なくありません。引っ越し前の断捨離は、段取りによって成果が大きく変わります。
+          引っ越し前の断捨離は、遅くとも1か月前に大型の物の処分の段取りを始め、2〜3週間前から使っていない場所の仕分けに入るのが目安です。出た不用品の回収を業者に頼む場合、環境省は、家庭の廃棄物を回収できるのは「一般廃棄物処理業の許可」を持つ業者であり、市区町村の許可や委託を受けずに家庭のごみを回収業者が収集することは認められていないとしています（
+          <a href="https://www.env.go.jp/recycle/kaden/tv-recycle/qa.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">環境省「廃棄物の処分に「無許可」の回収業者を利用しないでください！」</a>
+          ・2026年11月21日確認）。依頼する前に、お住まいの市区町村の許可または委託を受けた業者かどうかを確認してください。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、引っ越し前が断捨離に向いている理由、退去日から逆算したスケジュールの立て方、自力で進める5つのステップ、陥りやすい誤り、業者への依頼を検討すべき状況までを解説します。初めての引っ越しの方にも、荷物の多さに悩んでいる方にも役立つ内容です。
