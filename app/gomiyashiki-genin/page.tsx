@@ -8,6 +8,7 @@ const TITLE = "ゴミ屋敷になる原因と進行段階｜片付けを再開�
 const DESC =
   "部屋がゴミ屋敷化する主な原因（多忙・喪失体験・体力や判断力の低下・ため込みの習慣など）と、散らかりの進行段階の目安を解説します。段階別の対処方針、自力で片付けを再開する5ステップ、避けるべき行動、業者に相談すべきサインまで、当事者を責めない視点でまとめています。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-22";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -161,7 +162,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -202,10 +203,14 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月22日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          気づいたときには部屋に足の踏み場がなくなっていた場合や、家族の家がゴミ屋敷のような状態になっている場合、多くの方がまず、原因が分からないことに戸惑いを感じます。ゴミ屋敷は特別な人だけに起こる問題ではなく、多忙や環境の変化などをきっかけに、誰の身にも起こりうる状態です。
+          ゴミ屋敷になる原因は「だらしない性格」だけでは説明できず、多忙・喪失体験・体力や判断力の低下・物を捨てられない習慣などが重なって起こることが多くあります。総務省が「ごみ屋敷」事案181事例を調べた調査では、約7割の居住者が健康面や経済面の課題を抱えており、関係機関と連携した福祉的支援や経済的支援によって解消した事例もあったと報告されています（
+          <a href="https://www.soumu.go.jp/menu_news/s-news/01hyoka02_02000044.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">総務省「「ごみ屋敷」対策に関する調査＜結果に基づく通知＞」（令和6年8月28日）</a>
+          ・2026年11月22日確認）。片付けだけで解決しようとせず、必要に応じて自治体の福祉窓口などの相談先も検討してください。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、部屋がゴミ屋敷化する主な原因と、散らかりの進行段階の目安を整理したうえで、段階別の対処方針、自力で片付けを再開するためのステップ、避けるべき行動、業者に相談すべきサインまでを解説します。自分の部屋を客観視したい方にも、家族の状況を心配している方にも役立つ内容です。
