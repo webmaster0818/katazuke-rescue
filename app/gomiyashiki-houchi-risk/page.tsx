@@ -8,6 +8,7 @@ const TITLE = "ゴミ屋敷を放置した場合のリスク｜火災・健康�
 const DESC =
   "ゴミ屋敷状態の部屋を放置した場合に起こり得る火災・健康・建物・生活面のリスクを具体的に解説します。リスクが進行する順序、今日からできる最小限のリスク低減策5ステップ、状況を悪化させる行動、自力での片付けが難しくなっているサインと業者・相談窓口の使い方まで、当事者と家族の両方に向けて整理しました。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-23";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -146,7 +147,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -187,10 +188,14 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月23日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          片付けなければと思いながら何年も手を付けられていない場合や、家族の家がゴミ屋敷の状態のまま時間が過ぎている場合は、放置によって何が起こるのかを正確に把握することが重要です。それは本人を責めるためではなく、どこから対処するかを決めるためです。
+          ゴミ屋敷・汚部屋の状態を放置すると、火災のほか、ダニ・カビ・害虫などによる健康への影響が出るおそれがあります。ダニのフンや死がいはアレルギーの原因となり、カビもダニやホコリと同じく室内の吸入アレルゲンとされています。押入れや収納スペースはカビが繁殖しやすい場所として挙げられています（出典：
+          <a href="https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/kenko-iryo/iryo/allergy/kankyo.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">横浜市「室内環境づくりのポイント」</a>
+          ・2026年11月23日確認）。放置によって何が起こるのかを把握するのは、本人を責めるためではなく、どこから対処するかを決めるためです。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、ゴミ屋敷状態を放置した場合に起こり得る火災・健康・建物・生活面のリスクと、その進行を今日から止めるための最小限の行動、そして自力では難しい段階に来ているサインと頼り先までを解説します。当事者の方にも、家族として心配している方にも役立つ内容です。
