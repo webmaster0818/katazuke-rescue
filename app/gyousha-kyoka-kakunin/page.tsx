@@ -8,6 +8,7 @@ const TITLE = "片付け業者の許可・資格の確認方法｜何を見て�
 const DESC =
   "片付けや不用品回収を頼むとき、業者が必要な許可や届出を備えているかは依頼する側として確認しておきたい点です。どんな枠組みの許可があるか、公式サイト・見積書・契約書面のどこを見るか、自治体の公表情報との照らし合わせ方、民間資格と公的な許可の違い、確認できないときの判断の仕方を整理します。";
 const PUBLISHED = "2026-08-24";
+const MODIFIED = "2026-11-24";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -145,7 +146,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -186,10 +187,14 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月24日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月24日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
-          片付けや不用品回収を頼むと決めたとき、業者に任せてよいかどうか、不安が残ることがあります。その不安の中身をほどいていくと、多くは「必要な許可や届出を備えているのか」「運び出した物が適切に処理されるのか」という点に行き着きます。
+          片付け業者に家庭の不用品の処分を頼むときに確認するのは、市区町村の「一般廃棄物処理業許可」を持っているか、または市区町村の委託を受けているかです。環境省は、ご家庭の廃棄物を回収するにはこの許可や委託が必要で、「産業廃棄物処理業の許可」や「古物商の許可」では回収できないとしています。産業廃棄物処理業許可は工場や企業の廃棄物を処理するための許可、古物商の許可は中古品等の売買を行うための許可です（出典：
+          <a href="https://www.env.go.jp/recycle/kaden/tv-recycle/qa.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">環境省「廃棄物の処分に「無許可」の回収業者を利用しないでください！」Q&amp;A</a>
+          ・2026年11月24日確認）。チラシや公式サイトに許可の記載があっても、それがどの許可なのかを見分けることが大切です。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           この記事では、片付けの依頼に関わってくる許可の枠組みを名称と役割のレベルで整理したうえで、公式サイト・見積書・契約書面のどこを見ればよいか、自治体の公表情報とどう照らし合わせるか、民間の認定と行政の許可は何が違うか、そして確認できないときにどう判断するかを順に説明します。なお、許可の要否や区分、手続きの内容は地域や状況によって扱いが異なりますので、制度に関する判断は所管する自治体の窓口や公式の案内でご確認ください。
