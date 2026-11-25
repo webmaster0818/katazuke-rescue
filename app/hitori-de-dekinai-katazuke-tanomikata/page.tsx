@@ -8,6 +8,7 @@ const TITLE = "一人では片付けられないときの頼み方｜家族・�
 const DESC =
   "一人では片付けが進まないものの、人に頼めない方に向けて、頼めない理由、頼む中身を「作業」に分解する決めごと、家族・友人・行政の相談窓口・片付け業者に頼める範囲の違い、状況を書き出して相手と作業を対応させる手順、相手が動きやすい伝え方、当日の段取りと頼んだあとの関係の保ち方を解説します。";
 const PUBLISHED = "2026-09-09";
+const MODIFIED = "2026-11-25";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -145,7 +146,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -186,9 +187,17 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年9月9日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月25日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
+          一人では部屋が片付けられないときは、全部を自分で抱えず、一人ではできない作業だけを切り分けて頼みます。そばにいてもらう・運び出しを手伝ってもらうことは家族や友人に、ごみを出せない事情の相談は市区町村の窓口に、大きな物や量の多い処分は片付け業者に、と相手ごとに頼む中身を分けるのが基本です。
+          市区町村の側にも、ごみ出しが難しい高齢者の世帯から戸別にごみを回収する「ふれあい収集」などの支援があります。環境省の手引きでは、令和3年1月時点で回答した地方公共団体の34.8%にあたる417団体がこうした支援制度を導入しており、申請を本人以外のケアマネジャーや民生委員などが行える例も紹介されています（出典：
+          <a href="https://www.env.go.jp/content/000308963.pdf" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">環境省「高齢者のごみ出し支援制度導入の手引き」（令和3年3月）</a>
+          ・2026年11月25日確認）。制度の有無や対象の要件は自治体ごとに異なります。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           片付けたい気持ちはあっても、重い物が運べない、自治体の区分が分からない、そばに誰かがいないと判断が進まないなどの理由で、一人では作業が進まないことがあります。誰かに頼みたくても、部屋を見られることへの抵抗、休日を使わせることへの遠慮、頼み方が分からないことなどから、依頼できないまま時間が過ぎる例は少なくありません。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
