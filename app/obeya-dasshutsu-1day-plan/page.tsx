@@ -8,6 +8,7 @@ const TITLE = "汚部屋脱出の1日プラン｜朝から夜までのタイム�
 const DESC =
   "「今日こそ部屋を片付けたい」と思っても、何から始めればよいか分からず1日が終わってしまう方に向けて、汚部屋を1日で立て直すためのタイムスケジュールをご紹介します。朝の準備から夜の仕上げまでの流れ、途中で止まらないための工夫、1日で無理な場合の線引き、業者に頼る判断基準までを解説します。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-26";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -131,7 +132,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -170,9 +171,19 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月26日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
+          汚部屋を1日で脱出するには、ゴールを「床が見えて寝る場所と通路がある、生活が回る状態」に置き、「明らかなごみの回収→残った物の3分類→ごみ出しの準備→掃除→翌日以降のメモ」の順に進めます。迷う物は保留箱に入れ、当日は判断の重い作業をしないことが、1日で区切りを付けるための基本です。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
+          あわせて、1日の片付けで出るごみの量に注意が必要です。横浜市は、引っ越しや遺品整理など家庭から一度に多量に出るごみは、収集に支障をきたすためまとめて集積場所に出すことができず、市の処理施設等に自分で持ち込むか、一般廃棄物収集運搬の許可を受けた業者に依頼するよう案内しています。燃やすごみを焼却工場へ持ち込む場合は事前の申し込みが必要で、最短の持ち込み可能日は申し込みから6日後とされています（出典：
+          <a href="https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/shushufuka/itijitaryou.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">横浜市「一時多量ごみ（引っ越しや遺品整理など）」</a>
+          ・2026年11月26日確認）。多量のごみの出し方は自治体ごとに異なるため、作業日の前にお住まいの市区町村の案内を確認してください。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           週末に片付けると決めたものの、どこから手を付ければよいか分からないまま時間が過ぎることは少なくありません。汚部屋の片付けで多くの方が行き詰まる原因は、やる気ではなく段取りにあります。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
