@@ -8,6 +8,7 @@ const TITLE = "「無料回収」をうたう業者の注意点｜無料の仕�
 const DESC =
   "「無料で回収します」という宣伝をそのまま利用してよいか不安な方に向けて、無料回収の宣伝で知られる一般的なトラブル事例、無料が成り立つ場合とそうでない場合の考え方、依頼前の確認事項、困ったときの相談先（消費者ホットライン188・自治体の窓口）を解説します。特定の業者を評価するものではなく一般的な注意点です。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-27";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -130,7 +131,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -170,9 +171,20 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月27日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
+          「無料回収」をうたう業者に依頼してよいかは、宣伝文句だけでは判断できません。依頼する前に、その業者がお住まいの市区町村から一般廃棄物処理業の許可（または委託）を受けているか、なぜ無料なのか、追加料金やキャンセル料が発生しないかを確認することが基本です。品物を渡す前に条件を確かめて記録に残し、納得できない請求を受けたときはその場で支払わず、消費者ホットライン188に相談してください。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
+          公的機関も同じ点を注意しています。国民生活センターによると、不用品回収サービスに関する全国の消費生活センター等への相談は2021年度に2,231件と2,000件を超えました。一般家庭から出る廃棄物の収集・運搬には廃棄物処理法に基づく「一般廃棄物処理業の許可」または「市区町村からの委託」が必要ですが、許可のない業者とのトラブルが目立ち、インターネットやチラシ等で広告を大々的に出している業者が必ずしも許可業者とは限らないとして注意を呼びかけています。
+          同センターは、市区町村以外に依頼する場合は市区町村のホームページや窓口で許可業者を探し、複数社から見積もりを取って追加料金がかからないことなどを確認するよう案内しています（出典：
+          <a href="https://www.kokusen.go.jp/news/data/n-20221102_1.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">国民生活センター「不用品回収サービスのトラブル－市区町村から一般廃棄物処理業の許可を受けず、違法に回収を行う事業者に注意！－」</a>
+          ・2026年11月27日確認）。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           「無料で回収します」というチラシやアナウンス、インターネット広告を目にすることがあります。処分に費用がかかると思っていた物を無料で引き取ってもらえるのは魅力的に見えますが、本当に無料なのかという不安を感じる方も少なくありません。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
