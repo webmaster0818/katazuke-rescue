@@ -8,6 +8,7 @@ const TITLE = "部屋の片付けはどこから始めるか｜無理なく進�
 const DESC =
   "散らかった部屋の片付けは順番で決まります。玄関・水回りから始めて「明らかなごみ→大きい物→細かい物」の順に進める理由と、エリア別の攻略順、仕分けの4分類、途中で止まらないための工夫、業者に依頼する判断基準までを解説します。今日から実践できる片付けの段取りが分かります。";
 const PUBLISHED = "2026-08-12";
+const MODIFIED = "2026-11-28";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -148,7 +149,7 @@ const articleLd = {
   author: { "@type": "Organization", name: "片付けレスキュー編集部" },
   publisher: { "@type": "Organization", name: "片付けレスキュー" },
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
   mainEntityOfPage: `${SITE}${PATH}`,
 };
 
@@ -188,9 +189,21 @@ export default function Page() {
         <div className="flex items-center gap-3 text-sm text-text-muted mb-6">
           <time dateTime={PUBLISHED}>公開：2026年8月12日</time>
           <span className="w-px h-3 bg-border" />
+          <time dateTime={MODIFIED}>更新：2026年11月28日</time>
+          <span className="w-px h-3 bg-border" />
           <span>片付けレスキュー編集部</span>
         </div>
         <p className="text-[15px] leading-8 text-text-secondary">
+          部屋の片付けは、玄関と、玄関から各部屋へ続く通路から始めるのが基本です。最初の作業は仕分けではなく、明らかなごみを袋にまとめて出入口と通路の床を空けることで、判断の重い思い出の品や書類は最後に回します。
+          作業は「今日は玄関だけ」のように1〜2時間で終わる範囲に区切り、玄関→水回り→リビング・寝室→収納の中の順に進めると、途中で手が止まっても動線が確保された状態が残ります。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
+          玄関から始める理由の一つは安全です。目黒区は地震への備えとして、「玄関は避難経路の大切な場所」であり、割れ物などが散らばると避難の妨げになって危険なため、必要な物以外はしまうよう案内しています。
+          あわせて、大きな家具・家電は出入り口を塞がないように配置し、子どもや高齢者のいる部屋は家具をなるべく減らすよう呼びかけています（出典：
+          <a href="https://www.city.meguro.tokyo.jp/bousai/bousaianzen/bousai/kaguten.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">目黒区「家具類の転倒・落下・移動防止対策をしましょう」</a>
+          ・2026年11月28日確認）。
+        </p>
+        <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           片付けなければと思いながら何から手を付ければよいか分からない、始めても途中で疲れて散らかったまま終わるといった悩みの多くは、意志の弱さではなく、進める順番に原因があります。判断の重い物から始めれば誰でも挫折しますし、範囲を広げすぎれば誰でも途中で力尽きます。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
