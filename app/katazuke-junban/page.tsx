@@ -200,7 +200,7 @@ export default function Page() {
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
           玄関から始める理由の一つは安全です。目黒区は地震への備えとして、「玄関は避難経路の大切な場所」であり、割れ物などが散らばると避難の妨げになって危険なため、必要な物以外はしまうよう案内しています。
           あわせて、大きな家具・家電は出入り口を塞がないように配置し、子どもや高齢者のいる部屋は家具をなるべく減らすよう呼びかけています（出典：
-          <a href="https://www.city.meguro.tokyo.jp/bousai/bousaianzen/bousai/kaguten.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">目黒区「家具類の転倒・落下・移動防止対策をしましょう」</a>
+          <a href="https://www.city.meguro.tokyo.jp/bousai/bousaianzen/bousai/kaguten.html" className="text-primary underline underline-offset-2" target="_blank" rel="noopener noreferrer">目黒区ホームページ 防災・安全「災害に備える」内の家具類の転倒・落下・移動防止対策の案内</a>
           ・2026年11月28日確認）。
         </p>
         <p className="mt-4 text-[15px] leading-8 text-text-secondary">
